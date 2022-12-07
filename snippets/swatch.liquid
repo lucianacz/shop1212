@@ -41,7 +41,7 @@ Color swatch specific parameters:
   {%- assign value_downcase = value | downcase -%}
   {%- assign swatch_file = value | handle | append: '.png' | file_img_url: '72x' -%}
   {%- assign swatch_file_quote = "'" | append: swatch_file | append: "'" -%}
-  {%- assign swatch_style = '--swatch-background: ' | append: swatch_file_quote -%}
+  {%- assign swatch_style = '--swatch-background:' | append: swatch_file_quote -%}
   
   {%- for swatch_item in swatch_config -%}
     {%- assign swatch_parts = swatch_item | split: ':' -%}
