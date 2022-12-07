@@ -52,7 +52,7 @@ Color swatch specific parameters:
         {%- assign swatch_style = '--swatch-background: ' | append: swatch_value -%}
       {%- elsif images[swatch_value] != blank -%}
         {%- assign swatch_image = images[swatch_value] | image_url: width: 72 -%}
-        {%- assign swatch_style = '--swatch-background: url(' | append: swatch_image | append: ')' -%}
+        {%- assign swatch_style = '--swatch-background: url(' | append: value | handle | append: '.png' | file_img_url: '72x' | append: ')' -%}
       {%- endif -%}
 
       {%- break -%}
