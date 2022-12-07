@@ -42,15 +42,17 @@ Color swatch specific parameters:
   {%- assign swatch_file = value | handle | append: '.png' | file_img_url: '72x' -%}
   {%- assign swatch_style = '--swatch-background: ' | append: swatch_file -%}
 
+  {% style %}
+    .color-swatch{
+      background-image: url("{{ swatch_file }}")
+    }
+  {% endstyle %}
+  
   {%- for swatch_item in swatch_config -%}
     {%- assign swatch_parts = swatch_item | split: ':' -%}
     {%- assign swatch_name = swatch_parts.first | downcase | strip -%}
 
-    {% style %}
-      .color-swatch{
-        background-image: url("{{ swatch_file }}")
-      }
-    {% endstyle %}
+
     
     {%- if value_downcase == swatch_name -%}
       {%- assign swatch_value = swatch_parts.last | strip -%}
