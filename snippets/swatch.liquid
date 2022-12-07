@@ -39,7 +39,9 @@ Color swatch specific parameters:
   {%- assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
 
   {%- assign value_downcase = value | downcase -%}
-  {%- assign swatch_style = '--swatch-background: url(' | append: value | handle | append: '.png' | file_img_url: '72x' | append: ')' -%}
+  {%- assign swatch_image = value | handle | append: '.png' | file_img_url: '72x' -%}
+  {%- assign swatch_style = '--swatch-background: ' | append: swatch_image -%}
+
 
   {%- for swatch_item in swatch_config -%}
     {%- assign swatch_parts = swatch_item | split: ':' -%}
