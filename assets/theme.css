@@ -9629,7 +9629,7 @@ split-lines {
   }
 }
 
-.colums-2{
+.columns-2{
   grid-template-columns: 1fr 1fr;
 }
 
