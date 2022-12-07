@@ -49,10 +49,10 @@ Color swatch specific parameters:
     {%- if value_downcase == swatch_name -%}
       {%- assign swatch_value = swatch_parts.last | strip -%}
         {% style %}
-    .color-swatch{
-      background-image: url("{{ swatch_file }}")
-    }
-  {% endstyle %}
+          .color-swatch{
+            background-image: url("{{ swatch_file }}")
+          }
+        {% endstyle %}
 
       {%- if swatch_value contains '#' -%}
         {%- assign swatch_style = '--swatch-background: ' | append: swatch_value -%}
