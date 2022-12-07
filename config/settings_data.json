@@ -40,7 +40,7 @@
     "reduce_drawer_animation": true,
     "reduce_menu_animation": true,
     "heading_apparition": "none",
-    "color_swatch_style": "rectangle",
+    "color_swatch_style": "square",
     "discount_mode": "percentage",
     "product_color_display": "hide",
     "product_info_alignment": "center",
