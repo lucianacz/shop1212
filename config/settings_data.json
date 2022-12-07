@@ -14,17 +14,17 @@
     "button_hover_effect": "reverse",
     "background": "#ffffff",
     "text_color": "#272727",
-    "success_color": "#708a5c",
+    "success_color": "#ed2024",
     "warning_color": "#e37e16",
     "error_color": "#aa2826",
     "header_background": "#ffffff",
     "header_text_color": "#272727",
     "footer_background": "#f2f2f2",
     "footer_text_color": "#272727",
-    "primary_button_background": "#708a5c",
-    "primary_button_text_color": "#272727",
-    "secondary_button_background": "#3c619e",
-    "secondary_button_text_color": "#272727",
+    "primary_button_background": "#000000",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#ed2024",
+    "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#272727",
     "product_on_sale_accent": "#e34f4f",
     "product_sold_out_badge_background": "#bebdb9",
@@ -59,7 +59,7 @@
           "message": {
             "type": "message",
             "settings": {
-              "text": "Announce Something Here",
+              "text": "ORDER TODAY TO GET IT BY HANUKKAH AND CHRISTMAS",
               "url": ""
             }
           }
@@ -69,12 +69,12 @@
         ],
         "settings": {
           "enable_sticky": false,
-          "text_size": "text-base",
+          "text_size": "text-xs",
           "navigation_mode": "arrows",
           "scrolling_speed": 27,
-          "background": "#f7f1f0",
-          "background_gradient": "",
-          "text_color": "#1a1a1a"
+          "background": "#ed2024",
+          "background_gradient": "linear-gradient(89deg, rgba(203, 32, 237, 1) 7%, rgba(237, 32, 36, 1) 94%)",
+          "text_color": "#ffffff"
         }
       },
       "header": {
