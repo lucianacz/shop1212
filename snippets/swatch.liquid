@@ -49,10 +49,10 @@ Color swatch specific parameters:
       {%- assign swatch_value = swatch_parts.last | strip -%}
 
       {%- if swatch_value contains '#' -%}
-        {%- assign swatch_style = '--swatch-background: ' | append: swatch_value -%}
+        {%- assign swatch_style = '--swatch-background: url(' | append: value | handle | append: '.png' | file_img_url: '72x' | append: ')' -%}
       {%- elsif images[swatch_value] != blank -%}
         {%- assign swatch_image = images[swatch_value] | image_url: width: 72 -%}
-        {%- assign swatch_style = '--swatch-background: url(' | append: value | handle | append: '.png' | file_img_url: '72x' | append: ')' -%}
+        {%- assign swatch_style = '--swatch-background: url(' | append: swatch_image | append: ')' -%}
       {%- endif -%}
 
       {%- break -%}
