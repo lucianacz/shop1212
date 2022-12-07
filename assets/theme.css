@@ -3588,7 +3588,8 @@ tfoot td {
   width: var(--swatch-size);
   height: var(--swatch-size);
   margin: var(--swatch-margin);
-  background: var(--swatch-background) center / cover;
+  background-image: url(--swatch-background);
+  background: center / cover;
   place-items: center;
   display: grid;
   position: relative;
