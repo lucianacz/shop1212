@@ -42,9 +42,15 @@
             "size_chart_page": "size-chart"
           }
         },
-        "separator": {
-          "type": "separator",
+        "3623c94b-5021-4830-924d-71ac8b403d58": {
+          "type": "product_variations",
           "settings": {
+            "option_name": "Color",
+            "option_value_metafield": "",
+            "products": [
+
+            ],
+            "color_mode": "block_swatch"
           }
         },
         "description": {
@@ -82,7 +88,7 @@
         "badges",
         "price",
         "variant_picker",
-        "separator",
+        "3623c94b-5021-4830-924d-71ac8b403d58",
         "description",
         "quantity_selector",
         "buy_buttons",
