@@ -18,6 +18,13 @@ a.btn.klaviyo-bis-trigger {
     display: none !important;
 }
 
+.collection .yotpo .text-m{
+  font: var(--text-font-style) 400 0.9em / 1.6 var(--text-font-family) !important;
+  top: 1px;
+  position: relative;
+  margin-left: 5px;
+}
+
 .color-swatch{
   background-size: contain;
   border: 1px solid #e9e9e9;
