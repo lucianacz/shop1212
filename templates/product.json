@@ -136,68 +136,6 @@
         "product_card_text_color": ""
       }
     },
-    "1671009045bf51851e": {
-      "type": "apps",
-      "blocks": {
-        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "302023c1-bc35-4239-a61e-2a79f0d47a75": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--16836072276243__302023c1-bc35-4239-a61e-2a79f0d47a75-166804713692add19b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Stacks_Other_StillLife_1286.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 68,
-            "subheading": "",
-            "title": "Give Back",
-            "content": "<p>Our mission of creating everything they need for every day play, and all night sleep extends beyond just our own kids. We often provide items from our collection to children and families in need through our partnership with Baby2Baby. To learn about the amazing work that Baby2Baby does to provide diapers, clothing, and all basic necessities for low-income children, ages 0-12, please visit <a href=\"http:\/\/www.baby2baby.org\/\" target=\"_blank\" title=\"Baby2Baby\">Baby2Baby.org<\/a>.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16836072276243__302023c1-bc35-4239-a61e-2a79f0d47a75-166804713692add19b-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "enable_parallax": false,
-        "spacing": "medium"
-      }
-    },
     "db412dfe-2afa-4827-b3fe-1c35348b8545": {
       "type": "featured-product",
       "blocks": {
@@ -264,11 +202,38 @@
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#f5f5f5",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "1671009045bf51851e": {
+      "type": "apps",
+      "blocks": {
+        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "8005ee89-7e5b-454c-9da6-6418d45256a7": {
@@ -318,9 +283,8 @@
   "order": [
     "main",
     "product-recommendations",
-    "1671009045bf51851e",
-    "302023c1-bc35-4239-a61e-2a79f0d47a75",
     "db412dfe-2afa-4827-b3fe-1c35348b8545",
+    "1671009045bf51851e",
     "8005ee89-7e5b-454c-9da6-6418d45256a7"
   ]
 }
