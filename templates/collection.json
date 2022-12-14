@@ -2,23 +2,122 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "enable_parallax": true,
+        "enable_parallax": false,
         "show_collection_title": true,
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": true,
         "collection_title_size": "h1",
         "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "featured_product": "the-cotton-cashmere-sweater-1",
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
+      }
+    },
+    "6f6ad929-36b6-43e3-a610-b1080ea10259": {
+      "type": "image-link-blocks",
+      "disabled": true,
+      "blocks": {
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-0": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-1": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-2": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-3": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0b65b6ec-8e20-4bae-99e6-ac4a4ec68727": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b6678686-f155-422b-a793-9c86a81097fd": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-0",
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-1",
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-2",
+        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-3",
+        "0b65b6ec-8e20-4bae-99e6-ac4a4ec68727",
+        "b6678686-f155-422b-a793-9c86a81097fd"
+      ],
+      "settings": {
+        "full_width": true,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "983a54e8-7acb-4e74-82d6-6f9ec387a6e1": {
@@ -117,13 +216,14 @@
         "show_filter_group_name": true,
         "show_color_swatch": true,
         "show_empty_filter_values": false,
-        "show_filter_values_count": true,
+        "show_filter_values_count": false,
         "open_first_filter_group": false
       }
     }
   },
   "order": [
     "banner",
+    "6f6ad929-36b6-43e3-a610-b1080ea10259",
     "983a54e8-7acb-4e74-82d6-6f9ec387a6e1",
     "main"
   ]
