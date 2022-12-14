@@ -18,7 +18,7 @@ a.btn.klaviyo-bis-trigger {
     display: none !important;
 }
 
-.collection .yotpo .text-m{
+.yotpo .text-m{
   font: var(--text-font-style) 400 0.9em / 1.6 var(--text-font-family) !important;
   margin-left: 3px;
 }
