@@ -46,10 +46,8 @@
           "type": "product_variations",
           "settings": {
             "option_name": "Color",
-            "option_value_metafield": "",
-            "products": [
-
-            ],
+            "option_value_metafield": "custom.variation_value",
+            "products": "{{ product.metafields.custom.variation_value.value }}",
             "color_mode": "block_swatch"
           }
         },
