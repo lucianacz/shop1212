@@ -58,7 +58,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Our Raw Materials",
-            "content": "<p><span style=\"text-decoration:underline\"><em>GOTS-Certified Organic Cotton<br\/><\/em><\/span>Certified organic pima cotton is the cornerstone of our product at 12|12.  We source organic Peruvian pima cotton, widely known as the finest cotton in the world, organically grown and harvested exclusively in the coastal valleys of Peru. <\/p><p>We also choose organic cotton for its minimal impact on the environment.  We use GOTS-certified organic pima cotton whenever possible.  The Global Organic Textile Standard (GOTS) is the leading worldwide textile processing standard for organic fibers, meaning natural fibers grown without the use of synthetic pesticides, insecticides\/herbicides and GMOs.  We choose organic agriculture because it is a production process that sustains the health of ecosystems, soils and the people who work and live in the surrounding communities. We are proud to say that over 90% of our current collection is made from organic pima cotton.<\/p><p><span style=\"text-decoration:underline\"><em>Oeko-Tex Dyes<br\/><\/em><\/span>Our organic cotton fabric is then dyed and printed using only OEKO-TEX 100 standard dyes, meaning they are certified free of over 100 substances known to be toxic and harmful to people and the environment.  OEKO-TEX is a different, yet equally important, global textile standard from GOTS.  We believe that adhering to both certifications along our supply chain process makes for the safest product for our customers, our supply chain partners and ultimately our planet.<\/p><p><span style=\"text-decoration:underline\"><em>Recycled Fabric<br\/><\/em><\/span>Beginning in 2021, we began incorporating recycled material in the production process of select styles.  We have been able to offer our customer a swim product that is made of 74% recycled material, via our environmentally-conscious production partner in this category.  Incorporating more recycled material in our products is a longer-term goal that we continue to research and pursue.  We are also seeking ways to reduce unusable fabric waste by turning fabric cuttings into new styles, such as headbands and other accessories. <\/p>"
+            "content": "<p><span style=\"text-decoration:underline\"><em>GOTS-Certified Organic Cotton:<\/em><\/span> Certified organic pima cotton is the cornerstone of our product at 12|12.  We source organic Peruvian pima cotton, widely known as the finest cotton in the world, organically grown and harvested exclusively in the coastal valleys of Peru. <br\/>We also choose organic cotton for its minimal impact on the environment.  We use GOTS-certified organic pima cotton whenever possible.  The Global Organic Textile Standard (GOTS) is the leading worldwide textile processing standard for organic fibers, meaning natural fibers grown without the use of synthetic pesticides, insecticides\/herbicides and GMOs.  We choose organic agriculture because it is a production process that sustains the health of ecosystems, soils and the people who work and live in the surrounding communities. We are proud to say that over 90% of our current collection is made from organic pima cotton.<\/p><p><span style=\"text-decoration:underline\"><em>Oeko-Tex Dyes:<\/em><\/span> Our organic cotton fabric is then dyed and printed using only OEKO-TEX 100 standard dyes, meaning they are certified free of over 100 substances known to be toxic and harmful to people and the environment.  OEKO-TEX is a different, yet equally important, global textile standard from GOTS.  We believe that adhering to both certifications along our supply chain process makes for the safest product for our customers, our supply chain partners and ultimately our planet.<\/p><p><span style=\"text-decoration:underline\"><em>Recycled Fabric:<\/em><\/span> Beginning in 2021, we began incorporating recycled material in the production process of select styles.  We have been able to offer our customer a swim product that is made of 74% recycled material, via our environmentally-conscious production partner in this category.  Incorporating more recycled material in our products is a longer-term goal that we continue to research and pursue.  We are also seeking ways to reduce unusable fabric waste by turning fabric cuttings into new styles, such as headbands and other accessories. <\/p>"
           }
         },
         "0899a384-3ded-48d4-8488-bd5e2bea27de": {
@@ -70,12 +70,33 @@
             "title": "Our Partner Factories",
             "content": "<p>As a small, women-owned and operated company, 12|12 seeks to support other small makers and businesses via our factory partnerships. We take great care when selecting our factory partners, seeking high standards of craftsmanship and responsible manufacturing. These are deeply valued partnerships that we have developed over several years. 12|12 is currently working with three factories around the world.  Located in Peru, China and the USA, each factory is a small 100% family-owned and vertically integrated factory. Whenever possible, we choose to ship our finished goods from our partner factories to our warehouse in New York using sea freight as the preferred mode of transport, thereby helping to reduce carbon emissions from air freight.  <\/p>"
           }
+        },
+        "d9ddae2d-a84c-4906-a5ef-41e6cabcc104": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Packaging",
+            "content": "<p>This year in particular, we have given careful consideration to the sustainability of our packaging materials.  Nearly all of our various packaging materials now contain recycled content, with the exception of the plastic polybags we use to protect our product during shipping (which we must do to ensure that product arrives to our customers in a state that is always pristine and sanitary).  Below is sustainability information regarding our packaging materials in 2021: <\/p><p><span style=\"text-decoration:underline\"><em>Mailers:<\/em><\/span> We use only 100% recycled poly mailers to ship our product to our customers.  For larger orders, we use a 100% recycled shipping box that is also fully curbside recyclable.<\/p><p><span style=\"text-decoration:underline\"><em>Tissue:<\/em><\/span><em> <\/em>Our printed tissue paper is made of 100% recycled paper.<\/p><p><span style=\"text-decoration:underline\"><em>Cards:<\/em><\/span><em> <\/em>All card paper is made of 100% recycled content, is FSC certified and curbside recyclable.<\/p>"
+          }
+        },
+        "e81b82f9-1677-47f4-80ad-5c1c016a1390": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Design Process",
+            "content": "<p>Last but not least, we design and produce our collections in small batches with the intention of selling out each and every time. Any unsold product in donated to children in need via our partnership with Baby2Baby. No unsold product is ever thrown away or destroyed. We are also careful to only order protos and photo samples as needed. <\/p><p>At 12|12, we also believe that the best way to shop sustainably is to invest in quality pieces that can be worn again and again, and then passed down to others once outgrown. As parents ourselves, we know that the messy fun of being a kid can be tough on clothing, but we also hope to design products that are timeless and durable enough to become heirloom products. Nothing makes us happier than hearing that a cozy 12|12 footed PJ or a much-loved terry pullover has found a second life with a baby sibling or a younger family friend.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-0",
         "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-1",
-        "0899a384-3ded-48d4-8488-bd5e2bea27de"
+        "0899a384-3ded-48d4-8488-bd5e2bea27de",
+        "d9ddae2d-a84c-4906-a5ef-41e6cabcc104",
+        "e81b82f9-1677-47f4-80ad-5c1c016a1390"
       ],
       "settings": {
         "full_width": true,
