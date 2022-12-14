@@ -112,6 +112,18 @@
         "input_text_color": ""
       }
     },
+    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"yotpo yotpo-main-widget\"\ndata-product-id=\"{{ product.id }}\"\ndata-name=\"{{ product.title | escape }}\"\ndata-url=\"{{ shop.url }}{{ product.url }}\"\ndata-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\"\ndata-price=\"{{ variant.price | money_without_currency }}\"\ndata-currency=\"{{ shop.currency }}\"\ndata-description=\"{{ product.description | escape }}\">\n<\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "302023c1-bc35-4239-a61e-2a79f0d47a75": {
       "type": "media-with-text",
       "blocks": {
@@ -125,6 +137,7 @@
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/unicorns.png",
             "icon_width": 68,
+            "subheading": "",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
             "link_text": "",
@@ -171,33 +184,6 @@
         "product_card_text_color": ""
       }
     },
-    "1667943589955f8621": {
-      "type": "apps",
-      "blocks": {
-        "83be671a-7f8c-49d0-ae3c-6f6b712a8fff": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "83be671a-7f8c-49d0-ae3c-6f6b712a8fff"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
     "8005ee89-7e5b-454c-9da6-6418d45256a7": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -242,9 +228,9 @@
   },
   "order": [
     "main",
+    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b",
     "302023c1-bc35-4239-a61e-2a79f0d47a75",
     "product-recommendations",
-    "1667943589955f8621",
     "8005ee89-7e5b-454c-9da6-6418d45256a7"
   ]
 }
