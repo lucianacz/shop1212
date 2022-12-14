@@ -1,6 +1,6 @@
 <div class="container">
   <div class="page-spacer">
-    <div class="page">
+    <div {% unless page.metafields.custom.remove_max_width %}class="page"{% endunless %}>
       <h1 class="h1 text-center">{{ page.title }}</h1>
 
       {%- if page.content != empty -%}
