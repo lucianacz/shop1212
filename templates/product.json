@@ -199,7 +199,7 @@
         "7aebecae-2471-4829-892a-e73072563747"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "product": "donation",
         "desktop_media_width": 45,
         "desktop_media_layout": "grid_highlight",
