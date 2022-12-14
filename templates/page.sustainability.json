@@ -12,13 +12,20 @@
         "template--17167851421971__280e372d-174b-4797-aa79-60a56f5de141-167101303193bb5f8c-1": {
           "type": "heading",
           "settings": {
-            "text": "Sustainability",
+            "text": "What Does Sustainability Mean to 12|12?",
             "heading_tag": "h1"
+          }
+        },
+        "7f499918-cd50-4b9f-be70-4ef5f1ef8edf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Contributing to a sustainable future for our children and our planet is a key tenet of our mission at 12|12.  Through our partnership with Baby2Baby, we aim to provide comfortable, modern clothing essentials for <em>all<\/em> children, not just those who can afford them.  But we also understand that our promise to do so is only as good as our parallel commitment to protect our environment.  At 12|12, our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing product, while continuously seeking ways to reduce our environmental impact.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17167851421971__280e372d-174b-4797-aa79-60a56f5de141-167101303193bb5f8c-1"
+        "template--17167851421971__280e372d-174b-4797-aa79-60a56f5de141-167101303193bb5f8c-1",
+        "7f499918-cd50-4b9f-be70-4ef5f1ef8edf"
       ],
       "settings": {
         "full_width": true,
@@ -35,6 +42,7 @@
     },
     "c89d9855-79d7-491d-bc57-5cf598a8f3d3": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--17167851421971__c89d9855-79d7-491d-bc57-5cf598a8f3d3-1671011378bee50d0e-1": {
           "type": "heading",
@@ -165,11 +173,11 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 145, 129, 1), rgba(254, 91, 124, 1) 49%, rgba(255, 140, 162, 1) 100%)",
-        "heading_text_color": "",
+        "background": "#ececec",
+        "background_gradient": "",
+        "heading_text_color": "#000000",
         "heading_gradient": "",
-        "text_color": "#ffffff",
+        "text_color": "#000000",
         "button_background": "",
         "button_text_color": ""
       }
@@ -188,7 +196,7 @@
         "text_color": "",
         "heading_color": "#000000",
         "heading_gradient": "",
-        "contact_background": "",
+        "contact_background": "#f7f7f7",
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": ""
