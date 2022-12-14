@@ -2,11 +2,98 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "c89d9855-79d7-491d-bc57-5cf598a8f3d3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17167851421971__c89d9855-79d7-491d-bc57-5cf598a8f3d3-1671011378bee50d0e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "What Does Sustainability Mean to 12|12?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--17167851421971__c89d9855-79d7-491d-bc57-5cf598a8f3d3-1671011378bee50d0e-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Contributing to a sustainable future for our children and our planet is a key tenet of our mission at 12|12.  Through our partnership with Baby2Baby, we aim to provide comfortable, modern clothing essentials for <em>all<\/em> children, not just those who can afford them.  But we also understand that our promise to do so is only as good as our parallel commitment to protect our environment.  At 12|12, our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing product, while continuously seeking ways to reduce our environmental impact.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851421971__c89d9855-79d7-491d-bc57-5cf598a8f3d3-1671011378bee50d0e-1",
+        "template--17167851421971__c89d9855-79d7-491d-bc57-5cf598a8f3d3-1671011378bee50d0e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5dd4f040-f7dc-4898-83d1-8b932b5ce97d": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212_LandSeaSpace21_BYMICHELLEROSEPHOTO_DSC_3913_L_R1_1600x_10c0fd25-fa94-49ae-a289-4dae492d2085.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Sustainability Path",
+            "content": "<p>From the launch of our very first collection, 12|12 has been committed to making an environmentally-friendly product, which is why we have always used organic cotton from day one.  As the company has grown, we have also grown our sustainability efforts.  The information below describes our current efforts to use environmentally-responsible materials and practices whenever possible. This work is ongoing as we continue to learn more about how we can expand our sustainability even further.  We make this information available to our customers and followers with the goal of being transparent throughout our sustainability journey.<\/p>"
+          }
+        },
+        "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baby_bundle.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Raw Materials",
+            "content": "<p><span style=\"text-decoration:underline\"><em>GOTS-Certified Organic Cotton<br\/><\/em><\/span>Certified organic pima cotton is the cornerstone of our product at 12|12.  We source organic Peruvian pima cotton, widely known as the finest cotton in the world, organically grown and harvested exclusively in the coastal valleys of Peru. <\/p><p>We also choose organic cotton for its minimal impact on the environment.  We use GOTS-certified organic pima cotton whenever possible.  The Global Organic Textile Standard (GOTS) is the leading worldwide textile processing standard for organic fibers, meaning natural fibers grown without the use of synthetic pesticides, insecticides\/herbicides and GMOs.  We choose organic agriculture because it is a production process that sustains the health of ecosystems, soils and the people who work and live in the surrounding communities. We are proud to say that over 90% of our current collection is made from organic pima cotton.<\/p><p><span style=\"text-decoration:underline\"><em>Oeko-Tex Dyes<br\/><\/em><\/span>Our organic cotton fabric is then dyed and printed using only OEKO-TEX 100 standard dyes, meaning they are certified free of over 100 substances known to be toxic and harmful to people and the environment.  OEKO-TEX is a different, yet equally important, global textile standard from GOTS.  We believe that adhering to both certifications along our supply chain process makes for the safest product for our customers, our supply chain partners and ultimately our planet.<\/p><p><span style=\"text-decoration:underline\"><em>Recycled Fabric<br\/><\/em><\/span>Beginning in 2021, we began incorporating recycled material in the production process of select styles.  We have been able to offer our customer a swim product that is made of 74% recycled material, via our environmentally-conscious production partner in this category.  Incorporating more recycled material in our products is a longer-term goal that we continue to research and pursue.  We are also seeking ways to reduce unusable fabric waste by turning fabric cuttings into new styles, such as headbands and other accessories. <\/p>"
+          }
+        },
+        "0899a384-3ded-48d4-8488-bd5e2bea27de": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainability-4_1600x_9afa2316-67b3-4ff6-ade6-fe43a7a46cd4.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Our Partner Factories",
+            "content": "<p>As a small, women-owned and operated company, 12|12 seeks to support other small makers and businesses via our factory partnerships. We take great care when selecting our factory partners, seeking high standards of craftsmanship and responsible manufacturing. These are deeply valued partnerships that we have developed over several years. 12|12 is currently working with three factories around the world.  Located in Peru, China and the USA, each factory is a small 100% family-owned and vertically integrated factory. Whenever possible, we choose to ship our finished goods from our partner factories to our warehouse in New York using sea freight as the preferred mode of transport, thereby helping to reduce carbon emissions from air freight.  <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-0",
+        "template--17167851421971__5dd4f040-f7dc-4898-83d1-8b932b5ce97d-167101142460dbfa30-1",
+        "0899a384-3ded-48d4-8488-bd5e2bea27de"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "c89d9855-79d7-491d-bc57-5cf598a8f3d3",
+    "5dd4f040-f7dc-4898-83d1-8b932b5ce97d"
   ]
 }
