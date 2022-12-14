@@ -183,7 +183,7 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "",
+              "icon_color": "#fe0100",
               "title": "Sustainability",
               "content": "<p>Contributing to a sustainable future for our children and our planet.<\/p>"
             }
@@ -196,7 +196,7 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "",
+              "icon_color": "#fe0100",
               "title": "Customer service",
               "content": "<p>Do you have any question? Our team is here to help!<\/p>"
             }
@@ -209,7 +209,7 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "",
+              "icon_color": "#fe0100",
               "title": "Affiliates",
               "content": "<p>Share your enthusiasm for our collection while earning commission.<\/p>"
             }
@@ -222,7 +222,7 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "",
+              "icon_color": "#fe0100",
               "title": "Materials",
               "content": "<p>100% organic and sustainable essentials designed<\/p>"
             }
@@ -236,11 +236,11 @@
         ],
         "settings": {
           "show_section": true,
-          "full_width": false,
+          "full_width": true,
           "heading_tag": "h6",
           "text_alignment": "center",
           "icon_spacing": "small",
-          "background": "",
+          "background": "#f2f2f2",
           "background_gradient": "",
           "text_color": ""
         }
