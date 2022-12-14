@@ -112,18 +112,6 @@
         "input_text_color": ""
       }
     },
-    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b": {
-      "type": "custom-liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"yotpo yotpo-main-widget\"\ndata-product-id=\"{{ product.id }}\"\ndata-name=\"{{ product.title | escape }}\"\ndata-url=\"{{ shop.url }}{{ product.url }}\"\ndata-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\"\ndata-price=\"{{ variant.price | money_without_currency }}\"\ndata-currency=\"{{ shop.currency }}\"\ndata-description=\"{{ product.description | escape }}\">\n<\/div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "302023c1-bc35-4239-a61e-2a79f0d47a75": {
       "type": "media-with-text",
       "blocks": {
@@ -158,6 +146,18 @@
         "full_width": false,
         "enable_parallax": true,
         "spacing": "small"
+      }
+    },
+    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"yotpo yotpo-main-widget\"\ndata-product-id=\"{{ product.id }}\"\ndata-name=\"{{ product.title | escape }}\"\ndata-url=\"{{ shop.url }}{{ product.url }}\"\ndata-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\"\ndata-price=\"{{ variant.price | money_without_currency }}\"\ndata-currency=\"{{ shop.currency }}\"\ndata-description=\"{{ product.description | escape }}\">\n<\/div>",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "product-recommendations": {
@@ -228,8 +228,8 @@
   },
   "order": [
     "main",
-    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b",
     "302023c1-bc35-4239-a61e-2a79f0d47a75",
+    "dd17b0d0-eb18-41ee-99af-3c4e5ed8932b",
     "product-recommendations",
     "8005ee89-7e5b-454c-9da6-6418d45256a7"
   ]
