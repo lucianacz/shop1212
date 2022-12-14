@@ -198,7 +198,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Customer service",
-              "content": "<p>Do you have any question? Our team can answer all your doubts!<\/p>"
+              "content": "<p>Do you have any question? Our team is here to help!<\/p>"
             }
           },
           "discount": {
@@ -211,7 +211,7 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Affiliates",
-              "content": "<p>You can share your enthusiasm for our collection while earning commission.<\/p>"
+              "content": "<p>Share your enthusiasm for our collection while earning commission.<\/p>"
             }
           },
           "payment": {
