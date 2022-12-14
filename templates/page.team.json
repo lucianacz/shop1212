@@ -4,9 +4,267 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "fd112c3e-7403-4385-85f8-bc3d48f23aa4": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17167851454739__fd112c3e-7403-4385-85f8-bc3d48f23aa4-1671022977b41eb983-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hero_m.jpg",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 44,
+            "subheading": "Founder",
+            "title": "Amy Koenigsberger",
+            "content": "<p>A fashion industry veteran, Amy spent 9 years at Theory and Helmut Lang as VP of Planning, as well as 8 years at Bloomingdale's in buying and planning. Several years into her career, Amy became pregnant with her first son. By the time he was three, he had developed severe allergies to tree nuts and soon Amy and her husband learned that both of their children suffered from multiple food and skin allergies. This launched her mission to find clothing that was both organic and gentle on her boys’ skin, while not compromising the modern, clean aesthetic she was looking for. When everything in the market fell short of Amy’s expectations, she took her own fashion industry experience and joined together with her friend Stacey to launch 12|12. At 12|12, Amy oversees planning, merchandising and operations.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "be24334b-c30d-49e9-92e8-06315ae1907f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212_LandSeaSpace21_BYMICHELLEROSEPHOTO_DSC_3913_L_R1_1600x_10c0fd25-fa94-49ae-a289-4dae492d2085.webp",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Founder",
+            "title": "Stacey Effman",
+            "content": "<p>Stacey leads marketing, graphic and website design for the brand. She also hand draws all of 12|12's unique prints in house. Stacey shared Amy's interest in quality, craftsmanship and modern organic clothing for babies. When pregnant with her first, Amy and Stacey spent an afternoon discussing the children's clothing market and the lack of quality options available at the time. It was the desire to create something better that brought them together and compelled them to create 12|12.Through years of growth—including long days and late nights with their own babies—Stacey and Amy are as dedicated as ever to ensuring that 12|12 continues to set the standard for quality organic clothing for babies and toddlers—so there’s no more guessing in getting them dressed. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "600e97d6-2f1b-49df-bfdc-b11f22575e7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212-easter71-1648147846731.webp",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Co-founder and CFO",
+            "title": "Danielle Orden",
+            "content": "<p>Danielle began her career in Investment Banking and Private Equity at Goldman, Sachs & Co. After earning her MBA at Harvard Business School, she transitioned into the Retail Apparel business and worked at Theory and then Zadig & Voltaire, where she oversaw all aspects of buying, planning, forecasting and inventory management. Danielle lives in Brooklyn, NY with her husband and three children, all of whom have been dressed in 12|12 since the day they were born. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "7a1e6abd-a312-48e0-ada5-8047a5365c7a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212_Winter-1.jpg",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Director of PR",
+            "title": "Ashley Kraus",
+            "content": "<p>With extensive experience working in Public Relations, Ashley assists with marketing efforts and leads all PR, partnerships, and collaborations for the brand. Her previous experience includes a role as Director in the Public Relations department at Starworks Group, as well as at Margo Siegel Public Relations and dOMAIN PR. Ashley lives in LA with her husband and two children. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "96605b8e-64cd-4538-b4b4-c8a8f655cc1b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Detail_RedBar_1358_7579cab2-60ad-45bc-a0dd-98151d49674c.jpg",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "VP of Production",
+            "title": "Liz Sinar",
+            "content": "<p>Liz manages all aspects of the production process for 12|12, from sourcing our premium organic pima cotton and cotton cashmere fabrics to managing relationships with our partner factories around the world. She has a wealth of experience in production, which includes leading the development, design and global production teams for the Outlet Division at Theory, where she was also the project lead for global social compliance and sustainability initiatives. Prior to joining Theory, she worked at Calvin Klein & PVH for 8 years as Director of Development and Production. Liz lives in New York City, with her husband and two pups, Stella and Buddy.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "0cdb9135-5479-4efd-ac49-78d030885659": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stacks_Other_StillLife_1286.jpg",
+            "media_width": 30,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Chief of Staff, VP of Merchandising and Sustainability Initiatives",
+            "title": "Meredith Baker Whitworth",
+            "content": "<p>Meredith came to 12|12 as a “second career”, after the birth of her first daughter, when she discovered her love for high quality organic children’s clothing that is healthier for both babies and the environment. She is excited to be a part of a company that makes an amazing product, while also contributing to a more sustainable world for the next generation. She remains one of the brand's biggest fans. At 12|12, she is our Chief of Staff, and also leads up our continual efforts to expand upon our sustainability mission.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "0908f778-3bba-4c7a-ab6f-11d33ee8b5ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unicorns-and-light-pink-hearts.png",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Wholesale",
+            "title": "Leslie Nielsen",
+            "content": "<p>Leslie has a deep love for the fashion industry. When she met the 12|12 team, she also fell in love with the clean aesthetic of the product and the unique vision of the company. She leads wholesale for the brand, partnering with both our online and in-store partners. She lives in Long Island with her husband and two boys.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f2f2f2",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851454739__fd112c3e-7403-4385-85f8-bc3d48f23aa4-1671022977b41eb983-0",
+        "be24334b-c30d-49e9-92e8-06315ae1907f",
+        "600e97d6-2f1b-49df-bfdc-b11f22575e7d",
+        "7a1e6abd-a312-48e0-ada5-8047a5365c7a",
+        "96605b8e-64cd-4538-b4b4-c8a8f655cc1b",
+        "0cdb9135-5479-4efd-ac49-78d030885659",
+        "0908f778-3bba-4c7a-ab6f-11d33ee8b5ad"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "small"
+      }
+    },
+    "6164c29c-f479-4889-bbfc-7897e7ef5395": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-baby-clothes",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-pajamas",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-toddler-kids-clothes",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        },
+        "a20e914c-d5b0-429a-9c62-a77c6347899c": {
+          "type": "collection",
+          "settings": {
+            "collection": "organic-toddler-and-kids-pajamas",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-0",
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-1",
+        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-2",
+        "a20e914c-d5b0-429a-9c62-a77c6347899c"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row": 4,
+        "show_progress_bar": true,
+        "subheading": "",
+        "title": "Explore the collections",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fd112c3e-7403-4385-85f8-bc3d48f23aa4",
+    "6164c29c-f479-4889-bbfc-7897e7ef5395"
   ]
 }
