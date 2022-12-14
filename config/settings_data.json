@@ -170,14 +170,14 @@
           "free-shipping": {
             "type": "item",
             "settings": {
-              "icon": "picto-box",
+              "icon": "picto-leaf",
               "mobile_icon_width": 24,
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
               "icon_color": "",
-              "title": "Free shipping",
-              "content": "<p>Tell your customers about your shipping offer.<\/p>"
+              "title": "Sustainability",
+              "content": "<p>Contributing to a sustainable future for our children and our planet is a key tenet of our mission at 12|12<\/p>"
             }
           },
           "customer-support": {
@@ -190,20 +190,20 @@
               "icon_background": "",
               "icon_color": "",
               "title": "Customer service",
-              "content": "<p>Tell your customers how they can reach you.<\/p>"
+              "content": "<p>Do you have any question? Our team can answer all your doubts!<\/p>"
             }
           },
           "discount": {
             "type": "item",
             "settings": {
-              "icon": "picto-coupon",
+              "icon": "picto-award-gift",
               "mobile_icon_width": 24,
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
               "icon_color": "",
-              "title": "Refer a friend",
-              "content": "<p>Tell your customers about your promotional offers.<\/p>"
+              "title": "Affiliates",
+              "content": "<p>Through our program, you can share your enthusiasm for our collection while earning commission.<\/p>"
             }
           },
           "payment": {
