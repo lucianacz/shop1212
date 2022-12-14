@@ -47,6 +47,8 @@
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 100,
+    "social_facebook": "https:\/\/facebook.com\/1212getgive",
+    "social_instagram": "https:\/\/instagram.com\/1212",
     "favicon": "shopify:\/\/shop_images\/favicon_8623d35d-87e9-4661-879d-56ade06a705c.png",
     "checkout_body_background_color": "#f2f2f2",
     "checkout_sidebar_background_color": "#ffffff",
@@ -244,29 +246,21 @@
               "image": "{{shop.brand.logo}}",
               "image_width": 150,
               "heading_size": "h3",
-              "title": "Sign up for new stories and personal offers",
-              "content": "<p><\/p>"
+              "title": "Sign up for 15% off your first order",
+              "content": ""
             }
           },
           "links": {
             "type": "links",
             "settings": {
-              "menu": "footer",
+              "menu": "learn-more",
               "show_menu_title": true
-            }
-          },
-          "text": {
-            "type": "text",
-            "settings": {
-              "title": "About",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>"
             }
           }
         },
         "block_order": [
           "newsletter",
-          "links",
-          "text"
+          "links"
         ],
         "settings": {
           "show_social_media": true,
