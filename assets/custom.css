@@ -11,5 +11,9 @@ a.btn.klaviyo-bis-trigger {
 
 /* Yotpo */
 .yotpo.yotpo-main-widget {
-    width: 100%;
+    width: 80%;
+}
+
+.yotpo-label.yotpo-small-box {
+    display: none !important;
 }
