@@ -23,6 +23,10 @@ a.btn.klaviyo-bis-trigger {
   margin-left: 3px;
 }
 
+.product .yotpo{
+  margin: -15px 0 -10px;
+}
+
 .color-swatch{
   background-size: contain;
   border: 1px solid #e9e9e9;
