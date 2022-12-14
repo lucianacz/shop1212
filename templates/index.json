@@ -126,21 +126,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "b28c8915-deee-45d2-9ed3-e44b27a144be": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection",
     "737ffd7c-cd72-4a70-8f14-7dbb6bf00940",
-    "379f7221-13b7-4759-ad30-f6ab5fe9c030",
-    "b28c8915-deee-45d2-9ed3-e44b27a144be"
+    "379f7221-13b7-4759-ad30-f6ab5fe9c030"
   ]
 }
