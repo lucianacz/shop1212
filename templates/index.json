@@ -67,10 +67,19 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "fd9e56eb-f417-4950-b837-5d62495b715b": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
     "slideshow",
-    "featured-collection"
+    "featured-collection",
+    "fd9e56eb-f417-4950-b837-5d62495b715b"
   ]
 }
