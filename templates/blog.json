@@ -21,18 +21,9 @@
         "show_comments_count": false,
         "show_category": false
       }
-    },
-    "9b6e567c-97e6-4bbb-b493-1af004a4a887": {
-      "type": "instafeed",
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
-    "main",
-    "9b6e567c-97e6-4bbb-b493-1af004a4a887"
+    "main"
   ]
 }
