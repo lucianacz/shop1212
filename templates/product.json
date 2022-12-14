@@ -181,6 +181,12 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "7aebecae-2471-4829-892a-e73072563747": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
         }
       },
       "block_order": [
@@ -189,12 +195,13 @@
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-5",
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-6",
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-7",
-        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9"
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9",
+        "7aebecae-2471-4829-892a-e73072563747"
       ],
       "settings": {
         "full_width": true,
         "product": "donation",
-        "desktop_media_width": 40,
+        "desktop_media_width": 45,
         "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "floating_dots",
