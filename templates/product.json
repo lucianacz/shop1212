@@ -175,7 +175,7 @@
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "atc_button_background": "",
             "atc_button_text_color": "",
             "payment_button_background": "",
