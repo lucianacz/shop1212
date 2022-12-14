@@ -74,8 +74,8 @@
           "text_size": "text-xs",
           "navigation_mode": "arrows",
           "scrolling_speed": 27,
-          "background": "#ed2024",
-          "background_gradient": "linear-gradient(180deg, rgba(255, 145, 129, 1), rgba(254, 91, 124, 1) 49%, rgba(255, 140, 162, 1) 100%)",
+          "background": "#000000",
+          "background_gradient": "",
           "text_color": "#ffffff"
         }
       },
@@ -160,8 +160,8 @@
           "search_pages": true,
           "search_collections": true,
           "search_unavailable_products": "last",
-          "search_menu": "",
-          "search_menu_show_title": true
+          "search_menu": "menu-new",
+          "search_menu_show_title": false
         }
       },
       "static-text-with-icons": {
