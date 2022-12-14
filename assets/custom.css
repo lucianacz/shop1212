@@ -28,6 +28,17 @@ a.btn.klaviyo-bis-trigger {
   margin: -15px 0 -10px;
 }
 
+/* Instafeed */
+@media (max-width: 768px){
+    .instafeed-container {
+      width: 50% !important;
+      padding-top: 50% !important;
+  }
+}
+
+
+/* Swatch */
+
 .color-swatch{
   background-size: contain;
   border: 1px solid #e9e9e9;
