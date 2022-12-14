@@ -17,3 +17,8 @@ a.btn.klaviyo-bis-trigger {
 .yotpo-label.yotpo-small-box {
     display: none !important;
 }
+
+.color-swatch{
+  background-size: contain;
+  border: 1px solid #e9e9e9;
+}
