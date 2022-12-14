@@ -20,9 +20,7 @@ a.btn.klaviyo-bis-trigger {
 
 .collection .yotpo .text-m{
   font: var(--text-font-style) 400 0.9em / 1.6 var(--text-font-family) !important;
-  top: 1px;
-  position: relative;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 .color-swatch{
