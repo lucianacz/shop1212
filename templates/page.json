@@ -2,11 +2,177 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "994e4673-a0c0-47f7-937e-925119840ea4": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--17167820554515__994e4673-a0c0-47f7-937e-925119840ea4-16710103044c7863d0-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212-easter71-1648147846731.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "About 12|12",
+            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet. And like parents everywhere, we believe babies are even cuter when they’re asleep, because, well, naptime goals. So, we created the softest, 100% organic, non-toxic fabric in careful consideration of both your child’s skin and the environment, taking the guesswork out of getting them dressed, and designing the best baby basics for playtime, naptime, and all night long.<br\/><br\/> Edited to perfection and designed with a refreshing, fuss-free minimalism that modern parents can appreciate, the 12|12 collection features the essentials that can be lived in and layered—literally every basic they need, all in one place. We’ve made it that easy.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820554515__994e4673-a0c0-47f7-937e-925119840ea4-16710103044c7863d0-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "shifted",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "727d8d54-515b-44e0-b11d-1f88e27ddb52": {
+      "type": "impact-text",
+      "blocks": {
+        "template--17167820554515__727d8d54-515b-44e0-b11d-1f88e27ddb52-1671010299121c1d4c-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Organic and sustainable essentials designed to be lived in, played in, and snoozed in – 12 hours a day, 12 hours a night.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820554515__727d8d54-515b-44e0-b11d-1f88e27ddb52-1671010299121c1d4c-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "cf29072c-040f-49cf-ae3a-ea4dfa570c3b": {
+      "type": "rich-text",
+      "blocks": {
+        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/signautre-1664929763637.webp",
+            "width_mode": "custom",
+            "max_width": 240,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a3acf6d8-a5ef-4459-a20b-3d2424e369e3": {
+      "type": "multi-column",
+      "blocks": {
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Better",
+            "heading_tag": "h4",
+            "content": "<p>We labor over every decision when it comes to the designs in our collection, because we want to create everything you need, and nothing they don’t. From fit to feel, size to color, care label to fabric, we commit to perfecting every detail so that you can feel confident dressing them in 1212.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Simpler",
+            "heading_tag": "h4",
+            "content": "<p>In our everyday lives, everything seems to be increasingly complicated, which is why we’ve built the brand around thoughtful minimalism. The collection has been edited to perfection, with all of the layered favorites they’ll wear all day, and all night. Literally everything you need to fill their drawers.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Kinder",
+            "heading_tag": "h4",
+            "content": "<p>In a perfect world, every child would have access to the basic necessities. So we give back, because we want to give babies everywhere the kind of access, comfort, and better basics that we’re lucky enough to give our own. We often provide items from our collection to children and families in need through our partnership with Baby2Baby. Learn more about how we give back <a href=\"https:\/\/shop1212.com\/pages\/our-values#temp_created_link\">here<\/a>.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8b9ea98b-bf41-4a7f-916a-ac9f2c8cca6e": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Greener",
+            "heading_tag": "h4",
+            "content": "<p>Cultivated in the coastal valleys of Peru, we sourced the globe to find the very best organic pima cotton for our designs. Working hand-in-hand with our factory in Lima, Peru, we’re able to oversee their in-house spinning, knitting, dying, printing and sewing at each and every step of the production process, ensuring not just the highest quality possible, but the best, sustainable practices with our partners.<\/p><p>Our dedication to a greener footprint extends to the packaging we wrap your 12|12 in, too, using mainly recycled and compostable materials in our packaging materials. We promise to be unending in our search for innovative solutions to greener shipping, packaging, and operating practices.  Learn more about our commitment to sustainability <a href=\"https:\/\/shop1212.com\/pages\/shop1212.com\/pages\/sustainabillity\" title=\"Sustainability at 12|12\">here<\/a>.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-0",
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-1",
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-2",
+        "8b9ea98b-bf41-4a7f-916a-ac9f2c8cca6e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Our Values",
+        "content": "",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "#000000"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "994e4673-a0c0-47f7-937e-925119840ea4",
+    "727d8d54-515b-44e0-b11d-1f88e27ddb52",
+    "cf29072c-040f-49cf-ae3a-ea4dfa570c3b",
+    "a3acf6d8-a5ef-4459-a20b-3d2424e369e3"
   ]
 }
