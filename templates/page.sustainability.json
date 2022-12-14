@@ -6,6 +6,33 @@
       "settings": {
       }
     },
+    "280e372d-174b-4797-aa79-60a56f5de141": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17167851421971__280e372d-174b-4797-aa79-60a56f5de141-167101303193bb5f8c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Sustainability",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851421971__280e372d-174b-4797-aa79-60a56f5de141-167101303193bb5f8c-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/2021_02_03_1212_0284-Edit_2000x.progressive_bc888c31-4eee-451f-968d-504fb272ecb3.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#272727",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "c89d9855-79d7-491d-bc57-5cf598a8f3d3": {
       "type": "rich-text",
       "blocks": {
@@ -101,7 +128,7 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
@@ -111,11 +138,69 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "965c83b8-3d8e-4986-bb56-b6e40da4bb3d": {
+      "type": "impact-text",
+      "blocks": {
+        "template--17167851421971__965c83b8-3d8e-4986-bb56-b6e40da4bb3d-1671013032cd3b36b1-0": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Organic and sustainable essentials designed to be lived in, played in, and snoozed in – 12 hours a day, 12 hours a night.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--17167851421971__965c83b8-3d8e-4986-bb56-b6e40da4bb3d-1671013032cd3b36b1-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 145, 129, 1), rgba(254, 91, 124, 1) 49%, rgba(255, 140, 162, 1) 100%)",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "3cf75df5-09a7-4ec0-9557-1cd0c6fb0547": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Get in touch",
+        "content": "<p>Please feel free to reach out to us with questions or even any ideas you might have on further reducing our environmental impact at 12|12.  We would love for this to be an open dialogue and are always eager to further our own education on sustainable business practices.<\/p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
     "main",
+    "280e372d-174b-4797-aa79-60a56f5de141",
     "c89d9855-79d7-491d-bc57-5cf598a8f3d3",
-    "5dd4f040-f7dc-4898-83d1-8b932b5ce97d"
+    "5dd4f040-f7dc-4898-83d1-8b932b5ce97d",
+    "965c83b8-3d8e-4986-bb56-b6e40da4bb3d",
+    "3cf75df5-09a7-4ec0-9557-1cd0c6fb0547"
   ]
 }
