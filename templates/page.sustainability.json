@@ -74,6 +74,7 @@
         "d9ddae2d-a84c-4906-a5ef-41e6cabcc104": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/packages.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Our Packaging",
