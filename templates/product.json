@@ -276,6 +276,14 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "12212a59-b548-49fe-828a-078480e74703": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
@@ -283,6 +291,7 @@
     "product-recommendations",
     "db412dfe-2afa-4827-b3fe-1c35348b8545",
     "1671009045bf51851e",
-    "8005ee89-7e5b-454c-9da6-6418d45256a7"
+    "8005ee89-7e5b-454c-9da6-6418d45256a7",
+    "12212a59-b548-49fe-828a-078480e74703"
   ]
 }
