@@ -211,23 +211,10 @@
             "button_url": "",
             "button_text": ""
           }
-        },
-        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2019_12_13_Baby2Baby-0038_sm_240x240_6058fe56-f80b-4220-bcf0-59055e40d134.png",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Give Back",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
         }
       },
       "block_order": [
-        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
-        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-1"
+        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0"
       ],
       "settings": {
         "full_width": true,
