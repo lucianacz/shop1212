@@ -95,12 +95,120 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "a3acf6d8-a5ef-4459-a20b-3d2424e369e3": {
+      "type": "multi-column",
+      "blocks": {
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Better",
+            "heading_tag": "h4",
+            "content": "<p>We labor over every decision when it comes to the designs in our collection, because we want to create everything you need, and nothing they don’t. From fit to feel, size to color, care label to fabric, we commit to perfecting every detail so that you can feel confident dressing them in 1212.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Simpler",
+            "heading_tag": "h4",
+            "content": "<p>In our everyday lives, everything seems to be increasingly complicated, which is why we’ve built the brand around thoughtful minimalism. The collection has been edited to perfection, with all of the layered favorites they’ll wear all day, and all night. Literally everything you need to fill their drawers.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-2": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Kinder",
+            "heading_tag": "h4",
+            "content": "<p>In a perfect world, every child would have access to the basic necessities. So we give back, because we want to give babies everywhere the kind of access, comfort, and better basics that we’re lucky enough to give our own. We often provide items from our collection to children and families in need through our partnership with Baby2Baby. Learn more about how we give back <a href=\"https:\/\/shop1212.com\/pages\/our-values#temp_created_link\">here<\/a>.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8b9ea98b-bf41-4a7f-916a-ac9f2c8cca6e": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "Greener",
+            "heading_tag": "h4",
+            "content": "<p>Cultivated in the coastal valleys of Peru, we sourced the globe to find the very best organic pima cotton for our designs. Working hand-in-hand with our factory in Lima, Peru, we’re able to oversee their in-house spinning, knitting, dying, printing and sewing at each and every step of the production process, ensuring not just the highest quality possible, but the best, sustainable practices with our partners.<\/p><p>Our dedication to a greener footprint extends to the packaging we wrap your 12|12 in, too, using mainly recycled and compostable materials in our packaging materials. We promise to be unending in our search for innovative solutions to greener shipping, packaging, and operating practices.  Learn more about our commitment to sustainability <a href=\"https:\/\/shop1212.com\/pages\/shop1212.com\/pages\/sustainabillity\" title=\"Sustainability at 12|12\">here<\/a>.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-0",
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-1",
+        "template--17167820554515__a3acf6d8-a5ef-4459-a20b-3d2424e369e3-167101030409887aa8-2",
+        "8b9ea98b-bf41-4a7f-916a-ac9f2c8cca6e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Our Values",
+        "content": "",
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "69643287-05e4-4a22-a3ea-a36b290d8a44": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17237201551635__69643287-05e4-4a22-a3ea-a36b290d8a44-1671050179c95fd36a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2019_12_13_Baby2Baby-0038_43876acf-a0a8-4645-9517-3af0fcb10b94.jpg",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Giving Back",
+            "content": "<p>Our mission of creating everything they need for every day play, and all night sleep extends beyond just our own kids. We often provide items from our collection to children and families in need through our partnership with Baby2Baby. To learn about the amazing work that Baby2Baby does to provide diapers, clothing, and all basic necessities for low-income children, ages 0-12, please visit<a href=\"http:\/\/www.baby2baby.org\/\" target=\"_blank\" title=\"Baby2Baby\">Baby2Baby.org<\/a>.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17237201551635__69643287-05e4-4a22-a3ea-a36b290d8a44-1671050179c95fd36a-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
     }
   },
   "order": [
     "main",
     "994e4673-a0c0-47f7-937e-925119840ea4",
     "727d8d54-515b-44e0-b11d-1f88e27ddb52",
-    "cf29072c-040f-49cf-ae3a-ea4dfa570c3b"
+    "cf29072c-040f-49cf-ae3a-ea4dfa570c3b",
+    "a3acf6d8-a5ef-4459-a20b-3d2424e369e3",
+    "69643287-05e4-4a22-a3ea-a36b290d8a44"
   ]
 }
