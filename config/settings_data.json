@@ -19,8 +19,8 @@
     "error_color": "#aa2826",
     "header_background": "#ffffff",
     "header_text_color": "#272727",
-    "footer_background": "#f2f2f2",
-    "footer_text_color": "#272727",
+    "footer_background": "#000000",
+    "footer_text_color": "#ffffff",
     "primary_button_background": "#000000",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#ed2024",
@@ -243,24 +243,40 @@
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "image": "{{shop.brand.logo}}",
+              "image": "shopify:\/\/shop_images\/12-12-logo-white.png",
               "image_width": 150,
               "heading_size": "h3",
               "title": "Sign up for 15% off your first order",
               "content": ""
             }
           },
+          "a578a1c7-bcae-46e5-acc6-2fc96b7d3aa7": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "content": ""
+            }
+          },
           "links": {
             "type": "links",
             "settings": {
-              "menu": "learn-more",
+              "menu": "footer",
+              "show_menu_title": true
+            }
+          },
+          "dd845ea8-d475-4cf2-9556-023655bfa868": {
+            "type": "links",
+            "settings": {
+              "menu": "legal",
               "show_menu_title": true
             }
           }
         },
         "block_order": [
           "newsletter",
-          "links"
+          "a578a1c7-bcae-46e5-acc6-2fc96b7d3aa7",
+          "links",
+          "dd845ea8-d475-4cf2-9556-023655bfa868"
         ],
         "settings": {
           "show_social_media": true,
