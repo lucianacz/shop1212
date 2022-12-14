@@ -46,7 +46,7 @@ Supported variables
           {%- render 'vendor' with vendor_placeholder, class: 'text-xs' -%}
 
           {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
-          {%- render 'product-rating', show_placeholder: true, class: rating_class -%}
+          {%- render 'product-rating', show_placeholder: true, class: rating_class, display_mode: settings.product_rating_mode -%}
         </div>
       {%- else -%}
         {%- render 'vendor' with vendor_placeholder, class: 'text-xs' -%}
@@ -57,7 +57,7 @@ Supported variables
       {%- if settings.show_product_rating and settings.show_vendor == false -%}
         <div class="rating-with-text">
           <span><a href="{{ product.url }}" class="bold">{{ title_placeholder }}</a></span>
-          {%- render 'product-rating', show_placeholder: true -%}
+          {%- render 'product-rating', show_placeholder: true, display_mode: settings.product_rating_mode -%}
         </div>
       {%- else -%}
         <span><a href="{{ product.url }}" class="bold">{{ title_placeholder }}</a></span>
@@ -76,7 +76,7 @@ Supported variables
 
     {%- if settings.show_product_rating and mobile_reduced or text_alignment == 'center' -%}
       {%- capture rating_class -%}{% unless text_alignment == 'center' %}sm:hidden{% endunless %}{%- endcapture -%}
-      {%- render 'product-rating', show_placeholder: true, class: rating_class -%}
+      {%- render 'product-rating', show_placeholder: true, class: rating_class, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
   </div>
 </product-card>

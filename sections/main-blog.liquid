@@ -153,9 +153,11 @@
             {%- if section.settings.feature_first_article and forloop.first -%}
               {%- assign background_color = article.metafields.banner.background_color.value | default: section.settings.feature_article_background -%}
               {%- assign text_color = article.metafields.banner.text_color.value | default: section.settings.feature_article_text_color -%}
-              {%- render 'blog-post-card', article: article, featured: section.settings.feature_first_article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, background: background_color, text_color: text_color -%}
+              {%- capture sizes -%}(max-width: 999px) 100vw, calc(min(100vw, {{ settings.page_width }}px) * 0.65){%- endcapture -%}
+              {%- render 'blog-post-card', article: article, featured: section.settings.feature_first_article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, background: background_color, text_color: text_color, sizes: sizes -%}
             {%- else -%}
-              {%- render 'blog-post-card', article: article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category -%}
+              {%- capture sizes -%}(max-width: 699px) 100vw, (max-width: 1149px) calc(100vw / 2 - 40px), (max-width: 1399px) calc(min(100vw, {{ settings.page_width }}px) / 3 - 40px) , calc(min(100vw, {{ settings.page_width }}px) / 3 - 80px) {%- endcapture -%}
+              {%- render 'blog-post-card', article: article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
             {%- endif -%}
           {%- endfor -%}
         </div>

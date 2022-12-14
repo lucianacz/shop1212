@@ -1,6 +1,6 @@
 .country-flags {
-  background: -webkit-image-set(url("//cdn.shopify.com/s/files/1/0967/2808/t/76/assets/country-flags.png?v=37230036826556269641667568004") 1x, url("//cdn.shopify.com/s/files/1/0967/2808/t/76/assets/country-flags-2x.png?v=119388446682176363021667568004") 2x) no-repeat top left;
-  background: image-set(url("//cdn.shopify.com/s/files/1/0967/2808/t/76/assets/country-flags.png?v=37230036826556269641667568004") 1x, url("//cdn.shopify.com/s/files/1/0967/2808/t/76/assets/country-flags-2x.png?v=119388446682176363021667568004") 2x) no-repeat top left;
+  background: -webkit-image-set(url("//cdn.shopify.com/s/files/1/0967/2808/t/82/assets/country-flags.png?v=37230036826556269641670960372") 1x, url("//cdn.shopify.com/s/files/1/0967/2808/t/82/assets/country-flags-2x.png?v=119388446682176363021670960372") 2x) no-repeat top left;
+  background: image-set(url("//cdn.shopify.com/s/files/1/0967/2808/t/82/assets/country-flags.png?v=37230036826556269641670960372") 1x, url("//cdn.shopify.com/s/files/1/0967/2808/t/82/assets/country-flags-2x.png?v=119388446682176363021670960372") 2x) no-repeat top left;
   width: 20px;
   height: 20px;
   flex-shrink: 0;

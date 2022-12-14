@@ -86,6 +86,10 @@ LIQUID
               {%- render 'icon' with block.settings.icon, width: block.settings.icon_width, height: block.settings.icon_width, class: 'media-with-text__icon' -%}
             {%- endif -%}
 
+            {%- if block.settings.subheading != blank -%}
+              <p class="bold">{{ block.settings.subheading | escape }}</p>
+            {%- endif -%}
+
             {%- if block.settings.title != blank -%}
               <p class="h2">
                 {%- render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient -%}
@@ -511,6 +515,11 @@ LIQUID
           "unit": "px",
           "label": "Icon width",
           "default": 48
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
         },
         {
           "type": "text",
@@ -946,6 +955,11 @@ LIQUID
           "unit": "px",
           "label": "Icon width",
           "default": 48
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
         },
         {
           "type": "text",

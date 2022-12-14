@@ -45,7 +45,7 @@ Supported parameters
   </div>
 
   {%- if article_image != blank -%}
-    {%- capture sizes -%}{{ article_image.width }}px{%- endcapture -%}
+    {%- capture sizes -%}(max-width: 1149px) 100vw, {% if layout == 'image_text_overlay' %}min({{ settings.page_width }}px, 100vw){% elsif layout == 'content_first' %}1000px{% else %}(max-width: 1399px) calc(100vw * 0.60 - 40px), calc(min({{ settings.page_width }}px, 100vw) * 0.60 - 64px){% endif %}{%- endcapture -%}
     <div class="article-banner__image">
       {{- article_image | image_url: width: 1500 | image_tag: loading: 'lazy', sizes: sizes , widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
     </div>

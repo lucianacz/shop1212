@@ -715,6 +715,7 @@ recalculateStyles_fn = function() {
   const computedStyles = getComputedStyle(this);
   __privateSet(this, _initialTop, parseInt(computedStyles.top));
   __privateSet(this, _position, computedStyles.position);
+  __privateMethod(this, _checkPosition, checkPosition_fn).call(this);
 };
 _checkPosition = new WeakSet();
 checkPosition_fn = function() {
@@ -1518,12 +1519,15 @@ var Drawer = class extends DialogElement {
         return ["inset(0 0 100% 0 round 8px)", "inset(0 0 0 0 round 8px"];
     }
   }
-  _showTransition(animate11 = true) {
-    let animationControls;
+  _setInitialPosition() {
     this.style.left = document.dir === "ltr" && this.openFrom === "left" || document.dir === "rtl" && this.openFrom === "right" ? "0px" : null;
     this.style.right = this.style.left === "" ? "0px" : null;
     this.style.bottom = this.openFrom === "bottom" ? "0px" : null;
     this.style.top = this.style.bottom === "" ? "0px" : null;
+  }
+  _showTransition(animate11 = true) {
+    let animationControls;
+    this._setInitialPosition();
     if (reduceDrawerAnimation) {
       animationControls = motionAnimate(this, { opacity: [0, 1], visibility: ["hidden", "visible"] }, { duration: 0.2 });
     } else {
@@ -1904,7 +1908,7 @@ var FreeShippingBar = class extends HTMLElement {
     }
   }
   _onCartChanged(event) {
-    this.totalPrice = event.detail.cart["total_price"];
+    this.totalPrice = event.detail["cart"]["items"].filter((item) => item["requires_shipping"]).reduce((sum, item) => sum + item["final_line_price"], 0);
   }
 };
 if (!window.customElements.get("free-shipping-bar")) {

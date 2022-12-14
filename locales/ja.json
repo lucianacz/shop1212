@@ -275,7 +275,7 @@
       "delete": "削除",
       "default_address": "デフォルトの住所",
       "address_title": "登録された住所数 {{ position }}",
-      "delete_confirm": "このアドレスを削除してよろしいですか？",
+      "delete_confirm": "この住所を削除してよろしいですか？",
       "fill_form": "以下のフォームを入力してください：",
       "first_name": "名",
       "last_name": "姓",

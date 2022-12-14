@@ -15,7 +15,7 @@ by the theme and is not meant to be included directly into a page.
     {%- assign image = product_variant.featured_media | default: product_variant.product.featured_media -%}
 
     {%- if image != blank -%}
-      {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media' -}}
+      {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs' -}}
     {%- endif -%}
 
     <div class="v-stack gap-1">

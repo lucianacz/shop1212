@@ -34,6 +34,6 @@ Supported variables
   {%- render 'icon' with 'chevron-bottom', class: 'select-chevron' -%}
 
   {%- if label != blank -%}
-    <label for="{{ id }}" class="floating-label">{{- label | escape -}}</label>
+    <label for="{{ id }}" class="floating-label">{{ label }}</label>
   {%- endif -%}
 </div>

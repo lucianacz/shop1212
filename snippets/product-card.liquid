@@ -136,7 +136,7 @@ Supported variables
           {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
 
           {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
-          {%- render 'product-rating', product: product, class: rating_class -%}
+          {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
         </div>
       {%- else -%}
         {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
@@ -150,7 +150,7 @@ Supported variables
 
           {%- if text_alignment != 'center' -%}
             {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
-            {%- render 'product-rating', product: product, class: rating_class -%}
+            {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
           {%- endif -%}
         </div>
       {%- else -%}
@@ -162,7 +162,7 @@ Supported variables
 
     {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
       {%- capture rating_class -%}{% unless text_alignment == 'center' %}sm:hidden{% endunless %}{%- endcapture -%}
-      {%- render 'product-rating', product: product, class: rating_class -%}
+      {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
     {%- endif -%}
 
     {%- if settings.product_color_display != 'hide' and show_swatches != false -%}

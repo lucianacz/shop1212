@@ -73,9 +73,7 @@
             ----------------------------------------------------------------------------------------------------------------
             {%- endcomment -%}
 
-            {%- assign items_requiring_shipping = cart.items | where: 'requires_shipping' -%}
-
-            {%- if section.settings.show_shipping_estimator and items_requiring_shipping.size > 0 -%}
+            {%- if section.settings.show_shipping_estimator and cart.requires_shipping -%}
               {%- assign accordion_title = 'cart.shipping_estimator.estimate_shipping' | t -%}
               {%- capture accordion_content -%}{%- render 'shipping-estimator' -%}{%- endcapture -%}
 

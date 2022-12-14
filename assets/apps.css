@@ -21,7 +21,7 @@
   float: none;
 }
 
-#shopify-product-reviews:before, #shopify-product-reviews:after, #shopify-product-reviews :before, #shopify-product-reviews :after, #shopify-product-reviews :is(.spr-header) {
+#shopify-product-reviews:before, #shopify-product-reviews:after, #shopify-product-reviews :before, #shopify-product-reviews :after, #shopify-product-reviews .spr-header {
   display: none;
 }
 

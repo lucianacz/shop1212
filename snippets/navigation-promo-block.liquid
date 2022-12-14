@@ -1,4 +1,4 @@
-{%- assign is_promo_stretch = mega_menu_block.settings.stretch_promo -%}
+ {%- assign is_promo_stretch = mega_menu_block.settings.stretch_promo -%}
 {%- assign promo_item_count = 0 -%}
 {%- capture promo_id -%}{{ 'now' | date: '%N' }}{%- endcapture -%}
 
@@ -44,7 +44,7 @@
   {% if is_promo_collage %}
     "promo-1 promo-1 promo-2" 1fr "promo-1 promo-1 promo-3" 1fr / minmax(172px, var(--mega-menu-promo-grid-image-max-width)) minmax(172px, var(--mega-menu-promo-grid-image-max-width)) minmax(172px, var(--mega-menu-promo-grid-image-max-width))
 
-    {% elsif is_promo_grid %}
+  {% elsif is_promo_grid %}
     auto / repeat({{ promo_item_count }}, minmax(var(--mega-menu-promo-grid-image-min-width), var(--mega-menu-promo-grid-image-max-width)))
 
   {% else %}
@@ -178,6 +178,16 @@
     {%- assign image_text_color_setting = 'image_text_color_' | append: i -%}
 
     {%- if mega_menu_block.settings[image_setting] != blank -%}
+      {%- capture image_sizes -%}
+        {%- if is_promo_grid -%}
+          (max-width: 699px) 172px, (max-width: 1149px) 192px,{% if is_navigation_drawer %}220px{% else %}minmax(220px, 440px){% endif %}
+        {%- elsif is_promo_collage -%}
+          {%- if forloop.first -%}{% if is_promo_stretch %}minmax(350px, 880px){% else %}minmax(350px, 650px){% endif %}{% else %}{% if is_promo_stretch %}minmax(192px, 440px){% else %}minmax(192px, 350px){% endif %}{%- endif -%}
+        {%- else -%}
+          (max-width: 699px) 100vw, (max-width: 1150px) 316px, {% if is_navigation_drawer %}360px{% else %}{% if is_promo_stretch %}440px{% else %}360px{% endif %}{% endif %}
+        {%- endif -%}
+      {%- endcapture -%}
+
       <a {% if mega_menu_block.settings[image_link_setting] %}href="{{ mega_menu_block.settings[image_link_setting] }}"{% endif %}
          class="content-over-media {% unless is_promo_stretch %}rounded-sm{% endunless %} group {% if is_promo_carousel and forloop.first == false %}reveal-invisible{% endif %}"
          style="--text-color: {{ mega_menu_block.settings[image_text_color_setting].rgb }}; grid-area: {% if is_promo_carousel %}1 / -1{% elsif is_promo_collage %}promo-{{ i }}{% endif %};">

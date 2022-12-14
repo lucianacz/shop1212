@@ -44,7 +44,7 @@ only way to do it on Shopify right now.
 
   <div class="product-gallery__ar-wrapper">
     <div class="product-gallery__media-list-wrapper">
-      {%- if section.settings.desktop_media_layout contains 'carousel' -%}
+      {%- if section.settings.desktop_media_layout contains 'carousel' and product.media.size > 1 -%}
         <custom-cursor class="product-gallery__cursor">
           <div class="circle-button circle-button--fill circle-button--lg">
             {%- render 'icon' with 'chevron-right' -%}

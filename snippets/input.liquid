@@ -44,7 +44,7 @@ Supported variables
   {%- endif -%}
 
   {%- if label != blank -%}
-    <label for="{{ id }}" class="floating-label">{{- label | escape -}}</label>
+    <label for="{{ id }}" class="floating-label">{{ label }}</label>
   {%- endif -%}
 
   {%- if self_submit -%}

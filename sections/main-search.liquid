@@ -98,7 +98,7 @@
             {%- comment -%}We also need to render the button, that is floating on mobile{%- endcomment -%}
             <facet-floating-filter class="facets__floating-filter md:hidden">
               {%- assign filter_label = 'collection.faceting.filter_and_sort' | t -%}
-              {%- render 'button', size: 'xl', content: filter_label, icon: 'filter', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
+              {%- render 'button', size: 'xl', content: filter_label, icon: 'filter', style: 'fill', background: settings.text_color, text_color: settings.background, aria_controls: 'facets-drawer' -%}
             </facet-floating-filter>
           {%- endif -%}
 

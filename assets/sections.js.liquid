@@ -159,6 +159,9 @@ var StoreHeader = class extends HTMLElement {
     }
   }
   _onScroll() {
+    if (window.scrollY < 0) {
+      return;
+    }
     this._accumulatedScroll = Math.max(0, this._accumulatedScroll + (window.scrollY - this._lastScrollTop));
     if (window.scrollY < this._lastScrollTop) {
       this.show();
@@ -819,6 +822,44 @@ if (!window.customElements.get("multiple-images-with-text-image-list")) {
 }
 if (!window.customElements.get("multiple-images-with-text-content-list")) {
   window.customElements.define("multiple-images-with-text-content-list", MultipleImagesWithTextContentList);
+}
+
+// js/sections/newsletter-popup.js
+import { Drawer as Drawer2 } from "{{ 'theme.js' | asset_url }}";
+var NewsletterPopup = class extends Drawer2 {
+  connectedCallback() {
+    super.connectedCallback();
+    if (this.shouldAppearAutomatically) {
+      setTimeout(() => this.show(), this.apparitionDelay);
+    }
+  }
+  get initialFocus() {
+    return false;
+  }
+  get shouldAppendToBody() {
+    return false;
+  }
+  get apparitionDelay() {
+    return parseInt(this.getAttribute("apparition-delay") || 0) * 1e3;
+  }
+  get shouldAppearAutomatically() {
+    return !(localStorage.getItem("theme:popup-filled") === "true" || this.hasAttribute("only-once") && localStorage.getItem("theme:popup-appeared") === "true");
+  }
+  _setInitialPosition() {
+    this.style.top = null;
+    this.style.bottom = "0px";
+    this.style.left = document.dir === "ltr" ? null : "0px";
+    this.style.right = document.dir === "rtl" ? "auto" : "0px";
+  }
+  attributeChangedCallback(name, oldValue, newValue) {
+    super.attributeChangedCallback(name, oldValue, newValue);
+    if (name === "open" && this.open) {
+      localStorage.setItem("theme:popup-appeared", "true");
+    }
+  }
+};
+if (!window.customElements.get("newsletter-popup")) {
+  window.customElements.define("newsletter-popup", NewsletterPopup);
 }
 
 // js/sections/press.js

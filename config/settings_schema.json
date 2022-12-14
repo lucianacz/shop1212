@@ -3,7 +3,7 @@
     "name": "theme_info",
     "theme_name": "Impact",
     "theme_author": "Maestrooo",
-    "theme_version": "3.0.0",
+    "theme_version": "3.1.0",
     "theme_documentation_url": "https://support.maestrooo.com/",
     "theme_support_url": "https://support.maestrooo.com/article/203-contact-us"
   },
@@ -629,6 +629,22 @@
         "label": "Show product rating",
         "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/en/manual/products/product-reviews/installation)",
         "default": false
+      },
+      {
+        "type": "select",
+        "id": "product_rating_mode",
+        "label": "Show product rating as...",
+        "options": [
+          {
+            "value": "rating",
+            "label": "Average rating (e.g. \"4.5\")"
+          },
+          {
+            "value": "count",
+            "label": "Count (e.g. \"3 reviews\")"
+          }
+        ],
+        "default": "rating"
       },
       {
         "type": "checkbox",
