@@ -157,6 +157,8 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
       {%- endif -%}
 
+      <div class="yotpo bottomLine" data-product-id="{{ product.id }}"></div>
+      
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
 
