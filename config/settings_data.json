@@ -61,13 +61,21 @@
           "message": {
             "type": "message",
             "settings": {
-              "text": "ORDER TODAY TO GET IT BY HANUKKAH AND CHRISTMAS",
+              "text": "Sign up for 15% off your first purchase",
+              "url": "https:\/\/1212.attn.tv\/p\/75P\/landing-page"
+            }
+          },
+          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb": {
+            "type": "message",
+            "settings": {
+              "text": "Free Shipping on orders $100+",
               "url": ""
             }
           }
         },
         "block_order": [
-          "message"
+          "message",
+          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb"
         ],
         "settings": {
           "enable_sticky": false,
@@ -301,6 +309,14 @@
           "title": "Signup for our newsletter",
           "button_text": "Subscribe",
           "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        }
+      },
+      "instafeed": {
+        "type": "instafeed",
+        "settings": {
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": ""
         }
       }
     },
