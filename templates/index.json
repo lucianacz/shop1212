@@ -79,8 +79,8 @@
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 70,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "The Ziggy Robot Toy and Pajama",
+            "content": "<p>We've partnered with Meri Meri to bring you this adorable robot-themed gift set. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-ziggy-robot-toy-and-pajama-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-ziggy-robot-toy-and-pajama-gift-set\">Check here<\/a><\/p>"
           }
         },
         "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-1": {
@@ -91,20 +91,20 @@
             "horizontal_position_mobile": 62,
             "vertical_position_mobile": 14,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "The Organic Zipper Footie and Book",
+            "content": "<p>The perfect zippered organic baby pajama for the modern mom, these organic baby PJs are sustainably and ethically 7, and meet OEKO-TEX Standard 100 requirements - meaning they’re free of harmful chemicals like PFCs, PVC, and flame retardants. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-organic-zipper-footie-and-book-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-organic-zipper-footie-and-book-gift-set\">Check here<\/a><\/p>"
           }
         },
         "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 83,
+            "horizontal_position": 75,
             "vertical_position": 75,
             "horizontal_position_mobile": 83,
             "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
+            "title": "The Rainbow Sticker and Sketch Book Pullover and Legging",
+            "content": "<p>The set pairs our organic terry sweeatshirt and orgnaic cotton jersey legging with Meri Meri's rainbow sticker and sketch book. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\">Check here<\/a><\/p>"
           }
         }
       },
@@ -116,15 +116,15 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
-        "title": "",
+        "title": "Curated Sets for Every Kid on your List",
         "content": "",
-        "button_text": "",
-        "button_url": "",
+        "button_text": "View More",
+        "button_url": "shopify:\/\/collections\/gift-sets",
         "desktop_text_position": "place-self-start text-start",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
-        "overlay_opacity": 0,
+        "overlay_opacity": 4,
         "overlay_text_color": "#ffffff",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
@@ -132,7 +132,7 @@
         "hot_spot_dot_text_color": "#000000",
         "hot_spot_content_background": "#ffffff",
         "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
+        "hot_spot_content_opacity": 100,
         "hot_spot_content_blur_radius": 3
       }
     },
