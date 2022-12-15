@@ -38,7 +38,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_mode": "block",
-            "color_mode": "color",
+            "color_mode": "block_swatch",
             "size_chart_page": "size-chart"
           }
         },
@@ -93,12 +93,12 @@
         "3623c94b-5021-4830-924d-71ac8b403d58"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "show_fixed_add_to_cart": true,
-        "desktop_media_width": 55,
+        "desktop_media_width": 50,
         "desktop_media_layout": "grid_highlight",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -108,6 +108,49 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "8005ee89-7e5b-454c-9da6-6418d45256a7": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Why Organic Pima Cotton? ",
+            "content": "<p>As parents we want the very best for our children. Organic cotton is a natural fiber; it comes from a plant. With more and more consumers reading labels on their food and beauty products, we think the time is right for people to start reading their clothing labels, too. Using a natural fiber that derives from a plant and is hypoallergenic results in a product that is perfect for baby’s and children’s clothing.<\/p><p>We are a bit obsessive over the feel and quality of our clothing. Every piece must be extraordinarily soft to the touch, machine washable, and durable. Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "5e9f5f0c-6c71-4299-b79a-672135b481d1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FP_Swim_1_copy_436be425-b7ad-4fd5-af2c-fa779418ba0d.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Fun Facts About Organic Pima Cotton",
+            "content": "<ul><li>Just like kiddos, cotton is strong, tough and not afraid to get dirty. You can rely on cotton to last a long time and not fall apart on the first wear.<\/li><li>The last thing on every parent’s to-do list is laundry! Since our organic cotton is breathable and doesn’t retain odors like oil-based fabrics, you can save your kid’s clothes a few trips to the hamper between wears. Not doing laundry is awesome, of course. Plus, you’ll save money, water and energy, and help your clothes last even longer.<\/li><li>Don’t let your children get caught in a sweat trap! Organic cotton breathes better than oil-based synthetic fabrics like polyester, so it’s the perfect thing for kids to wear season to season. Not to mention that moisture-wicking cotton is specially designed to keep you drier and cooler during the warmer months.<\/li><\/ul>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
+        "5e9f5f0c-6c71-4299-b79a-672135b481d1"
+      ],
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "product-recommendations": {
@@ -136,6 +179,7 @@
     },
     "db412dfe-2afa-4827-b3fe-1c35348b8545": {
       "type": "featured-product",
+      "disabled": true,
       "blocks": {
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-1": {
           "type": "title",
@@ -234,49 +278,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "8005ee89-7e5b-454c-9da6-6418d45256a7": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Why Organic Pima Cotton? ",
-            "content": "<p>As parents we want the very best for our children. Organic cotton is a natural fiber; it comes from a plant. With more and more consumers reading labels on their food and beauty products, we think the time is right for people to start reading their clothing labels, too. Using a natural fiber that derives from a plant and is hypoallergenic results in a product that is perfect for baby’s and children’s clothing.<\/p><p>We are a bit obsessive over the feel and quality of our clothing. Every piece must be extraordinarily soft to the touch, machine washable, and durable. Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "5e9f5f0c-6c71-4299-b79a-672135b481d1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FP_Swim_1_copy_436be425-b7ad-4fd5-af2c-fa779418ba0d.jpg",
-            "image_rotation_degrees": 0,
-            "subheading": "",
-            "title": "Fun Facts About Organic Pima Cotton",
-            "content": "<ul><li>Just like kiddos, cotton is strong, tough and not afraid to get dirty. You can rely on cotton to last a long time and not fall apart on the first wear.<\/li><li>The last thing on every parent’s to-do list is laundry! Since our organic cotton is breathable and doesn’t retain odors like oil-based fabrics, you can save your kid’s clothes a few trips to the hamper between wears. Not doing laundry is awesome, of course. Plus, you’ll save money, water and energy, and help your clothes last even longer.<\/li><li>Don’t let your children get caught in a sweat trap! Organic cotton breathes better than oil-based synthetic fabrics like polyester, so it’s the perfect thing for kids to wear season to season. Not to mention that moisture-wicking cotton is specially designed to keep you drier and cooler during the warmer months.<\/li><\/ul>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
-        "5e9f5f0c-6c71-4299-b79a-672135b481d1"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "12212a59-b548-49fe-828a-078480e74703": {
       "type": "instafeed",
       "settings": {
@@ -288,10 +289,10 @@
   },
   "order": [
     "main",
+    "8005ee89-7e5b-454c-9da6-6418d45256a7",
     "product-recommendations",
     "db412dfe-2afa-4827-b3fe-1c35348b8545",
     "1671009045bf51851e",
-    "8005ee89-7e5b-454c-9da6-6418d45256a7",
     "12212a59-b548-49fe-828a-078480e74703"
   ]
 }

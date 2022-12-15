@@ -41,6 +41,7 @@
     "reduce_menu_animation": true,
     "heading_apparition": "none",
     "color_swatch_style": "square",
+    "show_discount": false,
     "discount_mode": "percentage",
     "product_color_display": "hide",
     "product_info_alignment": "center",
