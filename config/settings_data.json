@@ -51,10 +51,11 @@
     "social_facebook": "https:\/\/facebook.com\/1212getgive",
     "social_instagram": "https:\/\/instagram.com\/1212",
     "favicon": "shopify:\/\/shop_images\/favicon_8623d35d-87e9-4661-879d-56ade06a705c.png",
-    "checkout_body_background_color": "#f2f2f2",
-    "checkout_sidebar_background_color": "#ffffff",
-    "checkout_accent_color": "#3c619e",
-    "checkout_button_color": "#3c619e",
+    "checkout_logo_image": "shopify:\/\/shop_images\/12-12-logo_a3fdac3f-da0d-4109-9ac6-d0d3af06f2c5.webp",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_sidebar_background_color": "#f9f9f9",
+    "checkout_accent_color": "#272727",
+    "checkout_button_color": "#272727",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
