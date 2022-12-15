@@ -50,12 +50,12 @@
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_count": 6,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "",
+        "title": "Featured collection",
         "content": "",
         "link_url": "",
         "link_text": "View all",
@@ -66,6 +66,116 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "ebf86d66-c153-49cb-a84e-a34819b4efec": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-0": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        },
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-0",
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-1",
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "ef7ae401-bdee-4f35-abac-19689fd88a39": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-1": {
+          "type": "product",
+          "settings": {
+            "product": "the-organic-snap-footie-embroidered-holiday",
+            "horizontal_position": 72,
+            "vertical_position": 62
+          }
+        },
+        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-2": {
+          "type": "product",
+          "settings": {
+            "product": "the-long-sleeve-pajama-set-stripes",
+            "horizontal_position": 48,
+            "vertical_position": 73
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-1",
+        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "image": "shopify:\/\/shop_images\/1-1212-September-16.jpg",
+        "title": "Shop the look",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "product_card_mobile_background": "",
+        "product_card_mobile_text_color": "",
+        "background_dots": "#FFF"
       }
     },
     "fd9e56eb-f417-4950-b837-5d62495b715b": {
@@ -80,6 +190,8 @@
   "order": [
     "slideshow",
     "featured-collection",
+    "ebf86d66-c153-49cb-a84e-a34819b4efec",
+    "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "fd9e56eb-f417-4950-b837-5d62495b715b"
   ]
 }
