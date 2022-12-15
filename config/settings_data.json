@@ -254,8 +254,8 @@
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "image": "shopify:\/\/shop_images\/12-12-logo-white.png",
-              "image_width": 150,
+              "image": "shopify:\/\/shop_images\/1212-b.png",
+              "image_width": 120,
               "heading_size": "h3",
               "title": "Sign up for 15% off your first order",
               "content": ""
