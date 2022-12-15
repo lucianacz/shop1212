@@ -14,7 +14,7 @@
             "subheading": "",
             "title": "Merry and Bright",
             "heading_tag": "h0",
-            "button_text": "SHOP NOW",
+            "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/holiday",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -175,7 +175,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#FFF"
+        "background_dots": "#ffffff"
       }
     },
     "fd9e56eb-f417-4950-b837-5d62495b715b": {
