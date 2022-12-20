@@ -38,23 +38,6 @@
     },
     "727d8d54-515b-44e0-b11d-1f88e27ddb52": {
       "type": "impact-text",
-      "blocks": {
-        "template--17167820554515__727d8d54-515b-44e0-b11d-1f88e27ddb52-1671010299121c1d4c-0": {
-          "type": "item",
-          "settings": {
-            "title": "100%",
-            "subheading": "Organic and sustainable essentials designed to be lived in, played in, and snoozed in – 12 hours a day, 12 hours a night.",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820554515__727d8d54-515b-44e0-b11d-1f88e27ddb52-1671010299121c1d4c-0"
-      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
