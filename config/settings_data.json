@@ -257,7 +257,7 @@
               "image": "shopify:\/\/shop_images\/1212-b.png",
               "image_width": 120,
               "heading_size": "h3",
-              "title": "Sign up for 15% off your first order",
+              "title": "Unlock 15% off your first order:",
               "content": ""
             }
           },
@@ -291,13 +291,13 @@
         ],
         "settings": {
           "show_social_media": true,
-          "show_payment_icons": true,
-          "show_country_selector": true,
-          "show_country_flag": true,
-          "show_country_name": true,
-          "show_locale_selector": true,
+          "show_payment_icons": false,
+          "show_country_selector": false,
+          "show_country_flag": false,
+          "show_country_name": false,
+          "show_locale_selector": false,
           "show_privacy_bar": true,
-          "privacy_bar_title": "Cookie policy",
+          "privacy_bar_title": "",
           "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
         }
       },
