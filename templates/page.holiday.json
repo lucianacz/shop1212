@@ -1,12 +1,199 @@
 {
   "sections": {
+    "af4e6f05-1066-4253-b148-6a326d90596e": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-2": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-0",
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-1",
+        "template--17302760227091__af4e6f05-1066-4253-b148-6a326d90596e-167164840529b31f75-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/bfhomepage22_08-1668979347123.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "28e05166-2e66-4dfe-824c-e602df13bbf7": {
+      "type": "multi-column",
+      "blocks": {
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all-baby.webp",
+            "column_size": "3",
+            "title": "GIFTS FOR BABY",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify:\/\/products\/gift-wrap",
+            "link_text": "SHOP NOW",
+            "link_style": "button"
+          }
+        },
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all-baby.webp",
+            "column_size": "3",
+            "title": "GIFTS FOR KIDS",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "SHOP NOW",
+            "link_style": "button"
+          }
+        },
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/all-baby.webp",
+            "column_size": "3",
+            "title": "GIFTS FOR MAMA",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "SHOP NOW",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-0",
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-1",
+        "template--17302760227091__28e05166-2e66-4dfe-824c-e602df13bbf7-16716484155f0a6955-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8e1e0852-d741-4268-a1e5-2b624204e526": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Stacks_Other_StillLife_1286.jpg",
+        "subheading": "",
+        "title": "Shop early! Get your gifts in time.",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
+    "b88f7da4-43e1-4dcd-b072-ad4418c1aea2": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--17302760227091__b88f7da4-43e1-4dcd-b072-ad4418c1aea2-1671648365511e2678-0": {
+          "type": "item",
+          "settings": {
+            "title": "Christmas Shipping Dates",
+            "content": "<p>Embroidery: Thurs. 12\/15<br\/>Gifts: Mon. 12\/19<\/p>"
+          }
+        },
+        "template--17302760227091__b88f7da4-43e1-4dcd-b072-ad4418c1aea2-1671648365511e2678-1": {
+          "type": "item",
+          "settings": {
+            "title": "Hanukkah Shipping Dates",
+            "content": "<p>Embroidery: Thurs. 12\/8 (for Night 1)<br\/>Gifts: Mon. 12\/11 (for Night 1)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17302760227091__b88f7da4-43e1-4dcd-b072-ad4418c1aea2-1671648365511e2678-0",
+        "template--17302760227091__b88f7da4-43e1-4dcd-b072-ad4418c1aea2-1671648365511e2678-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#deecfc",
+        "background_gradient": "radial-gradient(rgba(222, 236, 252, 1) 24%, rgba(247, 251, 254, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "b8168d85-f70f-4d6e-a05b-ac49ca77f0d6": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    },
+    "be26c626-5c04-4f5e-809f-f28444d2e159": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "OH-SO-COZY!",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#deecfc",
+        "background_gradient": "linear-gradient(0deg, rgba(222, 236, 252, 1) 24%, rgba(247, 251, 254, 1) 100%)",
+        "text_color": "",
+        "text_gradient": ""
       }
     }
   },
   "order": [
-    "main"
+    "af4e6f05-1066-4253-b148-6a326d90596e",
+    "28e05166-2e66-4dfe-824c-e602df13bbf7",
+    "8e1e0852-d741-4268-a1e5-2b624204e526",
+    "b88f7da4-43e1-4dcd-b072-ad4418c1aea2",
+    "main",
+    "b8168d85-f70f-4d6e-a05b-ac49ca77f0d6",
+    "be26c626-5c04-4f5e-809f-f28444d2e159"
   ]
 }
