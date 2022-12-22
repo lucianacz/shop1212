@@ -49,6 +49,10 @@ a.btn.klaviyo-bis-trigger {
   height: 45px;
 }
 
+a.color-swatch{
+  border: 0px;
+}
+
 /* Form */
 .footer__block--newsletter .form-control input[name="contact[email]"]{
   border-color: rgb(var(--text-color) / .5);
