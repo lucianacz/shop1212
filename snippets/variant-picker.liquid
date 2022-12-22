@@ -127,7 +127,7 @@ Supported variables
         </div>
         <div class="variant-picker__custom-colors">
         {%- for product_in_collection in product_collection.products -%}
-          {{ product_in_collection.title }}
+          {{ product_in_collection.handle }}
           {%- for option_in_collection in product_in_collection.options_with_values -%}
             {%- if option_in_collection.name == 'Color' -%}
               {%- for value in option_in_collection.values limit: 1 -%}
