@@ -206,6 +206,7 @@
                     {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
                   {%- endfor -%}
                   {% else %}
+                    {%- for product in collection.products -%}
                      {%- for option in product.options_with_values -%}
                         {% if option.name == 'Color' %}   
                         {%- for value in option.values -%}  
@@ -214,6 +215,7 @@
                         {%- endfor -%}           
                         {% endif %}
                       {%- endfor -%}
+                    {%- endfor -%}
                   {% endunless %}
                 </product-list>
               </reveal-items>
