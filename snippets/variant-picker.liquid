@@ -24,7 +24,7 @@ Supported variables
 {% liquid
   assign swatch_color = false
 
-  if product_collection != blank and collections[product_title_handle].products.size > 0
+  if product_collection != blank and product_collection.products.size > 0
     assign swatch_color = true
   endif
 %}
