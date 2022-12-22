@@ -206,17 +206,11 @@
                     {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
                   {%- endfor -%}
                   {% else %}
-                    {%- for variant in product.variants -%}
-                      {% if variant.title == selected_color %}
-                         {% assign variant_href = variant.id %}
-                        {% break %}
-                      {% endif %}
-                    {%- endfor -%}
                      {%- for option in product.options_with_values -%}
                         {% if option.name == 'Color' %}   
                         {%- for value in option.values -%}  
                           {% assign selected_color = value %}
-                            {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
+                            {%- render 'product-card', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
                         {%- endfor -%}           
                         {% endif %}
                       {%- endfor -%}
