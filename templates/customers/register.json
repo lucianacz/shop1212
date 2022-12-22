@@ -6,7 +6,7 @@
         "fields": {
           "type": "fields",
           "settings": {
-            "show_email_consent": false,
+            "show_email_consent": true,
             "return_to": ""
           }
         }
@@ -15,6 +15,7 @@
         "fields"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
