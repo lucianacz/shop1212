@@ -2,11 +2,243 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cphero-1665235746152.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 8,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/box-1665437382537.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-0",
+        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "530196ff-4b00-47b1-a56d-ccd37bfe088c": {
+      "type": "rich-text",
+      "blocks": {
+        "bad69106-6311-4afc-8786-bb485c1708df": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212xcplogo-1665234534360.webp",
+            "width_mode": "custom",
+            "max_width": 300,
+            "mobile_max_width": 300
+          }
+        },
+        "template--17307127906579__530196ff-4b00-47b1-a56d-ccd37bfe088c-1671688042d618773d-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Discover our new exclusive collection, featuring the playful illustrations from Con Pollo: A Bilingual Playtime Adventure by superstar team-up Jimmy Fallon and Jennifer Lopez.",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "bad69106-6311-4afc-8786-bb485c1708df",
+        "template--17307127906579__530196ff-4b00-47b1-a56d-ccd37bfe088c-1671688042d618773d-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "c5f0f330-5bcf-4ee4-97ee-1556fb031169": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "mens-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "the-organic-long-sleeve-pajama-set-con-pollo",
+          "the-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "c8b038d2-dc7f-4663-b0ca-01c65fe289e5": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17307127906579__c8b038d2-dc7f-4663-b0ca-01c65fe289e5-1671688138b7de00dc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/michaela-1665317302025.webp",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-music",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Charmed by the spirit of Pollo – who wants to play, and play, and play all day! – we were inspired to bring this clever chicken to life by featuring Pollo on pullovers (to be worn for play all day!) and pajamas (to be worn after all day play!).<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17307127906579__c8b038d2-dc7f-4663-b0ca-01c65fe289e5-1671688138b7de00dc-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "none"
+      }
+    },
+    "173c971e-bf40-4d7f-9fa5-be5c649539ab": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "the-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo",
+          "the-organic-zipper-footie-con-pollo"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "9160d40b-d45f-424e-a2ae-0510c539a30c": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17307127906579__9160d40b-d45f-424e-a2ae-0510c539a30c-16716882249262e640-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/benny-1665360355677.webp",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-love",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Printed and embroidered on our beloved cozy organic cotton, Pollo is sure to make reading more fun (and comfortable) for even the littlest book lovers. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17307127906579__9160d40b-d45f-424e-a2ae-0510c539a30c-16716882249262e640-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "none"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab",
+    "530196ff-4b00-47b1-a56d-ccd37bfe088c",
+    "c5f0f330-5bcf-4ee4-97ee-1556fb031169",
+    "c8b038d2-dc7f-4663-b0ca-01c65fe289e5",
+    "173c971e-bf40-4d7f-9fa5-be5c649539ab",
+    "9160d40b-d45f-424e-a2ae-0510c539a30c"
   ]
 }
