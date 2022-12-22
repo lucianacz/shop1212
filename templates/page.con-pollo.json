@@ -108,9 +108,9 @@
       "settings": {
         "collection": "",
         "products": [
-          "mens-organic-pullover-sweatshirt-embroidered-con-pollo",
           "the-organic-long-sleeve-pajama-set-con-pollo",
-          "the-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo"
+          "the-organic-zipper-footie-con-pollo",
+          "the-organic-pullover-sweatshirt-embroidered-con-pollo"
         ],
         "full_width": true,
         "stack_products": true,
@@ -162,7 +162,7 @@
         "template--17307127906579__c8b038d2-dc7f-4663-b0ca-01c65fe289e5-1671688138b7de00dc-0"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "enable_parallax": false,
         "spacing": "none"
       }
@@ -172,9 +172,9 @@
       "settings": {
         "collection": "",
         "products": [
-          "the-organic-pullover-sweatshirt-embroidered-con-pollo",
           "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo",
-          "the-organic-zipper-footie-con-pollo"
+          "the-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo",
+          "the-organic-zipper-footie-and-book-gift-set-con-pollo"
         ],
         "full_width": true,
         "stack_products": true,
@@ -226,7 +226,71 @@
         "template--17307127906579__9160d40b-d45f-424e-a2ae-0510c539a30c-16716882249262e640-0"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
+        "enable_parallax": false,
+        "spacing": "none"
+      }
+    },
+    "dd68a84f-9ef4-4889-92bd-7074004c0596": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "womens-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "mens-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "the-organic-pullover-sweatshirt-embroidered-con-pollo"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "acc11c68-a36f-4881-92c7-2af0769ca159": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/theo-1665316265838.webp",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-happy",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>With the classic comfort of our organic, pima cotton pajamas and French terry pullover sweatshirts, this collection includes looks for mom, dad and kids.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0"
+      ],
+      "settings": {
+        "full_width": true,
         "enable_parallax": false,
         "spacing": "none"
       }
@@ -239,6 +303,8 @@
     "c5f0f330-5bcf-4ee4-97ee-1556fb031169",
     "c8b038d2-dc7f-4663-b0ca-01c65fe289e5",
     "173c971e-bf40-4d7f-9fa5-be5c649539ab",
-    "9160d40b-d45f-424e-a2ae-0510c539a30c"
+    "9160d40b-d45f-424e-a2ae-0510c539a30c",
+    "dd68a84f-9ef4-4889-92bd-7074004c0596",
+    "acc11c68-a36f-4881-92c7-2af0769ca159"
   ]
 }
