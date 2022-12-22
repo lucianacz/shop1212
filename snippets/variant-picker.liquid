@@ -46,6 +46,7 @@ Supported variables
         {%- assign selector_type = 'block' -%}
       {%- endif -%}
 
+      {% unless swatch_color and option.name == 'Color' %}
       <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
@@ -119,6 +120,7 @@ Supported variables
           </div>
         {%- endif -%}
       </fieldset>
+      {% endunless %}
     {%- endfor -%}
 
     <noscript>
