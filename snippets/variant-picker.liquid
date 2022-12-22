@@ -121,9 +121,11 @@ Supported variables
         {%- endif -%}
       </fieldset>
       {% else swatch_color and option.name == 'Color' %}
-        <div class="h-stack gap-2">
-          <legend class="text-subdued">{{ option.name }}:</legend>
-          <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
+        <div class="variant-picker__option-info">
+          <div class="h-stack gap-2">
+            <legend class="text-subdued">{{ option.name }}:</legend>
+            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
+          </div>
         </div>
         <div class="variant-picker__custom-colors variant-picker__option-values wrap gap-2">
         {%- for product_in_collection in product_collection.products -%}
