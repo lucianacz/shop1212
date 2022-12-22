@@ -121,7 +121,21 @@ Supported variables
         {%- endif -%}
       </fieldset>
       {% else swatch_color and option.name == 'Color' %}
-        <p>hola</p>
+        {%- for product_in_collection in product_collection.products -%}
+          {%- for option_in_collection in product_in_collection.options_with_values -%}
+            {%- if option_in_collection.name == 'Color' -%}
+              {%- for value in option_in_collection.values -%}
+                  {%- assign swatch_file = value | handle | append: '.png' | file_img_url: '72x' -%}
+                  {%- assign swatch_style = "background-image: url(" | append: swatch_file | append: ")" -%}
+
+                  <a href="{{ href }}" class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if selected %}is-selected{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}">
+                    <span class="sr-only">{{ value }}</span>
+                  </a>
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+        
       {% endunless %}
     {%- endfor -%}
 
