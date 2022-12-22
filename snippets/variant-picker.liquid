@@ -121,9 +121,9 @@ Supported variables
               {% assign this_product = all_products[this_product_handle] %}
                 
                 {%- for product_in_collection in product_collection.products -%}
-                  {%- for option in product_in_collection.options_with_values -%}
-                    {%- if option.name == 'Color' -%}
-                      {%- for value in option.values -%}
+                  {%- for option_in_collection in product_in_collection.options_with_values -%}
+                    {%- if option_in_collection.name == 'Color' -%}
+                      {%- for value in option_in_collection.values -%}
                       <a href="{{ this_product.url }}"
                         class="color-swatch {% if this_product_handle == product.handle %}color-swatch-selected{% endif %}">
                         {%- render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true -%}
