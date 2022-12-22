@@ -21,6 +21,14 @@ Supported variables
 {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
 
+{% liquid
+  assign swatch_color = false
+
+  if product_collection != blank and collections[product_title_handle].products.size > 0
+    assign swatch_color = true
+  endif
+%}
+
 {%- unless product.has_only_default_variant or hide_sold_out_variants and product.available == false -%}
   <variant-picker class="variant-picker" handle="{{ product.handle }}" form="{{ form_id }}" {% if update_url %}update-url{% endif %} {% if hide_sold_out_variants %}hide-sold-out-variants{% endif %}>
     {%- for option in product.options_with_values -%}
@@ -95,6 +103,7 @@ Supported variables
           <div {% unless block.settings.stack_blocks %}class="scroll-area bleed sm:unbleed"{% endunless %}>
             <div data-option-selector class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
               {%- assign name = 'option' | append: option.position -%}
+          {{ swatch_color }}
 
               {%- for value in option.values -%}
                 {%- assign selected = false -%}
