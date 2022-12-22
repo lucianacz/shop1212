@@ -88,9 +88,11 @@ Supported variables
         {{- variant_image | image_url: width: variant_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
 
         {%- if show_secondary_image and product.media.size > 1 -%}
+          {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+          
           {% for media in product.media %}
             {% if media.alt contains hover_variant_image and media.alt contains 'Hover' %}
-              {%- assign next_media = media | default: product.media[1] -%}
+              {%- assign next_media = media -%}
             {% endif %}
           {% endfor %}
           
