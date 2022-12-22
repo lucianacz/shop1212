@@ -21,110 +21,10 @@
         "overlay_opacity": 0
       }
     },
-    "6f6ad929-36b6-43e3-a610-b1080ea10259": {
-      "type": "image-link-blocks",
-      "disabled": true,
-      "blocks": {
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-0": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-1": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-2": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-3": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "0b65b6ec-8e20-4bae-99e6-ac4a4ec68727": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "b6678686-f155-422b-a793-9c86a81097fd": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-0",
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-1",
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-2",
-        "template--17167819768083__6f6ad929-36b6-43e3-a610-b1080ea10259-1671019933ab3194da-3",
-        "0b65b6ec-8e20-4bae-99e6-ac4a4ec68727",
-        "b6678686-f155-422b-a793-9c86a81097fd"
-      ],
-      "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "main": {
       "type": "main-collection",
       "settings": {
-        "products_per_page": 24,
+        "products_per_page": 50,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "filter_layout": "drawer",
@@ -140,7 +40,6 @@
   },
   "order": [
     "banner",
-    "6f6ad929-36b6-43e3-a610-b1080ea10259",
     "main"
   ]
 }
