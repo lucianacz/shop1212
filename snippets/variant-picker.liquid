@@ -121,6 +121,7 @@ Supported variables
         {%- endif -%}
       </fieldset>
       {% else swatch_color and option.name == 'Color' %}
+        <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
             <legend class="text-subdued">{{ option.name }}:</legend>
@@ -143,6 +144,7 @@ Supported variables
           {%- endfor -%}
         {%- endfor -%}
         </div>
+        </fieldset>
         
       {% endunless %}
     {%- endfor -%}
