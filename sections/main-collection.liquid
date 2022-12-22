@@ -134,6 +134,7 @@
 
               <reveal-items selector=".product-list > *">
                 <product-list class="product-list" role="region" aria-live="polite">
+                  {% unless template.suffix == 'shop-by-color' %}
                   {%- for product in collection.products -%}
                     {%- for block in section.blocks -%}
                       {%- if forloop.parentloop.index != block.settings.position -%}
@@ -204,6 +205,22 @@
 
                     {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
                   {%- endfor -%}
+                  {% else %}
+                    {%- for variant in product.variants -%}
+                      {% if variant.title == selected_color %}
+                         {% assign variant_href = variant.id %}
+                        {% break %}
+                      {% endif %}
+                    {%- endfor -%}
+                     {%- for option in product.options_with_values -%}
+                        {% if option.name == 'Color' %}   
+                        {%- for value in option.values -%}  
+                          {% assign selected_color = value %}
+                            {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
+                        {%- endfor -%}           
+                        {% endif %}
+                      {%- endfor -%}
+                  {% endunless %}
                 </product-list>
               </reveal-items>
             </div>
