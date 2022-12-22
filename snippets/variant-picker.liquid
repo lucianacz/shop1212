@@ -136,7 +136,7 @@ Supported variables
                   {%- assign swatch_file = value_in_collection | handle | append: '.png' | file_img_url: '72x' -%}
                   {%- assign swatch_style = "background-image: url(" | append: swatch_file | append: ")" -%}
 
-                  <a href="{{ product_in_collection.url }}" class="color-swatch{% if this_product_handle == product.handle %} is-selected{% endif %} ring-inset" {% if show_tooltip %}data-tooltip="{{ value_in_collection | escape }}"{% endif %} style="{{ swatch_style }}">
+                  <a href="{{ product_in_collection.url }}" class="color-swatch{% if product_in_collection.handle == product.handle %} is-selected{% endif %} ring-inset" {% if show_tooltip %}data-tooltip="{{ value_in_collection | escape }}"{% endif %} style="{{ swatch_style }}">
                     <span class="sr-only">{{ value_in_collection }}</span>
                   </a>
               {%- endfor -%}
