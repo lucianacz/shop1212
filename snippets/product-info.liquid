@@ -27,7 +27,7 @@
         {%- endif -%}
 
       {%- when 'badges' -%}
-        {%- render 'product-badges', product: product, types: 'custom', form_id: product_form_id, class: 'product-info__badge-list', block: block -%}
+        {%- render 'product-badges', product: product, types: 'just_in, custom', form_id: product_form_id, class: 'product-info__badge-list', block: block -%}
 
       {%- when 'sku' -%}
         <variant-sku form="{{ product_form_id }}" class="product-info__sku text-xs text-subdued" {% if product.selected_or_first_available_variant.sku == blank %}hidden{% endif %} {{ block.shopify_attributes }}>
