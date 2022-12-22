@@ -104,13 +104,6 @@ LIQUID
           </div>
         </div>
       </div>
-      {% if block.settings.media_size == 'contain' %}
-        {% style %}
-          .media-with-text__media>*{
-            object-fit: contain;
-          }
-        {% endstyle %}
-      {% endif %}
     {%- endfor -%}
   </media-with-text>
 </div>
