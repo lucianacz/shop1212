@@ -119,7 +119,8 @@ Supported variables
               {% if product_collection != blank and product_collection.products.size > 0 %}
               {% assign this_product_handle = product_in_collection.handle %}
               {% assign this_product = all_products[this_product_handle] %}
-                
+
+              {{ this_product.url }}
                 {%- for product_in_collection in product_collection.products -%}
                   {%- for option_in_collection in product_in_collection.options_with_values -%}
                     {%- if option_in_collection.name == 'Color' -%}
