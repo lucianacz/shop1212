@@ -77,6 +77,16 @@
             "products": "{{ product.metafields.custom.variation_products.value }}",
             "color_mode": "block"
           }
+        },
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Pairs Well With",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
@@ -90,7 +100,8 @@
         "quantity_selector",
         "buy_buttons",
         "payment_terms",
-        "3623c94b-5021-4830-924d-71ac8b403d58"
+        "3623c94b-5021-4830-924d-71ac8b403d58",
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
         "full_width": false,
