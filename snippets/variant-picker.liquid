@@ -21,14 +21,6 @@ Supported variables
 {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
 
-{% liquid
-  assign swatch_color = false
-
-  if product_collection != blank and product_collection.products.size > 0
-    assign swatch_color = true
-  endif
-%}
-
 {%- unless product.has_only_default_variant or hide_sold_out_variants and product.available == false -%}
   <variant-picker class="variant-picker" handle="{{ product.handle }}" form="{{ form_id }}" {% if update_url %}update-url{% endif %} {% if hide_sold_out_variants %}hide-sold-out-variants{% endif %}>
     {%- for option in product.options_with_values -%}
@@ -123,20 +115,24 @@ Supported variables
                 {%- endcase -%}
               {%- endfor -%}
 
-              {%- for product_in_collection in product_collection.products -%}
-                  {% assign this_product_handle = product_in_collection.handle %}
-                  {% assign this_product = all_products[this_product_handle] %}
+              {% assign swatch_color = false %} 
+              {% if product_collection != blank and product_collection.products.size > 0 %}
+              {% assign this_product_handle = product_in_collection.handle %}
+              {% assign this_product = all_products[this_product_handle] %}
                 
-                  <a href="{{ this_product.url }}"
-                    class="color-swatch {% if this_product_handle == product.handle %}color-swatch-selected{% endif %}">
-                    <img src="{{ this_product.featured_image | img_url: 'master' }})" alt="{{ this_product.title }}" class="color-swatch__img">
-                    {% if this_product.metafields.custom.detail != blank %}
-                      <img src="{{ this_product.metafields.custom.detail | img_url: 'master' }}" alt="{{ this_product.title }}" class="color-swatch__img-hover">
-                    {% elsif this_product.featured_image != blank %}
-                      <img src="{{ this_product.media[1] | img_url: 'master' }}" alt="{{ this_product.title }}" style="transform: scale(5);" class="color-swatch__img-hover">
-                    {% endif %}
-                  </a>
-              {%- endfor -%}
+                {%- for product_in_collection in product_collection.products -%}
+                  {%- for option in product_in_collection.options_with_values -%}
+                    {%- if option.name == 'Color' -%}
+                      {%- for value in option.values -%}
+                      <a href="{{ this_product.url }}"
+                        class="color-swatch {% if this_product_handle == product.handle %}color-swatch-selected{% endif %}">
+                        {%- render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true -%}
+                      </a>
+                      {%- endfor -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endfor -%}
+              {%- endif -%}
               
             </div>
           </div>
