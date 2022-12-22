@@ -95,6 +95,7 @@ Supported variables
           <div {% unless block.settings.stack_blocks %}class="scroll-area bleed sm:unbleed"{% endunless %}>
             <div data-option-selector class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
               {%- assign name = 'option' | append: option.position -%}
+
               {%- for value in option.values -%}
                 {%- assign selected = false -%}
 
@@ -114,24 +115,6 @@ Supported variables
                     {%- render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true -%}
                 {%- endcase -%}
               {%- endfor -%}
-
-              {% assign swatch_color = false %} 
-              {% if product_collection != blank and product_collection.products.size > 0 %}
-              {% assign this_product_handle = product_in_collection.handle %}
-              {% assign this_product = all_products[this_product_handle] %}
-
-              {{ this_product.url }}
-                {%- for product_in_collection in product_collection.products -%}
-                  {%- for option_in_collection in product_in_collection.options_with_values -%}
-                    {%- if option_in_collection.name == 'Color' -%}
-                      {%- for value in option_in_collection.values -%}
-                          {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id, href: this_product.url -%}
-                      {%- endfor -%}
-                    {%- endif -%}
-                  {%- endfor -%}
-                {%- endfor -%}
-              {%- endif -%}
-              
             </div>
           </div>
         {%- endif -%}
