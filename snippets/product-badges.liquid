@@ -16,7 +16,7 @@ Supported variables
 * class: an extra class added on the container
 {%- endcomment -%}
 
-{%- assign badge_types = types | default: 'new_in, custom, sold_out, discount' | split: ',' -%}
+{%- assign badge_types = types | default: 'just_in, custom, sold_out, discount' | split: ',' -%}
 {%- assign variant = product.selected_or_first_available_variant -%}
 
 {%- capture badges -%}
@@ -46,13 +46,13 @@ Supported variables
         assign pub_s = product.created_at | date: '%s' | plus: 0
         assign diff_days = now_s | minus: pub_s | divided_by: 86400
 
-        if diff_days < settings.prod_new_limit_int
+        if diff_days < 30
           assign new_in = true
         endif
         %}
 
       {% if new_in %}
-        <span class="badge badge--primary">New In</span>
+        <span class="badge badge--primary">Just In</span>
       {% endif %}
         
       {%- when 'discount' -%}
