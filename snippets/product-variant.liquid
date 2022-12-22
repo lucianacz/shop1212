@@ -50,7 +50,8 @@ Supported variables
   {% assign variant_color = variant.title | split: '/' | first | strip %}
   {% if variant_color == selected_color %}
      {% assign variant_href = variant.id %}
-      {% assign selected_image = variant.featured_media %}
+      {% assign variant_image = variant.featured_media %}
+      {% assign next_variant_image = variant.featured_media.position %}
     {% break %}
   {% endif %}
 {%- endfor -%}
@@ -84,11 +85,10 @@ Supported variables
         {%- endcapture -%}
 
         {%- capture main_image_classes -%}product-card__image product-card__image--primary aspect-{{ settings.product_image_aspect_ratio }}{%- endcapture -%}
-        {{- selected_image | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
+        {{- variant_image | image_url: width: variant_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
 
         {%- if show_secondary_image and product.media.size > 1 -%}
-          {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
-          {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
+          {{- next_variant_image | image_url: width: next_variant_image.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
       </a>
 
