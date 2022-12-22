@@ -46,7 +46,7 @@ Supported variables
         assign pub_s = product.created_at | date: '%s' | plus: 0
         assign diff_days = now_s | minus: pub_s | divided_by: 86400
 
-        if diff_days < 50
+        if diff_days < 30
           assign new_in = true
         endif
         %}
