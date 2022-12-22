@@ -38,7 +38,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_mode": "block",
-            "color_mode": "block_swatch",
+            "color_mode": "color",
             "size_chart_page": "size-chart"
           }
         },
@@ -69,15 +69,6 @@
           "settings": {
           }
         },
-        "3623c94b-5021-4830-924d-71ac8b403d58": {
-          "type": "product_variations",
-          "settings": {
-            "option_name": "Color",
-            "option_value_metafield": "custom.variation_value",
-            "products": "{{ product.metafields.custom.variation_products.value }}",
-            "color_mode": "block"
-          }
-        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -100,7 +91,6 @@
         "quantity_selector",
         "buy_buttons",
         "payment_terms",
-        "3623c94b-5021-4830-924d-71ac8b403d58",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
