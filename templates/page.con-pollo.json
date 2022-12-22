@@ -113,7 +113,7 @@
           "the-organic-pullover-sweatshirt-embroidered-con-pollo"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
@@ -177,7 +177,7 @@
           "the-organic-zipper-footie-and-book-gift-set-con-pollo"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
@@ -241,7 +241,7 @@
           "the-organic-pullover-sweatshirt-embroidered-con-pollo"
         ],
         "full_width": true,
-        "stack_products": true,
+        "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
