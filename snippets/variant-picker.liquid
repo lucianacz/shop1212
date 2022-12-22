@@ -124,7 +124,7 @@ Supported variables
                   {%- for option_in_collection in product_in_collection.options_with_values -%}
                     {%- if option_in_collection.name == 'Color' -%}
                       {%- for value in option_in_collection.values -%}
-                          {%- render 'swatch' with 'media', value: value, media: variant_for_value.featured_media, selected: selected, name: name, form: form_id, bordered: true, href: this_product.url -%}
+                          {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id -%}
                       {%- endfor -%}
                     {%- endif -%}
                   {%- endfor -%}
