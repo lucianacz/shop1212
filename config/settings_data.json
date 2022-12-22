@@ -321,6 +321,16 @@
           "feed_width": 100,
           "html_area": ""
         }
+      },
+      "account-banner": {
+        "type": "account-banner",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/1M9A9713_copy_1.webp",
+          "image_size": "sm",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 30
+        }
       }
     },
     "content_for_index": [
