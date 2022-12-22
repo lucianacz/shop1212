@@ -103,8 +103,6 @@ Supported variables
           <div {% unless block.settings.stack_blocks %}class="scroll-area bleed sm:unbleed"{% endunless %}>
             <div data-option-selector class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
               {%- assign name = 'option' | append: option.position -%}
-          {{ swatch_color }}
-
               {%- for value in option.values -%}
                 {%- assign selected = false -%}
 
@@ -124,6 +122,22 @@ Supported variables
                     {%- render 'swatch' with 'block', value: value, selected: selected, name: name, form: form_id, show_color: true -%}
                 {%- endcase -%}
               {%- endfor -%}
+
+              {%- for product_in_collection in product_collection.products -%}
+                  {% assign this_product_handle = product_in_collection.handle %}
+                  {% assign this_product = all_products[this_product_handle] %}
+                
+                  <a href="{{ this_product.url }}"
+                    class="color-swatch {% if this_product_handle == product.handle %}color-swatch-selected{% endif %}">
+                    <img src="{{ this_product.featured_image | img_url: 'master' }})" alt="{{ this_product.title }}" class="color-swatch__img">
+                    {% if this_product.metafields.custom.detail != blank %}
+                      <img src="{{ this_product.metafields.custom.detail | img_url: 'master' }}" alt="{{ this_product.title }}" class="color-swatch__img-hover">
+                    {% elsif this_product.featured_image != blank %}
+                      <img src="{{ this_product.media[1] | img_url: 'master' }}" alt="{{ this_product.title }}" style="transform: scale(5);" class="color-swatch__img-hover">
+                    {% endif %}
+                  </a>
+              {%- endfor -%}
+              
             </div>
           </div>
         {%- endif -%}
