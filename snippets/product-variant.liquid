@@ -47,7 +47,7 @@ Supported variables
 {%- endif -%}
 
   {%- for variant in product.variants -%}
-    {% assign variant_color == variant.title | split: '/' | first %}
+    {% assign variant_color = variant.title | split: '/' | first %}
     {% if variant_color == selected_color %}
        {% assign variant_href = variant.id %}
         {% assign selected_image = variant.featured_media %}
