@@ -211,7 +211,15 @@
                         {% if option.name == 'Color' %}   
                         {%- for value in option.values -%}  
                           {% assign selected_color = value %}
+                          {% if collection.metafields.custom.colors == blank %}
                             {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
+                          {% else %}
+                            {%- assign custom_colors = collection.metafields.custom.colors.value | sort -%}
+                            {%- for custom_color in custom_colors -%}
+                              {{ custom_color }}
+                            {%- endfor -%}
+                            
+                          {% endif %}
                         {%- endfor -%}           
                         {% endif %}
                       {%- endfor -%}
