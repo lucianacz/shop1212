@@ -120,6 +120,8 @@ Supported variables
           </div>
         {%- endif -%}
       </fieldset>
+      {% else swatch_color and option.name == 'Color' %}
+        <p>hola</p>
       {% endunless %}
     {%- endfor -%}
 
