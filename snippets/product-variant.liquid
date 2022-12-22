@@ -46,6 +46,15 @@ Supported variables
   {%- assign card_class = card_class | append: 'product-card--show-secondary-media' -%}
 {%- endif -%}
 
+  {%- for variant in product.variants -%}
+    {% if variant.title == selected_color %}
+       {% assign variant_href = variant.id %}
+        {% assign selected_image = variant.featured_media.preview_image %}
+        {% assign selected_id = variant.featured_media.id %}
+      {% break %}
+    {% endif %}
+  {%- endfor -%}
+
 <product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
@@ -75,7 +84,7 @@ Supported variables
         {%- endcapture -%}
 
         {%- capture main_image_classes -%}product-card__image product-card__image--primary aspect-{{ settings.product_image_aspect_ratio }}{%- endcapture -%}
-        {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
+        {{- selected_image | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
 
         {%- if show_secondary_image and product.media.size > 1 -%}
           {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
