@@ -96,11 +96,24 @@
             "title": "The Ziggy Robot Toy and Pajama Gift Set",
             "content": "<p>The set pairs our our super soft organic two piece pajamas with Meri Meri's cute Ziggy Robot toy. Ziggy, with his wobbly arms and stitched control panel, is the perfect companion for little ones who love robots.  <a href=\"\/products\/the-ziggy-robot-toy-and-pajama-gift-set\" title=\"The Ziggy Robot Toy and Pajama Gift Set\">Shop Now<\/a><\/p>"
           }
+        },
+        "a08b1e61-cb3e-4154-827c-e7b403c9af77": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 60,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "Astronaut Gift Set",
+            "content": "<p><a href=\"https:\/\/shop1212.com\/collections\/holiday-gift-sets\" title=\"https:\/\/shop1212.com\/collections\/holiday-gift-sets\">Shop Now<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2",
-        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae"
+        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae",
+        "a08b1e61-cb3e-4154-827c-e7b403c9af77"
       ],
       "settings": {
         "full_width": true,
