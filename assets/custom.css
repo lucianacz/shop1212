@@ -68,9 +68,20 @@ payment-terms .bold_options.bold_options_loaded {
     display: none;
 }
 
-.bold_option.bold_option_checkbox label [type="checkbox"],
 .bold_option.bold_option_checkbox label .bold_option_element{
-    display: none;
+    position: relative;
+    margin-right: 5px;
+    width: 15px;
+    top: 1px;
+}
+
+.bold_option.bold_option_checkbox label .bold_option_title{
+      width: calc(30% - 15px);
+}
+
+.bold_option.bold_option_checkbox label .bold_option_value_price{
+  text-align: right;
+  width: 70%;
 }
 
 .bold_option_set {
