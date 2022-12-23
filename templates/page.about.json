@@ -65,10 +65,22 @@
             "max_width": 240,
             "mobile_max_width": 400
           }
+        },
+        "4c0c01f8-9674-428b-9ede-8ac93670a2f1": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "xl",
+            "text": "Meet the Team",
+            "url": "shopify:\/\/pages\/the-team-1",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
-        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79"
+        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79",
+        "4c0c01f8-9674-428b-9ede-8ac93670a2f1"
       ],
       "settings": {
         "full_width": true,
@@ -159,8 +171,9 @@
             "image": "shopify:\/\/shop_images\/2019_12_13_Baby2Baby-0038_43876acf-a0a8-4645-9517-3af0fcb10b94.jpg",
             "media_width": 30,
             "media_position": "start",
+            "media_size": "cover",
             "text_position": "place-self-center text-center",
-            "icon": "none",
+            "icon": "picto-award-gift",
             "icon_width": 48,
             "subheading": "",
             "title": "Giving Back",
@@ -184,6 +197,173 @@
         "enable_parallax": true,
         "spacing": "small"
       }
+    },
+    "7741960c-178d-4978-89d9-b5d1a714e03c": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Harper_s_Bazaar_Logo_svg.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/harpers-bazaar-2"
+          }
+        },
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/VOGUE_LOGO_svg.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/vogue-may-21"
+          }
+        },
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/instyle_brand_logo_schema-19e97a17df6645fc89ea9fff03ba9df8.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/instyle-holiday-gift-guide"
+          }
+        },
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-3": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/OK.png",
+            "logo_width": 80,
+            "link": "shopify:\/\/blogs\/news\/ok-magazine-1"
+          }
+        },
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Gooponlinelogo.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/goop-holiday-gift-guide-2017"
+          }
+        },
+        "c392e1d7-72d6-4bc2-bf55-91d5c808c782": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Preg.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/pregnancy-newborn-magazine-1"
+          }
+        },
+        "2b537c72-d28f-42c9-8da6-c7cc454b87dc": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ELLE_Magazine_Logo_svg.png",
+            "logo_width": 100,
+            "link": "shopify:\/\/blogs\/news\/elle"
+          }
+        },
+        "126153ab-c31b-4871-a53c-07c109ade11e": {
+          "type": "logo",
+          "disabled": true,
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Boston.png",
+            "logo_width": 120,
+            "link": "shopify:\/\/blogs\/news\/boston-herald"
+          }
+        }
+      },
+      "block_order": [
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-0",
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-1",
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-2",
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-3",
+        "template--17237201551635__7741960c-178d-4978-89d9-b5d1a714e03c-16717825832b7773f3-4",
+        "c392e1d7-72d6-4bc2-bf55-91d5c808c782",
+        "2b537c72-d28f-42c9-8da6-c7cc454b87dc",
+        "126153ab-c31b-4871-a53c-07c109ade11e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "As seen on",
+        "content": "<p>Recent interviews, podcasts and articles featuring 12|12. <a href=\"https:\/\/shop1212.com\/blogs\/news\/tagged\/press\" title=\"https:\/\/shop1212.com\/blogs\/news\/tagged\/press\">View more<\/a><\/p>",
+        "text_alignment": "start",
+        "items_per_row": 7,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "11a398c9-e91a-4ebe-892e-0a89d8b6efaf": {
+      "type": "recently-viewed-products",
+      "settings": {
+        "full_width": true,
+        "products_count": 6,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "f34c2012-94bb-47b1-8e47-66578aef4abd": {
+      "type": "press",
+      "blocks": {
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-0": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Hillary R.",
+            "content": "Absolutely love this onesie. Not only is it darling with the minimal monogram, it’s unbelievably soft!!! Baby girl loves it!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Elizabeth B.",
+            "content": "Super soft long-sleeved tee which stretches easily over the little's head for easy on\/easy off. Love these!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-2": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Sweta D.",
+            "content": "We love 1212! They're always super soft & cozy, and hold up well after washes.",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-0",
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-1",
+        "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
@@ -192,6 +372,9 @@
     "727d8d54-515b-44e0-b11d-1f88e27ddb52",
     "cf29072c-040f-49cf-ae3a-ea4dfa570c3b",
     "a3acf6d8-a5ef-4459-a20b-3d2424e369e3",
-    "69643287-05e4-4a22-a3ea-a36b290d8a44"
+    "69643287-05e4-4a22-a3ea-a36b290d8a44",
+    "7741960c-178d-4978-89d9-b5d1a714e03c",
+    "11a398c9-e91a-4ebe-892e-0a89d8b6efaf",
+    "f34c2012-94bb-47b1-8e47-66578aef4abd"
   ]
 }
