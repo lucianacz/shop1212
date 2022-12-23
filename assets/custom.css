@@ -65,41 +65,40 @@ a.color-swatch{
 /* Bold */
 
 payment-terms .bold_options.bold_options_loaded {
-    display: none;
+  display: none;
 }
 
 .bold_option.bold_option_checkbox label .bold_option_element{
-    position: relative;
-    margin-right: 5px;
-    width: 15px;
-    top: 1px;
+  position: relative;
+  margin-right: 5px;
+  width: 15px;
+  top: 1px;
 }
 
 .bold_option.bold_option_checkbox label .bold_option_title{
-  width: 200px;
+  width: 125px;
 }
 
 .bold_option.bold_option_checkbox label .bold_option_value_price{
   text-align: right;
-  width: calc(100% - 215px);
+  width: calc(100% - 150px);
 }
 
 .bold_option_set {
-    background: #f9f9f9;
-    padding: 10px 20px;
-    border: 1px solid;
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border: 1px solid;
 }
 
 .bold_option.bold_option_checkbox:first-child {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .bold_option.bold_option_checkbox label {
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 .bold_option_value_element .bold_option_value_swatch {
@@ -108,13 +107,13 @@ payment-terms .bold_options.bold_options_loaded {
 }
 
 .bold_option_element input {
-    width: 100%;
-    border: 1px solid #bcbcbc;
-    padding: 10px;
+  width: 100%;
+  border: 1px solid #bcbcbc;
+  padding: 10px;
 }
 
 .bold_option_title {
-    font-weight: bold;
-    margin: 10px 0;
-    display: flex;
+  font-weight: bold;
+  margin: 10px 0;
+  display: flex;
 }
