@@ -37,11 +37,9 @@ Supported variables
       {%- endif -%}
 
       {%- render 'price-list', line_item: line_item -%}
-      {% if item.line_level_discount_allocations.size > 0 %}
-        <span class="money">
+        <span class="PRI">
           {{ item.final_line_price | money }}
         </span>
-      {% endif %}
       <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" style="display:none !important;"></span>
     </div>
 
