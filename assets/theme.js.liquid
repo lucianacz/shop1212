@@ -1726,6 +1726,12 @@ var CartDrawer = class extends Drawer {
     return "right";
   }
   async _onCartChanged(event) {
+    if(window.BOLD && BOLD.common && BOLD.common.cartDoctor && typeof BOLD.common.cartDoctor.fix === 'function'){
+      cart = BOLD.common.cartDoctor.fix(cart);
+    }
+    if(window.BOLD && BOLD.common && BOLD.common.eventEmitter && typeof BOLD.common.eventEmitter.emit === 'function'){
+      BOLD.common.eventEmitter.emit('BOLD_COMMON_cart_loaded', cart);
+    }
     const updatedDrawerContent = new DOMParser().parseFromString(event.detail.cart["sections"]["cart-drawer"], "text/html");
     if (event.detail.cart["item_count"] > 0) {
       const currentLineItemsElement = this.querySelector(".cart-drawer__line-items"), updatedLineItemsElement = updatedDrawerContent.querySelector(".cart-drawer__line-items");
