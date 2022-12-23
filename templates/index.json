@@ -1,44 +1,43 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "4e5aef62-5079-49a0-b911-8d0f1ade1694": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "slide-1": {
-          "type": "image",
+        "template--17167820488979__4e5aef62-5079-49a0-b911-8d0f1ade1694-167181181736d8012e-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ski-and-Skate_d7d111f7-5584-4fba-bdc2-5581d6dac90a.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ski-and-Skate-m.jpg",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "title": "Ski and Skate",
-            "heading_tag": "h0",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/ski-and-snow",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#272727",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "#ffffff",
-            "background_gradient": ""
+            "text": "Ski and Skate",
+            "heading_tag": "h1"
+          }
+        },
+        "70ca2e94-b379-4690-b082-0ec2303cee61": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Shop Now",
+            "url": "shopify:\/\/collections\/ski-and-snow",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "template--17167820488979__4e5aef62-5079-49a0-b911-8d0f1ade1694-167181181736d8012e-1",
+        "70ca2e94-b379-4690-b082-0ec2303cee61"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "image_size": "lg",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Ski-and-Skate_092b9344-8e26-4c46-83fb-cd512db3d234.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Ski-and-Skate-m.jpg",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#000000",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
       }
     },
     "featured-collection": {
@@ -339,7 +338,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "ebf86d66-c153-49cb-a84e-a34819b4efec",
