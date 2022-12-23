@@ -205,26 +205,40 @@
         "product_card_text_color": ""
       }
     },
-    "942d7535-09f2-4834-a619-c5d40ed65928": {
-      "type": "before-after-image",
+    "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17167820488979__1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70-16717845561bfee0e8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Embroidery.gif",
+            "media_width": 55,
+            "media_position": "start",
+            "media_size": "contain",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-jewelry",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "The best gifts are personal!",
+            "content": "<p><strong>1. Choose a Style<br\/><\/strong>The softest pajamas to the coziest sweatshirts and all the comfy basics in between<\/p><p><strong>2. Choose Customization Type<br\/><\/strong>Choose from Custom Text, Custom Hearts, or our pre-designed Symbols & Phrases<br\/><br\/><strong>3. Make it Yours<br\/><\/strong>Add your custom text or choose colors where applicable<\/p>",
+            "link_text": "START DESIGNING",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70-16717845561bfee0e8-0"
+      ],
       "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Make it Yours",
-        "content": "<p>Choose a custom text, symbols or phrases and create your custom cloths!<\/p>",
-        "before_image": "shopify:\/\/shop_images\/embroidery_7975ce34-d497-41a8-b60c-38eefe79d1fc.jpg",
-        "after_image": "shopify:\/\/shop_images\/embroidery_7975ce34-d497-41a8-b60c-38eefe79d1fc.jpg",
-        "expand_image": false,
-        "text_position": "start",
-        "before_after_text_position": "top",
-        "before_text": "Plain",
-        "after_text": "Customized",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff"
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
       }
     },
     "7741960c-178d-4978-89d9-b5d1a714e03c": {
@@ -388,7 +402,7 @@
     "ebf86d66-c153-49cb-a84e-a34819b4efec",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "a6d95bdf-d2dd-4766-b268-baef154a49b2",
-    "942d7535-09f2-4834-a619-c5d40ed65928",
+    "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",
     "7741960c-178d-4978-89d9-b5d1a714e03c",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "fd9e56eb-f417-4950-b837-5d62495b715b"
