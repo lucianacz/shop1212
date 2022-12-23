@@ -6,10 +6,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ski-and-Skate_cc412537-6a85-482c-a352-0eb801526126.jpg",
+            "image": "shopify:\/\/shop_images\/Ski-and-Skate_2bd81561-da49-4ef6-819d-8fa2a90fd6b1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "title": "Ski and Skate",
             "heading_tag": "h0",
