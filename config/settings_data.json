@@ -302,7 +302,7 @@
           "show_locale_selector": false,
           "show_privacy_bar": true,
           "privacy_bar_title": "",
-          "privacy_bar_content": "<p>We use cookies to ensure that we give you the best experience on our website. If you continue to use our site, we'll assume that you agree to the use of such cookies. <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Learn more<\/a><\/p>"
+          "privacy_bar_content": "<p>We use cookies to ensure that we give you the best experience on our website.  <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Learn more<\/a><\/p>"
         }
       },
       "newsletter-popup": {
