@@ -68,7 +68,8 @@ payment-terms .bold_options.bold_options_loaded {
     display: none;
 }
 
-.bold_option.bold_option_checkbox label [type="checkbox"] {
+.bold_option.bold_option_checkbox label [type="checkbox"],
+.bold_option.bold_option_checkbox label .bold_option_element{
     display: none;
 }
 
@@ -79,5 +80,5 @@ payment-terms .bold_options.bold_options_loaded {
     margin: 20px 0 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
