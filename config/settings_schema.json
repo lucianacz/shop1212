@@ -599,6 +599,13 @@
         "label": "Configuration",
         "placeholder": "Red:#ff0000\nGreen:#00ff00\nBlue:#0000ff",
         "info": "Each rule must be in its own line. [Learn more](https:\/\/support.maestrooo.com\/article\/80-product-uploading-custom-color-for-color-swatch) about the exact naming convention."
+      },
+      {
+        "type": "textarea",
+        "id": "color_swatch_limited",
+        "label": "Limited edition",
+        "placeholder": "Red,\nGreen,\nLight Blue Stripe",
+        "info": "Each rule must be in its own line."
       }
     ]
   },
