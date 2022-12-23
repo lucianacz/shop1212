@@ -141,31 +141,31 @@
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
       "type": "shop-the-look",
       "blocks": {
-        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-1": {
-          "type": "product",
-          "settings": {
-            "product": "the-organic-snap-footie-embroidered-holiday",
-            "horizontal_position": 72,
-            "vertical_position": 62
-          }
-        },
         "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-2": {
           "type": "product",
           "settings": {
-            "product": "the-long-sleeve-pajama-set-stripes",
+            "product": "the-garter-stitch-sweater",
+            "horizontal_position": 50,
+            "vertical_position": 48
+          }
+        },
+        "336d6f56-42d8-465e-b9f2-a7dd17c23277": {
+          "type": "product",
+          "settings": {
+            "product": "the-organic-sweatpant",
             "horizontal_position": 48,
-            "vertical_position": 73
+            "vertical_position": 75
           }
         }
       },
       "block_order": [
-        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-1",
-        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-2"
+        "template--17167820488979__ef7ae401-bdee-4f35-abac-19689fd88a39-167111638099815d1d-2",
+        "336d6f56-42d8-465e-b9f2-a7dd17c23277"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/1-1212-September-16.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_3690.jpg",
         "title": "Shop the look",
         "content": "",
         "background": "",
