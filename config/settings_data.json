@@ -257,10 +257,9 @@
           "newsletter": {
             "type": "newsletter",
             "settings": {
-              "image": "shopify:\/\/shop_images\/1212-b.png",
-              "image_width": 120,
-              "heading_size": "h3",
-              "title": "Unlock 15% off your first order:",
+              "image_width": 100,
+              "heading_size": "h6",
+              "title": "Sign up and get 15% off your first order:",
               "content": ""
             }
           },
