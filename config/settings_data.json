@@ -245,7 +245,7 @@
           "customer-support"
         ],
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "full_width": true,
           "heading_tag": "h6",
           "text_alignment": "center",
