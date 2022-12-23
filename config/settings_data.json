@@ -50,7 +50,7 @@
     "show_discount": false,
     "discount_mode": "percentage",
     "product_color_display": "count",
-    "product_image_aspect_ratio": "square",
+    "product_image_aspect_ratio": "natural",
     "product_info_alignment": "center",
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
