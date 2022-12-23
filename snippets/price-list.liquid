@@ -76,7 +76,6 @@ Supported variables
       {%- else -%}
         {{- line_item.final_line_price | money -}}
       {%- endif -%}
-      <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>
     </sale-price>
 
     {%- if line_item.original_line_price > line_item.final_line_price -%}
