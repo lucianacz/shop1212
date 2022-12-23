@@ -67,6 +67,14 @@ Color swatch specific parameters:
   <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" {% if form %}form="{{ form | escape }}"{% endif %} id="{{ id | escape }}" value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %}>
 {%- endunless -%}
 
+        {% if swatch_limited != blank %}
+          {%- for limited_color in swatch_limited -%}
+            {%- if limited_color == value -%}
+              {{ value }}
+            {% endif %}
+          {%- endfor -%} 
+        {% endif %}
+
 {%- case swatch -%}
   {%- when 'media' -%}
     {%- if media != blank -%}
@@ -76,14 +84,6 @@ Color swatch specific parameters:
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </a>
       {%- else -%}
-        {{ settings.color_swatch_limited }}
-        {% if swatch_limited != blank %}
-          {%- for limited_color in swatch_limited -%}
-              {{ value }}
-            {%- if limited_color == value -%}
-            {% endif %}
-          {%- endfor -%} 
-        {% endif %}
         <label class="media-swatch {% if size == 'sm' %}media-swatch--sm{% endif %} {% if bordered %}border{% endif %}" for="{{ id | escape }}" data-option-value>
           <span class="sr-only">{{ value }}</span>
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
