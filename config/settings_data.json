@@ -127,7 +127,7 @@
           "a9c2ec1d-1563-4820-b3d4-48c01248a3e1"
         ],
         "settings": {
-          "enable_sticky": false,
+          "enable_sticky": true,
           "hide_on_scroll": false,
           "logo": "{{shop.brand.logo}}",
           "logo_max_width": 110,
