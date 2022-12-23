@@ -180,33 +180,6 @@
         "background_dots": "#ffffff"
       }
     },
-    "a6d95bdf-d2dd-4766-b268-baef154a49b2": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "con-pollo",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": true,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Con Pollo",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70": {
       "type": "media-with-text",
       "blocks": {
@@ -218,11 +191,11 @@
             "media_position": "start",
             "media_size": "contain",
             "text_position": "place-self-center text-center",
-            "icon": "picto-jewelry",
+            "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "The best gifts are personal!",
-            "content": "<p><strong>1. Choose a Style<br\/><\/strong>The softest pajamas to the coziest sweatshirts and all the comfy basics in between<\/p><p><strong>2. Choose Customization Type<br\/><\/strong>Choose from Custom Text, Custom Hearts, or our pre-designed Symbols & Phrases<br\/><br\/><strong>3. Make it Yours<br\/><\/strong>Add your custom text or choose colors where applicable<\/p>",
+            "title": "Custom is Easy as 1, 2, 3",
+            "content": "<p><strong>1. Choose a Style<br\/><\/strong><\/p><p><strong>2. Choose Customization Type<br\/><\/strong><br\/><strong>3. Make it Yours<br\/><\/strong><\/p>",
             "link_text": "START DESIGNING",
             "link_url": "shopify:\/\/collections\/monogram",
             "background": "#ffffff",
@@ -403,7 +376,6 @@
     "featured-collection",
     "ebf86d66-c153-49cb-a84e-a34819b4efec",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
-    "a6d95bdf-d2dd-4766-b268-baef154a49b2",
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",
     "7741960c-178d-4978-89d9-b5d1a714e03c",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
