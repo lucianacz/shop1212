@@ -188,9 +188,9 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Embroidery.gif",
             "media_width": 55,
-            "media_position": "start",
+            "media_position": "end",
             "media_size": "cover",
-            "text_position": "place-self-center-start text-start",
+            "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
