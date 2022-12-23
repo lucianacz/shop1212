@@ -6,13 +6,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Hero_m.jpg",
+            "image": "shopify:\/\/shop_images\/Ski-and-Skate.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Merry and Bright",
+            "title": "Ski and Skate",
             "heading_tag": "h0",
             "button_text": "Shop Now",
             "button_link": "shopify:\/\/collections\/holiday",
@@ -44,21 +43,24 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "organic-baby-clothes",
+        "collection": "ski-and-snow",
         "products": [
-
+          "the-organic-pullover-sweatshirt-embroidered-holiday",
+          "the-organic-long-sleeve-pajama-set-holiday",
+          "the-pullover-sweatshirt-printed",
+          "the-organic-sweatpant"
         ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
-        "products_count": 6,
+        "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Featured collection",
+        "title": "",
         "content": "",
         "link_url": "",
-        "link_text": "View all",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -71,61 +73,48 @@
     "ebf86d66-c153-49cb-a84e-a34819b4efec": {
       "type": "hot-spots",
       "blocks": {
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "The Ziggy Robot Toy and Pajama",
-            "content": "<p>We've partnered with Meri Meri to bring you this adorable robot-themed gift set. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-ziggy-robot-toy-and-pajama-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-ziggy-robot-toy-and-pajama-gift-set\">Check here<\/a><\/p>"
-          }
-        },
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "The Organic Zipper Footie and Book",
-            "content": "<p>The perfect zippered organic baby pajama for the modern mom, these organic baby PJs are sustainably and ethically 7, and meet OEKO-TEX Standard 100 requirements - meaning they’re free of harmful chemicals like PFCs, PVC, and flame retardants. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-organic-zipper-footie-and-book-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-organic-zipper-footie-and-book-gift-set\">Check here<\/a><\/p>"
-          }
-        },
         "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2": {
           "type": "item",
           "settings": {
-            "horizontal_position": 75,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
+            "horizontal_position": 65,
+            "vertical_position": 59,
+            "horizontal_position_mobile": 48,
+            "vertical_position_mobile": 71,
             "icon_width": 32,
             "title": "The Rainbow Sticker and Sketch Book Pullover and Legging",
-            "content": "<p>The set pairs our organic terry sweeatshirt and orgnaic cotton jersey legging with Meri Meri's rainbow sticker and sketch book. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\">Check here<\/a><\/p>"
+            "content": "<p>The set pairs our organic terry sweeatshirt and orgnaic cotton jersey legging with Meri Meri's rainbow sticker and sketch book. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\">Shop the Set<\/a><\/p>"
+          }
+        },
+        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 71,
+            "horizontal_position_mobile": 30,
+            "vertical_position_mobile": 30,
+            "icon_width": 32,
+            "title": "The Ziggy Robot Toy and Pajama Gift Set",
+            "content": "<p>The set pairs our our super soft organic two piece pajamas with Meri Meri's cute Ziggy Robot toy. Ziggy, with his wobbly arms and stitched control panel, is the perfect companion for little ones who love robots.  <a href=\"\/products\/the-ziggy-robot-toy-and-pajama-gift-set\" title=\"The Ziggy Robot Toy and Pajama Gift Set\">Shop Now<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-0",
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-1",
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2"
+        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2",
+        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae"
       ],
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
-        "title": "Curated Sets for Every Kid on your List",
+        "title": "Still need a gift?",
         "content": "",
-        "button_text": "View More",
+        "button_text": "Shop Now",
         "button_url": "shopify:\/\/collections\/gift-sets",
-        "desktop_text_position": "place-self-start text-start",
+        "desktop_text_position": "place-self-center text-center",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
         "overlay_opacity": 4,
-        "overlay_text_color": "#ffffff",
+        "overlay_text_color": "#000000",
         "overlay_button_background": "",
         "overlay_button_text_color": "",
         "hot_spot_dot_background": "#ffffff",
