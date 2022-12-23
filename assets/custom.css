@@ -63,6 +63,11 @@ a.color-swatch{
 }
 
 /* Bold */
+
+payment-terms .bold_options.bold_options_loaded {
+    display: none;
+}
+
 .bold_option.bold_option_checkbox label {
     border: 1px solid black;
     color: black;
