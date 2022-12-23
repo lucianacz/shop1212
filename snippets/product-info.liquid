@@ -116,7 +116,6 @@
           {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block, product_collection: product_collection, swatch_color: swatch_color -%}
         </div>
 
-      <div class="bold_options" data-product-id="{{ product.id }}"></div>
 
       {%- when 'product_variations' -%}
         {%- assign contains_product = false -%}
