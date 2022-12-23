@@ -85,7 +85,6 @@ payment-terms .bold_options.bold_options_loaded {
 }
 
 .bold_option.bold_option_checkbox label {
-    border: 1px solid black;
     color: black;
     display: flex;
     align-items: center;
