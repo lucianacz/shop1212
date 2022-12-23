@@ -19,8 +19,8 @@
     "error_color": "#aa2826",
     "header_background": "#ffffff",
     "header_text_color": "#272727",
-    "footer_background": "#000000",
-    "footer_text_color": "#ffffff",
+    "footer_background": "#edf3fb",
+    "footer_text_color": "#000000",
     "primary_button_background": "#000000",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#ed2024",
@@ -189,7 +189,7 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "#fe0100",
+              "icon_color": "#000000",
               "title": "Sustainability",
               "content": "<p>Contributing to a sustainable future for our children and our planet.<\/p>"
             }
