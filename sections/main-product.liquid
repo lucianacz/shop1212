@@ -1,9 +1,5 @@
 {%- render 'section-spacing-collapsing' -%}
 
-{% comment %}Bold Options Code{% endcomment %}
-{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
-{% comment %}End Bold Options Code{% endcomment %}
-
 <style>
   #shopify-section-{{ section.id }} {
     --product-grid: auto / minmax(0, 1fr);

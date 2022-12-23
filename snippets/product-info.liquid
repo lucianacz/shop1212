@@ -1,4 +1,7 @@
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+{% comment %}Bold Options Code{% endcomment %}
+{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
+{% comment %}End Bold Options Code{% endcomment %}
 
 <safe-sticky class="product-info">
   {%- for block in section.blocks -%}
