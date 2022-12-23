@@ -188,7 +188,7 @@
           "free-shipping": {
             "type": "item",
             "settings": {
-              "icon": "picto-leaf",
+              "icon": "picto-earth",
               "mobile_icon_width": 24,
               "icon_width": 24,
               "icon_background_type": "none",
@@ -206,9 +206,9 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "#fe0100",
+              "icon_color": "#000000",
               "title": "Customer service",
-              "content": "<p>Do you have any question? Our team is here to help!<\/p>"
+              "content": "<p>Do you have a question? Our team is here to help!<\/p>"
             }
           },
           "discount": {
@@ -219,22 +219,22 @@
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "#fe0100",
+              "icon_color": "#000000",
               "title": "Affiliates",
-              "content": "<p>Share your enthusiasm for our collection while earning commission.<\/p>"
+              "content": "<p>Share your enthusiasm for 12|12 while earning rewards.<\/p>"
             }
           },
           "payment": {
             "type": "item",
             "settings": {
-              "icon": "picto-validation",
+              "icon": "picto-leaf",
               "mobile_icon_width": 24,
               "icon_width": 24,
               "icon_background_type": "none",
               "icon_background": "",
-              "icon_color": "#fe0100",
+              "icon_color": "#000000",
               "title": "Materials",
-              "content": "<p>100% organic and sustainable essentials designed<\/p>"
+              "content": "<p>Cultivated in the coastal valleys of Peru, we sourced the globe to find the very best organic pima cotton for our designs.<\/p>"
             }
           }
         },
