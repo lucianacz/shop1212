@@ -47,7 +47,6 @@ Supported variables
       <p class="text-sm text-subdued">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
     {%- endif -%}
 
-    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_properties" style="display:none !important;"></span>
     {%- if line_item.properties != blank -%}
       <ul class="list-disc">
         {%- for property in line_item.properties -%}
@@ -66,6 +65,10 @@ Supported variables
           </li>
         {%- endfor -%}
       </ul>
+      
+      {% comment %}Bold Options Code{% endcomment %}
+      <div class="bold_edit_in_cart"></div> 
+      {% comment %}End Bold Options Code{% endcomment %}
     {%- endif -%}
 
     <div class="text-sm text-subdued sm:hidden">
