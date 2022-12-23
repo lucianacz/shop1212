@@ -97,6 +97,12 @@ payment-terms .bold_options.bold_options_loaded {
     height: 48px;
 }
 
+.bold_option_element input {
+    width: 100%;
+    border: 1px solid #bcbcbc;
+    padding: 10px;
+}
+
 .bold_option_title {
     font-weight: bold;
     margin: 10px 0;
