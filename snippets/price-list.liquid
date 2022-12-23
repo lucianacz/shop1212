@@ -40,7 +40,7 @@ Supported variables
     VARIANT CASE (used on product page, quick view...)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
-    <sale-price {% if form_id %}form="{{ form_id }}"{% endif %} class="{% if variant.compare_at_price > variant.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %} bold_option_price_display">
+    <sale-price {% if form_id %}form="{{ form_id }}"{% endif %} class="{% if variant.compare_at_price > variant.price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
       <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
 
       {%- if settings.currency_code_enabled -%}
@@ -59,6 +59,9 @@ Supported variables
         {{- variant.compare_at_price | money -}}
       {%- endif -%}
     </compare-at-price>
+
+    <bold-price class="bold_option_price_display">
+    </bold-price>
   {%- elsif line_item != blank -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
