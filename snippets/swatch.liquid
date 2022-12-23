@@ -76,6 +76,7 @@ Color swatch specific parameters:
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </a>
       {%- else -%}
+        {{ settings.color_swatch_limited }}
         {% if swatch_limited != blank %}
           {%- for limited_color in swatch_limited -%}
               {{ value }}
