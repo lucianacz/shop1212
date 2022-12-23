@@ -99,7 +99,7 @@
         <div class="h-stack gap-4 justify-between">
           <span class="h5">{{ 'cart.general.total' | t }}</span>
           <span class="h5">{{- cart.total_price | money_with_currency -}}</span>
-          <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" data-item-key="{{item.key}}" style="display:none !important;"></span>
+          <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_total" style="display:none !important;"></span>
         </div>
 
         {%- if section.settings.show_shipping_text -%}
