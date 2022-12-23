@@ -78,8 +78,8 @@ Color swatch specific parameters:
       {%- else -%}
         {% if swatch_limited != blank %}
           {%- for limited_color in swatch_limited -%}
-            {%- if limited_color == value -%}
               {{ value }}
+            {%- if limited_color == value -%}
             {% endif %}
           {%- endfor -%} 
         {% endif %}
