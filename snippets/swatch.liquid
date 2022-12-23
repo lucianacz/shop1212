@@ -118,9 +118,8 @@ Color swatch specific parameters:
   {% if swatch_limited != blank %}
     {%- for limited_color in swatch_limited -%}
         {% assign limited_color_strip = limited_color | strip %}
-        <p>{{ value }}</p>
+      {%- if limited_color_strip == value -%}
         <h3>{{ limited_color_strip }}</h3>
-      {%- if limited_color == value -%}
       {% endif %}
     {%- endfor -%} 
   {% endif %}
