@@ -91,3 +91,14 @@ payment-terms .bold_options.bold_options_loaded {
     align-items: center;
     justify-content: space-between;
 }
+
+.bold_option_value_swatch {
+    width: 48px;
+    height: 48px;
+}
+
+.bold_option_title {
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+}
