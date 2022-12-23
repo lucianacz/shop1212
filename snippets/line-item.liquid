@@ -47,7 +47,8 @@ Supported variables
       <p class="text-sm text-subdued">{{ line_item.selling_plan_allocation.selling_plan.name }}</p>
     {%- endif -%}
 
-    {%- unless line_item.properties == blank -%}
+    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_properties" style="display:none !important;"></span>
+    {%- if line_item.properties != blank -%}
       <ul class="list-disc">
         {%- for property in line_item.properties -%}
           {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
@@ -65,7 +66,7 @@ Supported variables
           </li>
         {%- endfor -%}
       </ul>
-    {%- endunless -%}
+    {%- endif -%}
 
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
