@@ -6,9 +6,10 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ski-and-Skate_2bd81561-da49-4ef6-819d-8fa2a90fd6b1.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "image": "shopify:\/\/shop_images\/Ski-and-Skate_d7d111f7-5584-4fba-bdc2-5581d6dac90a.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ski-and-Skate-m.jpg",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
             "title": "Ski and Skate",
@@ -34,7 +35,7 @@
         "image_size": "lg",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
