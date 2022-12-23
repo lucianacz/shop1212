@@ -116,7 +116,7 @@
         "a08b1e61-cb3e-4154-827c-e7b403c9af77"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
         "title": "Still need a gift?",
         "content": "",
@@ -135,7 +135,7 @@
         "hot_spot_content_background": "#ffffff",
         "hot_spot_content_text_color": "#000000",
         "hot_spot_content_opacity": 100,
-        "hot_spot_content_blur_radius": 3
+        "hot_spot_content_blur_radius": 2
       }
     },
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
