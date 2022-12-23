@@ -74,28 +74,6 @@
     "6e3e9744-2255-42db-b54c-c103d788d1d3": {
       "type": "media-grid",
       "blocks": {
-        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dreidel.jpg",
-            "title": "Holiday Ready",
-            "heading_tag": "h2",
-            "link_url": "shopify:\/\/collections\/holiday",
-            "link_text": "Shop Now",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
         "c3782fd9-997b-4c04-9699-c0daf7c6204c": {
           "type": "image",
           "settings": {
@@ -117,11 +95,33 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dreidel.jpg",
+            "title": "Holiday Ready",
+            "heading_tag": "h2",
+            "link_url": "shopify:\/\/collections\/holiday",
+            "link_text": "Shop Now",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1",
-        "c3782fd9-997b-4c04-9699-c0daf7c6204c"
+        "c3782fd9-997b-4c04-9699-c0daf7c6204c",
+        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1"
       ],
       "settings": {
         "full_width": true,
