@@ -177,7 +177,7 @@
         "a08b1e61-cb3e-4154-827c-e7b403c9af77"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
         "title": "Still need a gift?",
         "content": "",
