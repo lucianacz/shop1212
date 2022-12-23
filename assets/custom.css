@@ -61,3 +61,14 @@ a.color-swatch{
 .media-with-text__media--contain > * {
   object-fit: contain;
 }
+
+/* Bold */
+.bold_option.bold_option_checkbox label {
+    border: 1px solid black;
+    color: black;
+    padding: 15px 20px;
+    margin: 20px 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
