@@ -145,7 +145,7 @@
           </cart-note-dialog>
         {%- endif -%}
       </div>
-
+    
       <form action="{{ routes.cart_url }}" method="POST" class="buy-buttons {% if section.settings.show_checkout_button %}buy-buttons--compact{% endif %}">
         {%- assign view_cart_label = 'cart.general.view_cart' | t -%}
         {%- assign checkout_label = 'cart.general.checkout' | t -%}
