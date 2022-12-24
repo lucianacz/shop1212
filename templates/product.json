@@ -96,7 +96,7 @@
         "full_width": false,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 60,
-        "desktop_media_layout": "grid",
+        "desktop_media_layout": "grid_highlight",
         "mobile_media_size": "expanded",
         "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
