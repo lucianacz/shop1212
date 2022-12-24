@@ -37,8 +37,6 @@ Color swatch specific parameters:
 
 {%- if swatch == 'color' or swatch == 'block' and show_color -%}
   {%- assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
-  {%- assign swatch_limited = settings.color_swatch_limited | newline_to_br | split: '<br />' -%}
-
   
   {%- assign value_downcase = value | downcase -%}
   {%- assign swatch_file = value | handle | append: '.png' | file_img_url: '72x' -%}
