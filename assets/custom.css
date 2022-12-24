@@ -1,4 +1,7 @@
+/* ---------------- */
 /* Klaviyo */
+/* ---------------- */
+
 a.btn.klaviyo-bis-trigger {
   width: 100% !important;
   margin-top: 20px !important;
@@ -9,7 +12,10 @@ a.btn.klaviyo-bis-trigger {
   font-size: 1em;
 }
 
+/* ---------------- */
 /* Yotpo */
+/* ---------------- */
+
 .yotpo.yotpo-main-widget {
     width: 100% !important;
     max-width: var(--container-narrow-max-width);
@@ -28,7 +34,10 @@ a.btn.klaviyo-bis-trigger {
   margin: -15px 0 -10px;
 }
 
+/* ---------------- */
 /* Instafeed */
+/* ---------------- */
+
 #insta-feed{
   margin-top: 0px !important;
 }
@@ -38,6 +47,10 @@ a.btn.klaviyo-bis-trigger {
       padding-top: 50% !important;
   }
 }
+
+/* ---------------- */
+/* Product page */
+/* ---------------- */
 
 /* Swatch */
 
@@ -68,10 +81,24 @@ quick-buy-drawer .limited-colors{
   display: none;
 }
 
-/* Form */
+/* Payments */
+
+.product .product-info__payment-terms{
+  margin: -15px 0 10px;
+  display: block;
+}
+
+/* ---------------- */
+/* Form footer */
+/* ---------------- */
+
 .footer__block--newsletter .form-control input[name="contact[email]"]{
   border-color: rgb(var(--text-color) / .5);
 }
+
+/* ---------------- */
+/* Media with text */
+/* ---------------- */
 
 .media-with-text__media--contain > * {
   object-fit: contain;
