@@ -138,14 +138,14 @@ Supported variables
                 </div>
               {%- for value in option.values -%}
                 {% if swatch_limited != blank %}
+                  <div class="variant-picker__option-values">
                   {%- for limited_color in swatch_limited -%}
-                    <div class="variant-picker__option-values">
                     {% assign limited_color_strip = limited_color | strip %}
                     {%- if limited_color_strip == value -%}
-                    {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id -%}
+                      {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id -%}
                     {% endif %}
-                    <div>
                   {%- endfor -%} 
+                  <div>
                 {% endif %}
               {%- endfor -%}
               {% endif %}
