@@ -133,11 +133,9 @@ Supported variables
               {%- endfor -%}
 
             {% if limited_qty > 0 %}
-              <div class="variant-picker__option-info">
                 <div class="h-stack gap-2">
                   <legend class="text-subdued">Limited Colors</legend>
                 </div>
-              </div>
               {%- for value in option.values -%}
                 {% if swatch_limited != blank %}
                   {%- for limited_color in swatch_limited -%}
