@@ -328,6 +328,38 @@
         "logo_item_border": ""
       }
     },
+    "764ca372-9ca9-4eac-b393-d773195e3839": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--17167820488979__764ca372-9ca9-4eac-b393-d773195e3839-167188984307eccf3d-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/Instagram.jpg",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Connect with Us @1212",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__764ca372-9ca9-4eac-b393-d773195e3839-167188984307eccf3d-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "fd9e56eb-f417-4950-b837-5d62495b715b": {
       "type": "instafeed",
       "settings": {
@@ -345,6 +377,7 @@
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
+    "764ca372-9ca9-4eac-b393-d773195e3839",
     "fd9e56eb-f417-4950-b837-5d62495b715b"
   ]
 }
