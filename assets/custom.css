@@ -57,6 +57,10 @@ a.color-swatch{
   width: 100%;
 }
 
+.italic{
+  font-style: italic;
+}
+
 /* Form */
 .footer__block--newsletter .form-control input[name="contact[email]"]{
   border-color: rgb(var(--text-color) / .5);
