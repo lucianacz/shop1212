@@ -47,11 +47,6 @@
           "settings": {
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -60,6 +55,11 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
           }
         },
         "description": {
@@ -87,8 +87,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "payment_terms",
         "buy_buttons",
+        "payment_terms",
         "description",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
