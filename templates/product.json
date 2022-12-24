@@ -42,15 +42,8 @@
             "size_chart_page": "size-chart"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {
           }
         },
@@ -67,6 +60,12 @@
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -87,10 +86,10 @@
         "badges",
         "price",
         "variant_picker",
-        "description",
         "quantity_selector",
         "buy_buttons",
         "payment_terms",
+        "description",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
