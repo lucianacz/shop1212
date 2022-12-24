@@ -111,7 +111,7 @@ Supported variables
                   {%- endfor -%} 
                 {% endif %}
 
-                {% unless limited_colors_product and template contains 'product'%}
+                {% unless limited_colors_product %}
                   {%- assign selected = false -%}
     
                   {%- if value == option.selected_value -%}
@@ -134,7 +134,7 @@ Supported variables
 
             {% if limited_qty > 0 and template contains 'product' %}
                 <div class="h-stack gap-2 limited-colors">
-                  <legend class="text-subdued italic">Limited Colors {{ template.name }}</legend>
+                  <legend class="text-subdued italic">Limited Colors</legend>
                 </div>
               <div class="variant-picker__option-values wrap gap-2">
               {%- for value in option.values -%}
