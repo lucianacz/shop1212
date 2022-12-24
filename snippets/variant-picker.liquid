@@ -98,8 +98,8 @@ Supported variables
             <div data-option-selector class="variant-picker__option-values {% if block.settings.stack_blocks %}wrap{% else %}scroll-area bleed sm:unbleed{% endif %} {% if selector_type == 'color' and settings.color_swatch_style == 'rectangle' %}variant-picker__option-values--color gap-4{% else %}gap-2{% endif %}">
               {%- assign name = 'option' | append: option.position -%}
 
-              {% assign limited_colors_product = false %}
               {%- for value in option.values -%}
+              {% assign limited_colors_product = false %}
                 {% if swatch_limited != blank %}
                   {%- for limited_color in swatch_limited -%}
                   {% assign limited_color_strip = limited_color | strip %}
@@ -108,6 +108,8 @@ Supported variables
                     {% endif %}
                   {%- endfor -%} 
                 {% endif %}
+
+                {{ limited_colors_product }}
 
                 {% unless limited_colors_product %}
                   {%- assign selected = false -%}
