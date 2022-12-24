@@ -134,10 +134,15 @@ Supported variables
 
             {% if limited_qty > 0 %}
                 <div class="h-stack gap-2 limited-colors">
-                  <legend class="text-subdued">Limited Colors</legend>
+                  <legend class="text-subdued italic">Limited Colors</legend>
                 </div>
               <div class="variant-picker__option-values wrap gap-2">
               {%- for value in option.values -%}
+                {%- assign selected = false -%}
+    
+                  {%- if value == option.selected_value -%}
+                    {%- assign selected = true -%}
+                  {%- endif -%}
                 {% if swatch_limited != blank %}
                   {%- for limited_color in swatch_limited -%}
                     {% assign limited_color_strip = limited_color | strip %}
