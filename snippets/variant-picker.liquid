@@ -103,10 +103,9 @@ Supported variables
                 {% if swatch_limited != blank %}
                   {%- for limited_color in swatch_limited -%}
                   {% assign limited_color_strip = limited_color | strip %}
-                  
-                    {%- unless limited_color_strip == value -%}
+                    {%- if limited_color_strip == value -%}
                       {% assign limited_colors_product = true %}
-                    {% endunless %}
+                    {% endif %}
                   {%- endfor -%} 
                 {% endif %}
 
