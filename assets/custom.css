@@ -25,6 +25,12 @@ a.btn.klaviyo-bis-trigger {
     display: none !important;
 }
 
+a.yotpo-logo-link-new{
+  display: none !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+}
+
 .yotpo .text-m{
   font: var(--text-font-style) 400 0.9em / 1.6 var(--text-font-family) !important;
   margin-left: 3px;
