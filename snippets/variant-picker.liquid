@@ -136,19 +136,20 @@ Supported variables
                 <div class="h-stack gap-2 limited-colors">
                   <legend class="text-subdued">Limited Colors</legend>
                 </div>
+              <div class="variant-picker__option-values">
               {%- for value in option.values -%}
                 {% if swatch_limited != blank %}
-                  <div class="variant-picker__option-values">
                   {%- for limited_color in swatch_limited -%}
                     {% assign limited_color_strip = limited_color | strip %}
                     {%- if limited_color_strip == value -%}
                       {%- render 'swatch' with 'color', value: value, selected: selected, name: name, form: form_id -%}
                     {% endif %}
                   {%- endfor -%} 
-                  <div>
                 {% endif %}
               {%- endfor -%}
-              {% endif %}
+              <div>
+            {% endif %}
+          
             </div>
           </div>
         {%- endif -%}
