@@ -115,16 +115,5 @@ Color swatch specific parameters:
       <label class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" for="{{ id | escape }}" data-option-value {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}">
         <span class="sr-only">{{ value }}</span>
       </label>
-      
-    {% if swatch_limited != blank %}
-      {%- for limited_color in swatch_limited -%}
-        {% assign limited_color_strip = limited_color | strip %}
-        {%- if limited_color_strip == value -%}
-          <label class="color-swatch {% if settings.color_swatch_style == 'rectangle' %}color-swatch--rectangle{% endif %} {% if size == 'sm' %}color-swatch--sm{% endif %} {% if white_label == value_downcase %}ring-inset{% endif %} {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %}" for="{{ id | escape }}" data-option-value {% if show_tooltip %}data-tooltip="{{ value | escape }}"{% endif %} style="{{ swatch_style }}">
-            <span class="sr-only">{{ value }}</span>
-          </label>
-        {% endif %}
-      {%- endfor -%} 
-    {% endif %}
     {%- endif -%}
 {%- endcase -%}
