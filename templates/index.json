@@ -249,6 +249,7 @@
           "type": "product",
           "settings": {
             "product": "the-garter-stitch-sweater",
+            "specific_color": "Cream",
             "horizontal_position": 50,
             "vertical_position": 48
           }
@@ -257,6 +258,7 @@
           "type": "product",
           "settings": {
             "product": "the-organic-sweatpant",
+            "specific_color": "Cranberry",
             "horizontal_position": 48,
             "vertical_position": 75
           }
