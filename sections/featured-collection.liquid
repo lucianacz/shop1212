@@ -60,7 +60,7 @@
                 {% assign product_handle = variant | split: ',' | first | strip %}
                 {% assign variant_color = variant | split: ',' | last | strip %}
                 {% assign selected_product = all_products[product_handle] %}
-                {% if selected_product != blank %}
+                {% if selected_product != blank and variant_color != blank %}
                   {%- render 'product-variant', product: selected_product, stacked: true, show_badges: true, selected_color: variant_color -%}
                 {% endif %}
               {% endfor %}
