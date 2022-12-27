@@ -57,7 +57,7 @@
             {% else %}
               {% assign custom_variants = section.settings.custom_variants | split: '/' %}
               {% for variant in custom_variants %}
-                {{ variant }}
+                {{ variant }}----
                 {% assign product_handle = variant | split: ',' | first %}
                 {% assign variant_color = variant | split: ',' | last | strip %}
                 {% assign selected_product = all_products[product_handle] %}
