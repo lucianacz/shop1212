@@ -55,7 +55,7 @@
                 {%- endfor -%}
               {%- endfor -%}
             {% else %}
-              {% assign custom_variants = section.settings.custom_variants | newline_to_br | split: '<br' %}
+              {% assign custom_variants = section.settings.custom_variants | newline_to_br | split: '<br/>' %}
               {% for variant in custom_variants %}
                 {{ variant }}
                 {% assign product_handle = variant | split: ',' | first %}
