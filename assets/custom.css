@@ -48,9 +48,9 @@ a.yotpo-logo-link-new{
   margin-top: 0px !important;
 }
 @media (max-width: 768px){
-    .instafeed-container {
-      width: 50% !important;
-      padding-top: 50% !important;
+  .instafeed-container {
+    width: 50% !important;
+    padding-top: 50% !important;
   }
   #insta-feed a:nth-child(5){
     display: none;
