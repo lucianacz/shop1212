@@ -74,8 +74,10 @@ LIQUID
           <effect-carousel class="shop-the-look__carousel sm-max:hidden" id="effect-carousel-{{ section.id }}" role="region">
             {%- for block in section.blocks -%}
               <div {% unless forloop.first %}class="reveal-invisible"{% endunless %} {{ block.shopify_attributes }}>
-                {%- if block.settings.product != blank -%}
+                {%- if block.settings.product != blank and block.settings.specific_color == blank -%}
                   {%- render 'product-card', product: block.settings.product, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                {%- elsif block.settings.product != blank and block.settings.specific_color != blank -%}
+                  {%- render 'product-variant', product: block.settings.product, stacked: true, show_badges: true, selected_color: block.settings.specific_color -%}
                 {%- else -%}
                   {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
                   {%- render 'product-card-placeholder', placeholder_image: placeholder_image, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
@@ -205,6 +207,11 @@ LIQUID
           "type": "product",
           "id": "product",
           "label": "Product"
+        },
+        {
+          "type": "text",
+          "id": "specific_color",
+          "label": "Specific color"
         },
         {
           "type": "range",
