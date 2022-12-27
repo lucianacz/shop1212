@@ -45,27 +45,27 @@
           <product-list class="product-list">
             {%- assign products = section.settings.products | default: section.settings.collection.products -%}
 
-            {%- for product in products limit: section.settings.products_count -%}
-              {% if section.settings.custom_variants == blank %}
-                {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
-              {% else %}
-                  {% assign custom_variants = section.settings.custom_variants | newline_to_br | split: '<br />' %}
-                  {% for variant in custom_variants %}
-                    {{ custom_variants }}
-                    {% assign product_handle = variant | split: ',' | first %}
-                    {% assign variant_color = variant | split: ',' | last | strip %}
-                    {% assign selected_product = all_products[product_handle] %}
-                    {% if selected_product != blank %}
-                      {%- render 'product-variant', product: selected_product, stacked: true, show_badges: true, selected_color: variant_color -%}
-                    {% endif %}
-                  {% endfor %}
-              {% endif %}
-            {%- else -%}
-              {%- for i in (1..section.settings.products_count) -%}
-                {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
-                {%- render 'product-card-placeholder', stacked: section.settings.stack_products, placeholder_image: placeholder_image, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, text_alignment: settings.product_info_alignment -%}
+            {% if section.settings.custom_variants == blank %}
+              {%- for product in products limit: section.settings.products_count -%}
+                  {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+              {%- else -%}
+                {%- for i in (1..section.settings.products_count) -%}
+                  {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
+                  {%- render 'product-card-placeholder', stacked: section.settings.stack_products, placeholder_image: placeholder_image, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, text_alignment: settings.product_info_alignment -%}
+                {%- endfor -%}
               {%- endfor -%}
-            {%- endfor -%}
+            {% else %}
+              {% assign custom_variants = section.settings.custom_variants | newline_to_br | split: '<br />' %}
+              {% for variant in custom_variants %}
+                {{ custom_variants }}
+                {% assign product_handle = variant | split: ',' | first %}
+                {% assign variant_color = variant | split: ',' | last | strip %}
+                {% assign selected_product = all_products[product_handle] %}
+                {% if selected_product != blank %}
+                  {%- render 'product-variant', product: selected_product, stacked: true, show_badges: true, selected_color: variant_color -%}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
           </product-list>
         </reveal-items>
       </scroll-carousel>
