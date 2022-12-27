@@ -6,11 +6,11 @@
         "template--17167820488979__ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e-1672075820b71139f4-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ski-and-Skate_adb7771b-c442-44f4-ae1e-966570910cb7.jpg",
+            "image": "shopify:\/\/shop_images\/Ski-and-Skate_52c8b902-5d2d-4d00-ad8b-26e6c5701e71.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Ski-and-Skate-m_4b94c5f8-b88e-4cc4-bc0d-c403021df2b1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
             "title": "Let it snow!",
             "heading_tag": "h1",
@@ -141,8 +141,8 @@
         "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dreidel.jpg",
-            "title": "Holiday Ready",
+            "image": "shopify:\/\/shop_images\/stratton.jpg",
+            "title": "Cozy Season is Here",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/holiday",
             "link_text": "Shop Now",
