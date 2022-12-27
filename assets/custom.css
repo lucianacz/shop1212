@@ -52,6 +52,9 @@ a.yotpo-logo-link-new{
       width: 50% !important;
       padding-top: 50% !important;
   }
+  #insta-feed a:nth-child(5){
+    display: none;
+  }
 }
 
 /* ---------------- */
