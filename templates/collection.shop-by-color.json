@@ -23,6 +23,27 @@
     },
     "main": {
       "type": "main-collection",
+      "blocks": {
+        "cdb10033-cf63-4e4b-8d0e-fed0a0162b05": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 4,
+            "column_span": "1",
+            "title": "Promote a product or a temporary offer",
+            "content": "",
+            "link_url": "",
+            "link_text": "View all",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "cdb10033-cf63-4e4b-8d0e-fed0a0162b05"
+      ],
       "settings": {
         "products_per_page": 50,
         "products_per_row_mobile": "2",
