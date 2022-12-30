@@ -40,6 +40,12 @@
       <div class="v-stack gap-6 sm:gap-8">
         <div class="cart-drawer__line-items">
           {%- for line_item in cart.items -%}
+            {%- comment -%}Bold Options{%- endcomment -%}
+            {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
+                <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+                {%- continue -%}
+            {%- endif -%}
+            {%- comment -%}Bold Options{%- endcomment -%}
             {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
           {%- endfor -%}
         </div>
