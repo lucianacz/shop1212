@@ -77,7 +77,7 @@
         <payment-terms class="product-info__payment-terms" form="{{ product_form_id }}" {{ block.shopify_attributes }}>
           {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-          {%- form 'product', product, id: product_installment_form_id -%}
+          {%- form 'product', product, id: product_installment_form_id, class:'no_bold_options' -%}
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
             {{- form | payment_terms -}}
           {%- endform -%}
