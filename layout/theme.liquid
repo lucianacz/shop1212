@@ -70,6 +70,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {%- render 'shadow-dom-templates' -%}
 
     {% comment %}Bold Options Code{% endcomment %}
+    {%- render 'bold-options-hybrid' -%}
     {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
     {%- render 'bold-common' -%}
     {% comment %}End Bold Options Code{% endcomment %}
