@@ -64,6 +64,21 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script type="text/javascript">
     (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/wuGo0TNacPsACEl5lVDmXDH3GqFUGvUE0PRe3s3N/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
     </script>
+
+    {% comment %}Bold Options Code{% endcomment %}
+    <script>
+    BOLD.common.eventEmitter.on('BOLD_OPTIONS_option_products_loaded', function(event){
+    var optionsDiv = document.querySelector('.bold_options_loaded');
+    if(optionsDiv.children.length != 0){
+      var buyItNow = document.querySelectorAll('.shopify-payment-button');
+      console.log(buyItNow);
+      buyItNow.forEach(function(button){
+        button.remove();
+      })
+    }
+  });
+  </script>
+  {% comment %}End Bold Options Code{% endcomment %}
 </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
