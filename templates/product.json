@@ -71,9 +71,9 @@
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
-            "title": "Pairs Well With",
+            "title": "You May Also Love",
             "stack_products": true,
-            "products_count": 3,
+            "products_count": 4,
             "background": "#ffffff",
             "text_color": ""
           }
