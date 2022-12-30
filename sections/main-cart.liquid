@@ -42,6 +42,13 @@
 
               <tbody class="order-summary__body">
                 {%- for line_item in cart.items -%}
+                  {%- comment -%}Bold Options{%- endcomment -%}
+                  {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
+                      <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+                      {%- continue -%}
+                  {%- endif -%}
+                  {%- comment -%}End Bold Options{%- endcomment -%}
+                  
                   {%- assign line_max_quantity = '' -%}
 
                   {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
