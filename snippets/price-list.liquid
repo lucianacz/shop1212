@@ -68,6 +68,9 @@ Supported variables
     LINE ITEM CASE (used on cart, order page...)
     --------------------------------------------------------------------------------------------------------------------
     {%- endcomment -%}
+   
+    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>
+
     <sale-price class="{% if line_item.original_line_price > line_item.final_line_price %}{{ on_sale_price_classes }}{% else %}{{ regular_price_classes }}{% endif %}">
       <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
 
@@ -90,7 +93,6 @@ Supported variables
       </compare-at-price>
     {%- endif -%}
 
-    <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>
   {%- else -%}
     {%- comment -%}
     --------------------------------------------------------------------------------------------------------------------
