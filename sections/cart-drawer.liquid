@@ -7,7 +7,7 @@
     <div class="empty-state align-self-center">
       <div class="empty-state__icon-wrapper">
         {%- render 'icon' with 'cart', width: 32, height: 32, stroke_width: 1 -%}
-        <span class="count-bubble count-bubble--lg">0</span>
+            <cart-count class="count-bubble count-bubble--md">{% comment %}{{ cart.item_count }}{% endcomment %}{%- render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
       </div>
 
       <div class="prose">
