@@ -203,11 +203,8 @@
                     {%- endfor -%}
 
                     {% unless collection.metafields.custom.shop_by_color %}
-                      no{{   collection.metafields.custom.shop_by_color }}
                       {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
                     {% else %}
-                                            si{{   collection.metafields.custom.shop_by_color }}
-
                        {%- for option in product.options_with_values -%}
                           {% if option.name == 'Color' %}   
                           {%- for value in option.values -%}  
