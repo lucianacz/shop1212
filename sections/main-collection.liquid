@@ -134,7 +134,6 @@
 
               <reveal-items selector=".product-list > *">
                 <product-list class="product-list" role="region" aria-live="polite">
-                  {% unless collection.metafields.custom.shop_by_color %}
                   {%- for product in collection.products -%}
                     {%- for block in section.blocks -%}
                       {%- if forloop.parentloop.index != block.settings.position -%}
@@ -203,29 +202,28 @@
                       </div>
                     {%- endfor -%}
 
-                    {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
-                  {%- endfor -%}
-                  {% else %}
-                    {%- for product in collection.products -%}
-                     {%- for option in product.options_with_values -%}
-                        {% if option.name == 'Color' %}   
-                        {%- for value in option.values -%}  
-                          {% assign selected_color = value %}
-                          {% if collection.metafields.custom.colors == blank %}
-                            {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
-                          {% else %}
-                            {%- assign custom_colors = collection.metafields.custom.colors.value | sort -%}
-                            {%- for custom_color in custom_colors -%}
-                              {% if custom_color ==  selected_color %}
-                                  {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
-                              {% endif %}
-                            {%- endfor -%}
+                    {% unless collection.metafields.custom.shop_by_color %}
+                      {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
+                    {% else %}
+                       {%- for option in product.options_with_values -%}
+                          {% if option.name == 'Color' %}   
+                          {%- for value in option.values -%}  
+                            {% assign selected_color = value %}
+                            {% if collection.metafields.custom.colors == blank %}
+                              {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
+                            {% else %}
+                              {%- assign custom_colors = collection.metafields.custom.colors.value | sort -%}
+                              {%- for custom_color in custom_colors -%}
+                                {% if custom_color ==  selected_color %}
+                                    {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color -%}
+                                {% endif %}
+                              {%- endfor -%}
+                            {% endif %}
+                          {%- endfor -%}           
                           {% endif %}
-                        {%- endfor -%}           
-                        {% endif %}
-                      {%- endfor -%}
-                    {%- endfor -%}
-                  {% endunless %}
+                        {%- endfor -%}
+                    {% endunless %}
+                  {%- endfor -%}
                 </product-list>
               </reveal-items>
             </div>
