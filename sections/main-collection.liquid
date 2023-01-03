@@ -134,7 +134,7 @@
 
               <reveal-items selector=".product-list > *">
                 <product-list class="product-list" role="region" aria-live="polite">
-                  {% unless template.suffix == 'shop-by-color' %}
+                  {% unless collection.metafields.custom.shop_by_color %}
                   {%- for product in collection.products -%}
                     {%- for block in section.blocks -%}
                       {%- if forloop.parentloop.index != block.settings.position -%}
