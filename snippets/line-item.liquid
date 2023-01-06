@@ -49,6 +49,7 @@ Supported variables
 
     {%- if line_item.properties != blank -%}
       <ul class="list-disc">
+        <span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_properties" style="display:none !important;"></span>
         {%- for property in line_item.properties -%}
           {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
 
