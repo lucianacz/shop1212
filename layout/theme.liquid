@@ -86,8 +86,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     {% comment %}Bold Options Code{% endcomment %}
     {%- render 'bold-options-hybrid' -%}
-    {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
     {%- render 'bold-common' -%}
+    {%- render 'sc-includes' -%}
+    {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
     {% comment %}End Bold Options Code{% endcomment %}
 
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
