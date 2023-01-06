@@ -23,7 +23,11 @@
         <div class="h-stack items-center justify-between">
           <div class="h-stack gap-2 sm:gap-2.5">
             <p class="h5">{{- 'cart.general.title' | t -}}</p>
+            {% comment %} Bold Options
             <cart-count class="count-bubble count-bubble--md">{{ cart.item_count }}</cart-count>
+            {% endcomment %}
+            <cart-count class="count-bubble count-bubble--md">{%- render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
+            {% comment %} End Bold Options{% endcomment %}
           </div>
 
           <button type="button" is="close-button" class="drawer__close-icon">
