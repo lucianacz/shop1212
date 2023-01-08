@@ -87,12 +87,12 @@
       "settings": {
         "collection": "",
         "products": [
-          "the-organic-pullover-sweatshirt-embroidered",
           "the-organic-long-sleeve-pajama-set-holiday",
-          "the-organic-printed-pullover-sweatshirt",
-          "the-organic-sweatpant"
+          "the-organic-pullover-sweatshirt-embroidered",
+          "the-cupcake-kit-and-organic-long-sleeve-rib-lounge-gift-set",
+          "the-felt-hair-clips-pullover-and-sweatpant-gift-set"
         ],
-        "custom_variants": "the-organic-pullover-sweatshirt-embroidered, Poppy Vintage Apres Ski\nthe-organic-sweatpant, Cranberry\nthe-organic-long-sleeve-pajama-set, Jeweled Hearts,\nthe-organic-printed-pullover-sweatshirt, Ice Blue Jeweled Hearts",
+        "custom_variants": "",
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
