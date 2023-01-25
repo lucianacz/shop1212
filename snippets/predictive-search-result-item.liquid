@@ -17,7 +17,7 @@ Supported variables
 {%- case type -%}
   {%- when 'product' -%}
     {% assign hide = false %}
-    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' or product.type != 'PPLR_HIDDEN_PRODUCT' %}
+    {% if product.type == 'OPTIONS_HIDDEN_PRODUCT' or product.type == 'PPLR_HIDDEN_PRODUCT' %}
       {% assign hide = true %}
     {% endif %}
     {%- assign product = item -%}
