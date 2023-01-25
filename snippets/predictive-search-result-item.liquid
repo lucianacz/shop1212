@@ -31,7 +31,7 @@ Supported variables
 
         <div class="v-stack justify-items-start gap-0.5">
           <span class="bold">
-            <span class="reversed-link">{{ product.title }}</span>
+            <span class="reversed-link">{{ product.title }}{{ product.type }}</span>
           </span>
 
           {%- render 'price-list', product: product -%}
