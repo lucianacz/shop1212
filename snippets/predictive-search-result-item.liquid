@@ -16,11 +16,11 @@ Supported variables
 
 {%- case type -%}
   {%- when 'product' -%}
+    {%- assign product = item -%}
     {% assign hide = false %}
     {% if product.type == 'OPTIONS_HIDDEN_PRODUCT' or product.type == 'PPLR_HIDDEN_PRODUCT' %}
       {% assign hide = true %}
     {% endif %}
-    {%- assign product = item -%}
   
     <a href="{{ product.url }}" class="predictive-search-result group{% if hide %} hidden{% endif %}">
       {%- if product.featured_media -%}
