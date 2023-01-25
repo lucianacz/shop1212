@@ -172,7 +172,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}<span>{{ selected_color }}</span></a></span>
       {%- endif -%}
 
       {% if show_rating %}
