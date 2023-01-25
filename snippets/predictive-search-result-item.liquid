@@ -16,10 +16,13 @@ Supported variables
 
 {%- case type -%}
   {%- when 'product' -%}
+    {% assign hide = false %}
+    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' %}
+      {% assign hide = true %}
+    {% endif %}
     {%- assign product = item -%}
   
-    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
-    <a href="{{ product.url }}" class="predictive-search-result group">
+    <a href="{{ product.url }}" class="predictive-search-result group{% if hide %}hidden{% endif %}">
       {%- if product.featured_media -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
@@ -31,14 +34,13 @@ Supported variables
 
         <div class="v-stack justify-items-start gap-0.5">
           <span class="bold">
-            <span class="reversed-link">{{ product.title }}{{ product.type }}</span>
+            <span class="reversed-link">{{ product.title }}</span>
           </span>
 
           {%- render 'price-list', product: product -%}
         </div>
       </div>
     </a>
-    {% endif %}
 
   {%- when 'article' -%}
     {%- assign article = item -%}
