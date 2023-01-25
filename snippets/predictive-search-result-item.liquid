@@ -16,9 +16,9 @@ Supported variables
 
 {%- case type -%}
   {%- when 'product' -%}
-    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
     {%- assign product = item -%}
-
+  
+    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
     <a href="{{ product.url }}" class="predictive-search-result group">
       {%- if product.featured_media -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: sizes: '96px', widths: '96,192' -}}
