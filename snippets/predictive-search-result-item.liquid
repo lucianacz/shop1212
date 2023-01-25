@@ -22,7 +22,7 @@ Supported variables
     {% endif %}
     {%- assign product = item -%}
   
-    <a href="{{ product.url }}" class="predictive-search-result group{% if hide %}hidden{% endif %}">
+    <a href="{{ product.url }}" class="predictive-search-result group{% if hide %} hidden{% endif %}">
       {%- if product.featured_media -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
