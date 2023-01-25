@@ -172,8 +172,10 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}<span>{{ selected_color }}</span></a></span>
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
       {%- endif -%}
+
+      <span>{{ selected_color }}</span>
 
       {% if show_rating %}
         <div class="yotpo bottomLine" data-product-id="{{ product.id }}"></div>
