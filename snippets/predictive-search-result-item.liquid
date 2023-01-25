@@ -16,6 +16,7 @@ Supported variables
 
 {%- case type -%}
   {%- when 'product' -%}
+    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
     {%- assign product = item -%}
 
     <a href="{{ product.url }}" class="predictive-search-result group">
@@ -37,6 +38,7 @@ Supported variables
         </div>
       </div>
     </a>
+    {% endif %}
 
   {%- when 'article' -%}
     {%- assign article = item -%}
