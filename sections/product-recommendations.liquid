@@ -65,11 +65,7 @@ LIQUID
               <reveal-items selector=".product-list > *">
                 <product-list class="product-list">
                   {%- for product in recommendations.products -%}
-                    {% if  product.tags contains 'HIDDEN' %}
-                      'ACAAAA'
-                      {% endif %}
-                    {{  product.tags }}
-                    {% unless product.tags contains 'HIDDEN' %}
+                    {% unless product.tags contains 'BOLD_HIDDEN_PRODUCT' %}
                       {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
                     {% endunless %}
                   {%- endfor -%}
