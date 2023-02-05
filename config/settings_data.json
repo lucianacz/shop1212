@@ -317,6 +317,7 @@
           "show_only_on_index": true,
           "show_only_for_visitors": true,
           "show_only_once": true,
+          "image": "shopify:\/\/shop_images\/1212_Sadie_e8dace2f-0846-436d-be1e-dfa3258e7b91.jpg",
           "title": "Signup for our newsletter",
           "button_text": "Subscribe",
           "subtext": "Describe what your customers will receive when subscribing to your newsletter."
