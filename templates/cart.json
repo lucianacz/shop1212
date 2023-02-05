@@ -1,1 +1,46 @@
-{"sections":{"main":{"type":"main-cart","blocks":{"totals":{"type":"totals","settings":{}},"cart_note":{"type":"cart_note","settings":{}},"checkout_button":{"type":"checkout_button","settings":{}}},"block_order":["totals","cart_note","checkout_button"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
+          }
+        },
+        "229d1ea4-20fe-4531-a012-44133b06f5c1": {
+          "type": "text",
+          "settings": {
+            "content": "<p>Add a gift note or note about your order:<\/p>"
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {
+            "max_length": 300
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "229d1ea4-20fe-4531-a012-44133b06f5c1",
+        "cart_note",
+        "checkout_button"
+      ],
+      "settings": {
+        "show_shipping_estimator": true,
+        "show_payment_icons": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
