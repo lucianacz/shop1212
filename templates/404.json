@@ -45,6 +45,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/1212-Sadie_777481b1-1e57-42f0-ac25-d070d766c618.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/1212_Sadie_e8dace2f-0846-436d-be1e-dfa3258e7b91.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
