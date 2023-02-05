@@ -2,7 +2,54 @@
   "sections": {
     "main": {
       "type": "main-not-found",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "0bd9099b-cf7a-4822-8e62-fa417a365cd7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--17167820357907__0bd9099b-cf7a-4822-8e62-fa417a365cd7-167560608192f54cfa-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "OOPS!"
+          }
+        },
+        "template--17167820357907__0bd9099b-cf7a-4822-8e62-fa417a365cd7-167560608192f54cfa-1": {
+          "type": "heading",
+          "settings": {
+            "text": "That page doesn't exist.",
+            "heading_tag": "h1"
+          }
+        },
+        "80de0803-37f2-4d2d-8829-971fe1b39961": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "KEEP SHOPPING",
+            "url": "https:\/\/shop1212.com",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820357907__0bd9099b-cf7a-4822-8e62-fa417a365cd7-167560608192f54cfa-0",
+        "template--17167820357907__0bd9099b-cf7a-4822-8e62-fa417a365cd7-167560608192f54cfa-1",
+        "80de0803-37f2-4d2d-8829-971fe1b39961"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1212-Sadie_777481b1-1e57-42f0-ac25-d070d766c618.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
       }
     },
     "cb6babab-a9cc-4ebc-94da-86bbe794ba7e": {
@@ -29,6 +76,7 @@
   },
   "order": [
     "main",
+    "0bd9099b-cf7a-4822-8e62-fa417a365cd7",
     "cb6babab-a9cc-4ebc-94da-86bbe794ba7e"
   ]
 }

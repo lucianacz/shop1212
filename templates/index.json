@@ -174,74 +174,6 @@
         "background_gradient": ""
       }
     },
-    "ebf86d66-c153-49cb-a84e-a34819b4efec": {
-      "type": "hot-spots",
-      "blocks": {
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 65,
-            "vertical_position": 59,
-            "horizontal_position_mobile": 48,
-            "vertical_position_mobile": 71,
-            "icon_width": 32,
-            "title": "The Rainbow Sticker and Sketch Book Pullover and Legging",
-            "content": "<p>The set pairs our organic terry sweeatshirt and orgnaic cotton jersey legging with Meri Meri's rainbow sticker and sketch book. <a href=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\" title=\"https:\/\/shop1212.com\/collections\/gift-sets\/products\/the-rainbow-sticker-and-sketch-book-pullover-and-legging-gift-set\">Shop the Set<\/a><\/p>"
-          }
-        },
-        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 30,
-            "vertical_position": 71,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "The Ziggy Robot Toy and Pajama Gift Set",
-            "content": "<p>The set pairs our our super soft organic two piece pajamas with Meri Meri's cute Ziggy Robot toy. Ziggy, with his wobbly arms and stitched control panel, is the perfect companion for little ones who love robots.  <a href=\"\/products\/the-ziggy-robot-toy-and-pajama-gift-set\" title=\"The Ziggy Robot Toy and Pajama Gift Set\">Shop Now<\/a><\/p>"
-          }
-        },
-        "a08b1e61-cb3e-4154-827c-e7b403c9af77": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 60,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 30,
-            "icon_width": 32,
-            "title": "Astronaut Gift Set",
-            "content": "<p><a href=\"https:\/\/shop1212.com\/collections\/holiday-gift-sets\" title=\"https:\/\/shop1212.com\/collections\/holiday-gift-sets\">Shop Now<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__ebf86d66-c153-49cb-a84e-a34819b4efec-1671116375884d08c1-2",
-        "eadc18d0-9ae8-4ed0-975c-49b6b7d5edae",
-        "a08b1e61-cb3e-4154-827c-e7b403c9af77"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/gift-packages-22-2-1669993520050.webp",
-        "title": "Still need a gift?",
-        "content": "",
-        "button_text": "Shop Now",
-        "button_url": "shopify:\/\/collections\/gift-sets",
-        "desktop_text_position": "place-self-center text-center",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 4,
-        "overlay_text_color": "#000000",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 100,
-        "hot_spot_content_blur_radius": 2
-      }
-    },
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
       "type": "shop-the-look",
       "blocks": {
@@ -439,7 +371,6 @@
     "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
-    "ebf86d66-c153-49cb-a84e-a34819b4efec",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
