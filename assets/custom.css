@@ -127,3 +127,7 @@ quick-buy-drawer .limited-colors{
     border: 1px solid #e5e5e5;
     padding: 10px !important;
 }
+
+[name="properties[Thread Color*]"] {
+    background-size: cover !important;
+}
