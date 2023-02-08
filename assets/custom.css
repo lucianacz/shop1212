@@ -113,3 +113,17 @@ quick-buy-drawer .limited-colors{
   object-fit: contain;
 }
 
+
+/* ---------------- */
+/* Zepto */
+/* ---------------- */
+
+.shopify-product-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-personalizer {
+    border: 1px solid #e5e5e5;
+    padding: 10px !important;
+}
