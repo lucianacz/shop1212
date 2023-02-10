@@ -48,9 +48,15 @@ Supported variables
 
 {% assign variant_image = product.featured_media %}
 {%- for variant in product.variants -%}
-  {% assign variant_color = variant.title | split: '/' | first | strip %}
-  {% if variant_color == selected_color %}
-     {% assign variant_href = variant.id %}
+  {% assign variant_color = variant.option1 %}
+  {% assign variant_size = variant.option2 %}
+  {% if variant_color == selected_color and selected_size == blank %}
+      {% assign variant_href = variant.id %}
+      {% assign variant_image = variant.featured_media %}
+      {% assign hover_variant_image = variant.featured_media.alt %}
+    {% break %}
+  {% elsif variant_color == selected_color and selected_size == variant_size %}
+      {% assign variant_href = variant.id %}
       {% assign variant_image = variant.featured_media %}
       {% assign hover_variant_image = variant.featured_media.alt %}
     {% break %}
@@ -176,6 +182,7 @@ Supported variables
       {%- endif -%}
 
       <span>{{ selected_color }}</span>
+      {% if selected_size != blank %}<span>{{ selected_size }}</span>{% endif %}
 
       {% if show_rating %}
         <div class="yotpo bottomLine" data-product-id="{{ product.id }}"></div>

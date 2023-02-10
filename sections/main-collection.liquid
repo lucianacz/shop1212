@@ -202,9 +202,9 @@
                       </div>
                     {%- endfor -%}
 
-                    {% unless collection.metafields.custom.shop_by_color %}
+                    {% if collection.metafields.custom.shop_by_color != true and collection.metafields.custom.sizes == blank  %}
                       {%- render 'product-card', product: product, stacked: true, show_badges: true -%}
-                    {% else %}
+                    {% elsif collection.metafields.custom.shop_by_color and collection.metafields.custom.sizes == blank %}
                        {%- for option in product.options_with_values -%}
                           {% if option.name == 'Color' %}   
                           {%- for value in option.values -%}  
@@ -222,7 +222,44 @@
                           {%- endfor -%}           
                           {% endif %}
                         {%- endfor -%}
-                    {% endunless %}
+                    {% elsif collection.metafields.custom.colors == blank and collection.metafields.custom.sizes != blank %}
+                      {%- for option in product.options_with_values -%}
+                        {% if option.name == 'Color' %}   
+                          {%- for value in option.values -%}  
+                            {% assign selected_color = value %}
+                              {%- assign custom_sizes = collection.metafields.custom.sizes.value | sort -%}
+                              {%- for custom_size in custom_sizes -%}
+                                {%- for variant in product.variants -%}
+                                {%- if variant.option2 == custom_size and variant.option1 == selected_color and variant.inventory_quantity > 0 and variant.available -%}
+                                {%- assign custom_colors = collection.metafields.custom.colors.value | sort -%}
+                                  {%- for custom_color in custom_colors -%}
+                                    {% if custom_color ==  selected_color %}
+                                    {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color, selected_size: variant.option2 -%}
+                                    {%- endif -%}
+                                  {%- endfor -%}
+                                {%- endif -%}
+                                {%- endfor -%}
+                              {%- endfor -%}
+                          {%- endfor -%}           
+                        {% endif %}
+                      {%- endfor -%}
+                    {% elsif collection.metafields.custom.colors != blank and collection.metafields.custom.sizes != blank %}
+                      {%- for option in product.options_with_values -%}
+                        {% if option.name == 'Color' %}   
+                          {%- for value in option.values -%}  
+                            {% assign selected_color = value %}
+                              {%- assign custom_sizes = collection.metafields.custom.sizes.value | sort -%}
+                              {%- for custom_size in custom_sizes -%}
+                                {%- for variant in product.variants -%}
+                                {%- if variant.option2 == custom_size and  variant.option1 == selected_color and variant.inventory_quantity > 0 and variant.available -%}
+                                  {%- render 'product-variant', product: product, stacked: true, show_badges: true, selected_color: selected_color, selected_size: variant.option2 -%}
+                                {%- endif -%}
+                                {%- endfor -%}
+                              {%- endfor -%}
+                          {%- endfor -%}           
+                        {% endif %}
+                      {%- endfor -%}
+                    {% endif %}
                   {%- endfor -%}
                 </product-list>
               </reveal-items>
