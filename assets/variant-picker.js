@@ -12,6 +12,9 @@ function changeHandler(event) {
 }
 
 Array.prototype.forEach.call(radios, function(radio) {
+  if(document.querySelectorAll('.variant-picker__option-values [data-option="Color"]:not([limited-colors="true"])').length == 0){
+    document.getElementById('variantOption-Color').classList.add('hidden')
+  }
    if(radio.checked){
     if(radio.getAttribute('limited-colors')){
       document.getElementById('OptionName-Color').classList.add('hidden')
