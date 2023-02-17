@@ -14,7 +14,9 @@ Supported variables
 {%- endcomment -%}
 
 {%- for property in line_item.properties -%}
-  {{ property.first }}
+  {% if property.first == 'Make it personal' %}
+    {{ property.first }}
+  {% endif %}
 {%- endfor -%}
 
 {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
