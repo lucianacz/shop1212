@@ -14,7 +14,8 @@ Supported variables
 {%- endcomment -%}
 
 {%- for property in line_item.properties -%}
-  {% if property.first == 'Make it Personal' %}
+  {% assign property_first = property.first | downcase %}
+  {% if property_first == 'make it personal' %}
     {{ property.first }}
   {% endif %}
 {%- endfor -%}
