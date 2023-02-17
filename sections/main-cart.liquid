@@ -42,6 +42,15 @@
 
               <tbody class="order-summary__body">
                 {%- for line_item in cart.items -%}
+
+                  {% assign hide_quantity = false %}
+                  {%- for property in line_item.properties -%}
+                    {% assign property_first = property.first | downcase %}
+                    {% if property_first == 'make it personal' %}
+                      {% assign hide_quantity = true %}
+                    {% endif %}
+                  {%- endfor -%}
+                  
                   {%- assign line_max_quantity = '' -%}
 
                   {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
@@ -49,11 +58,11 @@
                   {%- endif -%}
 
                   <tr>
-                    <td>{%- render 'line-item', line_item: line_item -%}</td>
+                    <td>{%- render 'line-item', line_item: line_item, hide_quantity: hide_quantity -%}</td>
 
                     <td class="hidden align-center text-center text-subdued sm:table-cell">
                       <line-item-quantity class="v-stack justify-center gap-2">
-                        {% unless line_item.title == 'Item Personalization' %}
+                        {% unless line_item.title == 'Item Personalization' or hide_quantity %}
                         <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity != blank %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
                         {% endunless %}
                         <span class="text-xs">
