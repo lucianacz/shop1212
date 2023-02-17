@@ -13,6 +13,10 @@ Supported variables
 * show_desktop_quantity: if set to true (for instance on cart drawer), the quantity is also shown on the line
 {%- endcomment -%}
 
+{%- for property in line_item.properties -%}
+  {{ property.first }}
+{%- endfor -%}
+
 {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
   {%- assign line_max_quantity = line_item.variant.inventory_quantity -%}
 {%- endif -%}
@@ -52,7 +56,7 @@ Supported variables
         {%- for property in line_item.properties -%}
           {%- assign first_character_in_key = property.first | truncate: 1, '' -%}
 
-          {%- if property.last == blank or first_character_in_key == '_' -%}
+        {%- if property.last == blank or first_character_in_key == '_' -%}
             {%- continue -%}
           {%- endif -%}
 
