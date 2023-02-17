@@ -1,3 +1,3 @@
 setTimeout(() => {
- document.querySelector('cart-count').classList.remove('hidden')
+ document.querySelector('cart-count').classList.remove('no-visible')
 }, 500);
