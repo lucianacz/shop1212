@@ -13,13 +13,6 @@ Supported variables
 * show_desktop_quantity: if set to true (for instance on cart drawer), the quantity is also shown on the line
 {%- endcomment -%}
 
-{%- for property in line_item.properties -%}
-  {% assign property_first = property.first | downcase %}
-  {% if property_first == 'make it personal' %}
-    {{ property.first }}
-  {% endif %}
-{%- endfor -%}
-
 {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
   {%- assign line_max_quantity = line_item.variant.inventory_quantity -%}
 {%- endif -%}
@@ -77,7 +70,7 @@ Supported variables
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
-          {% unless line_item.title == 'Item Personalization' %}
+          {% unless line_item.title == 'Item Personalization' or hide_quantity %}
           <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
           {% endunless %}
         
