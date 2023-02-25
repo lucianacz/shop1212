@@ -29,35 +29,13 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/box-1665437382537.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-0",
-        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-1"
+        "template--17307127906579__d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab-167168798544a0002f-0"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": true,
         "image_size": "auto",
         "controls_type": "dots",
@@ -84,7 +62,7 @@
           "type": "heading",
           "settings": {
             "text": "Discover our new exclusive collection, featuring the playful illustrations from Con Pollo: A Bilingual Playtime Adventure by superstar team-up Jimmy Fallon and Jennifer Lopez.",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "text_color": "",
             "gradient": ""
           }
@@ -133,6 +111,72 @@
         "product_card_text_color": ""
       }
     },
+    "acc11c68-a36f-4881-92c7-2af0769ca159": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/theo-1665316265838.webp",
+            "media_width": 60,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-happy",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>With the classic comfort of our organic, pima cotton pajamas and French terry pullover sweatshirts, this collection includes looks for mom, dad and kids.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": false,
+        "spacing": "none"
+      }
+    },
+    "173c971e-bf40-4d7f-9fa5-be5c649539ab": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo",
+          "the-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo",
+          "the-organic-zipper-footie-and-book-gift-set-con-pollo"
+        ],
+        "custom_variants": "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Poppy Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Heather Grey Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Ice Blue Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Poppy Con Pollo Icon\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Heather Grey Con Pollo Icon\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Ice Blue Con Pollo Icon\nthe-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo, Con Pollo\nthe-organic-zipper-footie-and-book-gift-set-con-pollo, Con Pollo",
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 12,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Gift Sets",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "c8b038d2-dc7f-4663-b0ca-01c65fe289e5": {
       "type": "media-with-text",
       "blocks": {
@@ -169,24 +213,24 @@
         "spacing": "none"
       }
     },
-    "173c971e-bf40-4d7f-9fa5-be5c649539ab": {
+    "dd68a84f-9ef4-4889-92bd-7074004c0596": {
       "type": "featured-collection",
       "settings": {
         "collection": "",
         "products": [
-          "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo",
-          "the-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo",
-          "the-organic-zipper-footie-and-book-gift-set-con-pollo"
+          "womens-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "mens-organic-pullover-sweatshirt-embroidered-con-pollo",
+          "the-organic-pullover-sweatshirt-embroidered-con-pollo"
         ],
-        "custom_variants": "the-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Poppy Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Heather Grey Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Ice Blue Con Pollo Logo\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Poppy Con Pollo Icon\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Heather Grey Con Pollo Icon\nthe-organic-pullover-sweatshirt-and-book-gift-set-con-pollo, Ice Blue Con Pollo Icon\nthe-organic-long-sleeve-pajama-set-and-book-gift-set-con-pollo, Con Pollo\nthe-organic-zipper-footie-and-book-gift-set-con-pollo, Con Pollo",
+        "custom_variants": "womens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Icon\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Ice Blue Con Pollo Icon\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Logo\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Ice Blue Con Pollo Logo\nmens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Icon\nmens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Logo",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
-        "products_count": 12,
+        "products_count": 6,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Gift Sets",
+        "title": "Adults",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -234,72 +278,6 @@
         "enable_parallax": false,
         "spacing": "none"
       }
-    },
-    "dd68a84f-9ef4-4889-92bd-7074004c0596": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "womens-organic-pullover-sweatshirt-embroidered-con-pollo",
-          "mens-organic-pullover-sweatshirt-embroidered-con-pollo",
-          "the-organic-pullover-sweatshirt-embroidered-con-pollo"
-        ],
-        "custom_variants": "womens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Icon\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Ice Blue Con Pollo Icon\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Logo\nwomens-organic-pullover-sweatshirt-embroidered-con-pollo, Ice Blue Con Pollo Logo\nmens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Icon\nmens-organic-pullover-sweatshirt-embroidered-con-pollo, Heather Grey Con Pollo Logo",
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "Adults",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "acc11c68-a36f-4881-92c7-2af0769ca159": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/theo-1665316265838.webp",
-            "media_width": 60,
-            "media_position": "start",
-            "media_size": "cover",
-            "text_position": "place-self-center text-center",
-            "icon": "picto-happy",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>With the classic comfort of our organic, pima cotton pajamas and French terry pullover sweatshirts, this collection includes looks for mom, dad and kids.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17307127906579__acc11c68-a36f-4881-92c7-2af0769ca159-16716882249262e640-0"
-      ],
-      "settings": {
-        "full_width": true,
-        "enable_parallax": false,
-        "spacing": "none"
-      }
     }
   },
   "order": [
@@ -307,10 +285,10 @@
     "d5b64e62-6cb2-4e3a-97e2-d848bb92d1ab",
     "530196ff-4b00-47b1-a56d-ccd37bfe088c",
     "c5f0f330-5bcf-4ee4-97ee-1556fb031169",
-    "c8b038d2-dc7f-4663-b0ca-01c65fe289e5",
+    "acc11c68-a36f-4881-92c7-2af0769ca159",
     "173c971e-bf40-4d7f-9fa5-be5c649539ab",
-    "9160d40b-d45f-424e-a2ae-0510c539a30c",
+    "c8b038d2-dc7f-4663-b0ca-01c65fe289e5",
     "dd68a84f-9ef4-4889-92bd-7074004c0596",
-    "acc11c68-a36f-4881-92c7-2af0769ca159"
+    "9160d40b-d45f-424e-a2ae-0510c539a30c"
   ]
 }
