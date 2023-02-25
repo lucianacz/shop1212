@@ -144,7 +144,7 @@
             "media_position": "start",
             "media_size": "cover",
             "text_position": "place-self-center text-center",
-            "icon": "picto-music",
+            "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "",
