@@ -33,6 +33,7 @@
             "position": 4,
             "column_span": "2",
             "image": "shopify:\/\/shop_images\/theo-1665316265838.webp",
+            "mobile_image": "shopify:\/\/shop_images\/theom-1665316847993.webp",
             "title": "",
             "content": "<p>With the classic comfort of our organic,<br\/>pima cotton pajamas and French terry<br\/>pullover sweatshirts, this collection includes<br\/>looks for mom, dad and kids.<\/p>",
             "link_url": "",
@@ -50,6 +51,7 @@
             "position": 6,
             "column_span": "2",
             "image": "shopify:\/\/shop_images\/michaela-1665317302025_d0d1674f-16fd-4c96-8398-604221bef91e.webp",
+            "mobile_image": "shopify:\/\/shop_images\/michaelam-1665317673114.webp",
             "title": "",
             "content": "<p>Charmed by the spirit of Pollo – who wants to play, and play,<br\/>and play all day! – we were inspired to bring this clever<br\/>chicken to life by featuring Pollo on pullovers (to be worn <br\/>for play all day!) and pajamas (to be worn after all day play!).<\/p>",
             "link_url": "",
@@ -61,10 +63,28 @@
             "overlay_opacity": 0
           }
         },
-        "43870e27-ea7d-4ee8-9565-30d2042d7a93": {
+        "d1b76606-998e-4a2b-bc6f-a0ca02cf4895": {
           "type": "promotion_image",
           "settings": {
             "position": 7,
+            "column_span": "2",
+            "image": "shopify:\/\/shop_images\/benny-1665360355677_14940328-ec0e-4768-afa0-1077747f1d82.webp",
+            "mobile_image": "shopify:\/\/shop_images\/bennym-1665324272707.webp",
+            "title": "",
+            "content": "<p>Printed and embroidered on our beloved<br\/>cozy organic cotton, Pollo is sure to make<br\/>reading more fun (and comfortable) for even<br\/>the littlest book lovers. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-start text-start",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "43870e27-ea7d-4ee8-9565-30d2042d7a93": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 8,
             "column_span": "1",
             "image": "shopify:\/\/shop_images\/box-1665437382537.webp",
             "title": "",
@@ -82,6 +102,7 @@
       "block_order": [
         "ffa49bee-2f02-49c7-9425-6f852c11e489",
         "4b56b089-c46e-4bf8-8d62-e474d1e8dd40",
+        "d1b76606-998e-4a2b-bc6f-a0ca02cf4895",
         "43870e27-ea7d-4ee8-9565-30d2042d7a93"
       ],
       "custom_css": [
