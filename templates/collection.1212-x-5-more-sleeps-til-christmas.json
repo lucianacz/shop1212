@@ -25,6 +25,7 @@
       "blocks": {
         "dcabe35a-2ef3-49aa-9717-a629e181cbac": {
           "type": "promotion_image",
+          "disabled": true,
           "settings": {
             "position": 1,
             "column_span": "2",
