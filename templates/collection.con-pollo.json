@@ -7,9 +7,9 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "show_collection_title": true,
-        "show_collection_description": false,
-        "show_collection_image": false,
-        "collection_title_size": "h5",
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h1",
         "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-start-center sm:text-center",
@@ -17,7 +17,7 @@
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 29
       }
     },
     "main": {
