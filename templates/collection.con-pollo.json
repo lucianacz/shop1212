@@ -48,6 +48,9 @@
       "block_order": [
         "ffa49bee-2f02-49c7-9425-6f852c11e489"
       ],
+      "custom_css": [
+        "img{object-fit: contain;}"
+      ],
       "settings": {
         "products_per_page": 50,
         "products_per_row_mobile": "2",
