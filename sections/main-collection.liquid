@@ -141,11 +141,7 @@
                       {%- endif -%}
 
                       <div id="block-{{ section.id }}-{{ block.id }}" {% render 'surface', class: 'product-list__promo group', text_color: block.settings.text_color %} {{ block.shopify_attributes }}>
-                        {% if block.settings.link_url != blank %}
-                          <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media h-full rounded-sm" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
-                        {% else %}
-                          <div class="content-over-media h-full rounded-sm" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
-                        {% endif %}
+                        <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media h-full rounded-sm" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
                           {%- case block.type -%}
                             {%- when 'promotion_image' -%}
                               {%- if block.settings.image != blank -%}
@@ -202,11 +198,7 @@
                               </div>
                             </div>
                           {%- endif -%}
-                        {% if block.settings.link_url != blank %}
-                          </a>
-                        {% else %}
-                          </div>
-                        {% endif %}
+                        </a>
                       </div>
                     {%- endfor -%}
 
