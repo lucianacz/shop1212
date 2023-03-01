@@ -17,7 +17,7 @@
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 24
       }
     },
     "main": {
