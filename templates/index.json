@@ -6,8 +6,8 @@
         "template--17167820488979__ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e-1672075820b71139f4-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vday_37218f78-1af7-4261-abfe-d1ad57357ee6.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Vday-M.gif",
+            "image": "shopify:\/\/shop_images\/Easter.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Easter_M.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -15,7 +15,7 @@
             "title": "",
             "heading_tag": "h1",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/valentines-day",
+            "button_link": "shopify:\/\/collections\/easter",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -88,11 +88,11 @@
         "collection": "",
         "products": [
           "the-organic-long-sleeve-pajama-set-holiday",
-          "the-organic-pullover-sweatshirt-embroidered",
-          "the-cupcake-kit-and-organic-long-sleeve-rib-lounge-gift-set",
-          "the-organic-pullover-and-sweatpant-set"
+          "the-organic-embroidered-short-sleeve-pajama-set",
+          "the-butterfly-coloring-poster-and-tee-and-legging-set",
+          "the-organic-snap-footie-embroidered"
         ],
-        "custom_variants": "the-organic-long-sleeve-pajama-set-holiday, Vintage Hearts\nthe-organic-pullover-sweatshirt-embroidered, Poppy Kind Hearted\nthe-cupcake-kit-and-organic-long-sleeve-rib-lounge-gift-set, Pink Tiny Hearts\nthe-organic-pullover-and-sweatpant-set, Ice Blue Jeweled Hearts",
+        "custom_variants": "",
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -120,7 +120,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/rib.jpg",
-            "title": "New Rib Lounge",
+            "title": "New Rib Sets",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/rib-lounge",
             "link_text": "Shop Now",
@@ -141,8 +141,8 @@
         "c3782fd9-997b-4c04-9699-c0daf7c6204c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ski_16370722-d280-47b0-b3ad-31efa4efc00b.jpg",
-            "title": "Snow Fun",
+            "image": "shopify:\/\/shop_images\/sadie_b318c771-075e-4e65-a26e-ee7472b83f50.jpg",
+            "title": "Neon Rainbows",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/ski-and-snow",
             "link_text": "Shop Now",
