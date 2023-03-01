@@ -123,8 +123,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/pullover--cranberry-1676936285258.jpg",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 160,
+            "icon_width": 160,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -137,8 +137,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/garter-stitch-sweater--grey-new-1666895126513.webp",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 160,
+            "icon_width": 160,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -151,8 +151,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/ls-pj-set--ice-skates-1-1672417932648.webp",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 160,
+            "icon_width": 160,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -165,8 +165,8 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/footed-pj--pink-tiny-hearts-1-1676936268639.webp",
-            "mobile_icon_width": 120,
-            "icon_width": 120,
+            "mobile_icon_width": 160,
+            "icon_width": 160,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
@@ -186,7 +186,7 @@
         "title": "",
         "heading_tag": "h4",
         "text_alignment": "center",
-        "icon_spacing": "medium",
+        "icon_spacing": "large",
         "background": "",
         "background_gradient": "",
         "text_color": ""
