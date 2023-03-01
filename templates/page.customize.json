@@ -115,8 +115,86 @@
         "text_color": ""
       }
     },
+    "a2e02ab5-076e-4bb1-a939-0f5ac70ea31d": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pullover--cranberry-1676936285258.jpg",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "PULLOVERS",
+            "content": ""
+          }
+        },
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/garter-stitch-sweater--grey-new-1666895126513.webp",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "SWEATERS",
+            "content": ""
+          }
+        },
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/ls-pj-set--ice-skates-1-1672417932648.webp",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "PAJAMA SETS",
+            "content": ""
+          }
+        },
+        "8d9436ee-7a2b-4a53-b4b1-9a7610a03e03": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/footed-pj--pink-tiny-hearts-1-1676936268639.webp",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "FOOTIES",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-0",
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-1",
+        "template--18081382629651__a2e02ab5-076e-4bb1-a939-0f5ac70ea31d-1677649238e4fc367c-2",
+        "8d9436ee-7a2b-4a53-b4b1-9a7610a03e03"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h4",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "131b7b00-e470-49a3-9fbf-18542132dcbe": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "template--18081382629651__131b7b00-e470-49a3-9fbf-18542132dcbe-16776487579d15a774-0": {
           "type": "collection",
@@ -201,6 +279,74 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "e90e2d51-0f63-498d-9ffa-9ad24c1aa7f1": {
+      "type": "media-with-text",
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "ca3ddac7-288b-4954-8e1c-aff610ae90c0": {
+      "type": "media-with-text",
+      "blocks": {
+        "653b7a2f-9e14-45dd-8e99-aa7dfc081008": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/embroidery-1676936227532.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "2. Choose Customization Type",
+            "content": "<p>Choose from Custom Text, Custom Hearts, or our pre-designed Symbols & Phrases<\/p>",
+            "link_text": "EXPLORE THE OPTIONS",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#000000"
+          }
+        },
+        "template--18081382629651__ca3ddac7-288b-4954-8e1c-aff610ae90c0-16776500045e6fd1a8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/img_3690-1672418051695.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "3. Make it Yours",
+            "content": "<p>Add your custom text or choose colors where applicable<\/p>",
+            "link_text": "START DESIGNING",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "653b7a2f-9e14-45dd-8e99-aa7dfc081008",
+        "template--18081382629651__ca3ddac7-288b-4954-8e1c-aff610ae90c0-16776500045e6fd1a8-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
@@ -208,6 +354,9 @@
     "130fbe72-9e62-4b66-afad-d92a713d8865",
     "d7c9b411-1e1e-470b-ba4d-93d575ca8536",
     "262753fd-648a-4de2-9903-c6e9d62261f4",
-    "131b7b00-e470-49a3-9fbf-18542132dcbe"
+    "a2e02ab5-076e-4bb1-a939-0f5ac70ea31d",
+    "131b7b00-e470-49a3-9fbf-18542132dcbe",
+    "e90e2d51-0f63-498d-9ffa-9ad24c1aa7f1",
+    "ca3ddac7-288b-4954-8e1c-aff610ae90c0"
   ]
 }
