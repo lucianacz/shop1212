@@ -8585,7 +8585,7 @@ split-lines {
 
 @media screen and (max-width: 999px) {
   .text-with-icons__list-stack{
-    grid-template-columns: 1fr 1fr;
+    grid: 1fr 1fr / 1fr 1fr;
   }
 }
 .timeline {
