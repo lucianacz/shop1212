@@ -22,6 +22,18 @@
         "overlay_opacity": 0
       }
     },
+    "4c83e52c-8162-4339-9e5a-eab8a3539784": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"klaviyo-form-VFTSQL\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "fed17a26-ccb1-4740-95b1-1b1672d7835e": {
       "type": "text-with-icons",
       "blocks": {
@@ -212,6 +224,7 @@
   "order": [
     "main",
     "ae3777e8-2e8d-4808-8d50-26d995043439",
+    "4c83e52c-8162-4339-9e5a-eab8a3539784",
     "fed17a26-ccb1-4740-95b1-1b1672d7835e",
     "8eeaa80e-448d-47f1-90ea-0da8f4ab639c"
   ]
