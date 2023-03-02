@@ -187,6 +187,7 @@
         "heading_tag": "h4",
         "text_alignment": "center",
         "icon_spacing": "small",
+        "mobile_stack": true,
         "background": "",
         "background_gradient": "",
         "text_color": ""
