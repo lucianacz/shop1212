@@ -28,9 +28,9 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"klaviyo-form-VFTSQL\"><\/div>",
+        "html": "<h2>They say it's your birthday 🥳<\/h2>\n<p>Enter your child(ren)'s birthdays and we'll send you a surprise to celebrate their Birthday Month!<\/p>\n<div class=\"klaviyo-form-VFTSQL\"><\/div>",
         "background": "",
-        "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
+        "background_gradient": "radial-gradient(rgba(212, 223, 255, 1) 27%, rgba(210, 229, 255, 1) 49%, rgba(255, 255, 255, 1) 91%)",
         "text_color": ""
       }
     },
