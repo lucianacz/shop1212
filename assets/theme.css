@@ -2650,6 +2650,12 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   display: grid;
 }
 
+@media screen and (max-width: 999px) {
+  .product-list__promo .product-list__promo-text__below{
+    grid-area: 4 / 1 / 4 / 4;
+  }
+}
+
 @media screen and (min-width: 700px) {
   @supports (grid-template-rows: subgrid) {
     .product-list {

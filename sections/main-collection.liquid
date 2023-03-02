@@ -173,7 +173,7 @@
                           {%- endcase -%}
 
                           {%- if block.settings.title != blank or block.settings.link_text != blank or block.settings.content != blank -%}
-                            <div class="{{ block.settings.text_position }}">
+                            <div class="{{ block.settings.text_position }}{%- if block.settings.text_below %} product-list__promo-text__below{% endif -%}">
                               <div class="v-stack gap-4 sm:gap-6 {% if block.settings.text_position contains 'text-center' %}justify-items-center{% elsif block.settings.text_position contains 'text-end' %}justify-items-end{% endif %}">
                                 {%- if block.settings.title != blank or block.settings.content != blank -%}
                                   <div class="prose">
@@ -594,6 +594,12 @@
             }
           ],
           "default": "place-self-end-start text-start"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_below",
+          "label": "Show content below image on mobile",
+          "default": false
         },
         {
           "type": "header",
