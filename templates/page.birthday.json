@@ -101,7 +101,7 @@
         "19a3fc2e-2e64-477f-9a64-553718e8e0fb"
       ],
       "custom_css": [
-
+        ".justify-self-center{text-align: center;}"
       ],
       "settings": {
         "full_width": true,
