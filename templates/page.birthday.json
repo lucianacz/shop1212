@@ -219,6 +219,14 @@
         "enable_parallax": true,
         "spacing": "small"
       }
+    },
+    "d4292a1b-bbe2-4e30-a6d0-f9255b6bc054": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
@@ -226,6 +234,7 @@
     "ae3777e8-2e8d-4808-8d50-26d995043439",
     "4c83e52c-8162-4339-9e5a-eab8a3539784",
     "fed17a26-ccb1-4740-95b1-1b1672d7835e",
-    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c"
+    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c",
+    "d4292a1b-bbe2-4e30-a6d0-f9255b6bc054"
   ]
 }
