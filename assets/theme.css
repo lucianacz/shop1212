@@ -2653,6 +2653,11 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 @media screen and (max-width: 999px) {
   .product-list__promo .product-list__promo-text__below{
     grid-area: 4 / 1 / 4 / 4;
+    text-align: left;
+  }
+
+  .product-list__promo .product-list__promo-text__below .v-stack{
+    justify-items: start;
   }
 }
 
