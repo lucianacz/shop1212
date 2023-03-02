@@ -8583,6 +8583,11 @@ split-lines {
   }
 }
 
+@media screen and (max-width: 999px) {
+  .text-with-icons__list-stack{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .timeline {
   gap: var(--spacing-8);
   grid-template-columns: minmax(0, 1fr);

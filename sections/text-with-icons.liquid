@@ -43,7 +43,7 @@
       {%- endif -%}
 
       <div class="text-with-icons">
-        <scroll-carousel class="text-with-icons__list scroll-area full-bleed {% if section.blocks.size <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}" id="carousel-{{ section.id }}" role="region">
+        <scroll-carousel class="text-with-icons__list scroll-area full-bleed {% if section.blocks.size <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}{% if section.settings.mobile_stack %} text-with-icons__list-stack{% endif %}" id="carousel-{{ section.id }}" role="region">
           {%- for block in section.blocks -%}
             <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item snap-center" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
               {%- capture icon -%}
@@ -527,6 +527,12 @@
         }
       ],
       "default": "medium"
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_stack",
+      "label": "Mobile stack",
+      "default": false
     },
     {
       "type": "header",
