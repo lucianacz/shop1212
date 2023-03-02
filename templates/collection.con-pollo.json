@@ -40,6 +40,7 @@
             "link_text": "",
             "heading_tag": "h4",
             "text_position": "place-self-center-end text-end",
+            "text_below": true,
             "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -58,6 +59,7 @@
             "link_text": "",
             "heading_tag": "h4",
             "text_position": "place-self-center-end text-end",
+            "text_below": true,
             "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -76,6 +78,7 @@
             "link_text": "",
             "heading_tag": "h4",
             "text_position": "place-self-center-start text-start",
+            "text_below": true,
             "text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -93,6 +96,7 @@
             "link_text": "",
             "heading_tag": "h4",
             "text_position": "place-self-end-start text-start",
+            "text_below": true,
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
