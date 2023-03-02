@@ -30,7 +30,7 @@
         "remove_horizontal_spacing": false,
         "html": "<div class=\"klaviyo-form-VFTSQL\"><\/div>",
         "background": "",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
         "text_color": ""
       }
     },
