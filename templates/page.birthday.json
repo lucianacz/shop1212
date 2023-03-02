@@ -99,11 +99,120 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18093606404371__8eeaa80e-448d-47f1-90ea-0da8f4ab639c-1677731204e4c0053a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customhearts_06-1643684638205.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "contain",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "CHOOSE YOUR BIRTHDAY SUIT",
+            "content": "<p>From the softest pullovers to the coziest sweaters and all the comfy basics in between.<\/p>",
+            "link_text": "FIND YOUR FAVORITE",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "717b37c8-2a24-47a1-b6cc-304c1a395b5b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212-birthday-1643685956421.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "PARTY ALL NIGHT LONG",
+            "content": "<p>Crafted in the softest pima cotton, a festive PJ set will have your birthday babe ready for bed in no time.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "774018a0-6cdf-4b92-a1b0-c51d9ce5a954": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-1676935689934.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "ENDLESS EMBROIDERY",
+            "content": "<p>Endless embroidery possibilities are sure to add a touch of magic to your child’s special day.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "ba812d82-7e25-47e4-ad2a-9e572dde23f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bdaycrew-1676935781969.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "FOR THEIR BDAY CREW",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--18093606404371__8eeaa80e-448d-47f1-90ea-0da8f4ab639c-1677731204e4c0053a-0",
+        "717b37c8-2a24-47a1-b6cc-304c1a395b5b",
+        "774018a0-6cdf-4b92-a1b0-c51d9ce5a954",
+        "ba812d82-7e25-47e4-ad2a-9e572dde23f5"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
     }
   },
   "order": [
     "main",
     "ae3777e8-2e8d-4808-8d50-26d995043439",
-    "fed17a26-ccb1-4740-95b1-1b1672d7835e"
+    "fed17a26-ccb1-4740-95b1-1b1672d7835e",
+    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c"
   ]
 }
