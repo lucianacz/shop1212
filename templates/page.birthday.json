@@ -28,7 +28,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<div class=\"text-center\">\n<h2 class=\"h2\">They say it's your birthday 🥳<\/h2>\n<p style=\"margin-top: 10px;\">Enter your child(ren)'s birthdays and we'll send you a surprise to celebrate their Birthday Month!<\/p>\n<\/div>\n<div class=\"klaviyo-form-vftsql\"><\/div>",
+        "html": "<div class=\"text-center\">\n<h2 class=\"h2\">They say it's your birthday 🥳<\/h2>\n<p style=\"margin: 10px;\">Enter your child(ren)'s birthdays and we'll send you a surprise to celebrate their Birthday Month!<\/p>\n<\/div>\n<div class=\"klaviyo-form-VFTSQL\"><\/div>",
         "background": "",
         "background_gradient": "radial-gradient(rgba(212, 223, 255, 1) 27%, rgba(210, 229, 255, 1) 49%, rgba(255, 255, 255, 1) 91%)",
         "text_color": ""
