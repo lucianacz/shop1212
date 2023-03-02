@@ -100,6 +100,9 @@
         "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-2",
         "19a3fc2e-2e64-477f-9a64-553718e8e0fb"
       ],
+      "custom_css": [
+        "h3{text-align: center;}"
+      ],
       "settings": {
         "full_width": true,
         "title": "Customize your favorite piece for their big day!",
