@@ -8583,7 +8583,7 @@ split-lines {
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1149px) {
   .text-with-icons__list-stack{
     grid: 1fr 1fr / 1fr 1fr;
   }
