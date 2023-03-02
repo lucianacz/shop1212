@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ae3777e8-2e8d-4808-8d50-26d995043439": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/1212birthdaybanner20223-1676935378424.webp",
+        "mobile_image": "shopify:\/\/shop_images\/1212birthdaybanner2023m-1676988231181_7e37794f-7f23-4962-bc41-3687b3602cad.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "4c83e52c-8162-4339-9e5a-eab8a3539784": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div class=\"text-center\">\n<h2 class=\"h2\">They say it's your birthday 🥳<\/h2>\n<p style=\"margin: 20px; auto\">Enter your child(ren)'s birthdays and we'll send you a surprise to celebrate their Birthday Month!<\/p>\n<\/div>\n<div class=\"klaviyo-form-VFTSQL\"><\/div>",
+        "background": "",
+        "background_gradient": "linear-gradient(179deg, rgba(212, 223, 255, 1) 27%, rgba(210, 229, 255, 1) 35%, rgba(255, 255, 255, 1) 91%)",
+        "text_color": ""
+      }
+    },
+    "fed17a26-ccb1-4740-95b1-1b1672d7835e": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/birthday22_03-1645475491904.webp",
+            "mobile_icon_width": 300,
+            "icon_width": 300,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/birthday22_04-1645475491965.webp",
+            "mobile_icon_width": 300,
+            "icon_width": 300,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/birthday22_05-1645475492067.webp",
+            "mobile_icon_width": 300,
+            "icon_width": 300,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "19a3fc2e-2e64-477f-9a64-553718e8e0fb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/birthday22_06-1676934767951.webp",
+            "mobile_icon_width": 300,
+            "icon_width": 300,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-0",
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-1",
+        "template--18093606404371__fed17a26-ccb1-4740-95b1-1b1672d7835e-16777310125f0d6b6c-2",
+        "19a3fc2e-2e64-477f-9a64-553718e8e0fb"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Customize your favorite piece for their big day!",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "mobile_stack": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18093606404371__8eeaa80e-448d-47f1-90ea-0da8f4ab639c-1677731204e4c0053a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customhearts_06-1643684638205.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "contain",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "CHOOSE YOUR BIRTHDAY SUIT",
+            "content": "<p>From the softest pullovers to the coziest sweaters and all the comfy basics in between.<\/p>",
+            "link_text": "FIND YOUR FAVORITE",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "717b37c8-2a24-47a1-b6cc-304c1a395b5b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212-birthday-1643685956421.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "PARTY ALL NIGHT LONG",
+            "content": "<p>Crafted in the softest pima cotton, a festive PJ set will have your birthday babe ready for bed in no time.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "774018a0-6cdf-4b92-a1b0-c51d9ce5a954": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/baby-1676935689934.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "ENDLESS EMBROIDERY",
+            "content": "<p>Endless embroidery possibilities are sure to add a touch of magic to your child’s special day.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#272727"
+          }
+        },
+        "ba812d82-7e25-47e4-ad2a-9e572dde23f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bdaycrew-1676935781969.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "FOR THEIR BDAY CREW",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "shopify:\/\/collections\/monogram",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--18093606404371__8eeaa80e-448d-47f1-90ea-0da8f4ab639c-1677731204e4c0053a-0",
+        "717b37c8-2a24-47a1-b6cc-304c1a395b5b",
+        "774018a0-6cdf-4b92-a1b0-c51d9ce5a954",
+        "ba812d82-7e25-47e4-ad2a-9e572dde23f5"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
+    },
+    "d4292a1b-bbe2-4e30-a6d0-f9255b6bc054": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ae3777e8-2e8d-4808-8d50-26d995043439",
+    "4c83e52c-8162-4339-9e5a-eab8a3539784",
+    "fed17a26-ccb1-4740-95b1-1b1672d7835e",
+    "8eeaa80e-448d-47f1-90ea-0da8f4ab639c",
+    "d4292a1b-bbe2-4e30-a6d0-f9255b6bc054"
+  ]
+}
