@@ -84,6 +84,9 @@
     },
     "featured-collection": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
         "collection": "",
         "products": [
@@ -352,6 +355,7 @@
         "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
+        "mobile_stack": false,
         "background": "",
         "background_gradient": "",
         "text_color": ""
