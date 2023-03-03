@@ -2,11 +2,157 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "457f64ea-d881-49a1-ac85-5dd8f1840917": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--18105040699667__457f64ea-d881-49a1-ac85-5dd8f1840917-16778128316ade27c9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/apresbedtime_01-1663948697242.webp",
+            "media_width": 55,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/apresbedtime_02-1663948935391.webp",
+            "icon_width": 120,
+            "subheading": "",
+            "title": "Introducing Après Bedtime",
+            "content": "<p>12|12 brought you Après Ski and Après Beach; this season we’ve partnered with el VINO to bring you Après Bedtime, for that glorious feeling after the last little one has finally dozed off. Paired with a delicious bottle of el VINO white, red or rose wine, bedtime has never looked, or tasted, so good.<\/p>",
+            "link_text": "SHOP NOW",
+            "link_url": "https:\/\/www.elvino.shop\/products\/12-12-apres-bedtime-set",
+            "background": "#f5f3eb",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18105040699667__457f64ea-d881-49a1-ac85-5dd8f1840917-16778128316ade27c9-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": false,
+        "spacing": "none"
+      }
+    },
+    "0aa14a15-879a-4d69-aa93-60c486253be5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18105040699667__0aa14a15-879a-4d69-aa93-60c486253be5-1677813001942d4da3-1": {
+          "type": "heading",
+          "settings": {
+            "text": "About el VINO",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--18105040699667__0aa14a15-879a-4d69-aa93-60c486253be5-1677813001942d4da3-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>el VINO blends a Californian spirit with a Valle de Guadalupe wine, everyday ease with an elevated aesthetic, high fashion with terroir grapes. A female-founded wine company that celebrates artists through collaborations for every label! Each wine variety has a light body with a lower alcohol content and bold flavor notes making this an easy everyday essential and elevating your everyday wine! <\/p>"
+          }
+        },
+        "44f238e6-aa35-45b0-b231-bf993bebd618": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "LEARN MORE",
+            "url": "https:\/\/www.elvino.shop\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18105040699667__0aa14a15-879a-4d69-aa93-60c486253be5-1677813001942d4da3-1",
+        "template--18105040699667__0aa14a15-879a-4d69-aa93-60c486253be5-1677813001942d4da3-2",
+        "44f238e6-aa35-45b0-b231-bf993bebd618"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "8d1c4350-2085-4ece-a4c4-9222fc13678f": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/apresbedtime_04-1663948845256.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/apresbedtime_05-1663948865148.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-1",
+        "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "#f7f3eb",
+        "background_gradient": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "457f64ea-d881-49a1-ac85-5dd8f1840917",
+    "0aa14a15-879a-4d69-aa93-60c486253be5",
+    "8d1c4350-2085-4ece-a4c4-9222fc13678f"
   ]
 }
