@@ -4,7 +4,8 @@
       "type": "collection-banner",
       "custom_css": [
         ".v-stack {background: white; color: black; padding: 30px 20px;}",
-        "h1 {display: none;}"
+        "h1 {display: none;}",
+        ".text-custom {padding-top: 0px;}"
       ],
       "settings": {
         "full_width": false,
