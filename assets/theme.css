@@ -6858,6 +6858,7 @@ split-lines {
   max-width: calc(var(--media-with-text-item-icon-width) / 1.5);
   margin-block-end: var(--spacing-1);
   display: inline-block;
+  width: 100%;
 }
 
 @media screen and (min-width: 700px) {
