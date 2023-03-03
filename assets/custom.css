@@ -82,7 +82,7 @@ a.yotpo-logo-link-new{
 .product .color-swatch{
   width: 45px;
   height: 45px;
-  background-size: contain;
+  background-size: cover;
 }
 
 a.color-swatch{
