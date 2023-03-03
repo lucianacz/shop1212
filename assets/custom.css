@@ -12,6 +12,16 @@ a.btn.klaviyo-bis-trigger {
   font-size: 1em;
 }
 
+@media (max-width: 699px){
+  .klaviyo-form-VFTSQL [data-testid="form-component"].needsclick{
+    flex: inherit;
+  }
+  
+  .klaviyo-form-VFTSQL [data-testid="form-row"].needsclick{
+    flex-direction: column
+  }
+}
+
 /* ---------------- */
 /* Yotpo */
 /* ---------------- */
