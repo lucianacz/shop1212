@@ -7,7 +7,7 @@
         "h1 {display: none;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "show_collection_title": true,
