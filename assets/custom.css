@@ -14,11 +14,11 @@ a.btn.klaviyo-bis-trigger {
 
 @media (max-width: 699px){
   .klaviyo-form-VFTSQL [data-testid="form-component"].needsclick{
-    flex: inherit;
+    flex: inherit !important;
   }
   
   .klaviyo-form-VFTSQL [data-testid="form-row"].needsclick{
-    flex-direction: column
+    flex-direction: column !important;
   }
 }
 
