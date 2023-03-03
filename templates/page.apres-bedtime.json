@@ -93,7 +93,7 @@
         "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/apresbedtime_04-1663948845256.webp",
+            "image": "shopify:\/\/shop_images\/Apres1.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -115,7 +115,7 @@
         "template--18105040699667__8d1c4350-2085-4ece-a4c4-9222fc13678f-167781307392359fd5-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/apresbedtime_05-1663948865148.webp",
+            "image": "shopify:\/\/shop_images\/Apres2.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -147,12 +147,41 @@
         "background": "#f5f3eb",
         "background_gradient": ""
       }
+    },
+    "616940a1-c467-4ee6-8498-5c83221e7104": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+
+        ],
+        "custom_variants": "womens-pullover-sweatshirt-embroidered, Navy Apres Beach\nwomens-pullover-sweatshirt-embroidered, Cream Apres Bedtime\nwomens-pullover-sweatshirt-embroidered, Ice Blue Vintage Apres Ski\nwomens-pullover-sweatshirt-embroidered, Navy Vintage Apres Ski\nwomens-pullover-sweatshirt-embroidered, Pink Apres Beach\nwomens-pullover-sweatshirt-embroidered, Navy Script Apres Ski\nwomens-pullover-sweatshirt-embroidered, Navy Apres Bedtime",
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "457f64ea-d881-49a1-ac85-5dd8f1840917",
     "0aa14a15-879a-4d69-aa93-60c486253be5",
-    "8d1c4350-2085-4ece-a4c4-9222fc13678f"
+    "8d1c4350-2085-4ece-a4c4-9222fc13678f",
+    "616940a1-c467-4ee6-8498-5c83221e7104"
   ]
 }
