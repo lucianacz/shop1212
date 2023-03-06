@@ -4,10 +4,11 @@
       "type": "collection-banner",
       "custom_css": [
         ".v-stack {background: white; color: black; padding: 30px 20px;}",
-        "h1 {display: none;}"
+        "h1 {display: none;}",
+        ".text-custom {padding-top: 0px;}"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "show_collection_title": true,
@@ -21,7 +22,7 @@
         "featured_product_heading": "Featured product",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 10
+        "overlay_opacity": 0
       }
     },
     "main": {

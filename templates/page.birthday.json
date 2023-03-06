@@ -8,8 +8,11 @@
     },
     "ae3777e8-2e8d-4808-8d50-26d995043439": {
       "type": "image-with-text-overlay",
+      "custom_css": [
+        ".text-custom {padding-top: 0; padding-bottom: 0;}"
+      ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
@@ -30,7 +33,7 @@
         "remove_horizontal_spacing": false,
         "html": "<div class=\"text-center\">\n<h2 class=\"h2\">They say it's your birthday 🥳<\/h2>\n<p style=\"margin: 20px; auto\">Enter your child(ren)'s birthdays and we'll send you a surprise to celebrate their Birthday Month!<\/p>\n<\/div>\n<div class=\"klaviyo-form-VFTSQL\"><\/div>",
         "background": "",
-        "background_gradient": "linear-gradient(179deg, rgba(212, 223, 255, 1) 27%, rgba(210, 229, 255, 1) 35%, rgba(255, 255, 255, 1) 91%)",
+        "background_gradient": "radial-gradient(rgba(212, 223, 255, 1), rgba(210, 229, 255, 1) 18%, rgba(255, 255, 255, 1) 52%, rgba(255, 255, 255, 1) 62%)",
         "text_color": ""
       }
     },
@@ -101,7 +104,7 @@
         "19a3fc2e-2e64-477f-9a64-553718e8e0fb"
       ],
       "custom_css": [
-        ".justify-self-center{text-align: center;}"
+        ".justify-self-center {text-align: center;}"
       ],
       "settings": {
         "full_width": true,
