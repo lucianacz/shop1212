@@ -2672,11 +2672,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
       grid-row: span 2;
       gap: 0;
     }
-
-    .product-list__promo :is(img, video-media) {
-      position: absolute;
-    }
-
+    
     .product-list:not(:has(.product-card--blends)) .product-list__promo .content-over-media {
       grid-row: span 2;
     }
