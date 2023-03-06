@@ -116,6 +116,50 @@
         "product_card_text_color": ""
       }
     },
+    "d9b16851-3727-4197-8077-80ce59d81d54": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-hp.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/make-march-matter",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
     "6e3e9744-2255-42db-b54c-c103d788d1d3": {
       "type": "media-grid",
       "blocks": {
@@ -374,6 +418,7 @@
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
     "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
+    "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",
