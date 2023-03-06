@@ -228,49 +228,29 @@
           "type": "product",
           "settings": {
             "product": "the-organic-sweatpant",
-            "specific_color": "Cranberry",
-            "horizontal_position": 51,
-            "vertical_position": 71
-          }
-        },
-        "72f977c1-2af4-44f6-8282-d91caeaa7d25": {
-          "type": "product",
-          "settings": {
-            "product": "the-garter-stitch-sweater-embroidered",
-            "specific_color": "",
-            "horizontal_position": 75,
-            "vertical_position": 46
+            "specific_color": "Ice Blue Jeweled Hearts",
+            "horizontal_position": 56,
+            "vertical_position": 64
           }
         },
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
           "settings": {
-            "product": "the-organic-pullover-sweatshirt-embroidered",
-            "specific_color": "Cranberry You Are Loved",
-            "horizontal_position": 36,
-            "vertical_position": 42
-          }
-        },
-        "02efa36e-642d-45a9-9cd7-329f8c2359c8": {
-          "type": "product",
-          "settings": {
-            "product": "the-legging",
-            "specific_color": "Cranberry",
-            "horizontal_position": 66,
-            "vertical_position": 75
+            "product": "the-organic-printed-pullover-sweatshirt",
+            "specific_color": "Ice Blue Jeweled Hearts",
+            "horizontal_position": 61,
+            "vertical_position": 33
           }
         }
       },
       "block_order": [
         "336d6f56-42d8-465e-b9f2-a7dd17c23277",
-        "72f977c1-2af4-44f6-8282-d91caeaa7d25",
-        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c",
-        "02efa36e-642d-45a9-9cd7-329f8c2359c8"
+        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/1212-3756.jpg",
+        "image": "shopify:\/\/shop_images\/1_1212-3485.jpg",
         "title": "Shop the Look",
         "content": "",
         "background": "",
