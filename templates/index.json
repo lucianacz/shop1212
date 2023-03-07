@@ -238,8 +238,8 @@
           "settings": {
             "product": "the-organic-printed-pullover-sweatshirt",
             "specific_color": "Ice Blue Jeweled Hearts",
-            "horizontal_position": 61,
-            "vertical_position": 33
+            "horizontal_position": 58,
+            "vertical_position": 40
           }
         }
       },
@@ -262,7 +262,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
+        "background_dots": "#f53a7d"
       }
     },
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70": {
