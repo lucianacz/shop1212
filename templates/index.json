@@ -116,6 +116,50 @@
         "product_card_text_color": ""
       }
     },
+    "d9b16851-3727-4197-8077-80ce59d81d54": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-hp.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/make-march-matter",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
     "6e3e9744-2255-42db-b54c-c103d788d1d3": {
       "type": "media-grid",
       "blocks": {
@@ -125,7 +169,7 @@
             "image": "shopify:\/\/shop_images\/rib.jpg",
             "title": "New Rib Sets",
             "heading_tag": "h2",
-            "link_url": "shopify:\/\/collections\/rib-lounge",
+            "link_url": "shopify:\/\/collections\/organic-rib-lounge",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
@@ -184,49 +228,29 @@
           "type": "product",
           "settings": {
             "product": "the-organic-sweatpant",
-            "specific_color": "Cranberry",
-            "horizontal_position": 51,
-            "vertical_position": 71
-          }
-        },
-        "72f977c1-2af4-44f6-8282-d91caeaa7d25": {
-          "type": "product",
-          "settings": {
-            "product": "the-garter-stitch-sweater-embroidered",
-            "specific_color": "",
-            "horizontal_position": 75,
-            "vertical_position": 46
+            "specific_color": "Ice Blue Jeweled Hearts",
+            "horizontal_position": 56,
+            "vertical_position": 64
           }
         },
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
           "settings": {
-            "product": "the-organic-pullover-sweatshirt-embroidered",
-            "specific_color": "Cranberry You Are Loved",
-            "horizontal_position": 36,
-            "vertical_position": 42
-          }
-        },
-        "02efa36e-642d-45a9-9cd7-329f8c2359c8": {
-          "type": "product",
-          "settings": {
-            "product": "the-legging",
-            "specific_color": "Cranberry",
-            "horizontal_position": 66,
-            "vertical_position": 75
+            "product": "the-organic-printed-pullover-sweatshirt",
+            "specific_color": "Ice Blue Jeweled Hearts",
+            "horizontal_position": 58,
+            "vertical_position": 40
           }
         }
       },
       "block_order": [
         "336d6f56-42d8-465e-b9f2-a7dd17c23277",
-        "72f977c1-2af4-44f6-8282-d91caeaa7d25",
-        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c",
-        "02efa36e-642d-45a9-9cd7-329f8c2359c8"
+        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/1212-3756.jpg",
+        "image": "shopify:\/\/shop_images\/1_1212-3485.jpg",
         "title": "Shop the Look",
         "content": "",
         "background": "",
@@ -238,7 +262,7 @@
         "product_card_text_color": "",
         "product_card_mobile_background": "",
         "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
+        "background_dots": "#f53a7d"
       }
     },
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70": {
@@ -374,6 +398,7 @@
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
     "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
+    "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "1fed8e2b-db15-4db9-8dcd-84c2b1e0cb70",

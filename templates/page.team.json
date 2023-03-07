@@ -191,7 +191,7 @@
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-0": {
           "type": "collection",
           "settings": {
-            "collection": "organic-baby-clothes",
+            "collection": "all-organic-baby",
             "subheading": "",
             "title": "",
             "url": "",
@@ -205,7 +205,7 @@
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-1": {
           "type": "collection",
           "settings": {
-            "collection": "organic-pajamas",
+            "collection": "all-organic-kids-and-baby-pajamas",
             "subheading": "",
             "title": "",
             "url": "",
@@ -219,7 +219,7 @@
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-2": {
           "type": "collection",
           "settings": {
-            "collection": "organic-toddler-kids-clothes",
+            "collection": "all-organic-kids-and-toddlers",
             "subheading": "",
             "title": "",
             "url": "",
@@ -233,7 +233,7 @@
         "a20e914c-d5b0-429a-9c62-a77c6347899c": {
           "type": "collection",
           "settings": {
-            "collection": "organic-toddler-and-kids-pajamas",
+            "collection": "organic-kids-and-toddlers-pajamas",
             "subheading": "",
             "title": "",
             "url": "",
@@ -254,10 +254,10 @@
       "settings": {
         "full_width": true,
         "stack_collections": false,
-        "collections_per_row": 3,
+        "collections_per_row": 4,
         "show_progress_bar": true,
         "subheading": "",
-        "title": "Explore the collections",
+        "title": "Explore the Collections",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -267,11 +267,23 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "5012d6b7-9563-4450-b58b-086ca1af8e59": {
+      "type": "media-grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
     "main",
     "fd112c3e-7403-4385-85f8-bc3d48f23aa4",
-    "6164c29c-f479-4889-bbfc-7897e7ef5395"
+    "6164c29c-f479-4889-bbfc-7897e7ef5395",
+    "5012d6b7-9563-4450-b58b-086ca1af8e59"
   ]
 }
