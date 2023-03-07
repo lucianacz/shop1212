@@ -304,6 +304,26 @@
     "f34c2012-94bb-47b1-8e47-66578aef4abd": {
       "type": "press",
       "blocks": {
+        "24958ac1-4030-4029-99da-3f7d2e08d21b": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Jennifer H.",
+            "content": "We adore all of our purchases from 12l12! They are thoughtfully created (in Peru!) and launder and fit well. We also appreciate they ship out in recyclable packaging too. The seasonal embroidery options are adorable.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "1d17ed01-5a9f-4e86-aebb-473e5696e657": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "Brittany C.",
+            "content": "Even our 22 month old reaches for these on his own when picking out his pjs!",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-0": {
           "type": "quote",
           "settings": {
@@ -336,6 +356,8 @@
         }
       },
       "block_order": [
+        "24958ac1-4030-4029-99da-3f7d2e08d21b",
+        "1d17ed01-5a9f-4e86-aebb-473e5696e657",
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-0",
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-1",
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-2"
