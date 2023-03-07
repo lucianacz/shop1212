@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Easter.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Easter_M.jpg",
-            "content_max_width": 1200,
+            "content_max_width": 600,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
@@ -39,6 +39,50 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "f2288d3b-0d4f-4946-b70e-7e35e8b869ef": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1": {
+          "type": "heading",
+          "settings": {
+            "text": "12 Hours a Day, 12 Hours a Night",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+          }
+        },
+        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Organic and sustainable essentials designed to be lived in, played in, and snoozed in. <br\/>Designed and led by Moms.<\/p>"
+          }
+        },
+        "e17e8a90-77ce-4ae6-a2e9-7889714530d7": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "ABOUT US",
+            "url": "shopify:\/\/pages\/copy-of-1212-organic-cotton-baby-clothes-our-values",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1",
+        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2",
+        "e17e8a90-77ce-4ae6-a2e9-7889714530d7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#edf3fb",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "4e5aef62-5079-49a0-b911-8d0f1ade1694": {
@@ -107,7 +151,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#edf3fb",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -124,7 +168,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-hp.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-M.jpg",
-            "content_max_width": 780,
+            "content_max_width": 600,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -418,6 +462,7 @@
   },
   "order": [
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
+    "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
     "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
     "d9b16851-3727-4197-8077-80ce59d81d54",
