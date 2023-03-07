@@ -200,7 +200,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#ffffff",
+        "background": "#edf3fb",
         "background_gradient": ""
       }
     },
