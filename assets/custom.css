@@ -143,7 +143,53 @@ quick-buy-drawer .limited-colors{
     background-size: cover !important;
 }
 
-
 .no-visible{
   opacity: 0;
+}
+
+/* ---------------- */
+/* Size filtes */
+/* ---------------- */
+
+.checkbox-container[value="Newborn"]{
+  order: 0;
+}
+.checkbox-container[value="0-3 Months"]{
+  order: 1;
+}
+.checkbox-container[value="3-6 Months"]{
+  order: 2;
+}
+.checkbox-container[value="6-12 Months"]{
+  order: 3;
+}
+.checkbox-container[value="12-18 Months"]{
+  order: 4;
+}
+.checkbox-container[value="18-24 Months"]{
+  order: 5;
+}
+.checkbox-container[value="2T"]{
+  order: 6;
+}
+.checkbox-container[value="3T"]{
+  order: 7;
+}
+.checkbox-container[value="4T"]{
+  order: 8;
+}
+.checkbox-container[value="5"]{
+  order: 9;
+}
+.checkbox-container[value="6"]{
+  order: 10;
+}
+.checkbox-container[value="7"]{
+  order: 11;
+}
+.checkbox-container[value="8"]{
+  order: 12;
+}
+.checkbox-container[value="OS"],.checkbox-container[value="One Size"]{
+  order: 13;
 }
