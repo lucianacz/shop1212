@@ -112,7 +112,6 @@
     },
     "8005ee89-7e5b-454c-9da6-6418d45256a7": {
       "type": "multiple-images-with-text",
-      "disabled": true,
       "blocks": {
         "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
           "type": "item",
