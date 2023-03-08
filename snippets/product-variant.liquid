@@ -183,7 +183,9 @@ Supported variables
       {%- endif -%}
 
       <span class="product-card__color">{{ selected_color }}</span>
+      {%- comment -%}
       {% if selected_size != blank %}<span>{{ selected_size }}</span>{% endif %}
+      {%- endcomment -%}
 
       {% if show_rating %}
         <div class="yotpo bottomLine" data-product-id="{{ product.id }}"></div>
