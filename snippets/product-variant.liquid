@@ -171,7 +171,7 @@ Supported variables
 
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
-          <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+          <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title | split: '[' | first }}</a></span>
 
           {%- if text_alignment != 'center' -%}
             {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
@@ -179,7 +179,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
+        <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title | split: '[' | first }}</a></span>
       {%- endif -%}
 
       <span class="product-card__color">{{ selected_color }}</span>
