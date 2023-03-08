@@ -193,7 +193,7 @@
           "settings": {
             "collection": "all-organic-baby",
             "subheading": "",
-            "title": "",
+            "title": "Baby",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -207,7 +207,7 @@
           "settings": {
             "collection": "all-organic-kids-and-baby-pajamas",
             "subheading": "",
-            "title": "",
+            "title": "Pajamas",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -221,7 +221,7 @@
           "settings": {
             "collection": "all-organic-kids-and-toddlers",
             "subheading": "",
-            "title": "",
+            "title": "Kids",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -233,7 +233,7 @@
         "a20e914c-d5b0-429a-9c62-a77c6347899c": {
           "type": "collection",
           "settings": {
-            "collection": "organic-kids-and-toddlers-pajamas",
+            "collection": "easter",
             "subheading": "",
             "title": "",
             "url": "",
@@ -267,23 +267,11 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "5012d6b7-9563-4450-b58b-086ca1af8e59": {
-      "type": "media-grid",
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
     }
   },
   "order": [
     "main",
     "fd112c3e-7403-4385-85f8-bc3d48f23aa4",
-    "6164c29c-f479-4889-bbfc-7897e7ef5395",
-    "5012d6b7-9563-4450-b58b-086ca1af8e59"
+    "6164c29c-f479-4889-bbfc-7897e7ef5395"
   ]
 }
