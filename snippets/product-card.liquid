@@ -49,16 +49,6 @@ Supported variables
 <product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
-  PRODUCT BADGES
-  --------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}
-
-  {%- if show_badges and product.media.size > 0 -%}
-    {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
-  {%- endif -%}
-
-  {%- comment -%}
-  --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
   --------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
@@ -151,6 +141,17 @@ Supported variables
     {%- endif -%}
 
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
+   
+    {%- comment -%}
+    --------------------------------------------------------------------------------------------------------------------
+    PRODUCT BADGES
+    --------------------------------------------------------------------------------------------------------------------
+    {%- endcomment -%}
+
+    {%- if show_badges and product.media.size > 0 -%}
+      {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+    {%- endif -%}
+
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
           <span class="product-card__title"><a href="{{ product.url }}" class="bold">{{ product.title }}</a></span>
