@@ -5892,6 +5892,7 @@ split-lines {
 }
 
 .header__link-list summary,
+.header__link-list li,
 .header__link-list .mega-menu__nav span{
   text-transform: uppercase;
 }
