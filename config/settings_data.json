@@ -156,7 +156,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Shop By Size",
-              "layout": "horizontal",
+              "layout": "horizontal_center",
               "submenu_style": "bold_heading",
               "image_1": "shopify:\/\/shop_images\/1212-3584.jpg",
               "image_heading_1": "",
