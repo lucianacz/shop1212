@@ -74,7 +74,7 @@
         "3960905d-aa97-41e4-b41b-7c0c64d81221"
       ],
       "custom_css": [
-        ".bold {font-weight: 700;}"
+        ".shape-line {width: 3px; background: #ed2024;}"
       ],
       "settings": {
         "full_width": true,
