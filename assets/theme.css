@@ -2776,7 +2776,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   right: var(--product-card-badge-spacing);
 }
 
-.product-card__badge-list .badge{
+.product-list .product-card__badge-list .badge{
   padding-top: 0px;
   font-size: 0.95em;
   text-transform: uppercase;
