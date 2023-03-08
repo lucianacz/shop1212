@@ -128,6 +128,9 @@
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2",
         "e17e8a90-77ce-4ae6-a2e9-7889714530d7"
       ],
+      "custom_css": [
+        "p {font-size: 15px;}"
+      ],
       "settings": {
         "full_width": true,
         "content_width": "small",
