@@ -163,7 +163,7 @@
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": false,
-          "logo": "{{shop.brand.logo}}",
+          "logo": "{{ shop.brand.logo }}",
           "logo_max_width": 110,
           "logo_mobile_max_width": 100,
           "menu": "main-menu",
@@ -205,13 +205,13 @@
       "search-drawer": {
         "type": "search-drawer",
         "settings": {
-          "full_width": true,
-          "show_article_category": true,
+          "full_width": false,
+          "show_article_category": false,
           "search_products": true,
           "search_blog_posts": true,
           "search_pages": true,
-          "search_collections": true,
-          "search_unavailable_products": "last",
+          "search_collections": false,
+          "search_unavailable_products": "show",
           "search_menu": "menu-new",
           "search_menu_show_title": false
         }
