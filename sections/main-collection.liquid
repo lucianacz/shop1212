@@ -222,7 +222,7 @@
                           {%- endfor -%}           
                           {% endif %}
                         {%- endfor -%}
-                    {% elsif collection.metafields.custom.colors == blank and collection.metafields.custom.sizes != blank %}
+                    {% elsif collection.metafields.custom.colors != blank and collection.metafields.custom.sizes != blank %}
                       {%- for option in product.options_with_values -%}
                         {% if option.name == 'Color' %}   
                           {%- for value in option.values -%}  
@@ -243,7 +243,7 @@
                           {%- endfor -%}           
                         {% endif %}
                       {%- endfor -%}
-                    {% elsif collection.metafields.custom.colors != blank and collection.metafields.custom.sizes != blank %}
+                    {% elsif collection.metafields.custom.colors == blank and collection.metafields.custom.sizes != blank %}
                       {%- for option in product.options_with_values -%}
                         {% if option.name == 'Color' %}   
                           {%- for value in option.values -%}  
