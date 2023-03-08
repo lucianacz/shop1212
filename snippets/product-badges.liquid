@@ -39,7 +39,8 @@ Supported variables
             </sold-out-badge>
           {%- endif -%}
         {%- endif -%}
-
+      
+{%- comment -%} JUST IN CODE
       {%- when'just_in' -%}
         {% liquid
         assign now_s = 'now' | date: '%s' | plus: 0
@@ -54,7 +55,8 @@ Supported variables
       {% if new_in %}
         <span class="badge badge--primary">{{- 'product.general.just_in_badge' | t -}}</span>
       {% endif %}
-        
+{%- endcomment -%}
+      
       {%- when 'discount' -%}
         {%- if settings.show_discount -%}
           {%- assign is_variant_on_sale = false -%}
