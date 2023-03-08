@@ -47,8 +47,7 @@ Supported variables
         {%- assign selector_type = 'block' -%}
       {%- endif -%}
 
-      {% unless swatch_color and option.name == 'Color' %}
-      <fieldset class="variant-picker__option no-js:hidden">
+      <fieldset class="variant-picker__option no-js:hidden {% if swatch_color and option.name == 'Color' %}hidden{% endif %}">
         <div class="variant-picker__option-info" id="variantOption-{{ option.name }}">
           <div class="h-stack gap-2">
             <legend class="text-subdued">{{ option.name }}:</legend>
@@ -160,7 +159,7 @@ Supported variables
           </div>
         {%- endif -%}
       </fieldset>
-      {% else swatch_color and option.name == 'Color' %}
+      {% if swatch_color and option.name == 'Color' %}
         <fieldset class="variant-picker__option no-js:hidden">
         <div class="variant-picker__option-info">
           <div class="h-stack gap-2">
@@ -185,8 +184,8 @@ Supported variables
         {%- endfor -%}
         </div>
         </fieldset>
-        
-      {% endunless %}
+      {% endif %}
+
     {%- endfor -%}
 
     <noscript>
