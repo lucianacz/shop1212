@@ -23,7 +23,8 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        ".bold {font-weight: 400;}"
+        ".bold {font-weight: 400;}",
+        ".text-custom {color: #ed2024;}"
       ],
       "settings": {
         "products_per_page": 50,
