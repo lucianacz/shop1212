@@ -103,7 +103,7 @@
 
       {%- when 'variant_picker' -%}
       {% liquid
-        assign product_title_handle = product.title | split: '-' | first | handleize
+        assign product_title_handle = product.title | split: '[' | first | handleize
         assign product_collection = collections[product_title_handle]
         assign swatch_color = false
         
