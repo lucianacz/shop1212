@@ -147,6 +147,10 @@ quick-buy-drawer .limited-colors{
   opacity: 0;
 }
 
+.product #shopify-section-announcement-bar {
+    display: none;
+}
+
 /* ---------------- */
 /* Size filtes */
 /* ---------------- */
