@@ -41,11 +41,63 @@
         "background_gradient": ""
       }
     },
+    "ad6ca031-458e-4ab3-94d5-3deeaa64507b": {
+      "type": "impact-text",
+      "blocks": {
+        "template--17167820488979__ad6ca031-458e-4ab3-94d5-3deeaa64507b-1678309622ecaf65ba-0": {
+          "type": "item",
+          "settings": {
+            "title": "12 hours",
+            "subheading": "a day,",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "3960905d-aa97-41e4-b41b-7c0c64d81221": {
+          "type": "item",
+          "settings": {
+            "title": "12 hours",
+            "subheading": "a night",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__ad6ca031-458e-4ab3-94d5-3deeaa64507b-1678309622ecaf65ba-0",
+        "3960905d-aa97-41e4-b41b-7c0c64d81221"
+      ],
+      "custom_css": [
+        ".bold {font-weight: 700;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.8,
+        "background": "#edf3fb",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(162deg, rgba(210, 229, 255, 1) 17%, rgba(11, 40, 89, 1) 81%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef": {
       "type": "rich-text",
       "blocks": {
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "12 Hours a Day, 12 Hours a Night",
             "heading_tag": "h5",
@@ -406,9 +458,12 @@
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-1",
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
-        "content_size": "medium",
+        "content_size": "small",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -462,6 +517,7 @@
   },
   "order": [
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
+    "ad6ca031-458e-4ab3-94d5-3deeaa64507b",
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
     "featured-collection",
     "5b327319-3d7a-4483-b823-be117aabce48",
