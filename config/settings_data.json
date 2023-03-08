@@ -106,7 +106,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Kids",
-              "layout": "drawer",
+              "layout": "horizontal_center",
               "submenu_style": "bold_heading",
               "image_1": "shopify:\/\/shop_images\/SS_PJ_Set_-_Lemon_Stripe_Apres_Beach.jpg",
               "image_heading_1": "Pajamas",
@@ -131,7 +131,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Baby",
-              "layout": "drawer",
+              "layout": "horizontal_center",
               "submenu_style": "bold_heading",
               "image_1": "shopify:\/\/shop_images\/baby_1.jpg",
               "image_heading_1": "Gift Sets",
