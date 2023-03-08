@@ -7913,6 +7913,7 @@ split-lines {
   outline: none;
   flex-grow: 1;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .search-input > input::placeholder {
