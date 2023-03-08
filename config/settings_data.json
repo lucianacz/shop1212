@@ -158,7 +158,8 @@
           "e20e4820-bb19-4820-a87d-b83325bd64ba"
         ],
         "custom_css": [
-          ".bold {font-weight: 100;}"
+          ".bold {font-weight: 100;}",
+          "li {text-transform: none;}"
         ],
         "settings": {
           "enable_sticky": true,
