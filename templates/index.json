@@ -119,8 +119,46 @@
         "product_card_text_color": ""
       }
     },
+    "5b327319-3d7a-4483-b823-be117aabce48": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--17167820488979__5b327319-3d7a-4483-b823-be117aabce48-16782921999f29a1e4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CHLA-Email_9788599b-382e-45e3-86fd-c80193884968.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/CHLA-logo.png",
+            "icon_width": 288,
+            "subheading": "",
+            "title": "Make March Matter",
+            "content": "<p>Through the month of March, we're donating 20% of sales to CHLA from our Neon Robots, Neon Rainbows, and Neon Critter prints in support of the Make March Matter campaign.<\/p>",
+            "link_text": "SHOP THE PRINTS",
+            "link_url": "shopify:\/\/collections\/make-march-matter",
+            "background": "#edf3fb",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__5b327319-3d7a-4483-b823-be117aabce48-16782921999f29a1e4-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_parallax": true,
+        "spacing": "none"
+      }
+    },
     "d9b16851-3727-4197-8077-80ce59d81d54": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0": {
           "type": "image",
@@ -423,6 +461,7 @@
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
     "featured-collection",
+    "5b327319-3d7a-4483-b823-be117aabce48",
     "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
