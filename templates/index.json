@@ -50,7 +50,7 @@
             "text": "12 Hours a Day, 12 Hours a Night",
             "heading_tag": "h5",
             "text_color": "",
-            "gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)"
+            "gradient": "linear-gradient(128deg, rgba(23, 198, 80, 1) 9%, rgba(106, 144, 241, 1) 84%)"
           }
         },
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2": {
@@ -83,47 +83,6 @@
         "background": "#edf3fb",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "4e5aef62-5079-49a0-b911-8d0f1ade1694": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "template--17167820488979__4e5aef62-5079-49a0-b911-8d0f1ade1694-167181181736d8012e-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Let it snow!",
-            "heading_tag": "h1"
-          }
-        },
-        "70ca2e94-b379-4690-b082-0ec2303cee61": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Shop Now",
-            "url": "shopify:\/\/collections\/ski-and-snow",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__4e5aef62-5079-49a0-b911-8d0f1ade1694-167181181736d8012e-1",
-        "70ca2e94-b379-4690-b082-0ec2303cee61"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Ski-and-Skate_adb7771b-c442-44f4-ae1e-966570910cb7.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Ski-and-Skate-m.jpg",
-        "mobile_text_position": "place-self-end-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#000000",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
       }
     },
     "featured-collection": {
@@ -463,7 +422,6 @@
   "order": [
     "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
-    "4e5aef62-5079-49a0-b911-8d0f1ade1694",
     "featured-collection",
     "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
