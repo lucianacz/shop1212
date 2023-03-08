@@ -66,8 +66,8 @@
             "size": "sm",
             "text": "ABOUT US",
             "url": "shopify:\/\/pages\/about-1212",
-            "background": "",
-            "text_color": ""
+            "background": "#d2e5ff",
+            "text_color": "#05234d"
           }
         }
       },
@@ -149,6 +149,9 @@
       },
       "block_order": [
         "template--17167820488979__5b327319-3d7a-4483-b823-be117aabce48-16782921999f29a1e4-0"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "full_width": true,
