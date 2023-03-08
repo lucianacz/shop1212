@@ -134,7 +134,7 @@ quick-buy-drawer .limited-colors{
   flex-direction: column;
 }
 
-.product-personalizer {
+form .product-personalizer {
     border: 1px solid #e5e5e5;
     padding: 10px !important;
 }
