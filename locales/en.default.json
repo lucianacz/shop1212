@@ -299,7 +299,7 @@
   },
   "cart": {
     "general": {
-      "title": "Bag",
+      "title": "Your Bag",
       "empty": "Your bag is empty",
       "continue_shopping": "Continue shopping",
       "weight": "Weight",
