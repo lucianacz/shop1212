@@ -23,7 +23,7 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-
+        ".bold {font-weight: 400;}"
       ],
       "settings": {
         "products_per_page": 50,
