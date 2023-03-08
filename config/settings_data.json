@@ -157,6 +157,9 @@
           "a9c2ec1d-1563-4820-b3d4-48c01248a3e1",
           "e20e4820-bb19-4820-a87d-b83325bd64ba"
         ],
+        "custom_css": [
+          ".bold {font-weight: 100;text-transform: capitalize;}"
+        ],
         "settings": {
           "enable_sticky": true,
           "hide_on_scroll": false,
