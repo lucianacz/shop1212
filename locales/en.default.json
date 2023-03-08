@@ -299,8 +299,8 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
-      "empty": "Your cart is empty",
+      "title": "Bag",
+      "empty": "Your bag is empty",
       "continue_shopping": "Continue shopping",
       "weight": "Weight",
       "subtotal": "Subtotal",
