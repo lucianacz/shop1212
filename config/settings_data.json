@@ -188,8 +188,7 @@
           ".bold {font-size: 16px; font-weight: 400;}",
           ".header__link-list {font-size: 16px;}",
           ".link-faded-reverse {font-size: 12px;}",
-          ".link-faded {font-size: 12px;}",
-          ".icon-chevron-bottom {height: 1;}"
+          ".link-faded {font-size: 12px;}"
         ],
         "settings": {
           "enable_sticky": true,
