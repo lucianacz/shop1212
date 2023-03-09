@@ -186,7 +186,8 @@
           ".header__link-list {font-size: 12px;}",
           ".text-with-icon {font-size: 12px;}",
           ".bold {font-size: 16px; font-weight: 400;}",
-          ".header__link-list {font-size: 16px;}"
+          ".header__link-list {font-size: 16px;}",
+          ".link-faded-reverse {font-size: 12px;}"
         ],
         "settings": {
           "enable_sticky": true,
