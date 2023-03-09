@@ -182,7 +182,9 @@
           "3baf54fc-b82b-41b2-938d-a3ef701ac32c"
         ],
         "custom_css": [
-          ".reversed-link {font-size: 12px;}"
+          ".reversed-link {font-size: 12px;}",
+          ".header__link-list {font-size: 12px;}",
+          ".text-with-icon {font-size: 12px;}"
         ],
         "settings": {
           "enable_sticky": true,
