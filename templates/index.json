@@ -1,24 +1,46 @@
 {
   "sections": {
-    "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e": {
+    "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
-        "template--17167820488979__ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e-1672075820b71139f4-0": {
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Easter.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Easter_M.jpg",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h1",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/easter",
+            "image": "shopify:\/\/shop_images\/HP-3-14.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/HP-3-14-M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-end-start sm:text-start",
+            "subheading": "NEW IN",
+            "title": "Spring Break",
+            "heading_tag": "h0",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/spring-break",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 18,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "4c6c3736-b544-4823-9d25-1d28cc0c30ce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Easter_184cf5c5-7dbf-4328-917a-74ac69b5a970.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Easter-M.jpg",
+            "content_max_width": 600,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "",
+            "title": "HOP SHOP",
+            "heading_tag": "h0",
+            "button_text": "SHOP EASTER",
+            "button_link": "shopify:\/\/collections\/easter",
+            "text_color": "#c2f3fe",
+            "button_background": "#387ad4",
+            "button_text_color": "#c2f3fe",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
@@ -27,7 +49,8 @@
         }
       },
       "block_order": [
-        "template--17167820488979__ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e-1672075820b71139f4-0"
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
+        "4c6c3736-b544-4823-9d25-1d28cc0c30ce"
       ],
       "settings": {
         "full_width": true,
@@ -582,7 +605,7 @@
     }
   },
   "order": [
-    "ec83fae7-3abd-4b5a-8d4c-791ac3f28f9e",
+    "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
     "ad6ca031-458e-4ab3-94d5-3deeaa64507b",
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
     "featured-collection",
