@@ -6123,6 +6123,11 @@ split-lines {
   opacity: 0;
 }
 
+.mega-menu__nav.show-list{
+  flex-direction: column;
+  gap: 5px;
+}
+
 .mega-menu__nav {
   max-width: max-content;
   gap: var(--mega-menu-nav-gap);
@@ -6130,11 +6135,6 @@ split-lines {
   flex: auto;
   align-items: start;
   display: flex;
-}
-
-.mega-menu__nav.show-list{
-  flex-direction: column;
-  gap: 5px;
 }
 
 .mega-menu__nav > li {
