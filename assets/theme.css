@@ -6132,6 +6132,11 @@ split-lines {
   display: flex;
 }
 
+.mega-menu__nav.show-list{
+  flex-direction: column;
+  gap: 5px;
+}
+
 .mega-menu__nav > li {
   width: var(--mega-menu-nav-column-max-width);
 }
