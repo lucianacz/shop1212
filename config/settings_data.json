@@ -106,7 +106,7 @@
             "type": "mega_menu",
             "settings": {
               "menu_item": "Kids",
-              "layout": "horizontal",
+              "layout": "horizontal_center",
               "submenu_style": "bold_heading",
               "image_1": "shopify:\/\/shop_images\/SS_PJ_Set_-_Lemon_Stripe_Apres_Beach.jpg",
               "image_heading_1": "Kids Pajamas",
