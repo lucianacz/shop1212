@@ -6,7 +6,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h3"
           }
         },
         "vendor": {
@@ -15,7 +15,7 @@
           "settings": {
           }
         },
-        "b2939352-022d-4484-a0c1-3da2a2f27afe": {
+        "f8900b4f-8646-45a2-b9eb-58c90cf480b8": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
@@ -39,7 +39,7 @@
             "stack_blocks": true,
             "selector_mode": "block",
             "color_mode": "color",
-            "size_chart_page": ""
+            "size_chart_page": "size-chart"
           }
         },
         "quantity_selector": {
@@ -51,7 +51,7 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "atc_button_background": "",
+            "atc_button_background": "#ed2024",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -65,16 +65,16 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
-        "dccca1f8-c3f0-4c66-8ee9-6e21307894fd": {
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
             "title": "You May Also Love",
             "stack_products": true,
             "products_count": 4,
-            "background": "",
+            "background": "#ffffff",
             "text_color": ""
           }
         }
@@ -82,7 +82,7 @@
       "block_order": [
         "title",
         "vendor",
-        "b2939352-022d-4484-a0c1-3da2a2f27afe",
+        "f8900b4f-8646-45a2-b9eb-58c90cf480b8",
         "badges",
         "price",
         "variant_picker",
@@ -90,15 +90,15 @@
         "buy_buttons",
         "payment_terms",
         "description",
-        "dccca1f8-c3f0-4c66-8ee9-6e21307894fd"
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "show_fixed_add_to_cart": true,
-        "desktop_media_width": 55,
+        "desktop_media_width": 60,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -109,9 +109,191 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "8005ee89-7e5b-454c-9da6-6418d45256a7": {
+      "type": "multiple-images-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Why Organic Pima Cotton? ",
+            "content": "<p>As parents we want the very best for our children. Organic cotton is a natural fiber; it comes from a plant. With more and more consumers reading labels on their food and beauty products, we think the time is right for people to start reading their clothing labels, too. Using a natural fiber that derives from a plant and is hypoallergenic results in a product that is perfect for baby’s and children’s clothing.<\/p><p>We are a bit obsessive over the feel and quality of our clothing. Every piece must be extraordinarily soft to the touch, machine washable, and durable. Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "5e9f5f0c-6c71-4299-b79a-672135b481d1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SS_PJ_set.jpg",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Fun Facts About Organic Pima Cotton",
+            "content": "<ul><li>Just like kiddos, cotton is strong, tough and not afraid to get dirty. You can rely on cotton to last a long time and not fall apart on the first wear.<\/li><li>The last thing on every parent’s to-do list is laundry! Since our organic cotton is breathable and doesn’t retain odors like oil-based fabrics, you can save your kid’s clothes a few trips to the hamper between wears. Not doing laundry is awesome, of course. Plus, you’ll save money, water and energy, and help your clothes last even longer.<\/li><li>Don’t let your children get caught in a sweat trap! Organic cotton breathes better than oil-based synthetic fabrics like polyester, so it’s the perfect thing for kids to wear season to season. Not to mention that moisture-wicking cotton is specially designed to keep you drier and cooler during the warmer months.<\/li><\/ul>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
+        "5e9f5f0c-6c71-4299-b79a-672135b481d1"
+      ],
+      "settings": {
+        "full_width": false,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "recommendations_count": 4,
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "db412dfe-2afa-4827-b3fe-1c35348b8545": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-4": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-5": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-6": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-7": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-1",
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-4",
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-5",
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-6",
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-7",
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "donation",
+        "desktop_media_width": 45,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "background": "#f9f9f9",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "1671009045bf51851e": {
+      "type": "apps",
+      "blocks": {
+        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "cd40daa3-41ae-4b0a-bf31-4262623f5eb2"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "12212a59-b548-49fe-828a-078480e74703": {
+      "type": "instafeed",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8005ee89-7e5b-454c-9da6-6418d45256a7",
+    "product-recommendations",
+    "db412dfe-2afa-4827-b3fe-1c35348b8545",
+    "1671009045bf51851e",
+    "12212a59-b548-49fe-828a-078480e74703"
   ]
 }
