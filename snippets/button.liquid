@@ -32,6 +32,10 @@ Supported variables
 {% liquid
   assign style = style | default: settings.button_style
 
+  if quick_add 
+    assign style = full
+  endif
+
   capture class_attribute
     echo 'button'
 
