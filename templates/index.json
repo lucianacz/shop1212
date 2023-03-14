@@ -346,33 +346,53 @@
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
       "type": "shop-the-look",
       "blocks": {
-        "336d6f56-42d8-465e-b9f2-a7dd17c23277": {
-          "type": "product",
-          "settings": {
-            "product": "the-organic-sweatpant",
-            "specific_color": "Ice Blue Jeweled Hearts",
-            "horizontal_position": 56,
-            "vertical_position": 64
-          }
-        },
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
           "settings": {
-            "product": "the-organic-printed-pullover-sweatshirt",
+            "product": "the-pullover-sweatshirt",
             "specific_color": "Ice Blue Jeweled Hearts",
-            "horizontal_position": 58,
-            "vertical_position": 40
+            "horizontal_position": 12,
+            "vertical_position": 56
+          }
+        },
+        "77965092-1062-4185-ab34-6397e97e70ee": {
+          "type": "product",
+          "settings": {
+            "product": "the-bike-short",
+            "specific_color": "",
+            "horizontal_position": 11,
+            "vertical_position": 72
+          }
+        },
+        "749e9a6e-34b9-4873-b342-7e7556168441": {
+          "type": "product",
+          "settings": {
+            "product": "the-short-sleeve-tee",
+            "specific_color": "Lemon",
+            "horizontal_position": 39,
+            "vertical_position": 41
+          }
+        },
+        "8dc35c57-c7a0-4569-8838-de2a4440be1b": {
+          "type": "product",
+          "settings": {
+            "product": "the-track-short",
+            "specific_color": "Lemon",
+            "horizontal_position": 46,
+            "vertical_position": 64
           }
         }
       },
       "block_order": [
-        "336d6f56-42d8-465e-b9f2-a7dd17c23277",
-        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c"
+        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c",
+        "77965092-1062-4185-ab34-6397e97e70ee",
+        "749e9a6e-34b9-4873-b342-7e7556168441",
+        "8dc35c57-c7a0-4569-8838-de2a4440be1b"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/1_1212-3485.jpg",
+        "image": "shopify:\/\/shop_images\/1_1212_March_12_2023-102-2.jpg",
         "title": "Shop the Look",
         "content": "",
         "background": "",
