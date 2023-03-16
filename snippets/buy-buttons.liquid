@@ -97,7 +97,7 @@ var timeout = setInterval(function() {
     }});
 });
   if(isfinished == true){
-jQuery("[name=checkout]").click(function(){
+document.getElementsByName("checkout")[1].onclick = function(){
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
         event : 'beginCheckout',
@@ -115,7 +115,7 @@ jQuery("[name=checkout]").click(function(){
           {%- endfor -%}
           ]
     }});
-      });  
+      }
   }
 });
 </script>
