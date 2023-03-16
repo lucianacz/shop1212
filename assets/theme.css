@@ -5919,6 +5919,10 @@ split-lines {
   font-size: 12px;
 }
 
+.header__link-list li small{
+  font-size: 14px;
+}
+
 .header__link-list .icon-chevron-bottom {
   position: relative;
   top: 1px;
