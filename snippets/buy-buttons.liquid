@@ -71,9 +71,7 @@ Supported variables
     }
 }
   defer(function () {
-    alert("jQuery is now loaded");
-});
-  jQuery(".buy-buttons").click(function(){
+    jQuery(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
       event : 'addToCart',
@@ -87,6 +85,9 @@ Supported variables
             'quantity': $("#quantity").val()
           }]
     }});
+});
+
+    
 });
 
     document.getElementsByName("checkout")[1].onclick = function(){
