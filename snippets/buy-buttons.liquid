@@ -98,7 +98,7 @@ Supported variables
     }});
 });
 
-  waitForElm('[name=checkout]:last-of-type').then((elm) => {
+  waitForElm('[name=checkout]:last-child').then((elm) => {
     document.getElementsByName("checkout")[1].onclick = function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
