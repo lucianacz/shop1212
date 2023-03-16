@@ -120,7 +120,7 @@
         "3960905d-aa97-41e4-b41b-7c0c64d81221"
       ],
       "custom_css": [
-        ".shape-line {width: 3px; background: #ed2024;}"
+        ".shape-line {width: 2px; background: #ed2024;}"
       ],
       "settings": {
         "full_width": true,
@@ -128,7 +128,7 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "line",
-        "impact_text_size_ratio": 0.7,
+        "impact_text_size_ratio": 0.6,
         "background": "#edf3fb",
         "background_gradient": "",
         "heading_text_color": "",
