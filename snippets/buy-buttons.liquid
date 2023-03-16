@@ -98,8 +98,8 @@ Supported variables
     }});
 });
 
-  waitForElm('[name=checkout]').then((elm) => {
-    document.getElementsByName("checkout")[0].onclick = function(){
+  waitForElm('[name=checkout]:last').then((elm) => {
+    document.getElementsByName("checkout")[1].onclick = function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
