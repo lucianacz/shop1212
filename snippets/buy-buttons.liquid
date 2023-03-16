@@ -63,6 +63,7 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
+  jQuery(document).ready(function () {
   $(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
@@ -98,4 +99,5 @@ Supported variables
           ]
     }});
       });
+  });
 </script>
