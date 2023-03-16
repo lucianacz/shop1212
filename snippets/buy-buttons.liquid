@@ -63,6 +63,9 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
+  function checkIfFinished(){
+    return(jQuery("[name=checkout]").length >= 2);
+}
   function defer(method) {
     if (window.jQuery) {
         method();
@@ -71,6 +74,13 @@ Supported variables
     }
 }
   defer(function () {
+    var isfinished = false;
+var timeout = setInterval(function() {
+    if(checkIfFinished()) {
+        clearInterval(timeout); 
+        isfinished = true;
+    }
+}, 100);
     jQuery(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
@@ -86,16 +96,6 @@ Supported variables
           }]
     }});
 });
-function checkIfFinished(){
-    return(jQuery("[name=checkout]").length >= 2);
-}
-var isfinished = false;
-var timeout = setInterval(function() {
-    if(checkIfFinished()) {
-        clearInterval(timeout); 
-        isfinished = true;
-    }
-}, 100);
   if(isfinished == true){
 jQuery("[name=checkout]").click(function(){
         window.dataLayer = window.dataLayer || [];
