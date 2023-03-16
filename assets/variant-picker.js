@@ -26,3 +26,11 @@ Array.prototype.forEach.call(radios, function(radio) {
    }
    radio.addEventListener('change', changeHandler);
 });
+
+
+if (document.getElementById('noUnlimitedColors') != null){
+  titleMergedProduct.classList.add('hidden')
+} 
+if (document.getElementById('colorMergedProduct') != undefined && document.getElementById('isLimitedColor') != undefined){
+    colorMergedProduct.classList.add('hidden')
+}

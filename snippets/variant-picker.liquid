@@ -161,13 +161,55 @@ Supported variables
       </fieldset>
       {% if swatch_color and option.name == 'Color' %}
         <fieldset class="variant-picker__option no-js:hidden">
-        <div class="variant-picker__option-info">
+        <div class="variant-picker__option-info" id="titleMergedProduct">
           <div class="h-stack gap-2">
             <legend class="text-subdued">{{ option.name }}:</legend>
-            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}">{{ option.selected_value }}</variant-option-value>
+            <variant-option-value form="{{ form_id }}" for="option{{ option.position }}" id="colorMergedProduct">{{ option.selected_value }}</variant-option-value>
           </div>
         </div>
         <div class="variant-picker__custom-colors variant-picker__option-values wrap gap-2">
+        {% assign limited_qty = 0 %}
+        {% assign unlimited_qty = 0 %}
+        <!-- Limited Colors -->
+        {%- for product_in_collection in product_collection.products -%}
+          {%- for option_in_collection in product_in_collection.options_with_values -%}
+            {%- if option_in_collection.name == 'Color' -%}
+              {%- for value in option_in_collection.values -%}
+              {% assign limited_colors_product = false %}
+                {% if swatch_limited != blank %}
+                  {%- for limited_color in swatch_limited -%}
+                  {% assign limited_color_strip = limited_color | strip %}
+                    {%- if limited_color_strip == value -%}
+                      {% assign limited_qty = limited_qty | plus: 1 %}
+                      {% assign limited_colors_product = true %}
+                    {% endif %}
+                  {%- endfor -%} 
+                {% endif %}
+
+                {% unless limited_colors_product %}
+                {% assign unlimited_qty = unlimited_qty | plus: 1 %}
+                {%- assign swatch_file = value | handle | append: '.png' | file_img_url: '72x' -%}
+                {%- assign swatch_style = "background-image: url(" | append: swatch_file | append: ")" -%}
+                  
+                  <a href="{{ product_in_collection.url }}" class="color-swatch{% if product_in_collection.handle == product.handle %} is-selected{% endif %} ring-inset" {% if show_tooltip %}data-tooltip="{{ value_in_collection | escape }}"{% endif %} style="{{ swatch_style }}">
+                    <span class="sr-only">{{ value }}</span>
+                  </a>
+                  {% endunless %}
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endfor -%}
+
+        {% if unlimited_qty == 0 %}
+          <input type="hidden" id="noUnlimitedColors">
+        {% endif %}
+            <!-- End limited colors -->
+
+        {% if limited_qty > 0 %}
+        <div class="h-stack gap-2 limited-colors">
+          <legend class="text-subdued">Limited Colors:</legend>
+          <variant-option-value form="{{ form_id }}" for="option{{ option.position }}" id="OptionName-LimitedColors">{{ option.selected_value }}</variant-option-value>
+        </div>
         {%- for product_in_collection in product_collection.products -%}
           {%- for option_in_collection in product_in_collection.options_with_values -%}
             {%- if option_in_collection.name == 'Color' -%}
@@ -175,13 +217,23 @@ Supported variables
                   {%- assign swatch_file = value_in_collection | handle | append: '.png' | file_img_url: '72x' -%}
                   {%- assign swatch_style = "background-image: url(" | append: swatch_file | append: ")" -%}
 
-                  <a href="{{ product_in_collection.url }}" class="color-swatch{% if product_in_collection.handle == product.handle %} is-selected{% endif %} ring-inset" {% if show_tooltip %}data-tooltip="{{ value_in_collection | escape }}"{% endif %} style="{{ swatch_style }}">
-                    <span class="sr-only">{{ value_in_collection }}</span>
-                  </a>
+                  {%- for limited_color in swatch_limited -%}
+                    {% assign limited_color_strip = limited_color | strip %}
+                    {%- if limited_color_strip == value_in_collection -%}
+                      {% if option.selected_value == limited_color_strip %}
+                        <input type="hidden" id="isLimitedColor">
+                      {% endif %}
+                      <a href="{{ product_in_collection.url }}" class="color-swatch{% if product_in_collection.handle == product.handle %} is-selected{% endif %} ring-inset" {% if show_tooltip %}data-tooltip="{{ value_in_collection | escape }}"{% endif %} style="{{ swatch_style }}">
+                        <span class="sr-only">{{ value_in_collection }}</span>
+                      </a>
+                    {% endif %}
+                  {%- endfor -%} 
+                  
               {%- endfor -%}
             {%- endif -%}
           {%- endfor -%}
         {%- endfor -%}
+        {% endif %}
         </div>
         </fieldset>
       {% endif %}
