@@ -63,6 +63,7 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
+  var isfinished = false;
   function checkIfFinished(){
     return(jQuery("[name=checkout]").length >= 2);
 }
@@ -74,7 +75,6 @@ Supported variables
     }
 }
   defer(function () {
-    var isfinished = false;
 var timeout = setInterval(function() {
     if(checkIfFinished()) {
         clearInterval(timeout); 
