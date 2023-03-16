@@ -131,50 +131,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {%- endfor -%}
   </div>
 </template>
-<script>
-  var waitForJQuery = setInterval(function () {
-if (typeof $ != 'undefined') {
-jQuery(document).ready(function () {
-   var quantity = '';
-         jQuery(".buy-buttons").click(function(){
-     window.dataLayer = window.dataLayer || [];
-     dataLayer.push({
-      event : 'addToCart',
-       product: {
-          'productDetails': [{
-            'item_name': '{{product.title | escape }}',
-            'item_id': '{{product.id}}',
-            'item_category': '{{product.type}}',
-            'price': '{{product.price | remove: ','}}'/100,
-            'currency': 'USD',
-            'quantity': $("#quantity").val()
-          }]
-    }});
-            });
-        jQuery("[name=checkout]").click(function(){
-        window.dataLayer = window.dataLayer || [];
-        dataLayer.push({
-        event : 'beginCheckout',
-        cart: {
-          'cartList': [
-            {%- for item in cart.items -%}
-            {
-            'item_name': '{{item.product.title | escape }}',
-            'item_id': '{{item.id}}',
-            'item_category': '{{item.product.type}}',
-            'price': '{{item.price | remove: ','}}'/100,
-            'currency': 'USD',
-            'quantity': '{{ item.quantity }}'
-          },
-          {%- endfor -%}
-          ]
-    }});
-      });
-  });
-  clearInterval(waitForJQuery);
-}
-}, 10);
-</script>
+
 {% schema %}
 {
   "name": "Product page",
