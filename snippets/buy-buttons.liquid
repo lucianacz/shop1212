@@ -79,25 +79,7 @@ var timeout = setInterval(function() {
     if(checkIfFinished()) {
         clearInterval(timeout); 
         isfinished = true;
-    }
-}, 100);
-    jQuery(".buy-buttons").click(function(){
-     window.dataLayer = window.dataLayer || [];
-     dataLayer.push({
-      event : 'addToCart',
-       product: {
-          'productDetails': [{
-            'item_name': '{{product.title | escape }}',
-            'item_id': '{{product.id}}',
-            'item_category': '{{product.type}}',
-            'price': '{{product.price | remove: ','}}'/100,
-            'currency': 'USD',
-            'quantity': $("#quantity").val()
-          }]
-    }});
-});
-  if(isfinished == true){
-document.getElementsByName("checkout")[1].onclick = function(){
+      document.getElementsByName("checkout")[1].onclick = function(){
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
         event : 'beginCheckout',
@@ -116,6 +98,22 @@ document.getElementsByName("checkout")[1].onclick = function(){
           ]
     }});
       }
-  }
+    }
+}, 100);
+    jQuery(".buy-buttons").click(function(){
+     window.dataLayer = window.dataLayer || [];
+     dataLayer.push({
+      event : 'addToCart',
+       product: {
+          'productDetails': [{
+            'item_name': '{{product.title | escape }}',
+            'item_id': '{{product.id}}',
+            'item_category': '{{product.type}}',
+            'price': '{{product.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': $("#quantity").val()
+          }]
+    }});
+});
 });
 </script>
