@@ -99,10 +99,7 @@ Supported variables
 });
 
   waitForElm('[name=checkout]').then((elm) => {
-    console.log('Element is ready');
-    console.log(elm.textContent);
-});
-  document.getElementsByName("checkout")[1].onclick = function(){
+    document.getElementsByName("checkout")[1].onclick = function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
@@ -122,4 +119,5 @@ Supported variables
           ]
     }});
       }
+});
 </script>
