@@ -166,3 +166,106 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
   </body>
 </html>
+<script>
+  var waitForJQuery = setInterval(function () {
+if (typeof $ != 'undefined') {
+jQuery(document).ready(function () {
+  if (window.location.href.indexOf("products") > -1) {
+   var quantity = '';
+  window.dataLayer = window.dataLayer || [];
+
+    dataLayer.push({
+        event : 'productView',
+        product: {
+          'productDetails': [{
+            'item_name': '{{product.title | escape }}',
+            'item_id': '{{product.id}}',
+            'item_category': '{{product.type}}',
+            'price': '{{product.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': '1'
+          }]
+    }});
+         jQuery(".add_to_cart").click(function(){
+     window.dataLayer = window.dataLayer || [];
+     dataLayer.push({
+      event : 'addToCart',
+       product: {
+          'productDetails': [{
+            'item_name': '{{product.title | escape }}',
+            'item_id': '{{product.id}}',
+            'item_category': '{{product.type}}',
+            'price': '{{product.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': $("#quantity").val()
+          }]
+    }});
+            });
+  }
+    else if (window.location.href.indexOf("products") === -1 && window.location.href.indexOf("collections") > -1) {
+      
+  window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+        event : 'collectionView',
+        product: {
+          'listingCriteo': [ {%- for product in collection.products limit:3 -%}  '{{product.id}}', {%- endfor -%}],
+          'productList': [
+            {%- for product in collection.products -%}
+            {
+            'item_name': '{{product.title | escape }}',
+            'item_id': '{{product.id}}',
+            'item_category': '{{product.type}}',
+            'price': '{{product.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'item_list_name': '{{ collection.title | escape }}',
+            'item_list_id': '{{ collection.id }}',
+            'quantity': '1'
+          },
+          {%- endfor -%}
+          ]
+    }});
+    }
+  	else if (window.location.href.indexOf("cart") > -1) {
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+        event : 'cartView',
+        cart: {
+          'value': {{ cart.total_price | remove: ','}}/100,
+          'cartList': [
+            {%- for item in cart.items -%}
+            {
+            'item_name': '{{item.product.title | escape }}',
+            'item_id': '{{item.id}}',
+            'item_category': '{{item.product.type}}',
+            'price': '{{item.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': '{{ item.quantity }}'
+          },
+          {%- endfor -%}
+          ]
+    }});
+    }
+        jQuery("#checkout, .add_to_cart:has(.icon-lock)").click(function(){
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+        event : 'beginCheckout',
+        cart: {
+          'cartList': [
+            {%- for item in cart.items -%}
+            {
+            'item_name': '{{item.product.title | escape }}',
+            'item_id': '{{item.id}}',
+            'item_category': '{{item.product.type}}',
+            'price': '{{item.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': '{{ item.quantity }}'
+          },
+          {%- endfor -%}
+          ]
+    }});
+      });
+  });
+  clearInterval(waitForJQuery);
+}
+}, 10);
+</script>
