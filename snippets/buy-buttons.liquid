@@ -63,9 +63,6 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
-    var waitForJQuery = setInterval(function () {
-if (typeof $ != 'undefined') {
-jQuery(document).ready(function () {
   jQuery(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
@@ -101,8 +98,4 @@ jQuery(document).ready(function () {
           ]
     }});
       });
-    });
-  clearInterval(waitForJQuery);
-}
-}, 10);
 </script>
