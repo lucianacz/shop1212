@@ -245,7 +245,7 @@ jQuery(document).ready(function () {
           ]
     }});
     }
-        jQuery("#checkout, .add_to_cart:has(.icon-lock)").click(function(){
+        jQuery("[name=checkout]").click(function(){
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
         event : 'beginCheckout',
