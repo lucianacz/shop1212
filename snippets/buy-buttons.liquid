@@ -63,7 +63,7 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
-  jQuery(".buy-buttons").click(function(){
+  $(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
       event : 'addToCart',
@@ -78,7 +78,7 @@ Supported variables
           }]
     }});
 });
-  jQuery("[name=checkout]").click(function(){
+  $("[name=checkout]").click(function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
