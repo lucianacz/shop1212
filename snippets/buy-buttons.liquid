@@ -78,4 +78,23 @@ Supported variables
           }]
     }});
 });
+  jQuery("[name=checkout]").click(function(){
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+        event : 'beginCheckout',
+        cart: {
+          'cartList': [
+            {%- for item in cart.items -%}
+            {
+            'item_name': '{{item.product.title | escape }}',
+            'item_id': '{{item.id}}',
+            'item_category': '{{item.product.type}}',
+            'price': '{{item.price | remove: ','}}'/100,
+            'currency': 'USD',
+            'quantity': '{{ item.quantity }}'
+          },
+          {%- endfor -%}
+          ]
+    }});
+      });
 </script>
