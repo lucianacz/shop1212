@@ -63,25 +63,16 @@ Supported variables
   </buy-buttons>
 {%- endform -%}
 <script>
-  function waitForElm(selector) {
-    return new Promise(resolve => {
-        if (document.querySelector(selector)) {
-            return resolve(document.querySelector(selector));
-        }
-
-        const observer = new MutationObserver(mutations => {
-            if (document.querySelector(selector)) {
-                resolve(document.querySelector(selector));
-                observer.disconnect();
-            }
-        });
-
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-    });
+  function defer(method) {
+    if (window.jQuery) {
+        method();
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
 }
+  defer(function () {
+    alert("jQuery is now loaded");
+});
   jQuery(".buy-buttons").click(function(){
      window.dataLayer = window.dataLayer || [];
      dataLayer.push({
@@ -98,7 +89,6 @@ Supported variables
     }});
 });
 
-  waitForElm('[name=checkout]:last-child').then((elm) => {
     document.getElementsByName("checkout")[1].onclick = function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
@@ -119,5 +109,4 @@ Supported variables
           ]
     }});
       }
-});
 </script>
