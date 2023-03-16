@@ -87,11 +87,7 @@ Supported variables
     }});
 });
 
-    
-});
-
-    document.getElementsByName("checkout")[1].onclick = function(){
-    console.log('clicked');
+jQuery("[name=checkout]").click(function(){
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
         event : 'beginCheckout',
@@ -109,5 +105,6 @@ Supported variables
           {%- endfor -%}
           ]
     }});
-      }
+      });    
+});
 </script>
