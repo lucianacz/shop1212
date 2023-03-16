@@ -78,7 +78,7 @@ Supported variables
           }]
     }});
 });
-  document.getElementsByName("checkout")[0].click(function(){
+  document.getElementsByName("checkout")[0].onclick = function(){
     console.log('clicked');
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
@@ -97,5 +97,5 @@ Supported variables
           {%- endfor -%}
           ]
     }});
-      });
+      }
 </script>
