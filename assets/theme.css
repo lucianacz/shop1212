@@ -5912,6 +5912,7 @@ split-lines {
 .header__link-list .mega-menu__nav span{
   text-transform: uppercase;
   font-weight: 400;
+  font-size: 12px;
 }
 
 .header__link-list .icon-chevron-bottom {
