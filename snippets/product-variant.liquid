@@ -165,7 +165,7 @@ Supported variables
     {%- endcomment -%}
 
     {%- if show_badges and product.media.size > 0 -%}
-      {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+      {%- render 'product-badges', product: product, class: 'product-card__badge-list', selected_color: selected_color -%}
     {%- endif -%}
 
 

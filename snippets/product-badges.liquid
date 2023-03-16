@@ -16,7 +16,7 @@ Supported variables
 * class: an extra class added on the container
 {%- endcomment -%}
 
-{%- assign badge_types = types | default: 'just_in, custom, sold_out, discount' | split: ',' -%}
+{%- assign badge_types = types | default: 'just_in, custom_by_color, custom, sold_out, discount' | split: ',' -%}
 {%- assign variant = product.selected_or_first_available_variant -%}
 
 {%- capture badges -%}
@@ -24,6 +24,17 @@ Supported variables
     {%- assign stripped_badge_type = badge_type | strip -%}
 
     {%- case stripped_badge_type -%}
+      {%- when 'custom_by_color' -%}
+      {% if selected_color != blank and product.metafields.custom.badges_by_color != blank %}
+      {% assign custom_badges_by_color = product.metafields.custom.badges_by_color.value | sort %}
+      {%- for custom_badge_by_color in custom_badges_by_color -%}
+        {% assign custom_badge__color = custom_badge_by_color | split: ':' | last | strip %}
+        {% if custom_badge__color == selected_color %}
+          <span class="badge badge--primary">{{ custom_badge_by_color | split: ':' | first }}</span>
+        {% endif %}
+      {%- endfor -%}
+      {% endif %}
+
       {%- when 'custom' -%}
         {%- assign custom_badges = product.metafields.custom.badges.value | sort -%}
 
