@@ -266,8 +266,8 @@ the underlying logic of the menu.
             {%- render 'icon' with 'cart' -%}
 
             <div class="header__cart-count">
-              <cart-count class="count-bubble no-visible {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true" id="cart-count-header">
-                {{- cart.item_count -}}
+              <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
+                {%- render 'bold-options-hybrid-cart-item-count' with cart -%}
               </cart-count>
             </div>
           </a>
