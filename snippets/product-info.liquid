@@ -1,3 +1,5 @@
+{%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- break -%}{%- endif -%}
+
 {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <safe-sticky class="product-info">
@@ -74,7 +76,7 @@
         <payment-terms class="product-info__payment-terms" form="{{ product_form_id }}" {{ block.shopify_attributes }}>
           {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
 
-          {%- form 'product', product, id: product_installment_form_id -%}
+          {%- form 'product', product, id: product_installment_form_id, class:'no_bold_options' -%}
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
             {{- form | payment_terms -}}
           {%- endform -%}
@@ -193,6 +195,7 @@
             {%- endif -%}
           </div>
         {%- endif -%}
+<div class="bold_options" data-product-id="{{ product.id }}"></div>
 
       {%- when 'quantity_selector' -%}
         {%- if product.available -%}
