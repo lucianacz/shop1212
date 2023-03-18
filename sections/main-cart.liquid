@@ -76,7 +76,7 @@
                       </line-item-quantity>
                     </td>
 
-                    <td class="hidden align-center text-subdued text-end sm:table-cell"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" data-item-key="{{item.key}}" style="display:none !important;"></span>{{ line_item.final_line_price | money }}</td>
+                    <td class="hidden align-center text-subdued text-end sm:table-cell"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" data-item-key="{{line_item.key}}" style="display:none !important;"></span>{{ line_item.final_line_price | money }}</td>
                   </tr>
                 {%- endfor -%}
               </tbody>
