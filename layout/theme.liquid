@@ -75,9 +75,36 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script type="module" src="{{ 'count-bubble.js' | asset_url }}"></script>
 
     {{ content_for_header }}
+    
+    {%- comment -%}Bold Options{%- endcomment -%}
+    {%- render 'bold-options-hybrid' -%}
+    {%- render 'bold-common' -%}
+    {% render 'sc-includes' %}
+    {% if template == 'product' and product.metafields.inventory.ShappifyHidden or product.type contains '_HIDDEN_' %}<meta name='robots' content='noindex'>{% endif %}
+    {%- comment -%}End Bold Options{%- endcomment -%}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    {%- comment -%}Bold Options{%- endcomment -%}
+    <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/Uu_ERP4Ye5Lvd8aJFikQsw" async></script>
+    <script type="text/javascript">
+    (function e(){var e=document.createElement("script");e.type="text/javascript",e.async=true,e.src="//staticw2.yotpo.com/wuGo0TNacPsACEl5lVDmXDH3GqFUGvUE0PRe3s3N/widget.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+    </script>
+    <script>
+      BOLD.common.eventEmitter.on('BOLD_OPTIONS_option_products_loaded', function(event){
+      var optionsDiv = document.querySelector('.bold_options_loaded');
+      if(optionsDiv.children.length != 0){
+        var buyItNow = document.querySelectorAll('.shopify-payment-button');
+        console.log(buyItNow);
+        buyItNow.forEach(function(button){
+          button.remove();
+        })
+      }
+    });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    {%- comment -%}End Bold Options{%- endcomment -%}
 
     <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/Uu_ERP4Ye5Lvd8aJFikQsw" async></script>
     <script type="text/javascript">
