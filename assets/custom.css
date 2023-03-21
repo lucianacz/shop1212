@@ -10,6 +10,7 @@ a.btn.klaviyo-bis-trigger {
   padding-inline-start: var(--spacing-10);
   padding-inline-end: var(--spacing-10);
   font-size: 1em;
+  display: none;
 }
 
 @media (max-width: 699px){
