@@ -42,7 +42,6 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
         <div class="cart-drawer__line-items">
           {% assign gift_product_added = false %}
           {%- for line_item in cart.items -%}
-            {% assign line_item_url = line_item.url | remove: '/products/' | split: '?' | first %} 
             {% if line_item.product.handle == section.settings.gift_product %}
               {% assign gift_product_added = true %}
             {% endif %}
@@ -133,7 +132,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
         {%- endif -%}
 
         {%- if section.settings.show_cart_note -%}
-          <button type="button" class="justify-self-start" aria-controls="cart-drawer-note">
+          <button type="button" class="justify-self-start bold" aria-controls="cart-drawer-note">
             <span class="link text-sm text-subdued">
               {%- if cart.note == blank -%}
                 {{- 'cart.general.add_order_note' | t -}}
