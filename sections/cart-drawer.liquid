@@ -43,7 +43,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
           {% assign gift_product_added = false %}
           {%- for line_item in cart.items -%}
             {% assign line_item_url = line_item.url | remove: '/products/' | split: '?' | first %} 
-            {% if line_item_url == section.settings.gift_product %}
+            {% if line_item.product.handle == section.settings.gift_product %}
               {% assign gift_product_added = true %}
             {% endif %}
             {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
