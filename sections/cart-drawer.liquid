@@ -42,6 +42,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
         <div class="cart-drawer__line-items">
           {% assign gift_product_added = false %}
           {%- for line_item in cart.items -%}
+            {{  section.settings.gift_product }} {{  line_item }}
             {% if line_item == section.settings.gift_product %}
               {% assign gift_product_added = true %}
             {% endif %}
