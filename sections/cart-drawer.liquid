@@ -40,17 +40,21 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
 
       <div class="v-stack gap-6 sm:gap-8">
         <div class="cart-drawer__line-items">
+          {% assign gift_product_added = false %}
           {%- for line_item in cart.items -%}
-                  {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
-  {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
-      <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
-      {%- continue -%}
-  {%- endif -%}
+            {% if line_item == section.settings.gift_product %}
+              {% assign gift_product_added = true %}
+            {% endif %}
+            {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
+            {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
+                <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+                {%- continue -%}
+            {%- endif -%}
             {%- render 'line-item', line_item: line_item, show_desktop_quantity: true -%}
           {%- endfor -%}
         </div>
 
-        {% if section.settings.gift_product != blank %}
+        {% if section.settings.gift_product != blank and gift_product_added == false %}
         <div class="horizontal-product-list__gift">
           {%- render 'horizontal-product', product: section.settings.gift_product, show_add_to_cart: true, background: section.settings.gift_product_background, text_color: section.settings.product_card_text_color -%}
         </div>
