@@ -42,7 +42,6 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
         <div class="cart-drawer__line-items">
           {% assign gift_product_added = false %}
           {%- for line_item in cart.items -%}
-            {% assign line_item_url = line_item.url | remove: '/products/' | split: '?' | first %} 
             {% if line_item.product.handle == section.settings.gift_product %}
               {% assign gift_product_added = true %}
             {% endif %}
