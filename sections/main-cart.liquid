@@ -51,6 +51,11 @@
                     {% endif %}
                   {%- endfor -%}
                   
+                  {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
+                  {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
+                      <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+                      {%- continue -%}
+                  {%- endif -%}
                   {%- assign line_max_quantity = '' -%}
 
                   {%- if line_item.variant.inventory_management != blank and line_item.variant.inventory_policy == 'deny' -%}
@@ -58,7 +63,7 @@
                   {%- endif -%}
 
                   <tr>
-                    <td>{%- render 'line-item', line_item: line_item, hide_quantity: hide_quantity -%}</td>
+                    <td>{%- render 'line-item', line_item: line_item -%}</td>
 
                     <td class="hidden align-center text-center text-subdued sm:table-cell">
                       <line-item-quantity class="v-stack justify-center gap-2">
@@ -71,7 +76,7 @@
                       </line-item-quantity>
                     </td>
 
-                    <td class="hidden align-center text-subdued text-end sm:table-cell">{{ line_item.final_line_price | money }}</td>
+                    <td class="hidden align-center text-subdued text-end sm:table-cell"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_total" data-item-key="{{line_item.key}}" style="display:none !important;"></span>{{ line_item.final_line_price | money }}</td>
                   </tr>
                 {%- endfor -%}
               </tbody>
@@ -109,7 +114,8 @@
 
                       <div class="h-stack gap-4 justify-between">
                         <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
-                        <span class="text-subdued">{{ cart.items_subtotal_price | money }}</span>
+                        <span class="text-subdued"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_total" style="display:none !important;"></span>
+{{ cart.items_subtotal_price | money }}</span>
                       </div>
 
                       {% for discount_application in cart.cart_level_discount_applications %}

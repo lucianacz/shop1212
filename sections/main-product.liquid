@@ -79,7 +79,7 @@
           {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
         {%- endif -%}
 
-        <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
+        <a href="{{ product.url }}" class="bold truncate-text">{{ product.title | split: '[' | first }}</a>
         {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
       </div>
 
@@ -109,7 +109,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {%- endif -%}
 
     <div class="v-stack gap-0.5">
-      <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }}</a>
+      <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title | split: '[' | first }}</a>
       {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
     </div>
   </div>

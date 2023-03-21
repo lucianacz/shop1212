@@ -1229,7 +1229,12 @@ import { animate as animate3 } from "{{ 'vendor.min.js' | asset_url }}";
 
 // js/common/cart/fetch-cart.js
 var fetchCart = new Promise(async (resolve) => {
-  resolve(await (await fetch(`${Shopify.routes.root}cart.js`)).json());
+  if(window.BOLD && BOLD.common){
+    resolve(await BOLD.common.cartDoctor.fix(await (await fetch(`${Shopify.routes.root}cart.js`)).json()));
+  }
+  else{
+    resolve(await (await fetch(`${Shopify.routes.root}cart.js`)).json());
+  }
 });
 document.addEventListener("cart:change", (event) => {
   fetchCart = event.detail["cart"];
@@ -1256,6 +1261,7 @@ var CartCount = class extends HTMLElement {
   get itemCount() {
     return parseInt(this.innerText);
   }
+  
   set itemCount(count) {
     if (this.itemCount === count) {
       return;
@@ -1927,6 +1933,11 @@ var LineItemQuantity = class extends HTMLElement {
       return;
     }
     this._changeLineItemQuantity(event.target.getAttribute("data-line-key"), parseInt(event.target.value));
+    if(window.BOLD && BOLD.common){
+      setTimeout(function(){
+      BOLD.common.eventEmitter.emit("BOLD_COMMON_cart_loaded");
+      }, 2000);
+    }
   }
   _onRemoveLinkClicked(event) {
     if (event.target.tagName !== "A" || !event.target.href.includes("/cart/change")) {
@@ -1942,7 +1953,7 @@ var LineItemQuantity = class extends HTMLElement {
     } else {
       const lineItem = this.closest("line-item");
       lineItem?.dispatchEvent(new CustomEvent("line-item:will-change", { bubbles: true, detail: { targetQuantity } }));
-      const cartContent = await (await fetch(`${Shopify.routes.root}cart/change.js`, {
+      let cartContent = await (await fetch(`${Shopify.routes.root}cart/change.js`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -1953,6 +1964,14 @@ var LineItemQuantity = class extends HTMLElement {
           sections: ["cart-drawer"]
         })
       })).json();
+      // Shop Circle
+      if(typeof window.BOLD !== 'undefined'
+         && typeof window.BOLD.common !== 'undefined'
+         && typeof window.BOLD.common.cartDoctor !== 'undefined') {
+        // NOTE: "cart" should be the variable containing the cart json data
+        cartContent = window.BOLD.common.cartDoctor.fix(cartContent);
+      }
+      // Shop Circle
       const lineItemAfterChange = cartContent["items"].filter((lineItem2) => lineItem2["key"] === lineKey);
       lineItem?.dispatchEvent(new CustomEvent("line-item:change", {
         bubbles: true,
@@ -1968,7 +1987,11 @@ var LineItemQuantity = class extends HTMLElement {
           cart: cartContent
         }
       }));
+          if(window.BOLD && BOLD.common){
+      BOLD.common.eventEmitter.emit("BOLD_COMMON_cart_loaded");
     }
+    }
+
   }
 };
 if (!window.customElements.get("line-item-quantity")) {
@@ -2667,7 +2690,15 @@ var ProductForm = class extends HTMLFormElement {
     });
     const responseJson = await response.json();
     if (response.ok) {
-      const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+      let cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
+      // Shop Circle
+      if(typeof window.BOLD !== 'undefined'
+         && typeof window.BOLD.common !== 'undefined'
+         && typeof window.BOLD.common.cartDoctor !== 'undefined') {
+        // NOTE: "cart" should be the variable containing the cart json data
+        cartContent = window.BOLD.common.cartDoctor.fix(cartContent);
+      }
+      // Shop Circle
       cartContent["sections"] = responseJson["sections"];
       this.dispatchEvent(new CustomEvent("variant:add", {
         bubbles: true,
@@ -2683,6 +2714,9 @@ var ProductForm = class extends HTMLFormElement {
           cart: cartContent
         }
       }));
+      if(window.BOLD && BOLD.common){
+        BOLD.common.eventEmitter.emit("BOLD_COMMON_cart_loaded");
+      }
     } else {
       this.dispatchEvent(new CustomEvent("cart:error", {
         bubbles: true,
@@ -2816,8 +2850,14 @@ var SalePrice = class extends HTMLElement {
   }
   _onVariantChanged(event) {
     const variant = event.detail.variant;
+    
     this.lastChild.replaceWith(document.createRange().createContextualFragment(formatMoney(variant["price"], currencyFormat)));
     this.classList.toggle("text-on-sale", variant["compare_at_price"] > variant["price"]);
+    if (typeof BOLD !== 'undefined'
+      && typeof BOLD.common !== 'undefined'
+         && BOLD.common.eventEmitter !== 'undefined'){
+      BOLD.common.eventEmitter.emit('BOLD_COMMON_variant_changed', { variant: variant });
+     }
   }
 };
 var CompareAtPrice = class extends HTMLElement {

@@ -25,10 +25,10 @@ Supported variables
   <div class="horizontal-product__info">
     <div class="v-stack gap-0.5">
       {%- if output_link == false -%}
-        <span class="text-sm bold">{{ product.title }}</span>
+        <span class="text-sm bold">{{ product.title | split: '[' | first }}</span>
       {%- else -%}
         <a href="{{ product.url }}" class="text-sm bold">
-          <span class="reversed-link hover:show">{{ product.title }}</span>
+          <span class="reversed-link hover:show">{{ product.title | split: '[' | first }}</span>
         </a>
       {%- endif -%}
 

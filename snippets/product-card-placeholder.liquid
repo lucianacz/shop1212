@@ -62,7 +62,7 @@ Supported variables
       {%- else -%}
         <span><a href="{{ product.url }}" class="bold">{{ title_placeholder }}</a></span>
       {%- endif -%}
-
+<span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_item_price" data-item-key="{{item.key}}" style="display:none !important;"></span>
       <price-list class="price-list {% if text_alignment == 'center' %}justify-center{% endif %}">
         <sale-price class="text-subdued">
           {%- if settings.currency_code_enabled -%}

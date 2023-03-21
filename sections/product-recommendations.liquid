@@ -48,6 +48,7 @@ LIQUID
           <reveal-items selector=".product-list > *">
             <product-list class="product-list">
               {%- for product in section.settings.products -%}
+                {%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
                 {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
               {%- endfor -%}
             </product-list>
@@ -65,9 +66,10 @@ LIQUID
               <reveal-items selector=".product-list > *">
                 <product-list class="product-list">
                   {%- for product in recommendations.products -%}
-                    {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
-                      {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
-                    {% endif %}
+                  {%- if product.metafields.inventory.ShappifyHidden == 'true' -%}{%- continue -%}{%- endif -%}
+                  {% if product.type != 'OPTIONS_HIDDEN_PRODUCT' and product.type != 'PPLR_HIDDEN_PRODUCT' and product.type != 'Gift Cards' %}
+                    {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                  {% endif %}
                   {%- endfor -%}
                 </product-list>
               </reveal-items>
