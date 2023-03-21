@@ -50,6 +50,12 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
           {%- endfor -%}
         </div>
 
+        {% if section.settings.gift_product != blank %}
+        <div class="horizontal-product-list__gift">
+          {%- render 'horizontal-product', product: section.settings.gift_product, show_add_to_cart: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
+        </div>
+        {% endif %}
+    
         {%- if section.settings.products.count > 0 -%}
           <div class="cart-drawer__recommendations">
             <div class="v-stack gap-2.5 sm:gap-4">
@@ -76,12 +82,6 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
               {%- if product_card_background != 'rgba(0,0,0,0)' and product_card_background != blank and product_card_background != settings.dialog_background -%}
                 {%- assign horizontal_products_blends = false -%}
               {%- endif -%}
-
-              {% if section.settings.gift_product != blank %}
-              <div class="horizontal-product-list__gift">
-                {%- render 'horizontal-product', product: section.settings.gift_product, show_add_to_cart: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color -%}
-              </div>
-              {% endif %}
                 
               <scroll-carousel selector=".horizontal-product" id="{{ carousel_id }}" class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed">
                 <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
