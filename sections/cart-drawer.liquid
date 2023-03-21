@@ -53,6 +53,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
         {% if section.settings.gift_product != blank %}
         <div class="horizontal-product-list__gift">
           {% assign gift_background = '#e6f0ff' | color_to_rgb %}
+          {{ gift_background }}
           {%- render 'horizontal-product', product: section.settings.gift_product, show_add_to_cart: true, background: gift_background, text_color: section.settings.product_card_text_color -%}
         </div>
         {% endif %}
