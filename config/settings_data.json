@@ -221,7 +221,7 @@
           "show_shipping_text": true,
           "show_checkout_button": true,
           "gift_product": "gift-wrap",
-          "gift_product_background": "#d2e5ff",
+          "gift_product_background": "#e6f0ff",
           "recommendations_title": "Popular Now",
           "products": [
             "the-organic-pullover-sweatshirt-embroidered",
