@@ -3,28 +3,6 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HP-3-16.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/HP-Blank-M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "MEET",
-            "title": "Marine Blue & Lilac Frost",
-            "heading_tag": "h0",
-            "button_text": "SHOP NOW",
-            "button_link": "https:\/\/shop1212.com\/products\/the-pullover-sweatshirt?variant=44490522132755&utm_source=12%7C12%20News&utm_medium=email&utm_campaign=Marine%20Blue%20and%20Lilac%20Frost%20%2801GVKZES0X8Z4G02BX553H1573%29&utm_klaviyo_id=NcrCpX&_kx=",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
@@ -43,6 +21,28 @@
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 10,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HP-3-16.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/HP-Blank-M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "MEET",
+            "title": "Marine Blue & Lilac Frost",
+            "heading_tag": "h0",
+            "button_text": "SHOP NOW",
+            "button_link": "https:\/\/shop1212.com\/products\/the-pullover-sweatshirt?variant=44490522132755&utm_source=12%7C12%20News&utm_medium=email&utm_campaign=Marine%20Blue%20and%20Lilac%20Frost%20%2801GVKZES0X8Z4G02BX553H1573%29&utm_klaviyo_id=NcrCpX&_kx=",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
@@ -71,8 +71,8 @@
         }
       },
       "block_order": [
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "4c6c3736-b544-4823-9d25-1d28cc0c30ce"
       ],
       "settings": {
