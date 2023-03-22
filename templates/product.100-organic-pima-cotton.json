@@ -51,8 +51,8 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "atc_button_background": "#d2e5ff",
-            "atc_button_text_color": "#06182e",
+            "atc_button_background": "#e6f0ff",
+            "atc_button_text_color": "#000000",
             "payment_button_background": "",
             "payment_button_text_color": "#000000"
           }
