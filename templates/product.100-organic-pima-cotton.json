@@ -51,21 +51,15 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "atc_button_background": "#ed2024",
-            "atc_button_text_color": "",
+            "atc_button_background": "#d2e5ff",
+            "atc_button_text_color": "#06182e",
             "payment_button_background": "",
-            "payment_button_text_color": ""
+            "payment_button_text_color": "#000000"
           }
         },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": true
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -76,6 +70,12 @@
             "products_count": 4,
             "background": "#ffffff",
             "text_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true
           }
         }
       },
@@ -89,8 +89,8 @@
         "quantity_selector",
         "buy_buttons",
         "payment_terms",
-        "description",
-        "ae6a1588-284a-4b7e-b232-cfa5525950d9"
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9",
+        "description"
       ],
       "settings": {
         "full_width": false,
