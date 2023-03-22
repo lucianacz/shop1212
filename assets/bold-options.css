@@ -437,15 +437,6 @@ payment-terms .bold_options.bold_options_loaded {
   display: flex;
 }
 
-.bold_clone {
-  display: none !important;
-}
-
-
-button.button.bold_hidden {
-  display: block !important;
-}
-
 .bold_option_total div{
   background: #e6f0ff;
   border: 1px solid black;
