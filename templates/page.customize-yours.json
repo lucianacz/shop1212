@@ -59,7 +59,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "mobile_stack": false,
+        "mobile_stack": true,
         "background": "#e6f0ff",
         "background_gradient": "",
         "text_color": ""
