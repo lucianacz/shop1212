@@ -8,6 +8,34 @@
       "settings": {
       }
     },
+    "efe1ddd1-9251-487a-bda5-5847c9487b80": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--18360466538771__efe1ddd1-9251-487a-bda5-5847c9487b80-16797560861efd89ab-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Customize Yours",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--18360466538771__efe1ddd1-9251-487a-bda5-5847c9487b80-16797560861efd89ab-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Pullovers.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Pullovers_M.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#1155a9",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "4c38c594-0d43-418d-bc8c-45458643c4ff": {
       "type": "text-with-icons",
       "blocks": {
@@ -127,6 +155,7 @@
   },
   "order": [
     "main",
+    "efe1ddd1-9251-487a-bda5-5847c9487b80",
     "4c38c594-0d43-418d-bc8c-45458643c4ff",
     "bd455069-187b-4582-ba4b-21503e4e9d1d",
     "03d3509e-0e84-4781-b129-e0f5bbae3aba"
