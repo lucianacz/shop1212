@@ -51,7 +51,7 @@
     "show_sold_out_badge": true,
     "show_discount": false,
     "discount_mode": "percentage",
-    "product_color_display": "swatch",
+    "product_color_display": "hide",
     "product_image_aspect_ratio": "natural",
     "product_info_alignment": "center",
     "cart_type": "drawer",
