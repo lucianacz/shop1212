@@ -96,6 +96,28 @@
         "text_color": ""
       }
     },
+    "74a3d59a-a11f-4d0d-885c-19dc264595f9": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify:\/\/shop_images\/Pullovers_Change_1_f9a8c95a-acb2-4171-8bc8-a4606600d13d.jpg",
+        "after_image": "shopify:\/\/shop_images\/Pullovers_Change_2_80420467-de28-48ce-886a-999ecdb6b017.jpg",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "",
+        "after_text": "Customized",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff"
+      }
+    },
     "bd455069-187b-4582-ba4b-21503e4e9d1d": {
       "type": "featured-collection",
       "settings": {
@@ -122,6 +144,87 @@
         "heading_gradient": "",
         "product_card_background": "",
         "product_card_text_color": ""
+      }
+    },
+    "81460713-8efe-4967-a84c-a77120b1efec": {
+      "type": "media-grid",
+      "blocks": {
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-0": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-1": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-2": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-0",
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-1",
+        "template--18360466538771__81460713-8efe-4967-a84c-a77120b1efec-1679756477752290b1-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "03d3509e-0e84-4781-b129-e0f5bbae3aba": {
@@ -157,7 +260,9 @@
     "main",
     "efe1ddd1-9251-487a-bda5-5847c9487b80",
     "4c38c594-0d43-418d-bc8c-45458643c4ff",
+    "74a3d59a-a11f-4d0d-885c-19dc264595f9",
     "bd455069-187b-4582-ba4b-21503e4e9d1d",
+    "81460713-8efe-4967-a84c-a77120b1efec",
     "03d3509e-0e84-4781-b129-e0f5bbae3aba"
   ]
 }
