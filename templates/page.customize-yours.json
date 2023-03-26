@@ -14,13 +14,20 @@
         "template--18360466538771__efe1ddd1-9251-487a-bda5-5847c9487b80-16797560861efd89ab-1": {
           "type": "heading",
           "settings": {
-            "text": "Customize Yours",
+            "text": "Customization",
             "heading_tag": "h1"
+          }
+        },
+        "e75d0e9f-5f3e-4387-b652-20ca11edbc4a": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Make any style your own with our embroidery options!<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "template--18360466538771__efe1ddd1-9251-487a-bda5-5847c9487b80-16797560861efd89ab-1"
+        "template--18360466538771__efe1ddd1-9251-487a-bda5-5847c9487b80-16797560861efd89ab-1",
+        "e75d0e9f-5f3e-4387-b652-20ca11edbc4a"
       ],
       "settings": {
         "full_width": true,
@@ -31,7 +38,7 @@
         "mobile_image": "shopify:\/\/shop_images\/Pullovers_M.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center-end sm:text-end",
-        "text_color": "#1155a9",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
