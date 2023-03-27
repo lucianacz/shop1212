@@ -88,6 +88,7 @@ Supported variables
           {%- assign next_media = variant_image -%}
           
           {% for media in product.media %}
+            <p style="display: none;">{{ hover_variant_image }}</p>
             {% if media.alt contains hover_variant_image and media.alt contains 'Hover' %}
               {%- assign next_media = media -%}
             {% endif %}
