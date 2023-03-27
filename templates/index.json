@@ -194,12 +194,9 @@
       "settings": {
         "collection": "",
         "products": [
-          "the-organic-long-sleeve-pajama-set-easter",
-          "the-pullover-sweatshirt",
-          "the-organic-embroidered-short-sleeve-pajama-set",
-          "the-short-sleeve-pajama-set"
+
         ],
-        "custom_variants": "",
+        "custom_variants": "the-organic-long-sleeve-pajama-set-easter, Easter\nthe-pullover-sweatshirt, Lilac\nthe-organic-embroidered-short-sleeve-pajama-set, Nectarine Double Stripe Apres Beach\nthe-short-sleeve-pajama-set, Batter Up",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
