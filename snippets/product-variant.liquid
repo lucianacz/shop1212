@@ -53,7 +53,7 @@ Supported variables
   {% if variant_color == selected_color and selected_size == blank %}
       {% assign variant_href = variant.id %}
       {% assign variant_image = variant.featured_media %}
-      {% assign hover_variant_image = variant.featured_media.alt | split: '#'%}
+      {% assign hover_variant_image = variant.featured_media.alt | split: '#' | last %}
     {% break %}
   {% elsif variant_color == selected_color and selected_size == variant_size %}
       {% assign variant_href = variant.id %}
