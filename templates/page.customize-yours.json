@@ -156,12 +156,9 @@
     "03d3509e-0e84-4781-b129-e0f5bbae3aba": {
       "type": "featured-collection",
       "settings": {
-        "collection": "holiday-embroidery",
+        "collection": "embroidered",
         "products": [
-          "the-organic-embroidered-onesie-and-snap-footie-gift-set",
-          "the-garter-stitch-sweater-embroidered",
-          "the-organic-pullover-sweatshirt-embroidered",
-          "the-organic-embroidered-short-sleeve-pajama-set"
+
         ],
         "custom_variants": "",
         "full_width": true,
