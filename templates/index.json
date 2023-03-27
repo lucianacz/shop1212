@@ -233,7 +233,7 @@
           "type": "product",
           "settings": {
             "product": "the-bike-short",
-            "specific_color": "",
+            "specific_color": "Navy",
             "horizontal_position": 11,
             "vertical_position": 72
           }
