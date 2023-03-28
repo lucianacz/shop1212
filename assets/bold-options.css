@@ -43,10 +43,9 @@ bold-options.css version 6
     }
 
 .bold_option:not(:empty) {
-            padding-bottom: 7px;
-        margin-bottom: 7px;
-                border-bottom: 1px solid #FFFFFF;
-    }
+            padding-bottom: 10px;
+        margin-bottom: 10px;
+        }
 
 .bold_option_product_title {
             font-size: 16px;
