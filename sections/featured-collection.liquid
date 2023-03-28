@@ -47,7 +47,17 @@
 
             {% if section.settings.custom_variants == blank %}
               {%- for product in products limit: section.settings.products_count -%}
+                {% if section.settings.all_colors %}
+                   {%- for option in product.options_with_values -%}
+                    {% if option.name == 'Color' %}   
+                      {%- for value in option.values -%}  
+                        {%- render 'product-variant', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true, selected_color: value -%}
+                      {% endfor %}
+                    {% endif %}
+                   {%- endfor -%}
+                {% else %}
                   {%- render 'product-card', product: product, stacked: section.settings.stack_products, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                {% endif %}
               {%- else -%}
                 {%- for i in (1..section.settings.products_count) -%}
                   {%- capture placeholder_image -%}product-{% cycle '1', '2', '3', '4', '5', '6' %}{%- endcapture -%}
@@ -99,6 +109,12 @@
       "type": "collection",
       "id": "collection",
       "label": "Collection"
+    },
+    {
+      "type": "checkbox",
+      "id": "all_colors",
+      "label": "Show all colors",
+      "default": false
     },
     {
       "type": "product_list",
