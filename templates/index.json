@@ -81,7 +81,7 @@
         "image_size": "auto",
         "controls_type": "outline_arrows",
         "transition_type": "fade_with_text",
-        "autoplay": false,
+        "autoplay": true,
         "cycle_speed": 4,
         "background": "#f2f2f2",
         "background_gradient": ""
@@ -193,6 +193,7 @@
       ],
       "settings": {
         "collection": "",
+        "all_colors": false,
         "products": [
 
         ],
