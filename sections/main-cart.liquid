@@ -53,7 +53,7 @@
                   
                   {%- comment -%}Bold:PO 2.0 - Hybrid Input{%- endcomment -%}
                   {%- if line_item.properties._boldBuilderId  and line_item.properties._boldVariantIds == null -%}
-                      <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}">
+                      <input type="hidden" name="updates[]" id="updates_{{- item.key -}}" class="bold_hidden_input cart__product-qty" value="{{- item.quantity -}}" min="0" data-id="{{- item.key -}}" data-mczr="{% if line_item.properties._mczr_designId %}item-{{ line_item.properties._mczr_designId }}{% else %}item-not-mczr{% endif %}">
                       {%- continue -%}
                   {%- endif -%}
                   {%- assign line_max_quantity = '' -%}
@@ -633,3 +633,4 @@
   ]
 }
 {% endschema %}
+{% render "cart-script.mczr" %}
