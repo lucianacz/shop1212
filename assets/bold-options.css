@@ -385,6 +385,3 @@ bold-options.css version 6
 /* custom css */
 #bold_help_text { font-size: 75%; }
 
-.horizontal-product__cta .bold_options {
-    display: none !important;
-}
