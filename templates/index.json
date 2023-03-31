@@ -650,6 +650,14 @@
             "logo_width": 200,
             "link": ""
           }
+        },
+        "1fe93377-7da3-4752-ab9d-765954f19aae": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/redtri_cb54f10f-5a61-4720-ad3e-66813e8336c2.jpg",
+            "logo_width": 200,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -657,7 +665,8 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1",
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2",
         "89d612bf-e950-426d-a17a-dd27ff95aba0",
-        "1270c5ac-a43d-4988-9c7f-e1b0a90f334f"
+        "1270c5ac-a43d-4988-9c7f-e1b0a90f334f",
+        "1fe93377-7da3-4752-ab9d-765954f19aae"
       ],
       "settings": {
         "full_width": false,
