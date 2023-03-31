@@ -607,6 +607,55 @@
         "feed_width": 100,
         "html_area": ""
       }
+    },
+    "398d2042-225a-4392-bec2-33fec7a5a0eb": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/g_50ad625b-2e4d-4ff5-a58c-16320d7620ad.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/elle_68754da0-dc71-4370-aa37-e9936c64c490.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/v_22e6cc48-59b5-467d-ae22-f807fc95b137.jpg",
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-0",
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1",
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "title": "",
+        "content": "<h3><strong>As seen in<\/strong><\/h3>",
+        "text_alignment": "start",
+        "items_per_row": 4,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
     }
   },
   "order": [
@@ -621,6 +670,7 @@
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "1ded0b28-8879-435e-a121-569cccbde627",
     "764ca372-9ca9-4eac-b393-d773195e3839",
-    "fd9e56eb-f417-4950-b837-5d62495b715b"
+    "fd9e56eb-f417-4950-b837-5d62495b715b",
+    "398d2042-225a-4392-bec2-33fec7a5a0eb"
   ]
 }
