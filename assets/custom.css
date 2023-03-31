@@ -190,3 +190,8 @@ form .product-personalizer {
 .checkbox-container[value="OS"],.checkbox-container[value="One Size"]{
   order: 13;
 }
+
+.horizontal-product-list__gift .horizontal-product__cta .bold_options,
+.horizontal-product-list__gift .horizontal-product__cta .klaviyo-bis-trigger{
+    display: none !important;
+}
