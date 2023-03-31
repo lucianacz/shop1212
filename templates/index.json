@@ -78,7 +78,7 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "auto",
+        "image_size": "md",
         "controls_type": "outline_arrows",
         "transition_type": "fade_with_text",
         "autoplay": true,
