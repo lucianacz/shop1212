@@ -615,7 +615,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/g_50ad625b-2e4d-4ff5-a58c-16320d7620ad.jpg",
-            "logo_width": 120,
+            "logo_width": 200,
             "link": ""
           }
         },
@@ -623,7 +623,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/elle_68754da0-dc71-4370-aa37-e9936c64c490.jpg",
-            "logo_width": 120,
+            "logo_width": 200,
             "link": ""
           }
         },
@@ -631,7 +631,23 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/v_22e6cc48-59b5-467d-ae22-f807fc95b137.jpg",
-            "logo_width": 120,
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "89d612bf-e950-426d-a17a-dd27ff95aba0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/instyle_6e70c7fc-8974-433f-93a8-b225fbd01dfe.jpg",
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "1270c5ac-a43d-4988-9c7f-e1b0a90f334f": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/preg_19899eec-7ac8-4612-b33f-7878d316af55.jpg",
+            "logo_width": 200,
             "link": ""
           }
         }
@@ -639,21 +655,23 @@
       "block_order": [
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-0",
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1",
-        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2"
+        "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2",
+        "89d612bf-e950-426d-a17a-dd27ff95aba0",
+        "1270c5ac-a43d-4988-9c7f-e1b0a90f334f"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_mobile": true,
         "title": "",
-        "content": "<h3><strong>As seen in<\/strong><\/h3>",
-        "text_alignment": "start",
-        "items_per_row": 4,
-        "background": "",
+        "content": "<h3>As seen in<\/h3>",
+        "text_alignment": "center",
+        "items_per_row": 5,
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#ffffff",
         "logo_item_border": ""
       }
     }
