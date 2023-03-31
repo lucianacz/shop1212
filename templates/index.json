@@ -55,9 +55,9 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "MEET",
-            "title": "Marine Blue & Lilac Frost",
-            "heading_tag": "h0",
+            "subheading": "100% Organic Cotton Pullovers",
+            "title": "New Colors for Spring",
+            "heading_tag": "h1",
             "button_text": "SHOP NOW",
             "button_link": "https:\/\/shop1212.com\/products\/the-pullover-sweatshirt?variant=44490522132755&utm_source=12%7C12%20News&utm_medium=email&utm_campaign=Marine%20Blue%20and%20Lilac%20Frost%20%2801GVKZES0X8Z4G02BX553H1573%29&utm_klaviyo_id=NcrCpX&_kx=",
             "text_color": "#ffffff",
@@ -85,6 +85,70 @@
         "cycle_speed": 4,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "1ded0b28-8879-435e-a121-569cccbde627": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Organic Cotton",
+            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
+          }
+        },
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sustainability-focused",
+            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
+          }
+        },
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/female.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Female-founded",
+            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "mobile_stack": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "398d2042-225a-4392-bec2-33fec7a5a0eb": {
@@ -129,8 +193,11 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2",
         "89d612bf-e950-426d-a17a-dd27ff95aba0"
       ],
+      "custom_css": [
+        "image.logo-list__item {padding: 10px;}"
+      ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "stack_mobile": true,
         "title": "",
         "content": "<h3>As seen in<\/h3>",
@@ -562,69 +629,6 @@
         "logo_item_border": ""
       }
     },
-    "1ded0b28-8879-435e-a121-569cccbde627": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Organic Cotton",
-            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Sustainability-focused",
-            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/female.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Female-founded",
-            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "mobile_stack": false,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "764ca372-9ca9-4eac-b393-d773195e3839": {
       "type": "text-with-icons",
       "blocks": {
@@ -669,6 +673,7 @@
   },
   "order": [
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
+    "1ded0b28-8879-435e-a121-569cccbde627",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
     "ad6ca031-458e-4ab3-94d5-3deeaa64507b",
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
@@ -678,7 +683,6 @@
     "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
-    "1ded0b28-8879-435e-a121-569cccbde627",
     "764ca372-9ca9-4eac-b393-d773195e3839",
     "fd9e56eb-f417-4950-b837-5d62495b715b"
   ]
