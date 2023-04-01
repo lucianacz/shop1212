@@ -231,96 +231,6 @@
         "logo_item_border": ""
       }
     },
-    "ad6ca031-458e-4ab3-94d5-3deeaa64507b": {
-      "type": "impact-text",
-      "disabled": true,
-      "blocks": {
-        "template--17167820488979__ad6ca031-458e-4ab3-94d5-3deeaa64507b-1678309622ecaf65ba-0": {
-          "type": "item",
-          "settings": {
-            "title": "12 hours",
-            "subheading": "a day,",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1.2
-          }
-        },
-        "3960905d-aa97-41e4-b41b-7c0c64d81221": {
-          "type": "item",
-          "settings": {
-            "title": "12 hours",
-            "subheading": "a night.",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1.8
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__ad6ca031-458e-4ab3-94d5-3deeaa64507b-1678309622ecaf65ba-0",
-        "3960905d-aa97-41e4-b41b-7c0c64d81221"
-      ],
-      "custom_css": [
-        ".shape-line {width: 2px; background: #ed2024;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "line",
-        "impact_text_size_ratio": 0.6,
-        "background": "#edf3fb",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(162deg, rgba(242, 234, 255, 1) 17%, rgba(49, 119, 237, 1) 81%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "f2288d3b-0d4f-4946-b70e-7e35e8b869ef": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Organic and sustainable essentials designed to be lived in, played in, and snoozed in all day and all night. Designed and led by Moms.<\/p>"
-          }
-        },
-        "e17e8a90-77ce-4ae6-a2e9-7889714530d7": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "sm",
-            "text": "ABOUT US",
-            "url": "shopify:\/\/pages\/about-1212",
-            "background": "#d2e5ff",
-            "text_color": "#05234d"
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2",
-        "e17e8a90-77ce-4ae6-a2e9-7889714530d7"
-      ],
-      "custom_css": [
-        "p {font-size: 15px;}"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#edf3fb",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "featured-collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -645,8 +555,6 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
     "1ded0b28-8879-435e-a121-569cccbde627",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
-    "ad6ca031-458e-4ab3-94d5-3deeaa64507b",
-    "f2288d3b-0d4f-4946-b70e-7e35e8b869ef",
     "featured-collection",
     "ef7ae401-bdee-4f35-abac-19689fd88a39",
     "d9b16851-3727-4197-8077-80ce59d81d54",
