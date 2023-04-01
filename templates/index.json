@@ -212,13 +212,14 @@
         "b1237727-4d1a-468e-aceb-e569d8a97dc9"
       ],
       "custom_css": [
-        ".bg-secondary {background: none;}"
+        ".bg-secondary {background: none;}",
+        ".h3 {font-weight: 300;}"
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
         "title": "",
-        "content": "",
+        "content": "<h3>As seen in<\/h3>",
         "text_alignment": "center",
         "items_per_row": 7,
         "background": "#d2e5ff",
