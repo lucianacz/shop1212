@@ -349,8 +349,8 @@
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
           "settings": {
-            "product": "the-pullover-sweatshirt",
-            "specific_color": "Lilac Frost",
+            "product": "the-organic-pullover-sweatshirt-embroidered",
+            "specific_color": "Lilac Frost Scribble Heart",
             "horizontal_position": 12,
             "vertical_position": 56
           }
@@ -392,7 +392,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/1_1212_March_12_2023-102-2.jpg",
+        "image": "shopify:\/\/shop_images\/shop_the_look.jpg",
         "title": "Shop the Look",
         "content": "",
         "background": "#edf3fb",
