@@ -6,6 +6,57 @@
       "settings": {
       }
     },
+    "871cab4b-689a-4b0c-848d-c594d33668d2": {
+      "type": "impact-text",
+      "blocks": {
+        "template--17237201551635__871cab4b-689a-4b0c-848d-c594d33668d2-1680355911374dee1f-0": {
+          "type": "item",
+          "settings": {
+            "title": "12 Hours",
+            "subheading": "a day,",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "ea8e431f-731b-453f-ae10-f2690ec6af2e": {
+          "type": "item",
+          "settings": {
+            "title": "12 Hours",
+            "subheading": "a night.",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--17237201551635__871cab4b-689a-4b0c-848d-c594d33668d2-1680355911374dee1f-0",
+        "ea8e431f-731b-453f-ae10-f2690ec6af2e"
+      ],
+      "custom_css": [
+        ".shape-line {width: 2px; background: #ed2024;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.6,
+        "background": "#edf3fb",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(162deg, rgba(242, 234, 255, 1) 17%, rgba(49, 119, 237, 1) 81%, rgba(215, 204, 250, 1) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "994e4673-a0c0-47f7-937e-925119840ea4": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -222,6 +273,7 @@
   },
   "order": [
     "main",
+    "871cab4b-689a-4b0c-848d-c594d33668d2",
     "994e4673-a0c0-47f7-937e-925119840ea4",
     "727d8d54-515b-44e0-b11d-1f88e27ddb52",
     "cf29072c-040f-49cf-ae3a-ea4dfa570c3b",
