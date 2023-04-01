@@ -212,7 +212,7 @@
         "b1237727-4d1a-468e-aceb-e569d8a97dc9"
       ],
       "custom_css": [
-
+        ".bg-secondary {background: none;}"
       ],
       "settings": {
         "full_width": true,
