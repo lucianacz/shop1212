@@ -53,6 +53,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {%- comment -%}Some preload{%- endcomment -%}
 
   
+    <link rel="modulepreload" href="{{ 'vendor.min.js' | asset_url }}" as="script">
+    <link rel="modulepreload" href="{{ 'theme.js' | asset_url }}" as="script">
+    <link rel="modulepreload" href="{{ 'sections.js' | asset_url }}" as="script">
+    <link rel="modulepreload" href="{{ 'cart-bubble.js' | asset_url }}" as="script">
 
   
     {%- unless settings.heading_font.system? -%}
@@ -68,6 +72,10 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {%- render 'css-variables' -%}
     {%- render 'js-variables' -%}
 
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'count-bubble.js' | asset_url }}"></script>
 
     {{ content_for_header }}
     
