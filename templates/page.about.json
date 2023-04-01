@@ -57,6 +57,28 @@
         "button_text_color": ""
       }
     },
+    "57c7bbdc-f3a8-4c1b-a2e0-bed0b34223b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17237201551635__57c7bbdc-f3a8-4c1b-a2e0-bed0b34223b7-1680356149c190a7b9-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Organic and sustainable essentials designed to be lived in, played in, and snoozed in all day and all night. Designed and led by Moms.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17237201551635__57c7bbdc-f3a8-4c1b-a2e0-bed0b34223b7-1680356149c190a7b9-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#edf3fb",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "994e4673-a0c0-47f7-937e-925119840ea4": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -66,7 +88,7 @@
             "image": "shopify:\/\/shop_images\/1212-easter71-1648147846731.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "About 12|12",
+            "title": "About us",
             "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet. And like parents everywhere, we believe babies are even cuter when they’re asleep, because, well, naptime goals. So, we created the softest, 100% organic, non-toxic fabric in careful consideration of both your child’s skin and the environment, taking the guesswork out of getting them dressed, and designing the best baby basics for playtime, naptime, and all night long.<br\/><br\/> Edited to perfection and designed with a refreshing, fuss-free minimalism that modern parents can appreciate, the 12|12 collection features the essentials that can be lived in and layered—literally every basic they need, all in one place. We’ve made it that easy.<\/p>",
             "button_url": "",
             "button_text": ""
@@ -116,22 +138,10 @@
             "max_width": 240,
             "mobile_max_width": 400
           }
-        },
-        "4c0c01f8-9674-428b-9ede-8ac93670a2f1": {
-          "type": "button",
-          "settings": {
-            "style": "outline",
-            "size": "xl",
-            "text": "Meet the Team",
-            "url": "shopify:\/\/pages\/the-team-1",
-            "background": "",
-            "text_color": ""
-          }
         }
       },
       "block_order": [
-        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79",
-        "4c0c01f8-9674-428b-9ede-8ac93670a2f1"
+        "b57376a9-dc74-40ed-a5d7-1d73df1e3a79"
       ],
       "settings": {
         "full_width": true,
@@ -259,7 +269,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Shop your favorites",
+        "title": "Shop our favorites",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -274,6 +284,7 @@
   "order": [
     "main",
     "871cab4b-689a-4b0c-848d-c594d33668d2",
+    "57c7bbdc-f3a8-4c1b-a2e0-bed0b34223b7",
     "994e4673-a0c0-47f7-937e-925119840ea4",
     "727d8d54-515b-44e0-b11d-1f88e27ddb52",
     "cf29072c-040f-49cf-ae3a-ea4dfa570c3b",

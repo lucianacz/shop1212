@@ -287,16 +287,6 @@
       "type": "rich-text",
       "disabled": true,
       "blocks": {
-        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "12 Hours a Day, 12 Hours a Night",
-            "heading_tag": "h5",
-            "text_color": "",
-            "gradient": "linear-gradient(128deg, rgba(23, 198, 80, 1) 9%, rgba(106, 144, 241, 1) 84%)"
-          }
-        },
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2": {
           "type": "richtext",
           "settings": {
@@ -316,7 +306,6 @@
         }
       },
       "block_order": [
-        "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1",
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-2",
         "e17e8a90-77ce-4ae6-a2e9-7889714530d7"
       ],
