@@ -62,7 +62,7 @@ Color swatch specific parameters:
 {%- endif -%}
 
 {%- unless href -%}
-  <input class="sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" {% if form %}form="{{ form | escape }}"{% endif %} id="{{ id | escape }}" value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %} data-option="{{ option }}" {% if limited_colors %}limited-colors="true"{% endif %}>
+  <input class="AAAA sr-only" type="{% if allow_multiple %}checkbox{% else %}radio{% endif %}" name="{{ name }}" {% if form %}form="{{ form | escape }}"{% endif %} id="{{ id | escape }}" value="{{ value | escape }}" {% if disabled %}disabled{% endif %} {% if selected %}checked="checked"{% endif %} data-option="{{ option }}" {% if limited_colors %}limited-colors="true"{% endif %}>
 {%- endunless -%}
 
 {%- case swatch -%}
