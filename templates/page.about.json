@@ -18,7 +18,7 @@
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text_duration": 1.2
           }
         },
         "ea8e431f-731b-453f-ae10-f2690ec6af2e": {
@@ -30,7 +30,7 @@
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text_duration": 1.8
           }
         }
       },
@@ -95,7 +95,7 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.6,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
