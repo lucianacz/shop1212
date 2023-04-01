@@ -17,7 +17,7 @@
             "content": "",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 1.2
           }
         },
@@ -29,7 +29,7 @@
             "content": "",
             "button_text": "",
             "button_url": "",
-            "animate_impact_text": false,
+            "animate_impact_text": true,
             "animate_impact_text_duration": 1.8
           }
         }
