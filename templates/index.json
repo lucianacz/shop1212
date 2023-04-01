@@ -233,6 +233,7 @@
     },
     "ad6ca031-458e-4ab3-94d5-3deeaa64507b": {
       "type": "impact-text",
+      "disabled": true,
       "blocks": {
         "template--17167820488979__ad6ca031-458e-4ab3-94d5-3deeaa64507b-1678309622ecaf65ba-0": {
           "type": "item",
@@ -284,6 +285,7 @@
     },
     "f2288d3b-0d4f-4946-b70e-7e35e8b869ef": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--17167820488979__f2288d3b-0d4f-4946-b70e-7e35e8b869ef-16782284810ac188f7-1": {
           "type": "heading",
