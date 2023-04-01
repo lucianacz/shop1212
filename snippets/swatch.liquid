@@ -74,7 +74,7 @@ Color swatch specific parameters:
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </a>
       {%- else -%}
-        <label class="media-swatch {% if size == 'sm' %}media-swatch--sm{% endif %} {% if bordered %}border{% endif %}" for="{{ id | escape }}" data-option-value>
+        <label class="media-swatch {% if size == 'sm' %} media-swatch--sm {% endif %} {% if bordered %} border {% endif %}" for="{{ id | escape }}" data-option-value>
           <span class="sr-only">{{ value }}</span>
           {{- media | image_url: width: media.width | image_tag: loading: 'lazy', sizes: '60px', widths: '60,120', class: 'object-cover' -}}
         </label>
