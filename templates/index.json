@@ -157,7 +157,7 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/g_50ad625b-2e4d-4ff5-a58c-16320d7620ad.jpg",
+            "logo": "shopify:\/\/shop_images\/goop.png",
             "logo_width": 200,
             "link": ""
           }
@@ -165,7 +165,7 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/elle_68754da0-dc71-4370-aa37-e9936c64c490.jpg",
+            "logo": "shopify:\/\/shop_images\/elle.png",
             "logo_width": 200,
             "link": ""
           }
@@ -173,7 +173,7 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/v_22e6cc48-59b5-467d-ae22-f807fc95b137.jpg",
+            "logo": "shopify:\/\/shop_images\/vogue_4fc3a141-4a82-4d13-8c98-fb1998a4c59f.png",
             "logo_width": 200,
             "link": ""
           }
@@ -181,7 +181,23 @@
         "89d612bf-e950-426d-a17a-dd27ff95aba0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/instyle_6e70c7fc-8974-433f-93a8-b225fbd01dfe.jpg",
+            "logo": "shopify:\/\/shop_images\/instyle.png",
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "ffe94560-3552-4a4d-b781-3b34db0add18": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/red-tri.png",
+            "logo_width": 200,
+            "link": ""
+          }
+        },
+        "b1237727-4d1a-468e-aceb-e569d8a97dc9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/harpers-bazaar.png",
             "logo_width": 200,
             "link": ""
           }
@@ -191,24 +207,26 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-0",
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1",
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2",
-        "89d612bf-e950-426d-a17a-dd27ff95aba0"
+        "89d612bf-e950-426d-a17a-dd27ff95aba0",
+        "ffe94560-3552-4a4d-b781-3b34db0add18",
+        "b1237727-4d1a-468e-aceb-e569d8a97dc9"
       ],
       "custom_css": [
-        "image.logo-list__item {padding: 10px;}"
+
       ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
         "title": "",
-        "content": "<h3>As seen in<\/h3>",
+        "content": "",
         "text_alignment": "center",
         "items_per_row": 5,
-        "background": "#ffffff",
+        "background": "#d2e5ff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "#ffffff",
+        "logo_item_background": "rgba(0,0,0,0)",
         "logo_item_border": ""
       }
     },
