@@ -308,4 +308,12 @@ jQuery(document).ready(function () {
   clearInterval(waitForJQuery);
 }
 }, 10);
+
+
+$(document).on('click','.product .custom_swatches label',function(e){
+    e.preventDefault();
+    $(this).closest('.custom_swatches').find('input[type="radio"]').click();
+});
+
+  
 </script>
