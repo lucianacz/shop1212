@@ -377,7 +377,7 @@
           "type": "product",
           "settings": {
             "product": "the-track-short",
-            "specific_color": "Lemon",
+            "specific_color": "",
             "horizontal_position": 83,
             "vertical_position": 71
           }
