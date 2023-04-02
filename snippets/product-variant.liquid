@@ -58,7 +58,7 @@ Supported variables
   {% elsif variant_color == selected_color and selected_size == variant_size %}
       {% assign variant_href = variant.id %}
       {% assign variant_image = variant.featured_media %}
-      {% assign hover_variant_image = variant.featured_media.alt | last %}
+      {% assign hover_variant_image = variant.featured_media.alt | split: '#' | last %}
     {% break %}
   {% endif %}
 {%- endfor -%}
@@ -85,7 +85,7 @@ Supported variables
         {{- variant_image | image_url: width: variant_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
 
         {%- if show_secondary_image and product.media.size > 1 -%}
-          {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+          {%- assign next_media = variant_image -%}
           
           {% for media in product.media %}
             {% if media.alt contains hover_variant_image and media.alt contains 'Hover' %}
@@ -165,7 +165,7 @@ Supported variables
     {%- endcomment -%}
 
     {%- if show_badges and product.media.size > 0 -%}
-      {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+      {%- render 'product-badges', product: product, class: 'product-card__badge-list', selected_color: selected_color -%}
     {%- endif -%}
 
 
