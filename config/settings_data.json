@@ -83,11 +83,19 @@
               "text": "Free Shipping on orders $100+",
               "url": ""
             }
+          },
+          "5c3e4717-d80f-454c-8dae-9d7ffcfc1819": {
+            "type": "message",
+            "settings": {
+              "text": "Order today to receive in time for Easter!",
+              "url": "shopify:\/\/collections\/easter"
+            }
           }
         },
         "block_order": [
           "message",
-          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb"
+          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb",
+          "5c3e4717-d80f-454c-8dae-9d7ffcfc1819"
         ],
         "settings": {
           "enable_sticky": false,
