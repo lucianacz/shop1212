@@ -51,11 +51,14 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <link rel="dns-prefetch" href="https://productreviews.shopifycdn.com">
 
     {%- comment -%}Some preload{%- endcomment -%}
+
+  
     <link rel="modulepreload" href="{{ 'vendor.min.js' | asset_url }}" as="script">
     <link rel="modulepreload" href="{{ 'theme.js' | asset_url }}" as="script">
     <link rel="modulepreload" href="{{ 'sections.js' | asset_url }}" as="script">
     <link rel="modulepreload" href="{{ 'cart-bubble.js' | asset_url }}" as="script">
 
+  
     {%- unless settings.heading_font.system? -%}
       <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
     {%- endunless -%}
@@ -199,9 +202,9 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     </script>
     <!-- End Klaviyo Back in Stock Notification Pop up  -->
 
-    {% include 'smile-initializer' %}
-    
-  </body>
+   {% include 'smile-initializer' %}
+
+</body>
 </html>
 <script>
   var waitForJQuery = setInterval(function () {
@@ -305,4 +308,12 @@ jQuery(document).ready(function () {
   clearInterval(waitForJQuery);
 }
 }, 10);
+ 
+
+$(document).on('click','.product .custom_swatches label',function(e){
+    e.preventDefault();
+    $(this).closest('.custom_swatches').find('input[type="radio"]').click();
+});
+
+  
 </script>
