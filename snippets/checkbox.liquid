@@ -19,7 +19,8 @@ Supported variables
 * label: the label to show
 {%- endcomment -%}
 
-{%- capture id -%}checkbox-{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture id -%}checkbox-{{ section.id }}-{{ form }}-{{ context}}-{{ name | handle }}-{{ value | handle }}{%- endcapture -%}
+
 
 <div class="checkbox-container" {{ block.shopify_attributes }} value="{{ value | default: 1 }}">
   {%- if switch -%}
