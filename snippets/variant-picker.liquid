@@ -72,7 +72,8 @@ Supported variables
         </div>
 
         {%- if selector_type == 'dropdown' -%}
-          {%- capture popover_id -%}popover-{{ 'now' | date: '%N' }}{%- endcapture -%}
+          {%- capture popover_id -%}popover-variant-picker-{{ section.id }}-{{ product.id }}-{{ option.position }}{%- endcapture -%}
+
 
           <div class="relative">
             <button type="button" class="select" aria-controls="{{ popover_id }}" aria-expanded="false">
