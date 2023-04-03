@@ -15,8 +15,8 @@ Supported variables
 * popover_horizontal_position: an optional vertical position
 {%- endcomment -%}
 
-{%- capture localization_form_id -%}localization-form-{{ 'now' | date: '%N' }}{%- endcapture -%}
-{%- capture localization_popover_id -%}popover-{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture localization_form_id -%}localization-form-{{ type }}-{{ popover_vertical_position }}-{{ section.id }}{%- endcapture -%}
+{%- capture localization_popover_id -%}popover-localization-form-{{ type }}-{{ popover_vertical_position }}-{{ section.id }}{%- endcapture -%}
 {%- capture popover_vertical_position -%}{% if section.id == 'header' %}end{% else %}start{% endif %}{%- endcapture -%}
 {%- assign popover_horizontal_position = popover_horizontal_position | default: 'end' -%}
 
