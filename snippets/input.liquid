@@ -23,7 +23,8 @@ Supported variables
 * self_submit: if set to true, an icon is added inside the input to submit the field
 {%- endcomment -%}
 
-{%- capture id -%}input-{{ section.id }}-{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture id -%}input-{{ section.id }}-{{ form }}-{{ name | handle }}{%- endcapture -%}
+
 
 {%- capture optional_attributes -%}
   {% if form %}form="{{ form }}"{% endif %}
