@@ -1,6 +1,7 @@
  {%- assign is_promo_stretch = mega_menu_block.settings.stretch_promo -%}
 {%- assign promo_item_count = 0 -%}
-{%- capture promo_id -%}{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture promo_id -%}{{ mega_menu_block.id }}{% if is_navigation_drawer %}-drawer{% endif %}-{{ link_col }}{%- endcapture -%}
+
 
 {%- for i in (1..3) -%}
   {%- assign image_setting = 'image_' | append: i -%}
