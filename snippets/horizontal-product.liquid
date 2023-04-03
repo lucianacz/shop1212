@@ -56,7 +56,8 @@ Supported variables
               {%- render 'button', content: button_content, type: 'submit', size: 'sm', subdued: true -%}
             {%- endform -%}
           {%- else -%}
-            {%- capture quick_buy_id -%}quick-buy-{{ 'now' | date: '%N' }}{%- endcapture -%}
+            {%- capture quick_buy_id -%}quick-buy-{{ section.id }}-{{ product.id }}{%- endcapture -%}
+
 
             {%- render 'button', content: button_content, size: 'sm', subdued: true, aria_controls: quick_buy_id -%}
 
