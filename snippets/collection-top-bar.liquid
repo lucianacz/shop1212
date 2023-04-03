@@ -41,15 +41,13 @@ Supported variables
         {%- else -%}
           {%- comment -%}The horizontal filtering show in a completely different way and have many exception, so the code end up pretty complex{%- endcomment -%}
 
-          {%- capture id_prefix -%}facets-{{ 'now' | date: '%N' }}{%- endcapture -%}
+          {%- capture id_prefix -%}facets-{{ section.id }}{%- endcapture -%}
           {%- assign availability_filter = results.filters | where: 'param_name', 'filter.v.availability' | first -%}
 
           <form is="facet-form" update-on-change section-id="{{ section.id }}" method="GET" action="{{ request.path }}" class="contents">
             {%- if request.page_type == 'search' -%}
               <input type="hidden" name="q" value="{{ results.terms | escape }}">
               <input type="hidden" name="type" value="product">
-              <input type="hidden" name="options[prefix]" value="last">
-              <input type="hidden" name="options[unavailable_products]" value="last">
             {%- endif -%}
 
             {%- if availability_filter -%}
@@ -114,7 +112,7 @@ Supported variables
                               {%- endif -%}
                             {%- endif -%}
 
-                            {%- capture checkbox_id -%}checkbox-{{ 'now' | date: '%N' }}{%- endcapture -%}
+                            {%- capture checkbox_id -%}checkbox-{{ section.id }}-{{ filter_value.param_name }}{%- endcapture -%}
                             <input id="{{ checkbox_id }}" class="sr-only" type="checkbox" name="{{ filter_value.param_name }}" value="{{ filter_value.value }}" {% if filter_value.active %}checked{% endif %} {% if disabled %}disabled{% endif %}>
                             <label for="{{ checkbox_id }}" class="facet-dialog-option">{{ filter_value.label }} {% if section.settings.show_filter_values_count %}({{ filter_value.count }}){% endif %}</label>
                           {%- endfor -%}
@@ -132,7 +130,7 @@ Supported variables
       {%- endif -%}
 
       {%- if show_sort_by -%}
-        {%- capture sort_by_popover_id -%}popover-{{ 'now' | date: '%N' }}{%- endcapture -%}
+        {%- capture sort_by_popover_id -%}popover-sort-by-{{ section.id }}{%- endcapture -%}
 
         <facet-sort-by class="sort-by-facet">
           <span class="bold">{{ 'collection.faceting.sort_by' | t }}:</span>
