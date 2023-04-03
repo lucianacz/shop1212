@@ -33,7 +33,8 @@ Color swatch specific parameters:
 * show_tooltip: if set to true, display a tooltip on hover
 {%- endcomment -%}
 
-{%- capture id -%}swatch-{{ 'now' | date: '%N' }}{%- endcapture -%}
+{%- capture id -%}swatch-{{ section.id }}-{{ form }}-{{ context }}-{{ name | handle }}-{{ value | handle }}{%- endcapture -%}
+
 
 {%- if swatch == 'color' or swatch == 'block' and show_color -%}
   {%- assign swatch_config = settings.color_swatch_config | newline_to_br | split: '<br />' -%}
