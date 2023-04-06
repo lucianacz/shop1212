@@ -213,7 +213,8 @@
       ],
       "custom_css": [
         ".bg-secondary {background: none;}",
-        ".h3 {font-weight: 300;}"
+        ".h3 {font-weight: 300;}",
+        ".logo-list__item {padding: 0px;}"
       ],
       "settings": {
         "full_width": true,
