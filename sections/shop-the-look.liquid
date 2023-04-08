@@ -64,8 +64,10 @@ LIQUID
           <scroll-carousel selector=".horizontal-product" class="shop-the-look__carousel sm:hidden {% unless section.settings.stack_mobile %}scroll-area bleed sm:unbleed{% endunless %}" id="scroll-carousel-{{ section.id }}" role="region">
             <div class="horizontal-product-list {% if horizontal_products_blends %}border {% if section.settings.stack_mobile %}divide-y{% else %}divide-x{% endif %}{% else %}separate{% endif %}">
               {%- for block in section.blocks -%}
-                {%- if block.settings.product != blank -%}
+                {%- if block.settings.product != blank and block.settings.specific_color == blank  -%}
                   {%- render 'horizontal-product', product: block.settings.product, show_add_to_cart: true, background: section.settings.product_card_mobile_background, text_color: section.settings.product_card_mobile_text_color -%}
+                {%- elsif block.settings.product != blank and block.settings.specific_color != blank -%}
+                  {%- render 'horizontal-variant', product: block.settings.product, selected_color: block.settings.specific_color, show_add_to_cart: true, background: section.settings.product_card_mobile_background, text_color: section.settings.product_card_mobile_text_color -%}
                 {%- endif -%}
               {%- endfor -%}
             </div>
