@@ -63,8 +63,8 @@ a.yotpo-logo-link-new{
     width: 50% !important;
     padding-top: 50% !important;
   }
-  #insta-feed a:nth-child(5){
-    display: none;
+  #insta-feed .slide-page:nth-child(5){
+    display: none !important;
   }
 }
 
@@ -194,4 +194,14 @@ form .product-personalizer {
 .horizontal-product-list__gift .horizontal-product__cta .bold_options,
 .horizontal-product-list__gift .horizontal-product__cta .klaviyo-bis-trigger{
     display: none !important;
+}
+
+buy-buttons .button{
+  color: #000;
+}
+
+buy-buttons .button[disabled]{
+  color: #7d7d7d;
+  background: #eaeaea;
+  box-shadow: #eaeaea 0 0 0 2px;
 }
