@@ -43,7 +43,7 @@ bold-options.css version 6
     }
 
 .bold_option:not(:empty) {
-            padding-bottom: 10px;
+            padding: 5px 0;
         margin-bottom: 10px;
         }
 
