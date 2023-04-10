@@ -46,11 +46,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Baseball.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Baseball_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Limited-edition Print",
+            "title": "Batter Up!",
+            "heading_tag": "h0",
+            "button_text": "SHOP NOW",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 11,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c"
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
+        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf"
       ],
       "settings": {
         "full_width": true,
