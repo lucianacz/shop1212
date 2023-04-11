@@ -65,7 +65,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -76,6 +76,13 @@
             "products_count": 4,
             "background": "#ffffff",
             "text_color": ""
+          }
+        },
+        "d62f0d00-b1a3-43a8-b41d-90b937e1ce71": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Details",
+            "content": "<ul><li>94% GOTS Certified Organic Pima Cotton, 6% spandex<\/li><li>Dyes meet Oeko-tex Standard 100 requirements - meaning they are eco-friendly and free from harmful substances<\/li><li>Made in Peru<\/li><li>Machine washable<\/li><li>Covered elastic waistband<\/li><li>Jersey cotton<\/li><li>Shipped using recycled packaging<\/li><\/ul>"
           }
         }
       },
@@ -90,7 +97,8 @@
         "buy_buttons",
         "payment_terms",
         "description",
-        "ae6a1588-284a-4b7e-b232-cfa5525950d9"
+        "ae6a1588-284a-4b7e-b232-cfa5525950d9",
+        "d62f0d00-b1a3-43a8-b41d-90b937e1ce71"
       ],
       "settings": {
         "full_width": false,
