@@ -192,6 +192,7 @@
           "type": "collection",
           "settings": {
             "collection": "all-organic-baby",
+            "image": "shopify:\/\/shop_images\/New_Baby_Gift_Set_Light_Blue_Stripe_in_box.jpg",
             "subheading": "",
             "title": "Baby",
             "url": "",
@@ -205,23 +206,10 @@
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-1": {
           "type": "collection",
           "settings": {
-            "collection": "all-organic-kids-and-baby-pajamas",
+            "collection": "organic-kids-and-toddlers-pajamas",
+            "image": "shopify:\/\/shop_images\/SS_PJ_Set_-_Lemon_Stripe_Apres_Beach_1_56390744-4924-4a9f-b389-c7bbc4d11dea.jpg",
             "subheading": "",
             "title": "Pajamas",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5
-          }
-        },
-        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-organic-kids-and-toddlers",
-            "subheading": "",
-            "title": "Kids",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -233,9 +221,10 @@
         "a20e914c-d5b0-429a-9c62-a77c6347899c": {
           "type": "collection",
           "settings": {
-            "collection": "easter",
+            "collection": "organic-kids-and-toddlers-pullovers",
+            "image": "shopify:\/\/shop_images\/pullovers_842e0a97-f9c2-44c2-99be-4f88112dc6b9.jpg",
             "subheading": "",
-            "title": "",
+            "title": "Pullovers",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
@@ -243,13 +232,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 5
           }
+        },
+        "7d179e5c-e5e8-410e-a7ca-02731a98f36d": {
+          "type": "collection",
+          "settings": {
+            "collection": "con-pollo",
+            "image": "shopify:\/\/shop_images\/con-pollo.jpg",
+            "subheading": "",
+            "title": "Con Pollo",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-0",
         "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-1",
-        "template--17167851454739__6164c29c-f479-4889-bbfc-7897e7ef5395-1671022938845ec98d-2",
-        "a20e914c-d5b0-429a-9c62-a77c6347899c"
+        "a20e914c-d5b0-429a-9c62-a77c6347899c",
+        "7d179e5c-e5e8-410e-a7ca-02731a98f36d"
       ],
       "settings": {
         "full_width": true,
