@@ -68,6 +68,20 @@
             "collapse_content": false
           }
         },
+        "e13e9158-39a0-47f7-9988-8aaa090565b0": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Details",
+            "content": "<ul><li>Healing Eczema Treatment is a naturally derived, steroid-free treatment to soothe itchy skin and treat active eczema flare-ups.<\/li><li>Multi-Purpose Healing Balm helps treat irritation, chapped skin, and cuts. Plus, it’s petroleum, lanolin, and silicone free.<\/li><li>Nourishing Baby Face Cream sample (10ml) delivers lasting moisture to nourish and soothes delicate facial skin.<\/li><li>Organic Long & Short Sleeve Onesies are made with 100% GOTS Certified Organic Pima Cotton.<\/li><li>Dyes meet OEKO-TEX Standard 100 requirements—meaning they are eco-friendly and free from harmful substances.<\/li><\/ul>"
+          }
+        },
+        "c4ff887e-2aba-4008-9886-b3ba1112b423": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "How To Use",
+            "content": "<p>Apply a generous layer of Healing Eczema Treatment to affected areas of skin 2-4 times a day. If skin is extremely irritated or inflamed, use liberally on affected area as needed. Massage a pea-sized amount of Multi-Purpose Healing Balm onto skin where needed, such as cuts, scrapes and chapped skin. And of course, dress your little one in onesies they (and their skin) will love.<\/p><p>Onesies are machine washable. Tumble Dry Low<\/p>"
+          }
+        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -90,6 +104,8 @@
         "buy_buttons",
         "payment_terms",
         "description",
+        "e13e9158-39a0-47f7-9988-8aaa090565b0",
+        "c4ff887e-2aba-4008-9886-b3ba1112b423",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
