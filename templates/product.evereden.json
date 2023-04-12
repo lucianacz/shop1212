@@ -68,6 +68,13 @@
             "collapse_content": false
           }
         },
+        "af2b490a-fc83-4814-a6b1-4b29d680fa9d": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Details",
+            "content": "<ul><li>Baby Shampoo & Body Wash is a tear-free, coconut-based gentle cleanser.<\/li><li>Baby Moisturizing Lotion is an ultra-hydrating formula with nourishing organic superfood oils.<\/li><li>Nourishing Baby Face Cream (10ml) delivers 72 hours of calming moisture to nourish and soothe delicate facial skin.<\/li><li>12|12 Organic Snap Footie is made with 100% GOTS Certified Organic Pima Cotton<\/li><li>Dyes meet Oeko-tex Standard 100 requirements—meaning they are eco-friendly and free from harmful substances.<\/li><\/ul>"
+          }
+        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -90,6 +97,7 @@
         "buy_buttons",
         "payment_terms",
         "description",
+        "af2b490a-fc83-4814-a6b1-4b29d680fa9d",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "settings": {
