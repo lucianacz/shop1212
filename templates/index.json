@@ -380,7 +380,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sharks_55ddd7a0-5b73-4f1c-b046-9eca774070d7.jpg",
-            "title": "SHARKS!",
+            "title": "<h2>SHARKS!</h2>",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-sharks",
             "link_text": "Shop Now",
@@ -402,7 +402,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/rib.jpg",
-            "title": "Rib Sets",
+            "title": "<h2>Rib Sets</h2>",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/organic-rib-lounge",
             "link_text": "Shop Now",

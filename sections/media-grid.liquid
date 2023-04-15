@@ -92,9 +92,9 @@ LIQUID
             <div class="{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}">
               <div class="prose">
                 {%- if block.settings.title != blank -%}
-                  <p class="{{ block.settings.heading_tag }}">
-                    {% render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient %}
-                  </p>
+                  <div>
+                    {{ block.settings.title }}
+                  </div>
                 {%- endif -%}
 
                 {%- if block.settings.link_text != blank -%}
@@ -127,42 +127,9 @@ LIQUID
           "info": "1000 x 1500px .jpg recommended (portrait) or 1500 x 1500px .jpg recommended (square)"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "title",
-          "label": "Heading",
-          "default": "Promote your products"
-        },
-        {
-          "type": "select",
-          "id": "heading_tag",
-          "label": "Heading size",
-          "options": [
-            {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
-            },
-            {
-              "value": "h4",
-              "label": "H4"
-            },
-            {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
-            }
-          ],
-          "default": "h4"
+          "label": "Heading"
         },
         {
           "type": "url",
@@ -375,40 +342,7 @@ LIQUID
         {
           "type": "text",
           "id": "title",
-          "label": "Heading",
-          "default": "Promote your products"
-        },
-        {
-          "type": "select",
-          "id": "heading_tag",
-          "label": "Heading size",
-          "options": [
-            {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
-            },
-            {
-              "value": "h4",
-              "label": "H4"
-            },
-            {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
-            }
-          ],
-          "default": "h4"
+          "label": "Heading"
         },
         {
           "type": "url",
