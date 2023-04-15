@@ -42,10 +42,31 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
+        },
+        "76c5826c-2049-44b5-b25d-9b304fb3b354": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 1,
+            "column_span": "1",
+            "image": "shopify:\/\/shop_images\/mothers_day_2_hor.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/mothers_day_2.jpg",
+            "title": "Create a one-of-a-kind gift for Mama",
+            "content": "",
+            "link_url": "shopify:\/\/products\/womens-pullover-sweatshirt",
+            "link_text": "View all",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_below": false,
+            "max_width": 450,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "e2ab8e74-ab8d-48e0-b2df-dad14337c2d6"
+        "e2ab8e74-ab8d-48e0-b2df-dad14337c2d6",
+        "76c5826c-2049-44b5-b25d-9b304fb3b354"
       ],
       "custom_css": [
         ".bold {font-weight: 400;}"
