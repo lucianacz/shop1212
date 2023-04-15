@@ -26,21 +26,21 @@
         "e2ab8e74-ab8d-48e0-b2df-dad14337c2d6": {
           "type": "promotion_image",
           "settings": {
-            "position": 3,
-            "column_span": "2",
+            "position": 2,
+            "column_span": "1",
             "image": "shopify:\/\/shop_images\/mothers_day.jpg",
             "mobile_image": "shopify:\/\/shop_images\/mothers_day.jpg",
-            "title": "Customize for your Little",
+            "title": "Customize for Mama's Mini",
             "content": "",
             "link_url": "shopify:\/\/products\/the-pullover-sweatshirt",
-            "link_text": "View all",
+            "link_text": "Shop Now",
             "heading_tag": "h4",
             "text_position": "place-self-end-start text-start",
             "text_below": false,
             "max_width": 450,
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
