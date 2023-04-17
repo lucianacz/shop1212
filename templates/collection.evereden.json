@@ -30,17 +30,17 @@
             "column_span": "1",
             "image": "shopify:\/\/shop_images\/1212_Product_Jan_2023-11-Edit_copy.jpg",
             "mobile_image": "shopify:\/\/shop_images\/SS-1.jpg",
-            "title": "",
-            "content": "<p>Evereden and 12|12 are both mom-led brands with a shared core principle: a commitment to quality without sacrificing sustainability. Fans of each other’s products, the teams have joined forces to offer the Good Eczema Day and Softest Sleep Bundles – making it easy to keep baby soft at bath time, bed time, or any time. <\/p>",
+            "title": "Evereden x 12|12",
+            "content": "<p><strong>Evereden and 12|12 are both mom-led brands with a shared core principle: a commitment to quality without sacrificing sustainability. Fans of each other’s products, the teams have joined forces to offer the Good Eczema Day and Softest Sleep Bundles – making it easy to keep baby soft at bath time, bed time, or any time. <\/strong><\/p>",
             "link_url": "",
             "link_text": "",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "text_position": "place-self-end-start text-start",
             "text_below": false,
             "max_width": 450,
             "text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 27
+            "overlay_opacity": 21
           }
         }
       },
