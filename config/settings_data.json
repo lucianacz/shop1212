@@ -187,7 +187,8 @@
           "3baf54fc-b82b-41b2-938d-a3ef701ac32c"
         ],
         "custom_css": [
-          ".bold {font-weight: 400;}"
+          ".bold {font-weight: 400;}",
+          "a[href*=\"mothers-day\"] {color: #ff89c2;}"
         ],
         "settings": {
           "enable_sticky": true,
