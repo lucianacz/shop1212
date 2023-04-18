@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Evereden-x-1212.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SS-1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Introducing",
+            "title": "<h1>Evereden x 12|12<\/h1>",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/evereden-x-12-12",
+            "text_color": "#0b2241",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#0b2241",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
@@ -68,6 +89,7 @@
         }
       },
       "block_order": [
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf"
