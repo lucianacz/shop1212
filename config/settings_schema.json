@@ -896,5 +896,22 @@
         "info": "180 x 180px .png recommended"
       }
     ]
+  },
+  {
+    "name": "Bold Customizations",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "BOLD_custom_swatch",
+        "label": "Use Custom Swatch Size",
+        "default": true
+      },
+      {
+        "type": "number",
+        "id": "BOLD_custom_swatch_size",
+        "label": "Custom Swatch Size",
+        "default": 5
+      }
+    ]
   }
 ]
