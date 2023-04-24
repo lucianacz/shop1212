@@ -10,7 +10,7 @@
             "mobile_image": "shopify:\/\/shop_images\/surf_and_hearts_m_6ce6861b-dc19-4937-bd7f-a03a0b95eeb8.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Radiant Hues",
             "title": "<h1>NEW and BRIGHT<\/h1>",
             "button_text": "Shop Now",
