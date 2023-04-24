@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/surf_and_hearts.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/surf_and_hearts_m_3d74cc22-019b-4a9f-bf6e-24b0b80c4426.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Radiant Hues",
+            "title": "<h1>NEW and BRIGHT<\/h1>",
+            "button_text": "Shop Now",
+            "button_link": "https:\/\/shop1212.com\/products\/the-short-sleeve-pajama-set?variant=44754718949651",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 16,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
@@ -90,6 +111,7 @@
         }
       },
       "block_order": [
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "74702f14-9c1d-4ba9-b6ec-7dd74ee74512",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
