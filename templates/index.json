@@ -3,23 +3,23 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
-        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a": {
+        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/surf_and_hearts.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/surf_and_hearts_m_6ce6861b-dc19-4937-bd7f-a03a0b95eeb8.jpg",
+            "image": "shopify:\/\/shop_images\/Mermaids.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mermaids_M.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Radiant Hues",
-            "title": "<h1>NEW and BRIGHT<\/h1>",
-            "button_text": "Shop Now",
-            "button_link": "https:\/\/shop1212.com\/products\/the-short-sleeve-pajama-set?variant=44754718949651",
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "Let's Be",
+            "title": "<h1>Mermaids!<\/h1>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-lets-be-mermaids",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#ffffff",
             "overlay_color": "#0b2241",
-            "overlay_opacity": 9,
+            "overlay_opacity": 6,
             "background": "",
             "background_gradient": ""
           }
@@ -45,23 +45,23 @@
             "background_gradient": ""
           }
         },
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Evereden-x-1212.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/SS-1.jpg",
+            "image": "shopify:\/\/shop_images\/surf_and_hearts.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/surf_and_hearts_m_6ce6861b-dc19-4937-bd7f-a03a0b95eeb8.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Introducing",
-            "title": "<h1>Evereden x 12|12<\/h1>",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Radiant Hues",
+            "title": "<h1>NEW and BRIGHT<\/h1>",
             "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/evereden-x-12-12",
-            "text_color": "#0b2241",
-            "button_background": "#d2e5ff",
-            "button_text_color": "#0b2241",
+            "button_link": "https:\/\/shop1212.com\/products\/the-short-sleeve-pajama-set?variant=44754718949651",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
             "overlay_color": "#0b2241",
-            "overlay_opacity": 0,
+            "overlay_opacity": 9,
             "background": "",
             "background_gradient": ""
           }
@@ -87,35 +87,34 @@
             "background_gradient": ""
           }
         },
-        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Baseball_cd285d02-b96b-4322-b1fa-97525f01a2a0.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Baseball_M.jpg",
+            "image": "shopify:\/\/shop_images\/Evereden-x-1212.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SS-1.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Limited-edition Print",
-            "title": "<h1>Batter Up!<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "https:\/\/shop1212.com\/products\/the-short-sleeve-pajama-set?variant=44664135745811",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#ffffff",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Introducing",
+            "title": "<h1>Evereden x 12|12<\/h1>",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/evereden-x-12-12",
+            "text_color": "#0b2241",
+            "button_background": "#d2e5ff",
+            "button_text_color": "#0b2241",
             "overlay_color": "#0b2241",
-            "overlay_opacity": 11,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
+        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512",
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf"
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
       ],
       "settings": {
         "full_width": true,
