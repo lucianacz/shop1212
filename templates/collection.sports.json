@@ -22,6 +22,31 @@
     },
     "main": {
       "type": "main-collection",
+      "blocks": {
+        "0c2e1dcc-01c7-4ca9-96a1-2e5ce22e1ba4": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 2,
+            "column_span": "1",
+            "image": "shopify:\/\/shop_images\/Customize_Color_Block.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Customize_Color_Block.jpg",
+            "title": "",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/customize-yours",
+            "link_text": "",
+            "heading_tag": "h4",
+            "text_position": "place-self-end-start text-start",
+            "text_below": false,
+            "max_width": 450,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "0c2e1dcc-01c7-4ca9-96a1-2e5ce22e1ba4"
+      ],
       "custom_css": [
         ".bold {font-weight: 400;}"
       ],
