@@ -442,7 +442,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Color_Block_2.jpg",
             "title": "<h2>Sports<\/h2>",
-            "link_url": "shopify:\/\/collections\/organic-rib-lounge",
+            "link_url": "shopify:\/\/collections\/sports",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
