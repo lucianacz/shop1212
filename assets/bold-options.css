@@ -383,9 +383,18 @@ bold-options.css version 6
 /* custom css */
 #bold_help_text { font-size: 75%; }
 .bold_option_value_swatch {
-width: 60;
-height: 60;
+    width: 60;
+    height: 60;
 }
 #bold_option_element input {
-border:1px solid;
+    border:1px solid;
+}
+
+.bold_option_element [type="text"] {
+    outline: 1px solid;
+    max-width: 400px;
+    height: 35px;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
 }
