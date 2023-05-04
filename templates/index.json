@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MDW.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/MDW_m.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "Memorial Day Weekend Ready!",
+            "title": "<h1>Red, White and New<\/h1>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/memorial-day-weekend",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
           "type": "image",
           "settings": {
@@ -66,27 +87,6 @@
             "background_gradient": ""
           }
         },
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MDW.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/MDW_m.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Memorial Day Weekend Ready!",
-            "title": "<h1>Red, White and New<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/memorial-day-weekend",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
           "type": "image",
           "settings": {
@@ -110,10 +110,10 @@
         }
       },
       "block_order": [
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
       ],
       "settings": {
@@ -123,7 +123,7 @@
         "controls_type": "outline_arrows",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 4,
+        "cycle_speed": 5,
         "background": "#f2f2f2",
         "background_gradient": ""
       }
