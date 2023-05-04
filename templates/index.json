@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_1212_April_12_2023-41_copy.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_1212_April_12_2023-41_m.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-end-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "100% (super-soft!) Organic Pima Cotton",
+            "title": "<h1>It's a Racket<\/h1>",
+            "button_text": "SHOP PJs",
+            "button_link": "shopify:\/\/collections\/its-a-racket",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 9,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
@@ -41,27 +62,6 @@
             "button_text_color": "#ffffff",
             "overlay_color": "#0b2241",
             "overlay_opacity": 6,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_1212_April_12_2023-41_copy.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_1212_April_12_2023-41_m.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "100% (super-soft!) Organic Pima Cotton",
-            "title": "<h1>It's a Racket<\/h1>",
-            "button_text": "SHOP PJs",
-            "button_link": "shopify:\/\/collections\/its-a-racket",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 9,
             "background": "",
             "background_gradient": ""
           }
@@ -110,9 +110,9 @@
         }
       },
       "block_order": [
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
       ],
