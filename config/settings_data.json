@@ -84,19 +84,11 @@
               "text": "Free Shipping on orders $100+",
               "url": ""
             }
-          },
-          "6cf32f8c-f641-4d66-a078-ccac89dc2622": {
-            "type": "message",
-            "settings": {
-              "text": "Order Today (May 4th) to get Mother's Day Gifts in Time!",
-              "url": "shopify:\/\/collections\/mothers-day"
-            }
           }
         },
         "block_order": [
           "message",
-          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb",
-          "6cf32f8c-f641-4d66-a078-ccac89dc2622"
+          "cd80ff01-9ae3-483e-ba4f-d90f3ae9c6fb"
         ],
         "settings": {
           "enable_sticky": false,
