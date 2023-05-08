@@ -65,7 +65,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -258,7 +258,7 @@
         "cd40daa3-41ae-4b0a-bf31-4262623f5eb2": {
           "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
-            "product": ""
+            "product": "{{ product }}"
           }
         }
       },
