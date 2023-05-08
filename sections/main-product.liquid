@@ -44,7 +44,7 @@
 <div {% render 'section-properties', tight: true %}>
   <div class="product">
     {%- if product.media.size > 0 -%}
-      {%- render 'product-gallery', product: product -%}
+      {%- render 'product-gallery', product: product, sticky: section.settings.sticky_images -%}
     {%- endif -%}
 
     {%- render 'product-info', product: product, update_url: true -%}
@@ -1109,6 +1109,12 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "id": "show_fixed_add_to_cart",
       "label": "Show add to cart on scroll",
       "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "sticky_images",
+      "label": "Sticky images",
+      "default": false
     },
     {
       "type": "header",

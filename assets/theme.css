@@ -7493,6 +7493,11 @@ split-lines {
     top: calc(var(--sticky-area-height)  + 20px);
     position: sticky;
   }
+
+  .product-gallery--sticky{
+    position: sticky;
+    top: 0;
+  }
 }
 
 .product-gallery {
