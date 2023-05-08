@@ -65,7 +65,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false
+            "collapse_content": true
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -95,6 +95,7 @@
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": true,
+        "sticky_images": false,
         "desktop_media_width": 65,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
