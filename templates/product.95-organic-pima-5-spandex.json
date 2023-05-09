@@ -65,7 +65,7 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": true
+            "collapse_content": false
           }
         },
         "d62f0d00-b1a3-43a8-b41d-90b937e1ce71": {
