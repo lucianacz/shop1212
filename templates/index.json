@@ -27,8 +27,8 @@
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MDW.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/MDW_m.jpg",
+            "image": "shopify:\/\/shop_images\/Pop_and_Crabs.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Pop_and_Crabs_m.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
@@ -36,9 +36,9 @@
             "title": "<h1>Red, White and New<\/h1>",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/memorial-day-weekend",
-            "text_color": "#ffffff",
+            "text_color": "#2063bf",
             "button_background": "#ffffff",
-            "button_text_color": "#ffffff",
+            "button_text_color": "#2063bf",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
