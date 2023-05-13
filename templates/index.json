@@ -308,6 +308,7 @@
     },
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
       "type": "shop-the-look",
+      "disabled": true,
       "blocks": {
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
@@ -535,7 +536,7 @@
         "template--17237201551635__f34c2012-94bb-47b1-8e47-66578aef4abd-16717827547be4706d-2"
       ],
       "custom_css": [
-        ".h3 {font-weight: normal; font-size: 20px; line-height: 1.4;}"
+        ".h3 {font-weight: normal; font-size: 16px; line-height: 1.8;}"
       ],
       "settings": {
         "full_width": true,
@@ -549,34 +550,33 @@
         "logo_item_border": ""
       }
     },
-    "764ca372-9ca9-4eac-b393-d773195e3839": {
-      "type": "text-with-icons",
+    "094beb05-244c-4135-8149-d1cbc5607eb5": {
+      "type": "rich-text",
       "blocks": {
-        "template--17167820488979__764ca372-9ca9-4eac-b393-d773195e3839-167188984307eccf3d-0": {
-          "type": "item",
+        "template--17167820488979__094beb05-244c-4135-8149-d1cbc5607eb5-16839785489dae4153-0": {
+          "type": "subheading",
           "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/Instagram.jpg",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "@1212",
+            "text": "@1212"
+          }
+        },
+        "template--17167820488979__094beb05-244c-4135-8149-d1cbc5607eb5-16839785489dae4153-2": {
+          "type": "richtext",
+          "settings": {
             "content": "<p>Let's be social!<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17167820488979__764ca372-9ca9-4eac-b393-d773195e3839-167188984307eccf3d-0"
+        "template--17167820488979__094beb05-244c-4135-8149-d1cbc5607eb5-16839785489dae4153-0",
+        "template--17167820488979__094beb05-244c-4135-8149-d1cbc5607eb5-16839785489dae4153-2"
+      ],
+      "custom_css": [
+        "p {font-size: 16px; line-height: 0.8;}"
       ],
       "settings": {
         "full_width": true,
-        "title": "",
-        "heading_tag": "h6",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "mobile_stack": false,
+        "content_width": "medium",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -600,7 +600,7 @@
     "d9b16851-3727-4197-8077-80ce59d81d54",
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
-    "764ca372-9ca9-4eac-b393-d773195e3839",
+    "094beb05-244c-4135-8149-d1cbc5607eb5",
     "fd9e56eb-f417-4950-b837-5d62495b715b"
   ]
 }
