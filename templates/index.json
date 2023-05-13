@@ -183,14 +183,14 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "",
+        "title": "Featured in",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
         "mobile_stack": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#000000"
       }
     },
     "398d2042-225a-4392-bec2-33fec7a5a0eb": {
@@ -200,7 +200,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/goop.png",
-            "logo_width": 120,
+            "logo_width": 90,
             "link": ""
           }
         },
@@ -208,7 +208,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/vogue_4fc3a141-4a82-4d13-8c98-fb1998a4c59f.png",
-            "logo_width": 120,
+            "logo_width": 90,
             "link": ""
           }
         },
@@ -216,7 +216,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/harpers-bazaar.png",
-            "logo_width": 130,
+            "logo_width": 90,
             "link": ""
           }
         },
@@ -224,7 +224,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/elle.png",
-            "logo_width": 130,
+            "logo_width": 90,
             "link": ""
           }
         },
@@ -232,7 +232,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/instyle.png",
-            "logo_width": 130,
+            "logo_width": 90,
             "link": ""
           }
         },
@@ -240,7 +240,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify:\/\/shop_images\/red-tri.png",
-            "logo_width": 150,
+            "logo_width": 100,
             "link": ""
           }
         }
@@ -262,12 +262,12 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "",
-        "content": "",
+        "content": "<p>Featured in<\/p>",
         "text_alignment": "center",
         "items_per_row": 7,
         "background": "#edf3fb",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "logo_item_background": "rgba(0,0,0,0)",
@@ -285,7 +285,7 @@
         "products": [
 
         ],
-        "custom_variants": "womens-pullover-sweatshirt-embroidered, Light Heather Grey Tennis\nthe-organic-pullover-sweatshirt-embroidered, Malibu Pink Tennis\nthe-short-sleeve-pajama-set, Malibu Tennis\nthe-organic-pullover-sweatshirt-embroidered, Marine Blue Apres Beach",
+        "custom_variants": "womens-pullover-sweatshirt-embroidered, Light Heather Grey Tennis\nthe-short-sleeve-pajama-set, POP\nthe-organic-pullover-sweatshirt-embroidered, Marine Blue Apres Beach\nthe-short-sleeve-pajama-set, Crabs and Lobsters",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
