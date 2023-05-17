@@ -442,8 +442,8 @@
         "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Color_Block_2.jpg",
-            "title": "<h2>Sports Enthusiasts<\/h2>",
+            "image": "shopify:\/\/shop_images\/1_DSC_2465.jpg",
+            "title": "<h5>NEW<\/h5><h2>Summer Sweats<\/h2>",
             "link_url": "shopify:\/\/collections\/sports",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
@@ -457,7 +457,7 @@
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_opacity": 5
           }
         }
       },
