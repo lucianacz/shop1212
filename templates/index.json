@@ -443,7 +443,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_DSC_2465.jpg",
-            "title": "<h5>NEW<\/h5><h2>Summer Sweats<\/h2>",
+            "title": "<h2>Summer Sweats<\/h2>",
             "link_url": "shopify:\/\/collections\/sports",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
