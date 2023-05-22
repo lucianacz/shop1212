@@ -90,6 +90,7 @@
         },
         "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Evereden-x-1212.jpg",
             "mobile_image": "shopify:\/\/shop_images\/SS-1.jpg",
