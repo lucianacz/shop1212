@@ -189,7 +189,7 @@
         ],
         "custom_css": [
           ".bold {font-weight: 400;}",
-          "a[href*=\"customize\"] {background-image: linear-gradient(60deg, #E21143, #FFB03A); background-clip: text;}"
+          "a[href*=\"customize\"] {background-image: linear-gradient(60deg, #E21143, #FFB03A); background-clip: text; color: transparent;}"
         ],
         "settings": {
           "enable_sticky": true,
