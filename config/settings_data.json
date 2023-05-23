@@ -190,7 +190,7 @@
         "custom_css": [
           ".bold {font-weight: 400;}",
           "a[href*=\"mothers-day\"] {color: #ff89c2;}",
-          "a[href*=\"red-white-and-blue\"] {background-image: linear-gradient(60deg, #E21143, #FFB03A); background-clip: text;}"
+          "a[href*=\"red-white-and-blue\"] {color: #ff89c2;}"
         ],
         "settings": {
           "enable_sticky": true,
