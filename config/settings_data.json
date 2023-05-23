@@ -190,7 +190,7 @@
         "custom_css": [
           ".bold {font-weight: 400;}",
           "a[href*=\"mothers-day\"] {color: #ff89c2;}",
-          "a[href*=\"red-white-and-blue\"] {color: #ff89c2;}"
+          "a[href*=\"patriotic\"] {color: #ff89c2;}"
         ],
         "settings": {
           "enable_sticky": true,
