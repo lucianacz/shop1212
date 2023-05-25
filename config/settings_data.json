@@ -138,7 +138,7 @@
               "submenu_style": "bold_heading",
               "show_as_list": true,
               "title": "Baby",
-              "image_1": "shopify:\/\/shop_images\/New_Baby_Gift_Set_Light_Blue_Stripe_in_box.jpg",
+              "image_1": "shopify:\/\/shop_images\/baby-2.jpg",
               "image_heading_1": "Baby Gift Sets",
               "image_link_1": "shopify:\/\/collections\/organic-baby-gifts",
               "image_text_color_1": "#0b2241",
@@ -189,7 +189,7 @@
         ],
         "custom_css": [
           ".bold {font-weight: 400;}",
-          "a[href*=\"customize\"] {background-image: linear-gradient(60deg, #E21143, #FFB03A); background-clip: text; color: transparent;}"
+          "a[href*=\"customize\"] {background-image: linear-gradient(60deg, #e21143, #ffb03a); background-clip: text; color: transparent;}"
         ],
         "settings": {
           "enable_sticky": true,
@@ -367,12 +367,6 @@
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
-      },
-      "1692329972272007824": {
-        "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_main\/7411210d-7b32-4c09-9455-e129e3be4729",
-        "disabled": true,
         "settings": {
         }
       }
