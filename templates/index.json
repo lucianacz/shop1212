@@ -48,20 +48,20 @@
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mermaids.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mermaids_M.jpg",
+            "image": "shopify:\/\/shop_images\/Camp_Essentials.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Camp_Essentials_M.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "100% Organic Pima Cotton",
-            "title": "<h1>Let's Be Mermaids!<\/h1>",
+            "subheading": "Super-soft Organic Cotton",
+            "title": "<h1>Camp Essentials<\/h1>",
             "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-lets-be-mermaids",
+            "button_link": "shopify:\/\/collections\/camp",
             "text_color": "#ffffff",
-            "button_background": "#ffffff",
+            "button_background": "#6ff27c",
             "button_text_color": "#ffffff",
             "overlay_color": "#0b2241",
-            "overlay_opacity": 6,
+            "overlay_opacity": 3,
             "background": "",
             "background_gradient": ""
           }
