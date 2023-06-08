@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neon_Nights.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Neon_Nights_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "<h1>Neon Nights<\/h1>",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/neon-nights",
+            "text_color": "#ffffff",
+            "button_background": "#96ff93",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
@@ -86,35 +107,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Neon_Nights.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Neon_Nights_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "<h1>Neon Nights<\/h1>",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/neon-nights",
-            "text_color": "#ffffff",
-            "button_background": "#96ff93",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#0b2241",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "7dc5153b-4d25-46be-b6ef-2d914ccc49cf",
-        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a"
       ],
       "settings": {
         "full_width": true,
