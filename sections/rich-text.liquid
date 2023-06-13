@@ -30,7 +30,11 @@
           {%- when 'richtext' -%}
             {%- if block.settings.content != blank -%}
               <div {{ block.shopify_attributes }}>
+              {% if template == 'collection' and block.settings.content == 'collection.description' %}
+                {{- collection.description -}}
+              {% else %}
                 {{- block.settings.content -}}
+              {% endif %}
               </div>
             {%- endif -%}
 
