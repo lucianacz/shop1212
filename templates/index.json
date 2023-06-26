@@ -45,48 +45,6 @@
             "background_gradient": ""
           }
         },
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Neon_Nights.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Neon_Nights_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "<h1>Neon Nights<\/h1>",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/neon-nights",
-            "text_color": "#ffffff",
-            "button_background": "#96ff93",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#0b2241",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Camp_Essentials.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Camp_Essentials_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Super-soft Organic Cotton",
-            "title": "<h1>Camp Essentials<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/camp",
-            "text_color": "#ffffff",
-            "button_background": "#6ff27c",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#0b2241",
-            "overlay_opacity": 3,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a": {
           "type": "image",
           "settings": {
@@ -107,14 +65,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Neon_Nights.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Neon_Nights_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "<h1>Neon Nights<\/h1>",
+            "button_text": "Shop Now",
+            "button_link": "shopify:\/\/collections\/neon-nights",
+            "text_color": "#ffffff",
+            "button_background": "#96ff93",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512",
-        "7dc5153b-4d25-46be-b6ef-2d914ccc49cf",
-        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a"
+        "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
+        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
       ],
       "settings": {
         "full_width": true,
