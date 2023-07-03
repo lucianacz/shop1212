@@ -92,6 +92,9 @@
         "description",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
+      "custom_css": [
+        ",.is-disabled {color: rgba (0.09);}"
+      ],
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": true,
