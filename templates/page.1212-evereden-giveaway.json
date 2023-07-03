@@ -44,10 +44,107 @@
         "enable_parallax": true,
         "spacing": "none"
       }
+    },
+    "168839245329c3a38f": {
+      "type": "apps",
+      "blocks": {
+        "4126ffe0-eb5e-4ecb-b535-0986edf82ec6": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-T2pHFL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "4126ffe0-eb5e-4ecb-b535-0986edf82ec6"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "3247862a-0e72-4cc7-81ae-4ea883ff8d51": {
+      "type": "multi-column",
+      "blocks": {
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "About Evereden",
+            "heading_tag": "h4",
+            "content": "<p>Evereden creates family skincare that is nontoxic, plant-based and backed by science. Developed by our “Moms in Medicine”, dermatologists (and mothers!) from the world’s leading medical institutions. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-1": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "About 12|12",
+            "heading_tag": "h4",
+            "content": "<p>Baby and children’s apparel brand 12|12 is dedicated to making high-quality, super-soft daily essentials for play and sleep crafted in exclusively organic materials and sustainable fabrics. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0",
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1d247a2d-0ceb-4689-a3e0-bca22aa82925": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19721440755987__1d247a2d-0ceb-4689-a3e0-bca22aa82925-16883933061b41a581-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Enter to win $400 towards your baby's skincare and wardrobe needs!<\/p><p>Terms & Conditions apply. Winners will be chosen randomly and will be notified via email.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19721440755987__1d247a2d-0ceb-4689-a3e0-bca22aa82925-16883933061b41a581-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "main",
-    "29f853da-ce3d-43ed-8641-06354bf18dbd"
+    "29f853da-ce3d-43ed-8641-06354bf18dbd",
+    "168839245329c3a38f",
+    "3247862a-0e72-4cc7-81ae-4ea883ff8d51",
+    "1d247a2d-0ceb-4689-a3e0-bca22aa82925"
   ]
 }
