@@ -4,9 +4,46 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "29f853da-ce3d-43ed-8641-06354bf18dbd": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--19721440755987__29f853da-ce3d-43ed-8641-06354bf18dbd-1688392462a0ef6691-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1212_Product_Jan_2023-11-Edit_copy_a7dfb0ce-856a-4c72-9c2d-df8fad247403.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Cozy Baby Giveaway",
+            "content": "<p>Meet the ultimate dream team to keep babies sleeping comfortably all night long. Enter to win a gift card from 12|12 and Evereden to soothe your baby with the best natural skincare and softest organic cotton essentials!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19721440755987__29f853da-ce3d-43ed-8641-06354bf18dbd-1688392462a0ef6691-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_parallax": true,
+        "spacing": "small"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "29f853da-ce3d-43ed-8641-06354bf18dbd"
   ]
 }
