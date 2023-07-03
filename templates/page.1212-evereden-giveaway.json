@@ -75,18 +75,6 @@
     "3247862a-0e72-4cc7-81ae-4ea883ff8d51": {
       "type": "multi-column",
       "blocks": {
-        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0": {
-          "type": "item",
-          "settings": {
-            "column_size": "2",
-            "title": "About Evereden",
-            "heading_tag": "h4",
-            "content": "<p>Evereden creates family skincare that is nontoxic, plant-based and backed by science. Developed by our “Moms in Medicine”, dermatologists (and mothers!) from the world’s leading medical institutions. <\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-1": {
           "type": "item",
           "settings": {
@@ -98,11 +86,23 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0": {
+          "type": "item",
+          "settings": {
+            "column_size": "2",
+            "title": "About Evereden",
+            "heading_tag": "h4",
+            "content": "<p>Evereden creates family skincare that is nontoxic, plant-based and backed by science. Developed by our “Moms in Medicine”, dermatologists (and mothers!) from the world’s leading medical institutions. <\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
-        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0",
-        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-1"
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-1",
+        "template--19721440755987__3247862a-0e72-4cc7-81ae-4ea883ff8d51-1688393062973b4343-0"
       ],
       "settings": {
         "full_width": true,
