@@ -92,6 +92,9 @@
         "description",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
+      "custom_css": [
+        ".block-swatch.is-disabled {color: rgba(0, 0, 0, 0.2); background-image: linear-gradient( to bottom right, #0000 50%, currentColor 50% calc(50% + 2px), #0000 calc(50% + 2px) );}"
+      ],
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": true,
