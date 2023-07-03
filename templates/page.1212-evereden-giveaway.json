@@ -36,7 +36,8 @@
         "template--19721440755987__29f853da-ce3d-43ed-8641-06354bf18dbd-1688392462a0ef6691-0"
       ],
       "custom_css": [
-        "p {font-size: 18px;}"
+        "p {font-size: 18px;}",
+        "h2 {font-size: 28px;}"
       ],
       "settings": {
         "full_width": true,
