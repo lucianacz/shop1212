@@ -37,7 +37,7 @@
       ],
       "custom_css": [
         "p {font-size: 18px;}",
-        "h2 {font-size: 28px;}"
+        ".h2 {font-size: 28px;}"
       ],
       "settings": {
         "full_width": true,
