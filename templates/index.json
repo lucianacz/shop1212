@@ -421,7 +421,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer_Essentials.jpg",
             "title": "<h2>Everything Summer<\/h2>",
-            "link_url": "shopify:\/\/collections\/organic-kids-and-toddlers-pullovers",
+            "link_url": "shopify:\/\/collections\/summer-essentials",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
