@@ -38,6 +38,9 @@
         "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-richtext-1",
         "ae91bcb6-d5a2-478e-b173-54384cd1eaaa"
       ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
