@@ -5,40 +5,51 @@
       "settings": {
       }
     },
-    "f24adb86-4f4c-4a37-b47a-214379642038": {
-      "type": "media-with-text",
+    "b00464af-0a4f-4881-92d3-84d3f6661b75": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "template--20109826720019__f24adb86-4f4c-4a37-b47a-214379642038-image-1": {
-          "type": "image",
+        "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1212_Sadie_90cafc69-9956-4320-8220-da142465a911.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "media_size": "cover",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Every Hour",
-            "content": "<p>Because even though you know that every hour of every day is better in 12|12, the rewards don't end there. Earn points every time you shop, share, or follow.<\/p>",
-            "link_text": "Join Now",
-            "link_url": "shopify:\/\/pages\/sign-up",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#d2e5ff",
-            "button_text_color": "#ffffff"
+            "text": "Every Hour",
+            "heading_tag": "h1"
+          }
+        },
+        "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Because even though you know that every hour of every day is better in 12|12, the rewards don't end there. Earn points every time you shop, share, or follow.<\/p>"
+          }
+        },
+        "ae91bcb6-d5a2-478e-b173-54384cd1eaaa": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Join Now",
+            "url": "shopify:\/\/pages\/sign-up",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "template--20109826720019__f24adb86-4f4c-4a37-b47a-214379642038-image-1"
+        "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-heading-1",
+        "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-richtext-1",
+        "ae91bcb6-d5a2-478e-b173-54384cd1eaaa"
       ],
       "settings": {
         "full_width": false,
-        "enable_parallax": true,
-        "spacing": "small"
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Sadie-Rewards.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Sadie-Rewards-m.jpg",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "a4f5ce30-9d79-4b37-b969-b336dba427db": {
@@ -178,7 +189,7 @@
   },
   "order": [
     "main",
-    "f24adb86-4f4c-4a37-b47a-214379642038",
+    "b00464af-0a4f-4881-92d3-84d3f6661b75",
     "a4f5ce30-9d79-4b37-b969-b336dba427db",
     "6c490701-593e-4a94-a66d-f612b5e5ebe3"
   ]
