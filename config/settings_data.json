@@ -160,11 +160,11 @@
           "3baf54fc-b82b-41b2-938d-a3ef701ac32c": {
             "type": "mega_menu",
             "settings": {
-              "menu_item": "Women's",
+              "menu_item": "Womens",
               "layout": "horizontal_center",
               "submenu_style": "bold_heading",
               "show_as_list": false,
-              "title": "Organic Sweats",
+              "title": "",
               "image_1": "shopify:\/\/shop_images\/jacey-pullover.jpg",
               "image_heading_1": "Women's Sweats",
               "image_link_1": "shopify:\/\/collections\/organic-womens-sweats",
