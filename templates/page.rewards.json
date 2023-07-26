@@ -148,10 +148,16 @@
     "6c490701-593e-4a94-a66d-f612b5e5ebe3": {
       "type": "rich-text",
       "blocks": {
+        "191d85ad-7246-42b6-b98c-96685862d492": {
+          "type": "subheading",
+          "settings": {
+            "text": "Refer a Friend!"
+          }
+        },
         "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Refer a Friend",
+            "text": "Give $20, Get $20",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -160,7 +166,7 @@
         "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Give $20, Get $20<br\/><br\/>Share your unique URL to give your friends the reward $20 off! When they shop, you earn $20.<\/p>"
+            "content": "<p>Share your unique URL to give your friends $20 to try 12|12, and earn $20 when they purchase.<\/p>"
           }
         },
         "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e": {
@@ -168,17 +174,28 @@
           "settings": {
             "style": "fill",
             "size": "xl",
-            "text": "Sign Up",
+            "text": "Join Now",
             "url": "shopify:\/\/pages\/sign-up",
             "background": "",
             "text_color": ""
           }
+        },
+        "58f435d4-9b35-4e24-8e56-302166413c90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refer_a_Friend.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
         }
       },
       "block_order": [
+        "191d85ad-7246-42b6-b98c-96685862d492",
         "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1",
         "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1",
-        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e"
+        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e",
+        "58f435d4-9b35-4e24-8e56-302166413c90"
       ],
       "settings": {
         "full_width": true,
