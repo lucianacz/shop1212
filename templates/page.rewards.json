@@ -18,7 +18,7 @@
         "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Because even though you know that every hour of every day is better in 12|12, the rewards don't end there. Earn points every time you shop, share, or follow.<\/p>"
+            "content": "<p>Because even though you know that<br\/> every hour of every day is better in 12|12, the <br\/>rewards don't end there. Earn points every time <br\/>you shop, share, or follow.<\/p>"
           }
         },
         "ae91bcb6-d5a2-478e-b173-54384cd1eaaa": {
