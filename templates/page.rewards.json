@@ -40,7 +40,8 @@
         "ae91bcb6-d5a2-478e-b173-54384cd1eaaa"
       ],
       "custom_css": [
-        "p {font-size: 18px;}"
+        "p {font-size: 18px;}",
+        ".h1{font-size: var(--text-h3);}"
       ],
       "settings": {
         "full_width": true,
