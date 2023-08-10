@@ -65,34 +65,12 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Neon_Nights.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Neon_Nights_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "<h1>Neon Nights<\/h1>",
-            "button_text": "Shop Now",
-            "button_link": "shopify:\/\/collections\/neon-nights",
-            "text_color": "#ffffff",
-            "button_background": "#96ff93",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#0b2241",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "74702f14-9c1d-4ba9-b6ec-7dd74ee74512"
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9"
       ],
       "settings": {
         "full_width": true,
@@ -108,7 +86,6 @@
     },
     "1ded0b28-8879-435e-a121-569cccbde627": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
           "type": "item",
@@ -158,6 +135,7 @@
         "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
         "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "title": "Featured in",
@@ -285,7 +263,6 @@
     },
     "ef7ae401-bdee-4f35-abac-19689fd88a39": {
       "type": "shop-the-look",
-      "disabled": true,
       "blocks": {
         "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
           "type": "product",
@@ -330,6 +307,7 @@
         "749e9a6e-34b9-4873-b342-7e7556168441",
         "8dc35c57-c7a0-4569-8838-de2a4440be1b"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -350,7 +328,6 @@
     },
     "d9b16851-3727-4197-8077-80ce59d81d54": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0": {
           "type": "image",
@@ -377,6 +354,7 @@
       "block_order": [
         "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
