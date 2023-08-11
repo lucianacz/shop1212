@@ -700,7 +700,7 @@
         "text_alignment": "start",
         "impact_text_style": "outline",
         "text_divider": "line",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.7,
         "background": "#edf3fb",
         "background_gradient": "",
         "heading_text_color": "#96afd2",
