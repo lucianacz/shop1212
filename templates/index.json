@@ -65,12 +65,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "12c7952f-091b-4242-9aac-9752937a95ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lilac_pullover.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lilac_pullover_m.jpg",
+            "content_max_width": 520,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "100% GOTS Organic Cotton",
+            "title": "<h6>★★★★★<br\/>\"These are the best sweats we have found! Not too thick, not too thin and incredibly soft!\"<\/h6>",
+            "button_text": "Shop Pullovers",
+            "button_link": "shopify:\/\/collections\/organic-kids-and-toddlers-pullovers",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9"
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
+        "12c7952f-091b-4242-9aac-9752937a95ab"
       ],
       "settings": {
         "full_width": true,
