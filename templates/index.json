@@ -658,8 +658,8 @@
             "title": "\"Our Favorite Shirts\"",
             "subheading": "These are my favorite shirts to buy my son! They are the softest I found and the quality cannot be beat!",
             "content": "<p>★★★★★<\/p>",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "Shop Tees",
+            "button_url": "shopify:\/\/collections\/organic-toddler-tops",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -670,8 +670,8 @@
             "title": "\"Impeccable Quality\"",
             "subheading": "Despite continuous washing, the onesies show no sign of wear.",
             "content": "<p>★★★★★<\/p>",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "Shop Onesies",
+            "button_url": "shopify:\/\/collections\/organic-baby-onesies-and-pajamas",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -682,8 +682,8 @@
             "title": "\"Best Leggings Ever\"",
             "subheading": "My daughter has been wearing these 12|12 leggings since she was 3!",
             "content": "<p>★★★★★<\/p>",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "Shop Leggings",
+            "button_url": "shopify:\/\/products\/the-legging",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
