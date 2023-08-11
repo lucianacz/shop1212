@@ -32,11 +32,24 @@
             "animate_impact_text": true,
             "animate_impact_text_duration": 1.8
           }
+        },
+        "89f2aaec-1ae4-4d6f-9830-042e19b372a1": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Cozy",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
         }
       },
       "block_order": [
         "template--17237201551635__871cab4b-689a-4b0c-848d-c594d33668d2-1680355911374dee1f-0",
-        "ea8e431f-731b-453f-ae10-f2690ec6af2e"
+        "ea8e431f-731b-453f-ae10-f2690ec6af2e",
+        "89f2aaec-1ae4-4d6f-9830-042e19b372a1"
       ],
       "custom_css": [
         ".shape-line {width: 2px; background: #ed2024;}"
