@@ -71,7 +71,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/lilac_pullover_94d10b38-3b49-408e-a1ad-b0575ad85eea.jpg",
             "mobile_image": "shopify:\/\/shop_images\/lilac_pullover_m_3815bbde-e182-464d-abcc-38a4b65128e1.jpg",
-            "content_max_width": 520,
+            "content_max_width": 480,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
