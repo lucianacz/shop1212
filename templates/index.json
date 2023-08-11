@@ -696,7 +696,7 @@
       ],
       "settings": {
         "full_width": false,
-        "stack_mobile": false,
+        "stack_mobile": true,
         "text_alignment": "start",
         "impact_text_style": "outline",
         "text_divider": "line",
