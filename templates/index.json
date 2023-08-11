@@ -69,13 +69,13 @@
         "12c7952f-091b-4242-9aac-9752937a95ab": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lilac_pullover.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/lilac_pullover_m.jpg",
+            "image": "shopify:\/\/shop_images\/lilac_pullover_94d10b38-3b49-408e-a1ad-b0575ad85eea.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lilac_pullover_m_3815bbde-e182-464d-abcc-38a4b65128e1.jpg",
             "content_max_width": 520,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "",
-            "title": "<h6>★★★★★<br\/>\"These are the best sweats we have found! <br\/>Not too thick, not too thin and incredibly soft!\"<\/h6>",
+            "title": "<h6>★★★★★<br\/>\"These are the best sweats we have found!  Not too thick, not too thin and incredibly soft!\"<\/h6>",
             "button_text": "Shop Pullovers",
             "button_link": "shopify:\/\/collections\/organic-kids-and-toddlers-pullovers",
             "text_color": "#ffffff",
