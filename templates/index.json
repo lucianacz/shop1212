@@ -470,7 +470,7 @@
         "desktop_row_height": 210,
         "mobile_row_height": 150,
         "background": "",
-        "background_gradient": "linear-gradient(54deg, rgba(114, 255, 179, 1) 14%, rgba(255, 250, 99, 1) 85%)"
+        "background_gradient": ""
       }
     },
     "6e3e9744-2255-42db-b54c-c103d788d1d3": {
