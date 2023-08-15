@@ -400,8 +400,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Pullover-NeonRobots5.jpg",
             "title": "",
-            "link_url": "shopify:\/\/products\/the-organic-printed-pullover-sweatshirt",
-            "link_text": "Shop",
+            "link_url": "shopify:\/\/collections\/organic-kids-and-toddlers-pullovers",
+            "link_text": "Shop Organic Pullovers",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
@@ -419,10 +419,10 @@
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pullover-OrangeBurst2.jpg",
+            "image": "shopify:\/\/shop_images\/Tee_Stack.jpg",
             "title": "",
-            "link_url": "shopify:\/\/products\/the-pullover-sweatshirt",
-            "link_text": "Shop",
+            "link_url": "shopify:\/\/collections\/organic-toddler-tops",
+            "link_text": "Shop Organic Pima Tees",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
@@ -442,8 +442,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dino_dig_3ecfbdc0-c55c-4db9-9c70-8b4d0a1bc67e.jpg",
             "title": "",
-            "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-dino-dig",
-            "link_text": "Shop",
+            "link_url": "shopify:\/\/collections\/organic-kids-and-toddlers-pajamas",
+            "link_text": "Shop Organic PJs",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
