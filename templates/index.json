@@ -425,28 +425,7 @@
             "link_text": "Shop Organic Pima Tees",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/dino_dig_3ecfbdc0-c55c-4db9-9c70-8b4d0a1bc67e.jpg",
-            "title": "",
-            "link_url": "shopify:\/\/collections\/organic-kids-and-toddlers-pajamas",
-            "link_text": "Shop Organic PJs",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
+            "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
@@ -461,8 +440,7 @@
       },
       "block_order": [
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-2",
-        "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3",
-        "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-1"
+        "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3"
       ],
       "settings": {
         "full_width": false,
@@ -505,8 +483,8 @@
             "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-sharks",
             "link_text": "Shop Now",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "background": "#000000",
             "background_gradient": "",
