@@ -416,6 +416,48 @@
             "overlay_opacity": 0
           }
         },
+        "fd8c43c4-4191-47c8-9dd5-c07eca003c16": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LSTerryDress-TinyJBHearts2.jpg",
+            "title": "",
+            "link_url": "shopify:\/\/collections\/dresses",
+            "link_text": "Shop Organic Dresses",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "5fb2771d-b424-4285-aaf2-5fe73a00c9c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Legging_-_Chocolate_1.jpg",
+            "title": "",
+            "link_url": "shopify:\/\/products\/the-legging",
+            "link_text": "Shop Organic Leggings",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-end-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3": {
           "type": "image",
           "settings": {
@@ -424,7 +466,7 @@
             "link_url": "shopify:\/\/collections\/organic-toddler-tops",
             "link_text": "Shop Organic Pima Tees",
             "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 3,
+            "desktop_column_span": 4,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "background": "#000000",
@@ -440,6 +482,8 @@
       },
       "block_order": [
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-2",
+        "fd8c43c4-4191-47c8-9dd5-c07eca003c16",
+        "5fb2771d-b424-4285-aaf2-5fe73a00c9c4",
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3"
       ],
       "settings": {
