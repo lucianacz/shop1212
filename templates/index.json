@@ -9,7 +9,7 @@
             "image": "shopify:\/\/shop_images\/Back_to_School_23.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Back_to_School_23_m.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-start text-start",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Organic Essentials",
             "title": "<h1>Back to School<\/h1>",
