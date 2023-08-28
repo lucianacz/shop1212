@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Halloween_a0112aa9-ed2b-4ff2-91af-bcc5964884c8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Halloween_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "NOW OPEN",
+            "title": "<h1>The Halloween Shop<\/h1>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/halloween",
+            "text_color": "#000000",
+            "button_background": "#883dff",
+            "button_text_color": "#000000",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7": {
           "type": "image",
           "settings": {
@@ -87,35 +108,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dino_Dig.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Dino_Dig_m.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "NEW Paleontology-inspired Print",
-            "title": "<h1>Dino Dig<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/dino-dig",
-            "text_color": "#ffffff",
-            "button_background": "#0b2241",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 9,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7",
         "12c7952f-091b-4242-9aac-9752937a95ab",
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9"
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c"
       ],
       "settings": {
         "full_width": true,
