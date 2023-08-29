@@ -3368,6 +3368,7 @@ var VariantPicker = class extends HTMLElement {
     if (previousVariant && previousVariant.id === id) {
       return;
     }
+
     this.masterSelector.value = id;
     this.masterSelector.dispatchEvent(new Event("change", { bubbles: true }));
     if (this.updateUrl && history.replaceState) {
@@ -3388,6 +3389,30 @@ var VariantPicker = class extends HTMLElement {
         previousVariant
       }
     }));
+
+    /* Estimated Shipping */
+    if (id) {
+      if (document.querySelectorAll('.estimated-shipping').length > 0){
+        var estimatedShipping = document.querySelectorAll('.estimated-shipping');
+        estimatedShipping.forEach(element => {
+          element.classList.add('hidden')
+        });
+
+        if (document.querySelector('.estimated-shipping[data-variant="' + id  + '"]') != null){
+          document.querySelector('.estimated-shipping[data-variant="' + id  + '"]').classList.remove('hidden')
+        }
+      }
+
+      if (document.querySelectorAll('input[data-variant]').length > 0){
+        var estimatedShippingInput = document.querySelectorAll('input[data-variant]');
+        estimatedShippingInput.forEach(element => {
+          element.removeAttribute('name')
+        });
+        if (document.querySelector('input[data-variant="' + id  + '"]') != null){
+          document.querySelector('input[data-variant="' + id  + '"]').setAttribute('name', 'properties[Estimated Shipping]')
+        }
+      }
+    }
   }
   _onOptionChanged(event) {
     if (!event.target.name.startsWith("option")) {

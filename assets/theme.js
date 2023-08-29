@@ -3339,6 +3339,10 @@ var VariantPicker = class extends HTMLElement {
       }
       window.history.replaceState({ path: newUrl.toString() }, "", newUrl.toString());
     }
+
+    console.log('aca')
+
+  
     this._updateDisableSelectors();
     this.masterSelector.form.dispatchEvent(new CustomEvent("variant:change", {
       bubbles: true,
@@ -4110,6 +4114,7 @@ export {
   VariantMedia,
   VariantPicker,
   VariantSku,
+  VariantShipping,
   VideoMedia,
   VisibilityProgress,
   cachedFetch,
