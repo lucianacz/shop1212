@@ -285,7 +285,7 @@
         "products": [
           "the-zipper-footie"
         ],
-        "custom_variants": "the-organic-long-sleeve-rib-set, Pony Parade on Cream\nthe-zipper-footie, Shooting Stars\nthe-organic-printed-pullover-sweatshirt, Basketball on Black\nthe-organic-long-sleeve-pajama-set-lightning-strike, Lightning Strike",
+        "custom_variants": "the-organic-long-sleeve-rib-set, Pony Parade on Cream\nthe-zipper-footie, Shooting Stars\nthe-organic-printed-pullover-sweatshirt-basketball-on-black, Basketball on Black\nthe-organic-long-sleeve-pajama-set-lightning-strike, Lightning Strike",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
