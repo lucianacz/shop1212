@@ -62,12 +62,28 @@ Supported variables
     {%- endif -%}
   </buy-buttons>
 
+  <script>
+      var countDownDate;
+      var distance;
+      var now = new Date().getTime();
+  </script>
   {%- for variant in product.variants -%}
     {%- if variant.metafields.custom.shipping != blank -%}
       <p class="estimated-shipping{% unless product.selected_or_first_available_variant == variant %} hidden{% endunless %}" data-variant="{{ variant.id }}">
-        The estimated shipping date is {{ variant.metafields.custom.shipping }}.
+        The estimated shipping date is {{ variant.metafields.custom.shipping | date: "%b %d" }}.
       </p>
-      <input type="hidden" value="{{ variant.metafields.custom.shipping }}" data-variant="{{ variant.id }}" {% if product.selected_or_first_available_variant == variant %}name="properties[Estimated Shipping]"{% endif %}>
+      <input type="hidden" value="{{ variant.metafields.custom.shipping | date: '%b %d' }}" data-variant="{{ variant.id }}" {% if product.selected_or_first_available_variant == variant %}name="properties[Estimated Shipping]"{% endif %}>
+
+      <script>
+          countDownDate = new Date("{{ variant.metafields.custom.shipping | date: '%b %d, %y'  }} 00:00:00").getTime();
+          distance = countDownDate - now;
+
+          if (distance < 0) {
+            document.querySelector(".estimated-shipping[data-variant='{{ variant.id }}']").remove();
+            document.querySelector("input[data-variant='{{ variant.id }}']").remove();
+          }
+      </script>
+
     {%- endif -%}
   {%- endfor -%}
 {%- endform -%}
