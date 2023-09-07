@@ -747,15 +747,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "fd9e56eb-f417-4950-b837-5d62495b715b": {
-      "type": "instafeed",
-      "disabled": true,
-      "settings": {
-        "heading_size": 20,
-        "feed_width": 100,
-        "html_area": ""
-      }
     }
   },
   "order": [
@@ -769,7 +760,6 @@
     "6e3e9744-2255-42db-b54c-c103d788d1d3",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "bef91423-5f3d-4792-be34-909d10b66dba",
-    "094beb05-244c-4135-8149-d1cbc5607eb5",
-    "fd9e56eb-f417-4950-b837-5d62495b715b"
+    "094beb05-244c-4135-8149-d1cbc5607eb5"
   ]
 }
