@@ -214,3 +214,11 @@ buy-buttons .button[disabled]{
   color: #ed2024;
   text-align: center;
 }
+
+.shopify-payment-button__button.shopify-payment-button__button--unbranded {
+    font-weight: bold;
+}
+
+.shopify-payment-button__button.shopify-payment-button__button--unbranded:not(:hover) {
+    color: white !important;
+}
