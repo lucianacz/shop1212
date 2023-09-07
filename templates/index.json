@@ -3,6 +3,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "12c7952f-091b-4242-9aac-9752937a95ab": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sparkle-Stars_bab4e797-c919-4e70-939f-a59114545d2c.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Sparkle_Stars_M_4f7c56f5-f640-450b-b96b-732c864bab98.jpg",
+            "content_max_width": 480,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "NEW IN!",
+            "title": "<h1>A Hint of Shimmer<\/h1>",
+            "button_text": "Shop Sparkle Stars",
+            "button_link": "shopify:\/\/collections\/sparkle-stars",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#0b2241",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
@@ -38,27 +59,6 @@
             "button_link": "shopify:\/\/collections\/back-to-school",
             "text_color": "#ffffff",
             "button_background": "#0b2241",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "12c7952f-091b-4242-9aac-9752937a95ab": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lilac_pullover_94d10b38-3b49-408e-a1ad-b0575ad85eea.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/lilac_pullover_m_3815bbde-e182-464d-abcc-38a4b65128e1.jpg",
-            "content_max_width": 480,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "",
-            "title": "<h6>★★★★★<br\/>\"These are the best sweats we have found!  Not too thick, not too thin and incredibly soft!\"<\/h6>",
-            "button_text": "Shop Pullovers",
-            "button_link": "shopify:\/\/collections\/organic-kids-and-toddlers-pullovers",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
@@ -111,9 +111,9 @@
         }
       },
       "block_order": [
+        "12c7952f-091b-4242-9aac-9752937a95ab",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7",
-        "12c7952f-091b-4242-9aac-9752937a95ab",
         "4e9dbdbe-678b-4e91-9caf-c68e41f8a92a",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c"
       ],
