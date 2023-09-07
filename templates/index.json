@@ -463,10 +463,10 @@
         "5fb2771d-b424-4285-aaf2-5fe73a00c9c4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Legging_-_Chocolate_1.jpg",
+            "image": "shopify:\/\/shop_images\/doughnuts.jpg",
             "title": "",
-            "link_url": "shopify:\/\/products\/the-legging",
-            "link_text": "Shop Organic Leggings",
+            "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-doughnuts",
+            "link_text": "Shop New Doughnuts Print",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
@@ -477,8 +477,8 @@
             "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "overlay_color": "#282664",
+            "overlay_opacity": 9
           }
         },
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-3": {
