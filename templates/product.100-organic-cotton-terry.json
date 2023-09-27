@@ -68,11 +68,6 @@
             "collapse_content": false
           }
         },
-        "5e310213-808e-4935-a7b6-631e132a0966": {
-          "type": "sku",
-          "settings": {
-          }
-        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -95,7 +90,6 @@
         "buy_buttons",
         "payment_terms",
         "description",
-        "5e310213-808e-4935-a7b6-631e132a0966",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "custom_css": [
