@@ -68,6 +68,11 @@
             "collapse_content": false
           }
         },
+        "5e310213-808e-4935-a7b6-631e132a0966": {
+          "type": "sku",
+          "settings": {
+          }
+        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -90,6 +95,7 @@
         "buy_buttons",
         "payment_terms",
         "description",
+        "5e310213-808e-4935-a7b6-631e132a0966",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "custom_css": [
@@ -116,7 +122,6 @@
     },
     "8005ee89-7e5b-454c-9da6-6418d45256a7": {
       "type": "multiple-images-with-text",
-      "disabled": true,
       "blocks": {
         "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
           "type": "item",
@@ -147,6 +152,7 @@
         "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
         "5e9f5f0c-6c71-4299-b79a-672135b481d1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "images_layout": "stacked",
@@ -184,7 +190,6 @@
     },
     "db412dfe-2afa-4827-b3fe-1c35348b8545": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-1": {
           "type": "title",
@@ -238,6 +243,7 @@
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-7",
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "donation",
