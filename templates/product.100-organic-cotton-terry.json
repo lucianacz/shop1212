@@ -68,6 +68,13 @@
             "collapse_content": false
           }
         },
+        "874cdb56-02e9-4f1e-bab8-08eb9934e639": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Details",
+            "content": "<ul><li>Made with 100% Organic Cotton<\/li><li>Dyes meet Oeko-tex Standard 100 requirements - meaning they are eco-friendly and free from harmful substances<\/li><li>Rib banded cuffs<\/li><li>Made in India and Peru<\/li><li>French Terry<\/li><li>Machine washable<\/li><li>Shipped using recycled packaging<\/li><\/ul>"
+          }
+        },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
           "type": "associated_products",
           "settings": {
@@ -90,6 +97,7 @@
         "buy_buttons",
         "payment_terms",
         "description",
+        "874cdb56-02e9-4f1e-bab8-08eb9934e639",
         "ae6a1588-284a-4b7e-b232-cfa5525950d9"
       ],
       "custom_css": [
