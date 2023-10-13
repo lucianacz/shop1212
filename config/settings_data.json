@@ -216,7 +216,7 @@
             "settings": {
               "menu_item": "Holidays",
               "layout": "horizontal",
-              "submenu_style": "bold_heading",
+              "submenu_style": "bold_text",
               "show_as_list": false,
               "title": "",
               "image_1": "shopify:\/\/shop_images\/tinsel_trees.jpg",
@@ -234,7 +234,7 @@
               "product_card_background": "",
               "product_card_text_color": "",
               "promo_content_layout": "grid",
-              "stretch_promo": true,
+              "stretch_promo": false,
               "drawer_link_image": "hide"
             }
           }
