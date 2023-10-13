@@ -210,13 +210,41 @@
               "stretch_promo": false,
               "drawer_link_image": "hide"
             }
+          },
+          "10de7b85-f161-4c91-b6f7-0307df450196": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Holidays",
+              "layout": "horizontal",
+              "submenu_style": "bold_heading",
+              "show_as_list": false,
+              "title": "Holidays",
+              "image_1": "shopify:\/\/shop_images\/tinsel_trees.jpg",
+              "image_heading_1": "Christmas",
+              "image_link_1": "shopify:\/\/collections\/christmas",
+              "image_text_color_1": "#ffffff",
+              "image_2": "shopify:\/\/shop_images\/hanukkah.jpg",
+              "image_heading_2": "Hanukkah",
+              "image_link_2": "shopify:\/\/collections\/hanukkah",
+              "image_text_color_2": "#ffffff",
+              "image_heading_3": "",
+              "image_link_3": "",
+              "image_text_color_3": "#ffffff",
+              "product": "",
+              "product_card_background": "",
+              "product_card_text_color": "",
+              "promo_content_layout": "grid",
+              "stretch_promo": false,
+              "drawer_link_image": "hide"
+            }
           }
         },
         "block_order": [
           "a9c2ec1d-1563-4820-b3d4-48c01248a3e1",
           "e20e4820-bb19-4820-a87d-b83325bd64ba",
           "3baf54fc-b82b-41b2-938d-a3ef701ac32c",
-          "b247b88a-e63e-4646-99ff-d6db8a03af37"
+          "b247b88a-e63e-4646-99ff-d6db8a03af37",
+          "10de7b85-f161-4c91-b6f7-0307df450196"
         ],
         "custom_css": [
           ".bold {font-weight: 400;}",
