@@ -216,7 +216,7 @@
             "settings": {
               "menu_item": "Holidays",
               "layout": "horizontal",
-              "submenu_style": "bold_text",
+              "submenu_style": "bold_heading",
               "show_as_list": false,
               "title": "",
               "image_1": "shopify:\/\/shop_images\/tinsel_trees.jpg",
