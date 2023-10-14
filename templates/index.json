@@ -26,6 +26,7 @@
         },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Boo_Crew.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Boo_Crew_M.jpg",
@@ -47,6 +48,7 @@
         },
         "12c7952f-091b-4242-9aac-9752937a95ab": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Sparkle-Stars_bab4e797-c919-4e70-939f-a59114545d2c.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Sparkle_Stars_M_4f7c56f5-f640-450b-b96b-732c864bab98.jpg",
@@ -68,6 +70,7 @@
         },
         "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Back_to_School_23.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Back_to_School_23_m.jpg",
@@ -89,6 +92,7 @@
         },
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rib_Dress.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Rib_Dress_M_aaf0b23c-4bc0-46e0-bfe6-7c7bde6e9d5a.jpg",
