@@ -37,11 +37,11 @@
       {% endif %}
       {%- for sub_link in link.links -%}
         <li class="v-stack gap-4 justify-items-start">
-          <a {% if sub_link.url != '#' %}href="{{ sub_link.url }}"{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
+          <{% if sub_link.url != '#' %}a href="{{ sub_link.url }}"{% else %}span{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
             <span {% if sub_link.url != '#' %}class="{% if mega_menu_block.settings.submenu_style == 'bold_text' %}link-faded{% else %}reversed-link hover:show{% endif %}"{% endif %}>
               {{- sub_link.title -}}
             </span>
-          </a>
+          </{% if sub_link.url != '#' %}a{% else %}span{% endif %}>
 
           {%- if sub_link.levels > 0 -%}
             <ul class="v-stack gap-2 justify-items-start{% if sub_link.links.size >= 10 %} columns-2{% endif %}" role="list">
