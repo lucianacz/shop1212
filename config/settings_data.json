@@ -233,7 +233,7 @@
               "image_text_color_3": "#ffffff",
               "product": "",
               "product_card_background": "",
-              "product_card_text_color": "",
+              "product_card_text_color": "rgba(0,0,0,0)",
               "promo_content_layout": "grid",
               "stretch_promo": false,
               "drawer_link_image": "hide"
