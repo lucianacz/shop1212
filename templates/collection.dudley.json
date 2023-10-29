@@ -5,10 +5,10 @@
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,
-        "enable_parallax": false,
+        "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": false,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "collection_title_size": "h5",
         "image_size": "sm",
         "image": "shopify:\/\/shop_images\/Dudley.jpg",
