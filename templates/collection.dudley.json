@@ -11,8 +11,8 @@
         "show_collection_image": true,
         "collection_title_size": "h5",
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/Dudley.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Dudley.jpg",
+        "image": "shopify:\/\/shop_images\/Dudley_4c82c38d-7b4d-490a-87fb-3e4337b38d5c.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Dudley_4c82c38d-7b4d-490a-87fb-3e4337b38d5c.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "featured_product": "",
@@ -30,7 +30,6 @@
           "settings": {
             "position": 4,
             "column_span": "1",
-            "image": "shopify:\/\/shop_images\/DS_Holiday23_Shot_02_035.jpg",
             "title": "Shop the Toddler Crewneck",
             "content": "",
             "link_url": "shopify:\/\/products\/dudley-stephens-x-12-12-toddler-crewneck",
