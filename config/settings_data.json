@@ -190,7 +190,7 @@
               "menu_item": "Collaborations",
               "layout": "horizontal",
               "submenu_style": "bold_heading",
-              "show_as_list": false,
+              "show_as_list": true,
               "title": "Collaborations",
               "image_1": "shopify:\/\/shop_images\/Dudley_753a2d1f-092d-4de1-8ec4-b601a6c8f470.jpg",
               "image_heading_1": "Dudley Stephens x 12|12",
