@@ -466,8 +466,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/doughnuts.jpg",
             "title": "",
-            "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-doughnuts",
-            "link_text": "Shop New Doughnuts Print",
+            "link_url": "https:\/\/www.bloomingdales.com\/buy\/1212-kids?cm_sp=shop_by_brand-_-KIDS-_-1212",
+            "link_text": "Find 12|12 at Bloomingdale's",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
