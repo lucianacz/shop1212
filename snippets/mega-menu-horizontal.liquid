@@ -32,9 +32,6 @@
 <div id="mega-menu-{{ mega_menu_block.id }}" class="mega-menu {% if link.links.size == 0 %}justify-center{% endif %}">
   {%- if link.links.size > 0 -%}
     <ul class="mega-menu__nav{% if mega_menu_block.settings.show_as_list %} show-list{% endif %}" role="list">
-      {% if mega_menu_block.settings.title != null %}
-      <small><a href="{{ link.url }}" aria-label="Read more about {{ mega_menu_block.settings.title }}">{{ mega_menu_block.settings.title }}</a></small>
-      {% endif %}
       {%- for sub_link in link.links -%}
         <li class="v-stack gap-4 justify-items-start">
           <{% if sub_link.url != '#' %}a href="{{ sub_link.url }}"{% else %}span{% endif %} class="{% if mega_menu_block.settings.submenu_style == 'bold_heading' %}h5{% endif %}" {% if sub_link.current %}aria-current="page"{% endif %}>
