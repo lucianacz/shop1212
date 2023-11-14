@@ -6,7 +6,7 @@
         "73cbaefd-ad3c-4007-a909-1bc173df4909": {
           "type": "liquid",
           "settings": {
-            "liquid": "<p style=\"font-weight:bold;\"> Join the 12|12 loyalty program. Earn points, redeem rewards, and more! <\/p>"
+            "liquid": "<p style=\"font-weight:bold;\"> Join the 12|12 loyalty program. <\/p> <p style=\"font-weight:bold;\">Earn points, redeem rewards, and more! <\/p>"
           }
         },
         "fields": {
