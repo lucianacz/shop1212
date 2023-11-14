@@ -3,6 +3,12 @@
     "main": {
       "type": "main-customers-register",
       "blocks": {
+        "73cbaefd-ad3c-4007-a909-1bc173df4909": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<p style=\"font-weight:bold;\"> Join the 12|12 loyalty program. Earn points, redeem rewards, and more! <\/p>"
+          }
+        },
         "fields": {
           "type": "fields",
           "settings": {
@@ -12,6 +18,7 @@
         }
       },
       "block_order": [
+        "73cbaefd-ad3c-4007-a909-1bc173df4909",
         "fields"
       ],
       "settings": {
