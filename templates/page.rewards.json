@@ -57,6 +57,67 @@
         "overlay_opacity": 0
       }
     },
+    "6c490701-593e-4a94-a66d-f612b5e5ebe3": {
+      "type": "rich-text",
+      "blocks": {
+        "191d85ad-7246-42b6-b98c-96685862d492": {
+          "type": "subheading",
+          "settings": {
+            "text": "Refer a Friend!"
+          }
+        },
+        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Give $20, Get $20",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Share your unique URL to give your friends $20 to try 12|12, and earn $20 when they purchase.<\/strong><\/p>"
+          }
+        },
+        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Join Now",
+            "url": "shopify:\/\/pages\/sign-up",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "58f435d4-9b35-4e24-8e56-302166413c90": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Refer_a_Friend.jpg",
+            "width_mode": "full_width",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "191d85ad-7246-42b6-b98c-96685862d492",
+        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1",
+        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1",
+        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e",
+        "58f435d4-9b35-4e24-8e56-302166413c90"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "a4f5ce30-9d79-4b37-b969-b336dba427db": {
       "type": "text-with-icons",
       "blocks": {
@@ -149,73 +210,12 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "6c490701-593e-4a94-a66d-f612b5e5ebe3": {
-      "type": "rich-text",
-      "blocks": {
-        "191d85ad-7246-42b6-b98c-96685862d492": {
-          "type": "subheading",
-          "settings": {
-            "text": "Refer a Friend!"
-          }
-        },
-        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Give $20, Get $20",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Share your unique URL to give your friends $20 to try 12|12, and earn $20 when they purchase.<\/strong><\/p>"
-          }
-        },
-        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Join Now",
-            "url": "shopify:\/\/pages\/sign-up",
-            "background": "",
-            "text_color": ""
-          }
-        },
-        "58f435d4-9b35-4e24-8e56-302166413c90": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Refer_a_Friend.jpg",
-            "width_mode": "full_width",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        }
-      },
-      "block_order": [
-        "191d85ad-7246-42b6-b98c-96685862d492",
-        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-heading-1",
-        "template--20109826720019__6c490701-593e-4a94-a66d-f612b5e5ebe3-richtext-1",
-        "3acf75fd-a6c0-42ba-81f9-bd1116f00b8e",
-        "58f435d4-9b35-4e24-8e56-302166413c90"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "main",
     "b00464af-0a4f-4881-92d3-84d3f6661b75",
-    "a4f5ce30-9d79-4b37-b969-b336dba427db",
-    "6c490701-593e-4a94-a66d-f612b5e5ebe3"
+    "6c490701-593e-4a94-a66d-f612b5e5ebe3",
+    "a4f5ce30-9d79-4b37-b969-b336dba427db"
   ]
 }
