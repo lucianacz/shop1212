@@ -19,7 +19,7 @@
         "template--20109826720019__b00464af-0a4f-4881-92d3-84d3f6661b75-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Because even though you know that<br\/> every hour of every day is better in 12|12, the <br\/>rewards don't end there. Earn points every time <br\/>you shop, share, or follow.<\/p>"
+            "content": "<p><strong>Life's more fun in 12|12, <br\/>and so are the perks! <br\/>Score points on purchases, <br\/>shares, and follows!<\/strong><\/p>"
           }
         },
         "ae91bcb6-d5a2-478e-b173-54384cd1eaaa": {
@@ -41,7 +41,7 @@
       ],
       "custom_css": [
         "p {font-size: 18px;}",
-        ".h1{font-size: var(--text-h3);}"
+        ".h1 {font-size: var(--text-h3);}"
       ],
       "settings": {
         "full_width": true,
