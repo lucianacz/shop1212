@@ -28,7 +28,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Join Now",
-            "url": "shopify:\/\/pages\/sign-up",
+            "url": "https:\/\/shop1212.com\/account\/register",
             "background": "",
             "text_color": ""
           }
@@ -87,7 +87,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Join Now",
-            "url": "shopify:\/\/pages\/sign-up",
+            "url": "https:\/\/shop1212.com\/account\/register",
             "background": "",
             "text_color": ""
           }
