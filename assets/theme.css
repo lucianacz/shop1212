@@ -1210,7 +1210,7 @@ scroll-carousel {
   width: 100%;
   visibility: hidden;
   padding: var(--spacing-2);
-  z-index: 2147483648;
+  z-index: 2147483648 !important;
   position: fixed;
   right: 0;
 }
