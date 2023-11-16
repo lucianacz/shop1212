@@ -97,6 +97,19 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
             </div>
           </div>
         {%- endif -%}
+
+        {%- if section.settings.show_cart_note and section.settings.cart_note_layout == 'box' -%}
+          <cart-note-dialog id="cart-drawer-note">
+            <div class="v-stack gap-4 sm:gap-6">
+              <p class="h5">{{ 'cart.general.order_note' | t }}</p>
+
+              <cart-note class="v-stack gap-4">
+                {%- assign order_note = 'cart.general.gift_note' | t -%}
+                {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
+              </cart-note>
+            </div>
+          </cart-note-dialog>
+        {%- endif -%}
       </div>
     </div>
 
@@ -131,11 +144,11 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
           {%- endif -%}
         {%- endif -%}
 
-        {%- if section.settings.show_cart_note -%}
+        {%- if section.settings.show_cart_note and section.settings.cart_note_layout == 'collapsible' -%}
           <button type="button" class="justify-self-start bold" aria-controls="cart-drawer-note">
             <span class="link text-sm text-subdued">
               {%- if cart.note == blank -%}
-                {{- 'cart.general.add_order_note' | t -}}
+                {{- 'cart.general.gift_note' | t -}}
               {%- else -%}
                 {{- 'cart.general.edit_order_note' | t -}}
               {%- endif -%}
@@ -190,6 +203,22 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
       "id": "show_cart_note",
       "label": "Show cart note",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "cart_note_layout",
+      "label": "Cart note layout",
+      "default": "box",
+      "options": [
+        {
+          "value": "collapsible",
+          "label": "Collapsible button"
+        },
+        {
+          "value": "box",
+          "label": "Box"
+        }
+      ]
     },
     {
       "type": "checkbox",
