@@ -104,7 +104,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
               <p class="h5">{{ 'cart.general.order_note' | t }}</p>
 
               <cart-note class="v-stack gap-4">
-                {%- assign order_note = 'cart.general.order_note' | t -%}
+                {%- assign order_note = 'cart.general.gift_note' | t -%}
                 {%- render 'input', name: 'note', multiline: 3, label: order_note, value: cart.note -%}
               </cart-note>
             </div>
@@ -148,7 +148,7 @@ render 'bold-options-hybrid-cart-item-count' with cart -%}</cart-count>
           <button type="button" class="justify-self-start bold" aria-controls="cart-drawer-note">
             <span class="link text-sm text-subdued">
               {%- if cart.note == blank -%}
-                {{- 'cart.general.add_order_note' | t -}}
+                {{- 'cart.general.gift_note' | t -}}
               {%- else -%}
                 {{- 'cart.general.edit_order_note' | t -}}
               {%- endif -%}
