@@ -1687,7 +1687,7 @@ scroll-carousel {
 .floating-label {
   height: calc(var(--input-height)  + .625rem);
   top: 0;
-  opacity: .5;
+  opacity: .8;
   pointer-events: none;
   transform-origin: var(--transform-origin-start);
   grid-auto-flow: column;
