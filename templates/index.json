@@ -1,5 +1,64 @@
 {
   "sections": {
+    "cb677c37-63c5-4778-8ac3-ce0237b80a4e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17167820488979__cb677c37-63c5-4778-8ac3-ce0237b80a4e-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BF-Homepage-23_01_1b463bd2-f12a-4972-be37-3b0a83f24a2b.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "button_text": "",
+            "button_link": "http:\/\/shop1212.com\/discount\/bf25",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__cb677c37-63c5-4778-8ac3-ce0237b80a4e-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
+    "84016dd3-ef56-48c4-8bf2-22a78dc7142b": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/BF-Homepage-23_01_1b463bd2-f12a-4972-be37-3b0a83f24a2b.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
@@ -750,6 +809,8 @@
     }
   },
   "order": [
+    "cb677c37-63c5-4778-8ac3-ce0237b80a4e",
+    "84016dd3-ef56-48c4-8bf2-22a78dc7142b",
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
     "1ded0b28-8879-435e-a121-569cccbde627",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
