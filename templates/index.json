@@ -30,7 +30,7 @@
       "disabled": true,
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
         "transition_type": "fade_with_text",
@@ -38,25 +38,6 @@
         "cycle_speed": 6,
         "background": "#F2F2F2",
         "background_gradient": ""
-      }
-    },
-    "84016dd3-ef56-48c4-8bf2-22a78dc7142b": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/BF-Homepage-23_01_1b463bd2-f12a-4972-be37-3b0a83f24a2b.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
@@ -188,70 +169,6 @@
         "background_gradient": ""
       }
     },
-    "1ded0b28-8879-435e-a121-569cccbde627": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Organic Cotton",
-            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Sustainability-focused",
-            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/female.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Female-founded",
-            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "title": "Featured in",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "mobile_stack": false,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
-    },
     "398d2042-225a-4392-bec2-33fec7a5a0eb": {
       "type": "logo-list",
       "blocks": {
@@ -365,115 +282,6 @@
         "product_card_text_color": ""
       }
     },
-    "ef7ae401-bdee-4f35-abac-19689fd88a39": {
-      "type": "shop-the-look",
-      "blocks": {
-        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c": {
-          "type": "product",
-          "settings": {
-            "product": "the-organic-pullover-sweatshirt-embroidered",
-            "specific_color": "Lilac Frost Scribble Heart",
-            "horizontal_position": 12,
-            "vertical_position": 56
-          }
-        },
-        "77965092-1062-4185-ab34-6397e97e70ee": {
-          "type": "product",
-          "settings": {
-            "product": "the-bike-short",
-            "specific_color": "Navy",
-            "horizontal_position": 11,
-            "vertical_position": 72
-          }
-        },
-        "749e9a6e-34b9-4873-b342-7e7556168441": {
-          "type": "product",
-          "settings": {
-            "product": "the-short-sleeve-tee",
-            "specific_color": "Lemon",
-            "horizontal_position": 39,
-            "vertical_position": 41
-          }
-        },
-        "8dc35c57-c7a0-4569-8838-de2a4440be1b": {
-          "type": "product",
-          "settings": {
-            "product": "the-track-short",
-            "specific_color": "",
-            "horizontal_position": 83,
-            "vertical_position": 71
-          }
-        }
-      },
-      "block_order": [
-        "424a78f3-fac5-4fd8-8ab0-3e6f643fa36c",
-        "77965092-1062-4185-ab34-6397e97e70ee",
-        "749e9a6e-34b9-4873-b342-7e7556168441",
-        "8dc35c57-c7a0-4569-8838-de2a4440be1b"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "image": "shopify:\/\/shop_images\/shop_the_look.jpg",
-        "title": "Shop the Look",
-        "content": "",
-        "background": "#edf3fb",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "product_card_mobile_background": "",
-        "product_card_mobile_text_color": "",
-        "background_dots": "#ffffff"
-      }
-    },
-    "d9b16851-3727-4197-8077-80ce59d81d54": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-hp.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Make-March-Matter-CHLA-M.jpg",
-            "content_max_width": 600,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/make-march-matter",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__d9b16851-3727-4197-8077-80ce59d81d54-167813310967dec1b8-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#edf3fb",
-        "background_gradient": ""
-      }
-    },
     "313d5ee7-33b0-4f0c-b895-89ea5d85e672": {
       "type": "media-grid",
       "blocks": {
@@ -577,64 +385,83 @@
         "background_gradient": ""
       }
     },
-    "6e3e9744-2255-42db-b54c-c103d788d1d3": {
-      "type": "media-grid",
+    "bb6971dc-7187-4517-9977-f9bfcd6593ab": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "Our only sale of the year is here! Save 25% sitewide with code BF25 – no exclusions.",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 8,
+        "background": "#edf3fb",
+        "background_gradient": "",
+        "text_color": "#ed2024",
+        "text_gradient": ""
+      }
+    },
+    "1ded0b28-8879-435e-a121-569cccbde627": {
+      "type": "text-with-icons",
       "blocks": {
-        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1": {
-          "type": "image",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer_Essentials.jpg",
-            "title": "<h2>Everything Summer<\/h2>",
-            "link_url": "shopify:\/\/collections\/summer-essentials",
-            "link_text": "Shop Now",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 5
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Organic Cotton",
+            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
           }
         },
-        "c3782fd9-997b-4c04-9699-c0daf7c6204c": {
-          "type": "image",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
+          "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Camp_Essentials_Sq.jpg",
-            "title": "<h2>Camp Essentials<\/h2>",
-            "link_url": "shopify:\/\/products\/the-organic-long-sleeve-pajama-set-sharks",
-            "link_text": "Shop Now",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sustainability-focused",
+            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
+          }
+        },
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/female.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Female-founded",
+            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17167820488979__6e3e9744-2255-42db-b54c-c103d788d1d3-1671811817001d6bcd-1",
-        "c3782fd9-997b-4c04-9699-c0daf7c6204c"
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 230,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "mobile_stack": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000"
       }
     },
     "f34c2012-94bb-47b1-8e47-66578aef4abd": {
@@ -810,15 +637,12 @@
   },
   "order": [
     "cb677c37-63c5-4778-8ac3-ce0237b80a4e",
-    "84016dd3-ef56-48c4-8bf2-22a78dc7142b",
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
-    "1ded0b28-8879-435e-a121-569cccbde627",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
     "featured-collection",
-    "ef7ae401-bdee-4f35-abac-19689fd88a39",
-    "d9b16851-3727-4197-8077-80ce59d81d54",
     "313d5ee7-33b0-4f0c-b895-89ea5d85e672",
-    "6e3e9744-2255-42db-b54c-c103d788d1d3",
+    "bb6971dc-7187-4517-9977-f9bfcd6593ab",
+    "1ded0b28-8879-435e-a121-569cccbde627",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "bef91423-5f3d-4792-be34-909d10b66dba",
     "094beb05-244c-4135-8149-d1cbc5607eb5"
