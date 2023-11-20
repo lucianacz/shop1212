@@ -27,7 +27,6 @@
       "block_order": [
         "template--17167820488979__cb677c37-63c5-4778-8ac3-ce0237b80a4e-image-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -36,7 +35,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -387,7 +386,6 @@
     },
     "bb6971dc-7187-4517-9977-f9bfcd6593ab": {
       "type": "scrolling-text",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Our only sale of the year is here! Save 25% sitewide with code BF25 – no exclusions.",
