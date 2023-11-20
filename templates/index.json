@@ -281,6 +281,69 @@
         "product_card_text_color": ""
       }
     },
+    "1ded0b28-8879-435e-a121-569cccbde627": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Organic Cotton",
+            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
+          }
+        },
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Sustainability-focused",
+            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
+          }
+        },
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/female.png",
+            "mobile_icon_width": 88,
+            "icon_width": 88,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Female-founded",
+            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
+        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "mobile_stack": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "313d5ee7-33b0-4f0c-b895-89ea5d85e672": {
       "type": "media-grid",
       "blocks": {
@@ -397,69 +460,6 @@
         "background_gradient": "",
         "text_color": "#ed2024",
         "text_gradient": ""
-      }
-    },
-    "1ded0b28-8879-435e-a121-569cccbde627": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/organic-cotton.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Organic Cotton",
-            "content": "<p>Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/sustainable.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Sustainability-focused",
-            "content": "<p>Our sustainability goal is to responsibly and ethically produce the highest quality children’s clothing, while continuously seeking ways to reduce our environmental impact.<\/p>"
-          }
-        },
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify:\/\/shop_images\/female.png",
-            "mobile_icon_width": 88,
-            "icon_width": 88,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Female-founded",
-            "content": "<p>As loving moms, we believe in finding healthier alternatives for our children and the planet.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-0",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-1",
-        "template--17167820488979__1ded0b28-8879-435e-a121-569cccbde627-1678311736aaf8b45e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "small",
-        "mobile_stack": false,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "#000000"
       }
     },
     "f34c2012-94bb-47b1-8e47-66578aef4abd": {
@@ -638,9 +638,9 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
     "featured-collection",
+    "1ded0b28-8879-435e-a121-569cccbde627",
     "313d5ee7-33b0-4f0c-b895-89ea5d85e672",
     "bb6971dc-7187-4517-9977-f9bfcd6593ab",
-    "1ded0b28-8879-435e-a121-569cccbde627",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "bef91423-5f3d-4792-be34-909d10b66dba",
     "094beb05-244c-4135-8149-d1cbc5607eb5"
