@@ -114,8 +114,7 @@
 
                       <div class="h-stack gap-4 justify-between">
                         <span class="text-subdued">{{ 'cart.general.subtotal' | t }}</span>
-                        <span class="text-subdued"><span class="Bold-theme-hook-DO-NOT-DELETE bold_cart_total" style="display:none !important;"></span>
-{{ cart.original_total_price | money }}</span>
+                        <span class="text-subdued">{{ cart.original_total_price | money }}</span>
                       </div>
 
                       {% for discount_application in cart.cart_level_discount_applications %}
