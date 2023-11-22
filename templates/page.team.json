@@ -145,29 +145,6 @@
             "button_background": "",
             "button_text_color": ""
           }
-        },
-        "0908f778-3bba-4c7a-ab6f-11d33ee8b5ad": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Leslie.png",
-            "media_width": 30,
-            "media_position": "start",
-            "media_size": "contain",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "Wholesale",
-            "title": "Leslie Nielsen",
-            "content": "<p>Leslie has a deep love for the fashion industry. When she met the 12|12 team, she also fell in love with the clean aesthetic of the product and the unique vision of the company. She leads wholesale for the brand, partnering with both our online and in-store partners. She lives in Long Island with her husband and two boys.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#f2f2f2",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
         }
       },
       "block_order": [
@@ -176,8 +153,7 @@
         "600e97d6-2f1b-49df-bfdc-b11f22575e7d",
         "7a1e6abd-a312-48e0-ada5-8047a5365c7a",
         "96605b8e-64cd-4538-b4b4-c8a8f655cc1b",
-        "0cdb9135-5479-4efd-ac49-78d030885659",
-        "0908f778-3bba-4c7a-ab6f-11d33ee8b5ad"
+        "0cdb9135-5479-4efd-ac49-78d030885659"
       ],
       "settings": {
         "full_width": false,
