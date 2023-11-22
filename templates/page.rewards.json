@@ -150,6 +150,33 @@
         "text_color": ""
       }
     },
+    "69a00cfd-d1fb-4aa4-a708-27b08ba90201": {
+      "type": "rich-text",
+      "blocks": {
+        "608d88a3-8607-4bbb-9c01-69301d7c8547": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Join Now",
+            "url": "https:\/\/shop1212.com\/account\/register",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "608d88a3-8607-4bbb-9c01-69301d7c8547"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#e6f0ff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "6c490701-593e-4a94-a66d-f612b5e5ebe3": {
       "type": "rich-text",
       "blocks": {
@@ -222,40 +249,13 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "69a00cfd-d1fb-4aa4-a708-27b08ba90201": {
-      "type": "rich-text",
-      "blocks": {
-        "608d88a3-8607-4bbb-9c01-69301d7c8547": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Join Now",
-            "url": "https:\/\/shop1212.com\/account\/register",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "608d88a3-8607-4bbb-9c01-69301d7c8547"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#e6f0ff",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "main",
     "b00464af-0a4f-4881-92d3-84d3f6661b75",
     "a4f5ce30-9d79-4b37-b969-b336dba427db",
-    "6c490701-593e-4a94-a66d-f612b5e5ebe3",
-    "69a00cfd-d1fb-4aa4-a708-27b08ba90201"
+    "69a00cfd-d1fb-4aa4-a708-27b08ba90201",
+    "6c490701-593e-4a94-a66d-f612b5e5ebe3"
   ]
 }
