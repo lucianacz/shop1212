@@ -1,20 +1,20 @@
 {
   "sections": {
-    "cb677c37-63c5-4778-8ac3-ce0237b80a4e": {
+    "776da78c-c8cf-4515-a76f-493f4a923605": {
       "type": "slideshow",
       "blocks": {
-        "template--17167820488979__cb677c37-63c5-4778-8ac3-ce0237b80a4e-image-1": {
+        "template--17167820488979__776da78c-c8cf-4515-a76f-493f4a923605-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BF-Homepage-23-findal.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/BF-Homepage-23-final-m.jpg",
+            "image": "shopify:\/\/shop_images\/1212_Anniversary_hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1212_Anniversary_hero_m.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
             "button_text": "",
-            "button_link": "http:\/\/shop1212.com\/discount\/bf25",
+            "button_link": "shopify:\/\/pages\/customize-yours",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -26,9 +26,8 @@
         }
       },
       "block_order": [
-        "template--17167820488979__cb677c37-63c5-4778-8ac3-ce0237b80a4e-image-1"
+        "template--17167820488979__776da78c-c8cf-4515-a76f-493f4a923605-image-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -37,7 +36,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
+        "background": "#F2F2F2",
         "background_gradient": ""
       }
     },
@@ -621,7 +620,7 @@
     }
   },
   "order": [
-    "cb677c37-63c5-4778-8ac3-ce0237b80a4e",
+    "776da78c-c8cf-4515-a76f-493f4a923605",
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
     "featured-collection",
