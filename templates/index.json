@@ -6,8 +6,8 @@
         "template--17167820488979__776da78c-c8cf-4515-a76f-493f4a923605-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1212_Anniversary_hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1212_Anniversary_hero_m.jpg",
+            "image": "shopify:\/\/shop_images\/1212_Anniversary_hero_be10e524-6192-489a-989c-1178d4f1c012.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1212_Anniversary_hero_m_2c9aa8f0-16db-4be7-9805-8455fde0d41e.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -36,7 +36,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
