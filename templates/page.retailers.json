@@ -4,9 +4,72 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "2ed7d925-d310-4e76-aa14-82fc0f4b21e6": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--21738029678867__2ed7d925-d310-4e76-aa14-82fc0f4b21e6-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_3.08.16_PM.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Online:",
+            "content": "<p><a href=\"https:\/\/www.bloomingdales.com\/buy\/1212\" title=\"12|12 at Bloomingdales\">Bloomingdale's<\/a> <br\/><a href=\"https:\/\/tnuck.com\/collections\/12-12\" title=\"12|12 at Tuckernuck\">Tuckernuck<\/a> <br\/><a href=\"https:\/\/www.maisonette.com\/brands\/12-12\" title=\"12|12 on Maisonette\">Maisonette<\/a> <br\/><a href=\"https:\/\/www.nordstrom.com\/brands\/1212--21168?origin=productBrandLink\" title=\"12|12 on Nordstrom\">Nordstrom<\/a> <br\/><a href=\"https:\/\/roandfern.com\/collections\/12-12\" title=\"12|12 at Ro+Fern\">Ro+Fern<\/a> <br\/><a href=\"https:\/\/shoplesmini.com\/collections\/12-12\" title=\"12|12 on Les Mini\">Les Mini<\/a><\/p>"
+          }
+        },
+        "fe55be52-5631-4723-861b-5ee325984756": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-13_at_3.08.16_PM.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "In Store:",
+            "content": "<p>Ro+Fern Aspen Store<br\/>205 S Mill St #221 A<br\/>Aspen, CO 8161<\/p><p>Ro+Fern Snowmass Store<br\/>45 Wood Road, Unit 405<br\/>Snowmass CO 8161<br\/><br\/>Select Bloomingdales Stores:<br\/>59th Street, Aventura, Short Hills, Walt Whitman, Century City, White Plains and more<\/p><p> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21738029678867__2ed7d925-d310-4e76-aa14-82fc0f4b21e6-item-1",
+        "fe55be52-5631-4723-861b-5ee325984756"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "8038ed55-f240-4213-9055-e932726a81b6": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Questions about Retailers? Contact Us",
+        "content": "",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "2ed7d925-d310-4e76-aa14-82fc0f4b21e6",
+    "8038ed55-f240-4213-9055-e932726a81b6"
   ]
 }
