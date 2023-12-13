@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
       }
     },
@@ -38,7 +37,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "show_counter": true,
-        "desktop_image_effect": "reveal",
+        "desktop_image_effect": "fade",
         "image_position": "start",
         "background": "",
         "background_gradient": "",
