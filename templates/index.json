@@ -28,6 +28,7 @@
       "block_order": [
         "template--17167820488979__776da78c-c8cf-4515-a76f-493f4a923605-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
