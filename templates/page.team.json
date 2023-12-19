@@ -145,6 +145,29 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "e1110773-1f01-40a7-9eba-14cb3956a09d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alanna.png",
+            "media_width": 30,
+            "media_position": "start",
+            "media_size": "cover",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Social Media Manager",
+            "title": "Alanna Weiss",
+            "content": "<p>Alanna, a devoted fan of 12|12's comfy, trendy kids' wear, is now steering our social media ship. From a social media enthusiast to a pro, her journey's been unique. Post-college, she dived into the finance world at Goldman Sachs, handling hedge funds. Then, an 11-year stint at a hedge fund polished her Investor Relations and Operations skills. Life threw a curveball with her third baby, prompting a pause from the NYC finance hustle. A local start-up sniffed out her finance savvy for their social media, sparking her career switch. Now, she's living the dream: melding her social media passion with dressing her kids in 12|12's cool threads. Alanna's home is a bustling hub on Long Island, shared with her husband, three kids, and a golden retriever.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f9f9f9",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
@@ -153,7 +176,8 @@
         "600e97d6-2f1b-49df-bfdc-b11f22575e7d",
         "7a1e6abd-a312-48e0-ada5-8047a5365c7a",
         "96605b8e-64cd-4538-b4b4-c8a8f655cc1b",
-        "0cdb9135-5479-4efd-ac49-78d030885659"
+        "0cdb9135-5479-4efd-ac49-78d030885659",
+        "e1110773-1f01-40a7-9eba-14cb3956a09d"
       ],
       "settings": {
         "full_width": false,
