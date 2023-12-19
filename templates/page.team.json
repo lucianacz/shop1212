@@ -152,7 +152,7 @@
             "image": "shopify:\/\/shop_images\/alanna.png",
             "media_width": 30,
             "media_position": "start",
-            "media_size": "cover",
+            "media_size": "contain",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
