@@ -1,56 +1,5 @@
 {
   "sections": {
-    "33bcd9ce-0085-45e1-8904-afac08a083ec": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "601e8017-b45d-47a1-92d3-c21dcb695ffe": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Button text",
-            "url": "#smile-home",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-subheading-1",
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-heading-1",
-        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-richtext-1",
-        "601e8017-b45d-47a1-92d3-c21dcb695ffe"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
@@ -178,6 +127,50 @@
         "cycle_speed": 5,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "33bcd9ce-0085-45e1-8904-afac08a083ec": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Rewards test",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use the link <a href=\"#smile-home\" title=\"#smile-home\">#smile-home <\/a>and will open the Smile popup<\/p>"
+          }
+        },
+        "601e8017-b45d-47a1-92d3-c21dcb695ffe": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Smile popup",
+            "url": "#smile-home",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-heading-1",
+        "template--21564714352915__33bcd9ce-0085-45e1-8904-afac08a083ec-richtext-1",
+        "601e8017-b45d-47a1-92d3-c21dcb695ffe"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "1ded0b28-8879-435e-a121-569cccbde627": {
@@ -801,8 +794,8 @@
     }
   },
   "order": [
-    "33bcd9ce-0085-45e1-8904-afac08a083ec",
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb",
+    "33bcd9ce-0085-45e1-8904-afac08a083ec",
     "1ded0b28-8879-435e-a121-569cccbde627",
     "398d2042-225a-4392-bec2-33fec7a5a0eb",
     "featured-collection",
