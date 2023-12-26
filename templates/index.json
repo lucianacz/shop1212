@@ -307,10 +307,10 @@
         "template--17167820488979__313d5ee7-33b0-4f0c-b895-89ea5d85e672-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Candy_Cottage_Footie.jpg",
+            "image": "shopify:\/\/shop_images\/Malibu_Pink_Garter_Stitch.jpg",
             "title": "",
-            "link_url": "shopify:\/\/collections\/organic-baby-pajamas",
-            "link_text": "Shop Footie Pajamas",
+            "link_url": "shopify:\/\/pages\/customize-yours",
+            "link_text": "Customize Yours",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
