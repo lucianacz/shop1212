@@ -106,12 +106,34 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "be1ca057-78a1-4aa8-b326-44d833620c01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FTD_Preview.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/FTD_Preview_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "<p>Preview our Newest Collab<\/p>",
+            "button_text": "Preview",
+            "button_link": "shopify:\/\/collections\/1212-x-ftd",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7"
+        "8ffb5dfa-5cf9-45c1-906a-a8863b26a0e7",
+        "be1ca057-78a1-4aa8-b326-44d833620c01"
       ],
       "settings": {
         "full_width": true,
