@@ -53,6 +53,7 @@
       "block_order": [
         "033321c3-bfbd-48c7-bef9-9c13d69d321c"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {font-size: 15px;}",
         "h2 {font-size: 15px;}",
