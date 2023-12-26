@@ -23,7 +23,8 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        ".bold {font-weight: 400;}"
+        ".bold {font-weight: 400;}",
+        "product-card {border: 1.5px solid; padding: 5px; border-radius: 10px;}"
       ],
       "settings": {
         "products_per_page": 50,
@@ -37,7 +38,7 @@
         "show_empty_filter_values": false,
         "show_filter_values_count": false,
         "open_first_filter_group": false,
-        "bg": "shopify:\/\/shop_images\/FTD-opaque.jpg"
+        "bg": "shopify:\/\/shop_images\/Swatches-BG.jpg"
       }
     },
     "e5ce1908-7b60-42d7-a3f5-ee29e11242e4": {
