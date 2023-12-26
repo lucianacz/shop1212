@@ -24,8 +24,7 @@
       "type": "main-collection",
       "custom_css": [
         ".bold {font-weight: 400;}",
-        "product-card {border: 1.5px solid; padding: 5px; border-radius: 10px;}",
-        ".container {margin-top: 0;}"
+        "product-card {border: 1.5px solid; padding: 5px; border-radius: 10px; }"
       ],
       "settings": {
         "products_per_page": 50,

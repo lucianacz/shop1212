@@ -63,7 +63,11 @@
     .collection-background{
       background-image: url("{{ section.settings.bg | img_url: '800x' }}");
       background-size: cover;
-      padding-bottom: 40px;
+      padding: 40px 0;
+    }
+
+    .collection{
+      margin: 0;
     }
   {% endif %}
 </style>
