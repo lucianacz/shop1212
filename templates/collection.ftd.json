@@ -24,7 +24,7 @@
       "type": "main-collection",
       "custom_css": [
         ".bold {font-weight: 400;}",
-        "section {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0967\/2808\/files\/Swatches-BG.jpg?v=1703611920); background-size: cover;}"
+        ".container {background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0967\/2808\/files\/Swatches-BG.jpg?v=1703611920); background-size: cover;}"
       ],
       "settings": {
         "products_per_page": 50,
