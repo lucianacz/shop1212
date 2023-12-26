@@ -53,7 +53,7 @@
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center-end sm:text-end",
             "subheading": "100% Organic Pima Cotton",
-            "title": "<h1>Rib Collection<\/h1>",
+            "title": "<h1>The Rib Collection<\/h1>",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/organic-rib-lounge",
             "text_color": "#ffffff",
@@ -217,7 +217,7 @@
         "products": [
           "the-zipper-footie"
         ],
-        "custom_variants": "the-organic-embroidered-crew-neck-sweater, Candy Red Very Merry\nthe-organic-long-sleeve-pajama-set-candy-cottage, Candy Cottage\nthe-organic-hoodie-and-pullover-gift-set, Ski School and Lilac Frost Apres Ski\nthe-organic-zipper-footie-tinsel-trees, Tinsel Trees",
+        "custom_variants": "the-organic-snap-footie, Blue Tiny Hearts\nthe-organic-rib-dress, Blue Tiny Hearts on Cream\nthe-organic-long-sleeve-rib-set, Blue Tiny Hearts on Cream\nthe-organic-long-sleeve-rib-set, Pony Parade on Cream",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
