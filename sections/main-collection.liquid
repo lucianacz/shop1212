@@ -58,6 +58,13 @@
       }
     {%- endfor -%}
   }
+
+  {% if section.settings.bg != blank %}
+    .collection-background{
+      background-image: url("{{ section.settings.bg | img_url: '800x' }}");
+      background-size: cover;
+    }
+  {% endif %}
 </style>
 
 <div class="collection-background">
