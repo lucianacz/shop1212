@@ -44,15 +44,15 @@
     "e5ce1908-7b60-42d7-a3f5-ee29e11242e4": {
       "type": "rich-text",
       "blocks": {
-        "template--17167819768083__e5ce1908-7b60-42d7-a3f5-ee29e11242e4-1686643685f22fb8bc-2": {
-          "type": "richtext",
+        "2127fcfc-6e7e-487d-b2d1-1c81b6dfff0b": {
+          "type": "liquid",
           "settings": {
-            "content": "<p>collection.description<\/p>"
+            "liquid": "{{ collection.description }}"
           }
         }
       },
       "block_order": [
-        "template--17167819768083__e5ce1908-7b60-42d7-a3f5-ee29e11242e4-1686643685f22fb8bc-2"
+        "2127fcfc-6e7e-487d-b2d1-1c81b6dfff0b"
       ],
       "custom_css": [
         "h1 {font-size: 15px;}",
