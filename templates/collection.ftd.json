@@ -36,7 +36,8 @@
         "show_color_swatch": true,
         "show_empty_filter_values": false,
         "show_filter_values_count": false,
-        "open_first_filter_group": false
+        "open_first_filter_group": false,
+        "bg": "shopify:\/\/shop_images\/Swatches-BG.jpg"
       }
     },
     "e5ce1908-7b60-42d7-a3f5-ee29e11242e4": {
