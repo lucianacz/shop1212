@@ -227,3 +227,17 @@ ul.mega-menu__nav.show-list small a,
 ul.mega-menu__nav span.h5 span {
     font-weight: bold;
 }
+
+/* Collection background */
+.collection-background{
+  background-size: cover;
+  padding: 40px 0;
+}
+
+.collection-background .collection{
+  margin: 0;
+}
+
+.collection-background product-card{
+  padding: 5px;
+}
