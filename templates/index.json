@@ -44,6 +44,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "be1ca057-78a1-4aa8-b326-44d833620c01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FTD_Preview.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/FTD_Preview_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Preview our newest collab:",
+            "title": "<h1>1212 x Follow That Designer<\/h1>",
+            "button_text": "Preview",
+            "button_link": "shopify:\/\/collections\/1212-x-ftd",
+            "text_color": "#000000",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
@@ -85,33 +106,12 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "be1ca057-78a1-4aa8-b326-44d833620c01": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FTD_Preview.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/FTD_Preview_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Preview our newest collab:",
-            "title": "<h1>1212 x Follow That Designer<\/h1>",
-            "button_text": "Preview",
-            "button_link": "shopify:\/\/collections\/1212-x-ftd",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "be1ca057-78a1-4aa8-b326-44d833620c01",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "be1ca057-78a1-4aa8-b326-44d833620c01"
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9"
       ],
       "settings": {
         "full_width": true,
