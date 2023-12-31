@@ -48,7 +48,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/FTD_Preview_0ec47efc-9f01-4b4e-b469-a3252b896ed5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/FTD_Preview_M.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/FTD_M.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -56,11 +56,11 @@
             "title": "<h1>1212 x Follow That Designer<\/h1>",
             "button_text": "Preview",
             "button_link": "shopify:\/\/collections\/1212-x-ftd",
-            "text_color": "#000000",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "text_color": "#ffffff",
+            "button_background": "#c90909",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 0,
+            "overlay_opacity": 10,
             "background": "",
             "background_gradient": ""
           }
