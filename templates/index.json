@@ -371,10 +371,10 @@
         "5fb2771d-b424-4285-aaf2-5fe73a00c9c4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doughnuts.jpg",
+            "image": "shopify:\/\/shop_images\/Be_Mine_Pullover.jpg",
             "title": "",
-            "link_url": "https:\/\/www.bloomingdales.com\/buy\/1212-kids?cm_sp=shop_by_brand-_-KIDS-_-1212",
-            "link_text": "Find 12|12 at Bloomingdale's",
+            "link_url": "shopify:\/\/collections\/valentines-day",
+            "link_text": "Shop Valentine's Day",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
