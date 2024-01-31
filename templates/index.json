@@ -44,6 +44,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Easter_9ae96c4a-1c78-482e-978c-5a8b11e28230.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Easter_M_e24d205e-d09a-493a-9d83-bb4f38f9143b.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-end sm:text-end",
+            "subheading": "NEW IN",
+            "title": "<h1>Bunny Tails!<\/h1>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/bunny-tails",
+            "text_color": "#e2ffff",
+            "button_background": "#6f6ce9",
+            "button_text_color": "#e2ffff",
+            "overlay_color": "#ffffff",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "ed3ccf91-dce4-49a7-b70a-b5bfc85556dc": {
           "type": "image",
           "settings": {
@@ -127,35 +148,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ski_23.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Ski_23_m.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Welcome to 12|12",
-            "title": "<h1>Ski School<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/ski",
-            "text_color": "#ffffff",
-            "button_background": "#1f5caf",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "ed3ccf91-dce4-49a7-b70a-b5bfc85556dc",
         "image_MMGt8t",
         "be1ca057-78a1-4aa8-b326-44d833620c01",
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
-        "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9"
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c"
       ],
       "settings": {
         "full_width": true,
