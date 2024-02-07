@@ -70,13 +70,16 @@ Supported variables
         {%- if show_secondary_image and product.media.size > 1 -%}
           {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
           
+          {% assign alt = media.alt %}
+
           {% for media in product.media %}
-            {% if media.alt contains product.featured_media.alt and media.alt contains 'Hover' %}
+            {% if media.alt contains 'Hover' %}
               {%- assign next_media = media -%}
+              {% assign alt = product.title %}
             {% endif %}
           {% endfor %}
           
-          {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
+          {{- next_media | image_url: width: next_media.width | image_tag: alt: alt, class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
         {%- endif -%}
       </a>
 
