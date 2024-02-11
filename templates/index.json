@@ -353,8 +353,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/LS_PJ_Set_-_Bunny_Tails_4.jpg",
             "title": "",
-            "link_url": "shopify:\/\/pages\/customize-yours",
-            "link_text": "Customize Yours",
+            "link_url": "shopify:\/\/collections\/easter",
+            "link_text": "Shop Easter",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
@@ -395,8 +395,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Zipper_Footie_-_Bunny_Tails_3.jpg",
             "title": "",
-            "link_url": "shopify:\/\/collections\/valentines-day",
-            "link_text": "Shop Valentine's Day",
+            "link_url": "shopify:\/\/collections\/organic-baby-pajamas",
+            "link_text": "Shop Organic Footies",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
