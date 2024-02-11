@@ -44,6 +44,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Recycling_Trucks.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Recycling_Trucks_M.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "For the Truck Trackers",
+            "title": "<h1>Recycling Trucks<\/h1>",
+            "button_text": "SHOP NOW",
+            "button_link": "shopify:\/\/collections\/recycling-trucks",
+            "text_color": "#ffffff",
+            "button_background": "#0b2241",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9": {
           "type": "image",
           "settings": {
@@ -127,35 +148,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Blue_Hearts_Rib.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Blue_Hearts_Rib_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "100% Organic Pima Cotton",
-            "title": "<h1>The Rib Collection<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/organic-rib-lounge",
-            "text_color": "#ffffff",
-            "button_background": "#0b2241",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
         "ed3ccf91-dce4-49a7-b70a-b5bfc85556dc",
         "image_MMGt8t",
-        "be1ca057-78a1-4aa8-b326-44d833620c01",
-        "ca799cca-efbb-41ac-8749-b98e703d3f7c"
+        "be1ca057-78a1-4aa8-b326-44d833620c01"
       ],
       "settings": {
         "full_width": true,
