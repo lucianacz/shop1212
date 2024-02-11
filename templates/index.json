@@ -617,6 +617,45 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "rich_text_86VF9y": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_VWkJTw": {
+          "type": "subheading",
+          "settings": {
+            "text": "We design clothes to be lived in, played in, and snoozed in."
+          }
+        },
+        "heading_PBjmwc": {
+          "type": "heading",
+          "settings": {
+            "text": "12 Hours a Day, 12 Hours a Night",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bj6hxE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This isn't the place for fancy dresses or stiff slacks. <br\/>We're here to celebrate the laid-back spirit of childhood ✨<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VWkJTw",
+        "heading_PBjmwc",
+        "richtext_bj6hxE"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -628,6 +667,7 @@
     "313d5ee7-33b0-4f0c-b895-89ea5d85e672",
     "f34c2012-94bb-47b1-8e47-66578aef4abd",
     "bef91423-5f3d-4792-be34-909d10b66dba",
-    "094beb05-244c-4135-8149-d1cbc5607eb5"
+    "094beb05-244c-4135-8149-d1cbc5607eb5",
+    "rich_text_86VF9y"
   ]
 }
