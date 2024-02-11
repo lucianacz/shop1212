@@ -641,12 +641,24 @@
           "settings": {
             "content": "<p>This isn't the place for fancy dresses or stiff slacks. <br\/>We're here to celebrate the laid-back spirit of childhood ✨<\/p>"
           }
+        },
+        "button_fNpFMb": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Learn More",
+            "url": "shopify:\/\/pages\/about-1212",
+            "background": "#0b2241",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "subheading_VWkJTw",
         "heading_PBjmwc",
-        "richtext_bj6hxE"
+        "richtext_bj6hxE",
+        "button_fNpFMb"
       ],
       "settings": {
         "full_width": true,
