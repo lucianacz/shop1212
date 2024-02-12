@@ -86,27 +86,6 @@
             "background_gradient": ""
           }
         },
-        "ed3ccf91-dce4-49a7-b70a-b5bfc85556dc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vday_0273704b-16ed-4f0d-8213-2493d6d63cd7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Vday_M_b4c2d42b-c531-4fef-a603-378d35f63975.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Valentine's Day Styles",
-            "title": "<h1>The Sweetest Things<\/h1>",
-            "button_text": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/valentines-day",
-            "text_color": "#ffffff",
-            "button_background": "#dc1313",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#ffffff",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "image_MMGt8t": {
           "type": "image",
           "settings": {
@@ -153,7 +132,6 @@
       "block_order": [
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "ed3ccf91-dce4-49a7-b70a-b5bfc85556dc",
         "image_MMGt8t",
         "be1ca057-78a1-4aa8-b326-44d833620c01"
       ],
