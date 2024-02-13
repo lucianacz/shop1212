@@ -206,8 +206,10 @@ buy-buttons .button[disabled]{
   box-shadow: #eaeaea 0 0 0 2px;
 }
 
-
+/* ---------------- */
 /* Estimated Shipping */
+/* ---------------- */
+
 .estimated-shipping {
   margin-top: 5px;
   font-weight: bold;
@@ -228,8 +230,11 @@ ul.mega-menu__nav span.h5 span {
     font-weight: bold;
 }
 
+/* ---------------- */
 /* Collection background */
-.collection-background{
+/* ---------------- */
+
+.collection-background {
   background-size: cover;
   padding: 40px 0;
 }
@@ -240,4 +245,12 @@ ul.mega-menu__nav span.h5 span {
 
 .collection-background product-card{
   padding: 5px;
+}
+
+/* ---------------- */
+/* Product cards */
+/* ---------------- */
+
+product-card .bold_options {
+  display: none;
 }
