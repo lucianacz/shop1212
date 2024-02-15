@@ -237,9 +237,12 @@
         "collection": "",
         "all_colors": false,
         "products": [
-          "the-zipper-footie"
+          "the-organic-long-sleeve-pajama-set-bunny-tails",
+          "the-organic-embroidered-pullover-sweatshirt-aqua-funny-bunny",
+          "the-organic-long-sleeve-pajama-set-recycling-trucks",
+          "the-organic-embroidered-pullover-sweatshirt-light-heather-grey-lucky"
         ],
-        "custom_variants": "the-organic-long-sleeve-pajama-set-poppy-jelly-bean-hearts, Poppy Jelly Bean Hearts\nthe-organic-embroidered-pullover-sweatshirt-poppy-dip-dye-be-mine, Poppy Dip Dye Be Mine\n1212-x-ftd-kids-day-to-night-set, Swatches\nthe-organic-embroidered-pullover-sweatshirt-jelly-bean-lucky, Jelly Bean Lucky",
+        "custom_variants": "",
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
