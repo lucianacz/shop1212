@@ -436,15 +436,15 @@
         "settings": {
         }
       },
-      "10641372206048101839": {
-        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+      "17428600031447253342": {
+        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
         "settings": {
         }
       },
-      "17428600031447253342": {
-        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
-        "disabled": false,
+      "10641372206048101839": {
+        "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-global-embed\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+        "disabled": true,
         "settings": {
         }
       }
