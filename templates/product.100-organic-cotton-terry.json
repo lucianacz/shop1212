@@ -128,11 +128,11 @@
         "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sustainability-3_1600x_68d4ba6c-2ccd-4c88-bd43-f06ec9c1d29c.webp",
+            "image": "shopify:\/\/shop_images\/Pullovers_31e5ea2a-32ce-44db-9cfa-4f2ed75e06aa.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
-            "title": "Why Organic Pima Cotton? ",
-            "content": "<p>As parents we want the very best for our children. Organic cotton is a natural fiber; it comes from a plant. With more and more consumers reading labels on their food and beauty products, we think the time is right for people to start reading their clothing labels, too. Using a natural fiber that derives from a plant and is hypoallergenic results in a product that is perfect for baby’s and children’s clothing.<\/p><p>We are a bit obsessive over the feel and quality of our clothing. Every piece must be extraordinarily soft to the touch, machine washable, and durable. Our organic cotton is cultivated in the coastal valleys of Peru, where growing conditions are ideal, and is farmed without the use of commercial pesticides.<\/p>",
+            "title": "Why Organic Cotton? ",
+            "content": "<p>Our Terry Collection is crafted from 100% Organic Cotton, meticulously picked from the rich lands of India. It's more than just fabric; it's a statement of care and consciousness. As mindful parents scrutinize the labels on their food and skincare, we believe it's high time clothing gets the same attention.<\/p><p>Why organic? Because it's derived from nature, gentle on the planet, and kinder to the most sensitive skin. Our Organic Terry isn't just about exceptional softness and enduring quality; it's hypoallergenic and perfectly suited for your child’s everyday adventures. This cotton, cultivated with traditional farming wisdom and without harsh chemicals, brings a piece of its heritage and resilience into every fiber.<\/p><p>Obsession is an understatement for how we feel about the feel and durability of our collections. Each piece is designed to withstand the rigors of playtime and countless washes, without compromising on softness.<\/p>",
             "button_url": "",
             "button_text": ""
           }
@@ -140,11 +140,11 @@
         "5e9f5f0c-6c71-4299-b79a-672135b481d1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS_PJ_set.jpg",
+            "image": "shopify:\/\/shop_images\/Pullover_2.jpg",
             "image_rotation_degrees": 0,
             "subheading": "",
-            "title": "Fun Facts About Organic Pima Cotton",
-            "content": "<ul><li>Just like kiddos, cotton is strong, tough and not afraid to get dirty. You can rely on cotton to last a long time and not fall apart on the first wear.<\/li><li>The last thing on every parent’s to-do list is laundry! Since our organic cotton is breathable and doesn’t retain odors like oil-based fabrics, you can save your kid’s clothes a few trips to the hamper between wears. Not doing laundry is awesome, of course. Plus, you’ll save money, water and energy, and help your clothes last even longer.<\/li><li>Don’t let your children get caught in a sweat trap! Organic cotton breathes better than oil-based synthetic fabrics like polyester, so it’s the perfect thing for kids to wear season to season. Not to mention that moisture-wicking cotton is specially designed to keep you drier and cooler during the warmer months.<\/li><\/ul>",
+            "title": "Fun Facts About Our Organic Cotton",
+            "content": "<ul><li><strong>Resilient as Your Little Explorer:<\/strong> Think of our organic cotton as the superhero of fabrics – strong, enduring, and always ready for adventure. Grown in the nurturing soils of India, this cotton thrives without the need for harsh chemicals, making it tough enough to stand up to all the play, wash, repeat cycles it will undoubtedly face. It's fabric that's built to last, just like the endless energy of your kids.<\/li><li><strong>Eco-Warrior from the Start:<\/strong> Our organic cotton doesn't just feel good; it does good. Cultivated in India's verdant fields, every fiber is a step towards a greener planet. By choosing organic, we're supporting biodiversity, conserving water, and ensuring that the land remains fertile and healthy for generations to come. It's comfort with a conscience, making your child's wardrobe a testament to a better future.<\/li><li><strong>Beat the Heat in Comfort:<\/strong> Ever seen a child sit still for long? Neither have we. That’s why our organic cotton is a win-win. It's breathable and moisture-wicking, making it perfect for every sprint, jump, and nap. Unlike synthetics that can turn into sweat lodges, our cotton keeps your kiddos cool, dry, and comfy no matter the weather. It’s like having a natural AC built into their clothes!\"<\/li><\/ul>",
             "button_url": "",
             "button_text": ""
           }
@@ -154,7 +154,6 @@
         "template--16836072276243__8005ee89-7e5b-454c-9da6-6418d45256a7-1668047140c8de5ce7-0",
         "5e9f5f0c-6c71-4299-b79a-672135b481d1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "images_layout": "stacked",
