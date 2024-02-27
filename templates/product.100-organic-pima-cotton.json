@@ -183,7 +183,6 @@
     },
     "db412dfe-2afa-4827-b3fe-1c35348b8545": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-1": {
           "type": "title",
@@ -227,6 +226,13 @@
             "payment_button_background": "",
             "payment_button_text_color": ""
           }
+        },
+        "collapsible_text_D9pKAx": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Details",
+            "content": "<ul><li>Made with 100% GOTS Certified Organic Pima Cotton<\/li><li>Dyes meet Oeko-tex Standard 100 requirements - meaning they are eco-friendly and free from harmful substances<\/li><li>Tag-free neck line<\/li><li>Nickel-free snaps<\/li><li>Made in Peru<\/li><li>Machine washable<\/li><li>Shipped using recycled packaging<\/li><\/ul>"
+          }
         }
       },
       "block_order": [
@@ -235,8 +241,10 @@
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-5",
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-6",
         "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-7",
-        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9"
+        "template--17167820587283__db412dfe-2afa-4827-b3fe-1c35348b8545-1671013584513c6998-9",
+        "collapsible_text_D9pKAx"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "donation",
