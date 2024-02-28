@@ -1,1 +1,52 @@
-{"sections":{"main":{"type":"main-customers-account","blocks":{"orders":{"type":"orders","settings":{}}},"block_order":["orders"],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "1709132565b4f8e741": {
+      "type": "apps",
+      "blocks": {
+        "smile_loyalty_rewards_smile_points_on_account_page_PPJf3C": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-points-on-account-page\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#121212",
+            "secondary_colour": "#F8F8F8",
+            "show_icon": true
+          }
+        }
+      },
+      "block_order": [
+        "smile_loyalty_rewards_smile_points_on_account_page_PPJf3C"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-customers-account",
+      "blocks": {
+        "orders": {
+          "type": "orders",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "orders"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "1709132565b4f8e741",
+    "main"
+  ]
+}
