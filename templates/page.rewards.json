@@ -141,7 +141,7 @@
       "settings": {
         "full_width": true,
         "title": "Earning Points is Easy!",
-        "heading_tag": "h5",
+        "heading_tag": "h6",
         "text_alignment": "center",
         "icon_spacing": "small",
         "mobile_stack": true,
