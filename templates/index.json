@@ -353,10 +353,10 @@
         "fd8c43c4-4191-47c8-9dd5-c07eca003c16": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rib_Dress_-_Blue_Tiny_Hearts_2.jpg",
+            "image": "shopify:\/\/shop_images\/Organic_Underwear_10276a3d-43e0-41a2-96fc-461623f1941e.jpg",
             "title": "",
             "link_url": "shopify:\/\/collections\/dresses",
-            "link_text": "Shop Organic Dresses",
+            "link_text": "NEW! Organic Underwear",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
@@ -374,10 +374,10 @@
         "5fb2771d-b424-4285-aaf2-5fe73a00c9c4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Zipper_Footie_-_Bunny_Tails_3.jpg",
+            "image": "shopify:\/\/shop_images\/Womens_Pullover_-_Pastel_Marble.jpg",
             "title": "",
-            "link_url": "shopify:\/\/collections\/organic-baby-pajamas",
-            "link_text": "Shop Organic Footies",
+            "link_url": "shopify:\/\/collections\/pastel-marble",
+            "link_text": "Shop Pastel Marble",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_column_span": 1,
             "desktop_row_span": 2,
