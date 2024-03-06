@@ -44,6 +44,27 @@
     "70813ebb-c12a-4b9d-8730-c7433a33ddbb": {
       "type": "slideshow",
       "blocks": {
+        "image_MMGt8t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ditsy_Floral_Rib.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Ditsy_Floral_Rib_m.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-start-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "New for spring!",
+            "title": "<h1>Ditsy Floral<\/h1>",
+            "button_text": "Shop The Collection",
+            "button_link": "shopify:\/\/collections\/ditsy-floral-rib",
+            "text_color": "#ffffff",
+            "button_background": "#ffb1eb",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
@@ -86,27 +107,6 @@
             "background_gradient": ""
           }
         },
-        "image_MMGt8t": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/St_Pattys_Day.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/St_Pattys_Day_M.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-start-center text-center",
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "subheading": "Make your own",
-            "title": "<h1>Lucky Charms<\/h1>",
-            "button_text": "Shop St. Patrick's Day",
-            "button_link": "shopify:\/\/collections\/st-patricks-day",
-            "text_color": "#0c783e",
-            "button_background": "#ffffff",
-            "button_text_color": "#0c783e",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "be1ca057-78a1-4aa8-b326-44d833620c01": {
           "type": "image",
           "settings": {
@@ -130,9 +130,9 @@
         }
       },
       "block_order": [
+        "image_MMGt8t",
         "ca799cca-efbb-41ac-8749-b98e703d3f7c",
         "dc65ccdb-d6e0-445b-a0e1-f45b34574ba9",
-        "image_MMGt8t",
         "be1ca057-78a1-4aa8-b326-44d833620c01"
       ],
       "settings": {
