@@ -16,7 +16,7 @@
           }
         },
         "f8900b4f-8646-45a2-b9eb-58c90cf480b8": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": ""
           }
@@ -72,7 +72,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Details",
-            "content": "<ul><li>Made with 100% GOTS Certified Organic Pima Cotton<\/li><li>Dyes meet Oeko-tex Standard 100 requirements - meaning they are eco-friendly and free from harmful substances<\/li><li>Tag-free neck line<\/li><li>Made in Peru<\/li><li>Machine washable<\/li><li>Shipped using recycled packaging<\/li><li>Free Returns and Exchanges<\/li><\/ul>"
+            "content": "<ul><li>Made with 100% GOTS Certified Organic Pima Cotton<\/li><li>Dyes meet Oeko-tex Standard 100 requirements - meaning they are eco-friendly and free from harmful substances<\/li><li>Tag-free<\/li><li>Made in Peru<\/li><li>Machine washable<\/li><li>Shipped using recycled packaging<\/li><li>Free Returns and Exchanges<\/li><\/ul>"
           }
         },
         "ae6a1588-284a-4b7e-b232-cfa5525950d9": {
@@ -267,7 +267,7 @@
       "type": "apps",
       "blocks": {
         "cd40daa3-41ae-4b0a-bf31-4262623f5eb2": {
-          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": ""
           }
