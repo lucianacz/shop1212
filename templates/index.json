@@ -189,6 +189,14 @@
             "logo_width": 90,
             "link": ""
           }
+        },
+        "ffe94560-3552-4a4d-b781-3b34db0add18": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/red-tri.png",
+            "logo_width": 100,
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -196,7 +204,8 @@
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-2",
         "b1237727-4d1a-468e-aceb-e569d8a97dc9",
         "template--17167820488979__398d2042-225a-4392-bec2-33fec7a5a0eb-16802851425e7975fe-1",
-        "89d612bf-e950-426d-a17a-dd27ff95aba0"
+        "89d612bf-e950-426d-a17a-dd27ff95aba0",
+        "ffe94560-3552-4a4d-b781-3b34db0add18"
       ],
       "custom_css": [
         ".bg-secondary {background: none;}",
@@ -230,7 +239,7 @@
         "products": [
           "the-organic-long-sleeve-pajama-set-bunny-tails",
           "the-organic-cami-and-short-set-ditsy-floral",
-          "the-organic-sweatpant-pastel-marble",
+          "the-organic-printed-pullover-sweatshirt-pastel-marble",
           "the-organic-short-sleeve-pajama-set-batter-up"
         ],
         "custom_variants": "",
