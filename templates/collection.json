@@ -28,10 +28,10 @@
       "settings": {
         "products_per_page": 48,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": true,
-        "show_filters": false,
+        "show_filters": true,
         "show_filter_group_name": true,
         "show_color_swatch": true,
         "show_empty_filter_values": false,
