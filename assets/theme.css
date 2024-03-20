@@ -1400,6 +1400,7 @@ scroll-carousel {
   font-size: 9px;
   font-weight: bold;
   display: flex;
+  text-transform: uppercase;
 }
 
 .badge--primary {
@@ -2763,7 +2764,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   gap: var(--spacing-2);
   pointer-events: none;
   z-index: 5;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
   top: 0;
   left: 0 !important;
