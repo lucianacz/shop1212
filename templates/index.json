@@ -69,7 +69,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1-1212-March-3-2012-144.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Recycling_Trucks_M.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_1212_March_3_2012-144.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
