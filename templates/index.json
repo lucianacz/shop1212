@@ -68,14 +68,14 @@
         "ca799cca-efbb-41ac-8749-b98e703d3f7c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Recycling_Trucks.jpg",
+            "image": "shopify:\/\/shop_images\/1-1212-March-3-2012-144.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Recycling_Trucks_M.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-start-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "For the Truck Trackers",
-            "title": "<h1>Recycling Trucks<\/h1>",
-            "button_text": "SHOP NOW",
+            "subheading": "New in:",
+            "title": "<h1><em>All the prints<\/em><\/h1>",
+            "button_text": "SHOP NEW STYLES",
             "button_link": "shopify:\/\/collections\/recycling-trucks",
             "text_color": "#ffffff",
             "button_background": "#0b2241",
